@@ -28,4 +28,13 @@ tDocumento *Documento_constroi(char *nome, char *classe, int indice) {
 
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
 
+void Documento_destroi(tDocumento * d) {
+  free(d->palavras);
+  free(d->tf_idf);
+  free(d->qtd_ocorrencias_palavras);
 
+  free(d);
+
+}
+
+char *Documento_get_nome(tDocumento* d){ return d->nome; }

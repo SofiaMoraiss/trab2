@@ -28,7 +28,7 @@ tListas *Lista_adiciona_doc(tListas *l, tDocumento *doc) {
 
   l->vetDocumentos[qtd_lidas] = doc;
   l->qtd_docs_lidos++;
-  printf("QTD DE DOCS LIDOS E ALOCADOS: %d %d", l->qtd_docs_lidos,
+  printf("QTD DE DOCS LIDOS E ALOCADOS: %d %d\n", l->qtd_docs_lidos,
          l->qtd_docs_alocados);
   return l;
 }
@@ -64,17 +64,20 @@ tListas *Lista_constroi() {
 }
 
 void Lista_destroi(tListas* l) {
-  tListas *l = calloc(1, sizeof(tListas));
 
-  l->vetDocumentos = calloc(2, sizeof(tDocumento *));
-  l->qtd_docs_alocados = 2;
-  l->qtd_docs_lidos = 0;
-  l->vetPalavras = calloc(100, sizeof(tPalavra *));
-  l->qtd_palavras_alocadas = 100;
-  l->qtd_palavras_lidas = 0;
 
-  l->hash = criaHashPalavras();
-  return l;
+  for (int i=0; i<l->qtd_docs_lidos; i++){
+    Documento_destroi(l->vetDocumentos[i]);
+  }
+  free(l->vetDocumentos);
+  for (int i=0; i<l->qtd_palavras_lidas; i++){
+    Palavra_destroi(l->vetPalavras[i]);
+  }
+  free(l->vetPalavras);
+
+  destroiHashPalavras(l->hash);
+  free(l);
+
 }
 
 tListas * Listas_ler_train(FILE *arqTrain) {
@@ -83,17 +86,15 @@ tListas * Listas_ler_train(FILE *arqTrain) {
   tListas *l = Lista_constroi();
   while (!feof(arqTrain)) {
     fscanf(arqTrain, "\n\r%[^\n]\n\r", line);
-    printf("%s\n", line);
 
     char *token = strtok(line, " ");
     strcpy(nome, token);
-    printf("NOME: %s\n", nome);
     token = strtok(NULL, " ");
     strcpy(classe, token);
       
     doc = Documento_constroi(nome, classe, l->qtd_docs_lidos);
     printf("\nVOU LER ARQUIVO : %s\n", nome);
-    printf("\nTIPO DA NOTICIA : %s\n", classe);
+    printf("TIPO DA NOTICIA : %s\n", classe);
 
     FILE *arqDoc = fopen(nome, "r");
     if (arqDoc == NULL) {
@@ -108,16 +109,16 @@ tListas * Listas_ler_train(FILE *arqTrain) {
 
 tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d) {
   char palavra[50];
+  printf("NOME DENTRO DO LISTAS LER NOTICIAS: %s\n", Documento_get_nome(d));
   while (!feof(arqDoc)) {
+    printf("palavra\n");
     fscanf(arqDoc, "%s", palavra);
     adicionaPalavra(l->hash, palavra, Documento_get_indice(d));
-    //p= Palavra_constroi(palavra);
-    //l= Lista_adiciona_palavra(l, p);
-    // d->palavras[]
-    //printf("/ %s", palavra);
   }
   if (Documento_get_indice(d)==0 || Documento_get_indice(d)==1){
-    imprimeHash(l->hash, Documento_get_indice(d));
+    //imprimeHash(l->hash, Documento_get_indice(d));
   }
+  printf("LI ARQ N '%d'\n", Documento_get_indice(d));
+  fclose(arqDoc);
   return l;
 }

@@ -7,6 +7,8 @@ typedef struct documento tDocumento;
 
 
 tDocumento *Documento_constroi();
+void Documento_destroi();
 int Documento_get_indice(tDocumento *d);
+char *Documento_get_nome(tDocumento* d);
 
 #endif

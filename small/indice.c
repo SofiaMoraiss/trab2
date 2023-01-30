@@ -15,22 +15,10 @@ int main(int argc, char *argv[]) {
     printf("ERRO: Arquivo %s nao encontrado!\n", argv[2]);
     return 1; // VER SE VAI SAIR SEM FINALIZAR TUDO
   }
-// char string[50];
-//     while(1){
-//     scanf("%s", string);
-//         if (!(strcmp(string, "n"))){
-//             break;
-//             }
-    //long long int testeInd=hash_cria_indice(string);
 
-    //printf("%lld\n", testeInd);
-        //}
   l=Listas_ler_train(arqListadosDocs);
 
   Lista_destroi(l);
-
-
-  // /* walk through other tokens */
 
   fclose(arqListadosDocs);
 
