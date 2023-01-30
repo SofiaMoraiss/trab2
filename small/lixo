@@ -1,0 +1,47 @@
+// FILE *Abre_arquivo(char *end,
+//                    char acao) { // recebe endereço do arquivo, a ação e o nome
+//                                 // do arquivo. Abre e checa se não é nulo
+//   FILE *arq;
+//   if (acao == 'r') {
+//     printf("ENTROU NO IF R");
+//     FILE *arq = fopen(end, "r");
+//   }
+//   if (acao == 'w') {
+//     FILE *arq = fopen(end, "w");
+//   }
+
+//   if (arq == NULL) {
+//     printf("ERRO: Arquivo %s nao encontrado!\n", end);
+//     exit(1); // VER SE VAI SAIR SEM FINALIZAR TUDO
+//   }
+//   return arq;
+// }
+
+  //int i = 0, j=0;
+  /*char bloco[1024],*/ char palavra[50];
+
+  /*while (!feof(arqDoc)) {
+    int n = fread(bloco, 1024, sizeof(char), arqDoc);
+    bloco[1023] = '\0';
+    //  printf("%d\n", n);
+    printf("%s\n", bloco);
+    // fclose(arqDoc);
+    // exit(1);
+    for (i = 0; i < strlen(bloco); i++) {
+      // printf("%c", bloco[i]);
+      if (bloco[i] != ' ' && (bloco[i] != '\n')) {
+        palavra[j] = bloco[i];
+        palavra[j + 1] = '\0';
+        j++;
+      } else {
+        j = 0;
+        // printf("%s ", palavra);
+        //   processa palavra
+
+
+        // bzero(palavra, 50);
+      }
+    }
+    // memset(bloco, '\0', strlen(bloco));
+    bzero(bloco, 1024);
+  }*/
