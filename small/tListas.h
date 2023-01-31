@@ -19,5 +19,6 @@ tHashPalavras *Lista_get_hash(tListas *);
 tListas * Listas_atribui_vetor_palavras(tListas *l, tHashPalavras *hash);
 void Lista_imprime_vet_palavras(tListas *l);
 void Lista_ordena_vetor(tListas *l);
+void GeraBinario(tListas * l, char * caminho);
 
 #endif

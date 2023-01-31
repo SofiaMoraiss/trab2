@@ -5,7 +5,7 @@
 
 typedef struct hashPalavras tHashPalavras;
 typedef struct listaPalavra tListaPalavra;
-tHashPalavras * Hash_cria_palavra();
+tHashPalavras * Hash_cria_palavras();
 void Hash_adiciona_palavra(tHashPalavras * hashPalavras, char* palavra, int documento);
 void Hash_imprime(tHashPalavras * hashPalavras, int documento);
 tPalavra * Obtem_palavra(tListaPalavra * listaPalavra);

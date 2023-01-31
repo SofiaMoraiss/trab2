@@ -54,9 +54,12 @@ void Adiciona_ocorrencia(tPalavra *palavra, int documento) {
             palavra->tf_idf[i] = 0;
         }
     }
-    printf("%d\n",palavra->qtd_ocorrencias[documento]);
+    //printf("%d\n",palavra->qtd_ocorrencias[documento]);
     palavra->qtd_ocorrencias[documento] += 1;
 }
 void ImprimePalavra(tPalavra * p){
   printf("%s\n",p->nome);
+}
+int Palavra_retornaNumBytes(){
+    return sizeof(tPalavra);
 }

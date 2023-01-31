@@ -62,7 +62,7 @@ tListas *Lista_constroi()
   l->qtd_palavras_lidas = 0;
   l->teste=0;
   printf("construi lista antes do hash\n");
-  l->hash = criaHashPalavras();
+  l->hash = Hash_cria_palavras();
   return l;
 }
 
@@ -112,11 +112,12 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
     l = Listas_ler_noticia(arqConteudoDoc, l, doc);
     l = Lista_adiciona_doc(l, doc);
   }
+  l=Listas_atribui_vetor_palavras(l,l->hash);
   printf("%d-----\n",l->qtd_palavras_lidas);
   return l;
 }
 void Lista_ordena_vetor(tListas *l){
-    //qsort(l->vetPalavras,l->qtd_palavras_lidas,sizeof(tPalavra*),ComparaPalavra);
+    qsort(l->vetPalavras,l->qtd_palavras_lidas,sizeof(tPalavra*),ComparaPalavra);
 }
 tListas* Listas_atribui_vetor_palavras(tListas *l, tHashPalavras *hash)
 {
@@ -133,8 +134,8 @@ tListas* Listas_atribui_vetor_palavras(tListas *l, tHashPalavras *hash)
         l=Lista_adiciona_palavra(l,Obtem_palavra(temp));
         l->vetPalavras[l->qtd_palavras_lidas]=Obtem_palavra(temp);
         l->qtd_palavras_lidas++;
-        printf("\nQTD DE PALAVRAS LIDAS E ALOCADAS: %d %d\n", l->qtd_palavras_lidas,
-        l->qtd_palavras_alocadas);
+        //printf("\nQTD DE PALAVRAS LIDAS E ALOCADAS: %d %d\n", l->qtd_palavras_lidas,
+        //l->qtd_palavras_alocadas);
         temp=AtribuiProxNo(temp);
       }
     }
@@ -142,23 +143,26 @@ tListas* Listas_atribui_vetor_palavras(tListas *l, tHashPalavras *hash)
   return l;
 }
 void Lista_imprime_vet_palavras(tListas *l){
+  
   for(int i=0;i<l->qtd_palavras_lidas;i++){
     ImprimePalavra(l->vetPalavras[i]);
   }
+  printf("====%d\n",l->qtd_palavras_lidas);
 }
 tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d)
 {
-  char palavra[100];
   // printf("NOME DENTRO DO LISTAS LER NOTICIAS: %s\n", Documento_get_nome(d));
   while (1)
   {
+    char palavra[50];
+    memset(palavra,'\0',sizeof(char));
     // printf("palavra\n");
     fscanf(arqDoc, "%s", palavra);
     if(feof(arqDoc)){
       break;
     }
     // printf("indice: %d\n", Documento_get_indice(d));
-        adicionaPalavra(l->hash, palavra, Documento_get_indice(d));
+     Hash_adiciona_palavra(l->hash, palavra, Documento_get_indice(d));
   }
   printf("LI ARQ N '%d'\n", Documento_get_indice(d));
   fclose(arqDoc);
@@ -169,10 +173,36 @@ tHashPalavras *Lista_get_hash(tListas *lista)
   return lista->hash;
 }
 void GeraBinario(tListas * l, char * nomeBin){
-  FILE*arqIndices=fopen(nomeBin,"wb");
-  
-//   fwrite(l->vetPalavras,sizeof(tPalavra*),l->qtd_palavras_lidas,arqIndices);
-//   fread(l->vetPalavras,sizeof(tPalavra*));
-
-// }
+ FILE*arqIndices=fopen(nomeBin,"wb");
+ printf("%d esse aqui\n",l->qtd_palavras_lidas);
+  for (int i = 0; i < Obtem_idc_max(l->hash); i++)
+  {
+    if(i==0){
+      fwrite(&(l->qtd_palavras_lidas),sizeof(int),1,arqIndices);
+    }
+    if (ObtemNoPalavra(l->hash,i) != NULL)
+    {
+        tListaPalavra * temp=ObtemNoPalavra(l->hash,i);
+      while ( temp!= NULL)
+      {
+        fwrite(Obtem_palavra(temp),Palavra_retornaNumBytes(),1,arqIndices);
+        temp=AtribuiProxNo(temp);
+      }
+    }
+  }
+  fclose(arqIndices);
+  arqIndices=fopen(nomeBin,"r");
+  int qtd;
+     
+    fread(&qtd,sizeof(int),1,arqIndices);
+    for(int i=0;i<qtd;i++){
+      if(i==0){
+        printf("%d oiiiiiiii\n",qtd);
+      }
+      tPalavra * palavra=calloc(1,Palavra_retornaNumBytes());
+      fread(palavra,Palavra_retornaNumBytes(),1,arqIndices);
+      ImprimePalavra(palavra);
+      free(palavra);
+    }
+    fclose(arqIndices);
 }

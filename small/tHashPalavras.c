@@ -65,7 +65,7 @@ void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int docum
     int indice = criaIndice(palavra);
     // printf("'%s': indice %d\n", palavra, indice);
     if (indice > hashPalavras->indiceMaximo) {
-        int i = hashPalavras->indiceMaximo - 1;
+        int i = hashPalavras->indiceMaximo;
         hashPalavras->indiceMaximo = indice + 1;
         hashPalavras->hashmap_lista = realloc(hashPalavras->hashmap_lista, (indice + 1) * sizeof(tListaPalavra*));
         for (i; i < hashPalavras->indiceMaximo; i++) {
@@ -99,18 +99,18 @@ void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int docum
 }
 
 void imprimeHash(tHashPalavras* hashPalavras, int documento) {
-    printf("doc: %d\n", documento);
+    //printf("doc: %d\n", documento);
     if (hashPalavras == NULL) {
         return;
     }
-    printf(" indice max: %d\n", hashPalavras->indiceMaximo);
+    //printf(" indice max: %d\n", hashPalavras->indiceMaximo);
 
     for (int i = 0; i < hashPalavras->indiceMaximo; i++) {
         // printf("3\n");
         if (hashPalavras->hashmap_lista[i] != NULL) {
             tListaPalavra* temp = hashPalavras->hashmap_lista[i];
             while (temp != NULL) {
-                    printf("%s (%d)\n", get_nome(temp->palavra), get_ocorrencia(temp->palavra, documento));
+                    //printf("%s (%d)\n", get_nome(temp->palavra), get_ocorrencia(temp->palavra, documento));
                 temp = temp->next;
             }
         }
