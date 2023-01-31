@@ -5,7 +5,7 @@
 
 struct documento {
 
-  char nome[100];
+  char nome[1024];
   int indiceNaLista;
   char classe[4];
   int *palavras;

@@ -18,11 +18,20 @@ static int criaIndice(char* p);
 tHashPalavras * criaHashPalavras(){
     tHashPalavras * hashPalavras = calloc(1, sizeof(tHashPalavras));
     hashPalavras->hashmap_lista = calloc(1, sizeof(tListaPalavra*));
+     
     hashPalavras->indiceMaximo = 1;
 
     return hashPalavras;
 
 }
+// int Percorre(tHashPalavras* hash){
+//     // for(int i=0;i<hash->indiceMaximo;i++){
+//     //     if(hash->hashmap_lista[i]!=NULL){
+//     //         hash->hashmap_lista[i]=realloc(hash->hashmap_lista)
+//     //     }
+//     // }
+//     return hash->hashmap_lista
+// }
 
 void destroiHashPalavras(tHashPalavras * h){
     if(h == NULL){
@@ -47,12 +56,15 @@ void destroiHashPalavras(tHashPalavras * h){
 void adicionaPalavra(tHashPalavras * hashPalavras, char* palavra, int documento){
     int indice = criaIndice(palavra);
     //printf("'%s': indice %d\n", palavra, indice);
-    
     if(indice > hashPalavras->indiceMaximo){
+        int i=hashPalavras->indiceMaximo-1;
         hashPalavras->indiceMaximo = indice+1;
-        hashPalavras->hashmap_lista = realloc(hashPalavras->hashmap_lista, (indice+1) * sizeof(tListaPalavra*));  
+        hashPalavras->hashmap_lista = realloc(hashPalavras->hashmap_lista, (indice+1) * sizeof(tListaPalavra*));
+        for(i;i<hashPalavras->indiceMaximo;i++){
+            hashPalavras->hashmap_lista[i]=NULL;
+        }
+        
     }
-
     if(hashPalavras->hashmap_lista[indice] == NULL){
         hashPalavras->hashmap_lista[indice] = calloc(1, sizeof(tListaPalavra));
         hashPalavras->hashmap_lista[indice]->next = NULL;

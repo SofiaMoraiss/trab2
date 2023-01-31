@@ -1,0 +1,29 @@
+{
+    "configurations": [
+    {
+        "name": "(gdb) Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "/home/felipecarpes/TrabDupla/trab2/small/indice",
+        "args": ["/home/felipecarpes/TrabDupla/trab2/small/medium-large/train.txt"],
+        "stopAtEntry": true,
+        "cwd": "/home/felipecarpes/TrabDupla/trab2/small",
+        "environment": [],
+        "externalConsole": false,
+        "preLaunchTask": "compilacao",
+        "MIMode": "gdb",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            },
+            {
+                "description":  "Set Disassembly Flavor to Intel",
+                "text": "-gdb-set disassembly-flavor intel",
+                "ignoreFailures": true
+            }
+        ]
+    }
+    ]
+}

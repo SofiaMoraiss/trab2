@@ -5,7 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct listas {
+struct listas
+{
 
   tDocumento **vetDocumentos;
   int qtd_docs_lidos;
@@ -17,10 +18,12 @@ struct listas {
   tHashPalavras *hash;
 };
 
-tListas *Lista_adiciona_doc(tListas *l, tDocumento *doc) {
+tListas *Lista_adiciona_doc(tListas *l, tDocumento *doc)
+{
   int qtd_lidas = l->qtd_docs_lidos;
 
-  if (qtd_lidas >= l->qtd_docs_alocados) {
+  if (qtd_lidas >= l->qtd_docs_alocados)
+  {
     l->vetDocumentos = realloc(l->vetDocumentos, (l->qtd_docs_alocados * 2) *
                                                      sizeof(tDocumento *));
     l->qtd_docs_alocados *= 2;
@@ -28,18 +31,19 @@ tListas *Lista_adiciona_doc(tListas *l, tDocumento *doc) {
 
   l->vetDocumentos[qtd_lidas] = doc;
   l->qtd_docs_lidos++;
-  printf("QTD DE DOCS LIDOS E ALOCADOS: %d %d\n", l->qtd_docs_lidos,
-         l->qtd_docs_alocados);
+  // printf("QTD DE DOCS LIDOS E ALOCADOS: %d %d\n", l->qtd_docs_lidos,
+  // l->qtd_docs_alocados);
   return l;
 }
 
 tListas *Lista_adiciona_palavra(tListas *l, tPalavra *p)
 {
-    int qtd_lidas= l->qtd_palavras_lidas;
-      if (qtd_lidas >= l->qtd_palavras_alocadas) {
+  int qtd_lidas = l->qtd_palavras_lidas;
+  if (qtd_lidas >= l->qtd_palavras_alocadas)
+  {
     l->vetPalavras = realloc(l->vetPalavras, (l->qtd_palavras_alocadas * 2) *
-                                                     sizeof(tPalavra *));
-    l->qtd_palavras_alocadas*= 2;
+                                                 sizeof(tPalavra *));
+    l->qtd_palavras_alocadas *= 2;
   }
 
   l->vetPalavras[qtd_lidas] = p;
@@ -49,7 +53,8 @@ tListas *Lista_adiciona_palavra(tListas *l, tPalavra *p)
   return l;
 }
 
-tListas *Lista_constroi() {
+tListas *Lista_constroi()
+{
   tListas *l = calloc(1, sizeof(tListas));
 
   l->vetDocumentos = calloc(2, sizeof(tDocumento *));
@@ -63,60 +68,70 @@ tListas *Lista_constroi() {
   return l;
 }
 
-void Lista_destroi(tListas* l) {
+void Lista_destroi(tListas *l)
+{
 
-
-  for (int i=0; i<l->qtd_docs_lidos; i++){
+  imprimeHash(l->hash, 999);
+  for (int i = 0; i < l->qtd_docs_lidos; i++)
+  {
     Documento_destroi(l->vetDocumentos[i]);
   }
   free(l->vetDocumentos);
-  for (int i=0; i<l->qtd_palavras_lidas; i++){
+  for (int i = 0; i < l->qtd_palavras_lidas; i++)
+  {
     Palavra_destroi(l->vetPalavras[i]);
   }
   free(l->vetPalavras);
 
   destroiHashPalavras(l->hash);
   free(l);
-
 }
 
-tListas * Listas_ler_train(FILE *arqTrain) {
-  char line[1000], nome[100], classe[4];
+tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
+{
+
   tDocumento *doc;
   tListas *l = Lista_constroi();
-  while (!feof(arqTrain)) {
-    fscanf(arqTrain, "\n\r%[^\n]\n\r", line);
+  while (!feof(arqNomeDoc))
+  { 
 
-    char *token = strtok(line, " ");
-    strcpy(nome, token);
-    token = strtok(NULL, " ");
-    strcpy(classe, token);
-      
-    doc = Documento_constroi(nome, classe, l->qtd_docs_lidos);
-    printf("\nVOU LER ARQUIVO : %s\n", nome);
+    char classe[4];
+    char leitura[101];
+    char path[1024];
+    fscanf(arqNomeDoc, "train%s %[^\n]", leitura, classe);
+    fscanf(arqNomeDoc, "%*c");
+    sprintf(path, "%s%s", caminhoDocumentos, leitura);
+    FILE *arqConteudoDoc = fopen(path, "r");
+    if (!arqConteudoDoc)
+    {
+      printf("Erro! não foi possivel encontrar o arquivo");
+      break;
+    }
+    doc = Documento_constroi(leitura, classe, l->qtd_docs_lidos);
+    printf("\nVOU LER ARQUIVO : %s\n", path);
     printf("TIPO DA NOTICIA : %s\n", classe);
 
-    FILE *arqDoc = fopen(nome, "r");
-    if (arqDoc == NULL) {
-      printf("Não achei arquivo %s", nome);
-    }
-    l=Listas_ler_noticia(arqDoc, l, doc);
-    l=Lista_adiciona_doc(l, doc);
+    // FILE *arqDoc = fopen(nome, "r");
+    // if (arqDoc == NULL) {
+    //   printf("Não achei arquivo %s", nome);
+    // }
 
+    l = Listas_ler_noticia(arqConteudoDoc, l, doc);
+    l = Lista_adiciona_doc(l, doc);
   }
   return l;
 }
 
-tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d) {
-  char palavra[50];
-  printf("NOME DENTRO DO LISTAS LER NOTICIAS: %s\n", Documento_get_nome(d));
-  while (!feof(arqDoc)) {
-    printf("palavra\n");
+tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d)
+{
+  char palavra[100];
+  // printf("NOME DENTRO DO LISTAS LER NOTICIAS: %s\n", Documento_get_nome(d));
+  while (!feof(arqDoc))
+  {
+    // printf("palavra\n");
     fscanf(arqDoc, "%s", palavra);
+    // printf("indice: %d\n", Documento_get_indice(d));
     adicionaPalavra(l->hash, palavra, Documento_get_indice(d));
-  }
-  if (Documento_get_indice(d)==0 || Documento_get_indice(d)==1){
-    //imprimeHash(l->hash, Documento_get_indice(d));
   }
   printf("LI ARQ N '%d'\n", Documento_get_indice(d));
   fclose(arqDoc);
