@@ -16,5 +16,7 @@ tListas *Listas_ler_noticia(FILE *, tListas *, tDocumento *);
 void Lista_destroi(tListas *);
 tListas *Listas_ler_train(char *, FILE *);
 tHashPalavras *Lista_get_hash(tListas *);
+tListas * AtribuiVetorPalavras(tListas *l, tHashPalavras *hash);
+void ImprimeVetPalavras(tListas *l);
 
 #endif

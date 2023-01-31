@@ -1,19 +1,33 @@
 #include "tHashPalavras.h"
-
+#include "tListas.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct listaPalavra {
+struct listaPalavra {
     tPalavra* palavra;
     struct listaPalavra* next;
-} tListaPalavra;
+};
 
 struct hashPalavras {
     tListaPalavra** hashmap_lista;
     int indiceMaximo;
 };
-
+tListaPalavra * ObtemNoPalavra(tHashPalavras * hash,int posicao){
+    return hash->hashmap_lista[posicao];
+}
+tListaPalavra ** ObtemListaPalavra(tHashPalavras * hash){
+    return hash->hashmap_lista;
+}
+int Obtem_idc_max(tHashPalavras * hash){
+    return hash->indiceMaximo;
+}
+tListaPalavra* AtribuiProxNo(tListaPalavra * lista){
+    return lista->next;
+}
+tPalavra * Obtem_palavra(tListaPalavra *listaPalavra){
+    return listaPalavra->palavra;
+}
 static int criaIndice(char* p);
 
 tHashPalavras* criaHashPalavras() {
@@ -24,14 +38,7 @@ tHashPalavras* criaHashPalavras() {
 
     return hashPalavras;
 }
-// int Percorre(tHashPalavras* hash){
-//     // for(int i=0;i<hash->indiceMaximo;i++){
-//     //     if(hash->hashmap_lista[i]!=NULL){
-//     //         hash->hashmap_lista[i]=realloc(hash->hashmap_lista)
-//     //     }
-//     // }
-//     return hash->hashmap_lista
-// }
+
 
 void destroiHashPalavras(tHashPalavras* h) {
     if (h == NULL) {
@@ -43,7 +50,8 @@ void destroiHashPalavras(tHashPalavras* h) {
             tListaPalavra* temp_next = NULL;
             while (temp != NULL) {
                 temp_next = temp->next;
-                Palavra_destroi(temp->palavra);
+                //ImprimePalavra(temp->palavra);
+                //Palavra_destroi(temp->palavra);
                 free(temp);
                 temp = temp_next;
             }
@@ -102,14 +110,13 @@ void imprimeHash(tHashPalavras* hashPalavras, int documento) {
         if (hashPalavras->hashmap_lista[i] != NULL) {
             tListaPalavra* temp = hashPalavras->hashmap_lista[i];
             while (temp != NULL) {
-                if (get_ocorrencia(temp->palavra, documento) != 0) {
                     printf("%s (%d)\n", get_nome(temp->palavra), get_ocorrencia(temp->palavra, documento));
-                }
                 temp = temp->next;
             }
         }
     }
 }
+
 
 static char convMaiuscula(char c) {
     return c = c - 32;

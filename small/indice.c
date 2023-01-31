@@ -7,9 +7,9 @@
 int main(int argc, char *argv[]) {
     tListas *l;
     char temp[125];
-    FILE *arqDoc = fopen(argv[1], "r");
+    FILE *arqNomeDoc = fopen(argv[1], "r");
     sscanf(argv[1], "%[^.].txt", temp);
-    if (!arqDoc) {
+    if (!arqNomeDoc) {
         printf("ARQUIVO NAO ENCONTRADO");
         exit(1);
     }
@@ -19,19 +19,21 @@ int main(int argc, char *argv[]) {
 
     // FILE *arqListadosDocs = fopen(argv[1], "r");
 
-    if (arqDoc == NULL) {
+    if (arqNomeDoc == NULL) {
         printf("ERRO: Arquivo %s nao encontrado!\n", argv[1]);
         return 1;  // VER SE VAI SAIR SEM FINALIZAR TUDO
     }
 
-    l = Listas_ler_train(temp, arqDoc);
-
+    l = Listas_ler_train(temp, arqNomeDoc);
+    
     tHashPalavras *hash = Lista_get_hash(l);
-    //imprimeHash(hash, 10);
+    l=AtribuiVetorPalavras(l,hash);
+    ImprimeVetPalavras(l);
+
+    //imprimeHash(hash, 999);
 
     Lista_destroi(l);
-
-    fclose(arqDoc);
+    fclose(arqNomeDoc);
 
     return 0;
 }

@@ -1,0 +1,15372 @@
+construi lista antes do hash
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/c3719052006int.txt
+TIPO DA NOTICIA : int
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+2
+1
+1
+1
+0
+1
+1
+0
+LI ARQ N '0'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/3903082005int.txt
+TIPO DA NOTICIA : int
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+1
+1
+0
+0
+1
+0
+0
+1
+0
+0
+1
+1
+1
+2
+0
+0
+0
+1
+0
+0
+0
+1
+2
+0
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+2
+1
+1
+0
+0
+0
+2
+1
+1
+2
+0
+0
+0
+0
+0
+0
+1
+2
+0
+2
+0
+0
+0
+1
+2
+0
+0
+0
+2
+3
+3
+0
+0
+0
+0
+0
+2
+1
+0
+0
+0
+0
+1
+0
+1
+0
+3
+0
+0
+0
+0
+0
+4
+4
+0
+3
+0
+3
+1
+1
+4
+0
+0
+4
+0
+3
+0
+1
+3
+5
+5
+0
+3
+1
+4
+1
+1
+0
+3
+0
+4
+2
+4
+0
+0
+2
+5
+0
+5
+0
+0
+5
+0
+0
+3
+0
+0
+5
+0
+0
+5
+1
+0
+0
+0
+6
+0
+1
+0
+0
+6
+4
+1
+0
+7
+0
+0
+0
+6
+2
+4
+0
+6
+0
+0
+2
+0
+1
+6
+6
+0
+1
+0
+1
+1
+2
+5
+1
+0
+1
+0
+1
+0
+0
+0
+0
+6
+0
+7
+7
+0
+0
+1
+8
+0
+0
+1
+0
+6
+0
+0
+8
+8
+0
+0
+7
+2
+7
+1
+0
+0
+0
+0
+8
+3
+8
+0
+0
+1
+0
+2
+1
+0
+9
+0
+0
+0
+3
+0
+10
+9
+2
+0
+7
+9
+1
+11
+10
+1
+9
+0
+2
+1
+0
+0
+0
+2
+0
+0
+0
+10
+0
+0
+7
+0
+8
+1
+8
+1
+0
+9
+4
+1
+10
+2
+0
+2
+11
+5
+LI ARQ N '1'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/3829042006int.txt
+TIPO DA NOTICIA : int
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+2
+1
+0
+1
+1
+0
+0
+0
+0
+1
+0
+3
+0
+1
+1
+1
+0
+0
+0
+0
+0
+1
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+2
+0
+0
+1
+0
+3
+1
+4
+0
+0
+0
+0
+1
+0
+3
+1
+0
+0
+1
+0
+0
+0
+0
+0
+5
+0
+0
+1
+0
+0
+0
+0
+0
+0
+6
+0
+0
+0
+2
+0
+0
+0
+0
+0
+1
+0
+4
+0
+5
+0
+1
+2
+7
+0
+0
+0
+0
+0
+0
+0
+1
+0
+2
+1
+0
+0
+0
+1
+0
+0
+1
+1
+0
+1
+0
+2
+0
+1
+6
+0
+3
+1
+2
+7
+0
+1
+4
+0
+8
+0
+3
+0
+9
+0
+0
+2
+0
+3
+1
+0
+2
+0
+0
+2
+0
+10
+0
+3
+4
+0
+8
+0
+0
+0
+9
+2
+0
+10
+0
+0
+0
+3
+0
+0
+11
+1
+1
+11
+2
+0
+12
+4
+0
+12
+0
+0
+1
+0
+2
+3
+1
+1
+2
+0
+0
+1
+0
+0
+1
+2
+2
+5
+2
+1
+4
+3
+0
+0
+13
+1
+1
+4
+0
+3
+14
+0
+5
+0
+3
+0
+0
+0
+0
+0
+4
+0
+13
+4
+0
+0
+0
+6
+0
+0
+0
+0
+0
+5
+0
+1
+0
+0
+0
+4
+2
+0
+0
+2
+0
+1
+0
+2
+0
+0
+1
+0
+0
+0
+3
+0
+3
+2
+6
+15
+0
+0
+1
+0
+16
+4
+4
+1
+7
+6
+0
+14
+0
+0
+1
+0
+0
+17
+0
+0
+15
+1
+1
+5
+0
+2
+0
+0
+1
+7
+0
+7
+0
+8
+0
+2
+0
+0
+16
+0
+0
+0
+2
+0
+8
+1
+0
+5
+0
+0
+9
+5
+0
+0
+0
+0
+0
+0
+18
+0
+6
+0
+0
+17
+1
+18
+0
+7
+0
+3
+0
+3
+1
+2
+9
+0
+10
+0
+0
+11
+0
+0
+0
+19
+0
+5
+0
+8
+0
+1
+10
+3
+6
+0
+0
+20
+0
+21
+0
+0
+9
+0
+0
+12
+1
+22
+0
+0
+0
+11
+23
+0
+24
+6
+0
+6
+0
+7
+0
+0
+0
+0
+25
+0
+0
+0
+26
+0
+12
+0
+0
+4
+0
+27
+0
+13
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+13
+1
+0
+19
+2
+28
+8
+0
+29
+0
+4
+0
+5
+1
+9
+0
+7
+0
+14
+0
+4
+0
+1
+0
+0
+0
+0
+0
+2
+0
+30
+0
+5
+2
+0
+15
+1
+0
+0
+0
+10
+0
+0
+5
+1
+31
+1
+0
+32
+0
+10
+1
+33
+1
+1
+0
+5
+8
+16
+1
+0
+20
+0
+0
+1
+14
+0
+0
+21
+1
+0
+8
+0
+3
+0
+0
+4
+2
+1
+22
+3
+34
+5
+0
+0
+0
+9
+0
+35
+10
+1
+0
+0
+23
+1
+11
+1
+0
+1
+0
+3
+11
+0
+0
+0
+1
+0
+0
+0
+0
+12
+2
+0
+0
+5
+0
+0
+0
+0
+0
+0
+36
+0
+17
+0
+0
+3
+0
+3
+0
+0
+0
+0
+0
+6
+1
+0
+13
+24
+0
+0
+3
+1
+25
+4
+37
+0
+0
+14
+0
+15
+18
+2
+0
+6
+0
+1
+6
+0
+0
+7
+0
+0
+9
+1
+10
+1
+26
+0
+0
+15
+0
+0
+1
+0
+11
+0
+0
+1
+4
+0
+0
+0
+2
+5
+1
+2
+0
+0
+0
+0
+0
+0
+16
+0
+1
+4
+1
+0
+38
+1
+0
+0
+39
+0
+0
+0
+0
+7
+1
+0
+40
+1
+1
+17
+0
+41
+11
+2
+0
+0
+0
+12
+1
+42
+0
+2
+2
+0
+27
+0
+6
+0
+43
+0
+12
+2
+13
+0
+0
+0
+0
+0
+0
+0
+0
+44
+0
+18
+1
+7
+1
+6
+19
+0
+45
+8
+0
+0
+1
+20
+2
+2
+0
+13
+1
+46
+0
+0
+19
+28
+0
+1
+3
+0
+0
+29
+1
+8
+0
+16
+0
+21
+0
+47
+0
+14
+0
+1
+5
+0
+1
+0
+12
+0
+0
+22
+0
+0
+30
+0
+7
+1
+0
+23
+3
+0
+48
+9
+0
+49
+0
+0
+20
+50
+14
+0
+3
+0
+31
+0
+0
+0
+2
+51
+0
+0
+0
+52
+3
+0
+3
+0
+15
+0
+0
+0
+0
+0
+16
+0
+0
+32
+0
+0
+2
+0
+0
+13
+33
+1
+17
+1
+15
+0
+0
+4
+0
+0
+0
+53
+17
+0
+0
+0
+24
+0
+21
+0
+0
+0
+9
+0
+0
+0
+54
+0
+18
+0
+8
+0
+34
+6
+0
+0
+35
+1
+1
+19
+0
+0
+55
+0
+2
+0
+0
+0
+0
+3
+0
+0
+7
+0
+0
+0
+0
+0
+0
+56
+1
+0
+0
+0
+6
+0
+1
+22
+4
+0
+20
+0
+9
+0
+0
+6
+5
+0
+4
+10
+0
+0
+57
+0
+1
+0
+21
+8
+0
+8
+0
+10
+2
+0
+36
+1
+6
+2
+0
+7
+0
+8
+0
+0
+1
+25
+0
+0
+0
+0
+14
+0
+0
+37
+1
+0
+0
+9
+0
+0
+1
+1
+0
+0
+38
+0
+58
+1
+0
+23
+0
+11
+0
+0
+7
+0
+39
+16
+0
+59
+2
+60
+3
+11
+0
+0
+12
+1
+40
+0
+0
+0
+0
+1
+0
+0
+0
+1
+9
+0
+0
+13
+2
+0
+22
+0
+0
+0
+0
+41
+0
+0
+7
+2
+24
+14
+0
+0
+26
+0
+12
+0
+25
+42
+0
+18
+0
+43
+1
+61
+1
+0
+44
+0
+1
+0
+10
+0
+7
+27
+0
+0
+0
+0
+10
+0
+8
+11
+0
+0
+2
+0
+2
+0
+0
+3
+0
+0
+19
+0
+0
+0
+20
+1
+LI ARQ N '2'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/4023112005int.txt
+TIPO DA NOTICIA : int
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+2
+1
+0
+3
+1
+1
+2
+1
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+3
+0
+0
+2
+1
+0
+0
+0
+0
+0
+1
+0
+1
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+3
+0
+1
+2
+4
+0
+2
+0
+0
+2
+1
+0
+3
+0
+0
+1
+0
+0
+0
+2
+1
+0
+4
+0
+3
+0
+1
+0
+0
+0
+0
+2
+2
+0
+0
+1
+1
+5
+0
+0
+0
+0
+6
+0
+3
+0
+5
+1
+0
+0
+0
+0
+0
+4
+0
+6
+0
+1
+0
+0
+0
+2
+2
+4
+0
+0
+3
+0
+7
+1
+1
+8
+0
+1
+0
+0
+1
+1
+7
+0
+9
+0
+4
+0
+0
+0
+0
+0
+0
+1
+0
+2
+0
+0
+0
+0
+2
+2
+0
+0
+5
+0
+1
+1
+10
+0
+1
+6
+0
+11
+0
+0
+0
+2
+0
+0
+7
+3
+12
+3
+0
+5
+1
+1
+0
+0
+0
+0
+0
+1
+4
+0
+0
+0
+0
+2
+0
+0
+0
+3
+0
+2
+0
+0
+5
+1
+0
+8
+1
+4
+0
+0
+0
+0
+13
+0
+0
+0
+0
+0
+1
+6
+3
+4
+2
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+1
+3
+0
+0
+14
+0
+0
+0
+4
+5
+0
+0
+2
+2
+2
+0
+9
+1
+5
+1
+4
+8
+0
+0
+0
+0
+1
+0
+1
+0
+9
+0
+0
+3
+0
+3
+0
+15
+0
+3
+0
+1
+1
+6
+10
+4
+0
+3
+0
+16
+0
+0
+6
+0
+17
+0
+1
+0
+0
+0
+7
+2
+LI ARQ N '3'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/3624052006int.txt
+TIPO DA NOTICIA : int
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+1
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+2
+0
+2
+0
+0
+0
+0
+3
+0
+1
+3
+4
+0
+0
+0
+1
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+4
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+5
+0
+5
+1
+2
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+6
+0
+0
+2
+2
+0
+0
+0
+6
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+1
+1
+0
+7
+0
+0
+1
+0
+1
+0
+3
+2
+2
+1
+0
+2
+0
+1
+8
+1
+7
+0
+0
+0
+0
+2
+0
+0
+0
+2
+0
+1
+9
+2
+8
+0
+1
+0
+2
+1
+4
+1
+0
+0
+3
+3
+1
+0
+0
+9
+0
+1
+10
+0
+1
+0
+0
+0
+10
+1
+0
+2
+2
+0
+0
+1
+0
+0
+4
+1
+5
+2
+3
+0
+3
+4
+3
+0
+2
+0
+2
+5
+1
+0
+4
+2
+11
+0
+0
+0
+0
+0
+12
+1
+4
+2
+0
+0
+6
+2
+5
+0
+13
+0
+7
+0
+0
+0
+14
+0
+0
+4
+0
+3
+0
+3
+1
+0
+6
+5
+0
+0
+0
+0
+0
+0
+0
+2
+4
+0
+2
+0
+0
+0
+6
+3
+1
+2
+0
+0
+3
+0
+2
+0
+0
+15
+0
+0
+4
+0
+0
+0
+11
+0
+0
+8
+0
+1
+1
+9
+1
+5
+7
+7
+0
+0
+0
+0
+1
+6
+0
+0
+2
+0
+0
+0
+0
+0
+2
+0
+10
+0
+0
+2
+0
+2
+0
+0
+1
+3
+8
+1
+1
+16
+0
+0
+0
+3
+0
+11
+0
+0
+0
+1
+0
+0
+1
+1
+12
+0
+0
+0
+13
+5
+0
+0
+17
+0
+7
+0
+18
+0
+0
+0
+14
+0
+1
+0
+9
+0
+5
+0
+0
+0
+0
+1
+15
+0
+1
+1
+12
+0
+0
+0
+1
+0
+0
+0
+1
+8
+0
+8
+1
+0
+0
+3
+0
+3
+1
+0
+0
+6
+0
+19
+0
+6
+1
+0
+20
+2
+1
+0
+0
+0
+9
+1
+1
+9
+1
+0
+1
+0
+16
+2
+0
+2
+0
+0
+3
+0
+0
+0
+10
+0
+0
+0
+10
+1
+0
+1
+10
+11
+4
+21
+2
+11
+0
+1
+2
+4
+1
+4
+2
+0
+1
+7
+0
+5
+1
+8
+22
+4
+0
+0
+11
+0
+2
+2
+12
+1
+1
+3
+1
+0
+3
+0
+2
+0
+0
+3
+23
+1
+2
+0
+1
+2
+0
+2
+17
+0
+0
+0
+1
+0
+0
+2
+3
+0
+0
+0
+3
+0
+0
+24
+1
+3
+0
+4
+3
+12
+0
+13
+18
+0
+1
+3
+0
+0
+0
+0
+4
+0
+3
+0
+0
+1
+25
+0
+13
+1
+0
+1
+4
+12
+0
+0
+26
+0
+0
+0
+0
+0
+1
+13
+2
+27
+0
+14
+0
+0
+0
+4
+4
+0
+15
+0
+19
+0
+16
+28
+7
+5
+4
+0
+0
+29
+1
+1
+1
+1
+0
+0
+0
+0
+1
+3
+0
+0
+5
+1
+1
+1
+0
+14
+2
+1
+3
+14
+2
+5
+1
+30
+1
+15
+6
+0
+0
+0
+0
+0
+17
+0
+15
+0
+0
+0
+0
+0
+0
+0
+0
+0
+18
+0
+8
+0
+3
+0
+0
+0
+0
+1
+16
+0
+6
+7
+4
+2
+5
+1
+4
+1
+0
+0
+0
+1
+0
+2
+1
+1
+19
+0
+1
+5
+1
+0
+2
+5
+0
+9
+0
+31
+2
+0
+5
+3
+6
+0
+32
+0
+4
+3
+2
+0
+6
+4
+2
+0
+7
+13
+5
+2
+2
+2
+17
+8
+16
+1
+3
+1
+20
+1
+2
+0
+6
+0
+1
+6
+2
+6
+0
+6
+3
+0
+20
+0
+4
+1
+7
+2
+4
+10
+0
+3
+0
+0
+6
+9
+0
+1
+33
+0
+21
+1
+34
+4
+2
+17
+0
+0
+5
+0
+1
+0
+35
+2
+0
+8
+0
+0
+18
+5
+0
+2
+6
+3
+2
+0
+0
+2
+0
+0
+0
+3
+0
+7
+0
+11
+1
+9
+0
+1
+14
+0
+36
+1
+9
+0
+1
+22
+3
+37
+0
+2
+0
+7
+0
+0
+2
+23
+1
+7
+1
+0
+15
+18
+0
+38
+1
+10
+1
+0
+0
+0
+5
+19
+0
+16
+7
+0
+0
+0
+4
+0
+17
+0
+0
+39
+0
+6
+40
+0
+20
+0
+7
+1
+19
+1
+0
+0
+0
+5
+2
+0
+21
+18
+3
+0
+5
+0
+0
+0
+0
+24
+0
+41
+0
+22
+2
+0
+0
+0
+1
+42
+2
+0
+7
+1
+1
+3
+0
+8
+0
+12
+0
+19
+0
+43
+0
+20
+1
+44
+3
+4
+8
+0
+1
+6
+0
+0
+0
+0
+1
+1
+1
+45
+0
+0
+20
+21
+3
+0
+0
+6
+25
+0
+26
+0
+9
+0
+4
+1
+46
+0
+6
+0
+0
+23
+0
+7
+21
+22
+0
+0
+8
+0
+0
+1
+0
+0
+47
+0
+9
+0
+1
+8
+1
+48
+1
+0
+1
+10
+0
+22
+0
+24
+7
+0
+0
+49
+1
+1
+1
+23
+0
+0
+1
+0
+2
+13
+10
+2
+2
+24
+2
+0
+1
+0
+0
+7
+11
+50
+1
+4
+23
+5
+0
+1
+51
+0
+11
+0
+9
+3
+10
+1
+0
+11
+0
+0
+0
+2
+0
+5
+7
+0
+1
+0
+0
+25
+0
+1
+6
+0
+0
+1
+0
+2
+52
+2
+LI ARQ N '4'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/a3426072006pot.txt
+TIPO DA NOTICIA : pot
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+2
+0
+1
+0
+2
+1
+1
+0
+1
+0
+3
+0
+0
+0
+3
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+1
+0
+0
+2
+1
+0
+2
+3
+0
+2
+1
+0
+3
+0
+0
+1
+4
+4
+4
+2
+1
+3
+2
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+5
+0
+0
+0
+1
+0
+6
+0
+0
+4
+1
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+0
+0
+2
+1
+7
+1
+1
+1
+0
+1
+1
+0
+5
+0
+0
+0
+0
+0
+5
+0
+0
+3
+3
+0
+0
+5
+0
+2
+0
+2
+0
+0
+8
+0
+9
+0
+10
+0
+0
+4
+0
+0
+0
+4
+2
+0
+0
+6
+0
+1
+0
+3
+2
+0
+0
+0
+1
+0
+1
+0
+0
+1
+0
+0
+0
+4
+0
+5
+0
+0
+5
+0
+6
+2
+0
+11
+0
+6
+0
+0
+0
+1
+0
+1
+0
+0
+0
+0
+0
+4
+0
+0
+0
+6
+0
+3
+0
+12
+2
+0
+6
+0
+1
+1
+1
+13
+0
+0
+0
+2
+0
+14
+0
+0
+0
+0
+0
+7
+0
+0
+1
+1
+1
+0
+15
+1
+0
+7
+8
+0
+0
+9
+0
+1
+0
+8
+2
+0
+1
+0
+1
+0
+3
+0
+9
+0
+0
+3
+4
+0
+7
+1
+5
+0
+16
+7
+3
+0
+2
+0
+1
+0
+17
+0
+3
+0
+0
+10
+1
+1
+0
+10
+11
+0
+0
+0
+0
+12
+0
+0
+0
+0
+8
+0
+6
+0
+0
+3
+1
+0
+0
+1
+2
+0
+0
+2
+0
+0
+11
+0
+12
+0
+5
+0
+13
+2
+2
+0
+0
+0
+0
+7
+2
+0
+8
+0
+18
+2
+0
+0
+0
+1
+2
+0
+13
+14
+0
+1
+5
+0
+4
+1
+1
+8
+2
+9
+14
+3
+0
+15
+0
+0
+0
+0
+0
+10
+16
+3
+11
+0
+0
+0
+0
+0
+5
+1
+1
+12
+0
+9
+17
+0
+0
+19
+0
+0
+18
+9
+0
+19
+2
+1
+0
+0
+15
+0
+0
+1
+0
+7
+0
+1
+0
+20
+1
+0
+0
+2
+0
+20
+10
+10
+16
+2
+2
+0
+13
+1
+8
+3
+0
+1
+1
+4
+0
+0
+0
+1
+0
+3
+0
+9
+0
+1
+0
+0
+0
+3
+0
+3
+1
+0
+0
+14
+2
+0
+1
+0
+3
+1
+1
+1
+11
+1
+4
+1
+1
+2
+12
+6
+0
+0
+0
+3
+0
+0
+7
+0
+2
+0
+17
+3
+3
+0
+2
+0
+18
+0
+4
+0
+21
+4
+0
+15
+0
+6
+1
+0
+2
+0
+5
+1
+13
+0
+1
+4
+1
+22
+1
+2
+23
+1
+16
+3
+24
+3
+2
+11
+6
+2
+17
+25
+2
+2
+21
+18
+1
+0
+22
+3
+0
+4
+19
+0
+6
+1
+10
+1
+1
+1
+2
+7
+2
+2
+LI ARQ N '5'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/3502072006pot.txt
+TIPO DA NOTICIA : pot
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+2
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+2
+1
+2
+3
+0
+1
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+1
+0
+1
+0
+4
+0
+0
+0
+0
+0
+0
+2
+0
+1
+1
+1
+1
+1
+0
+0
+0
+1
+0
+1
+0
+2
+2
+0
+0
+0
+0
+1
+1
+0
+1
+1
+3
+3
+0
+2
+3
+2
+0
+2
+0
+5
+2
+0
+6
+1
+1
+1
+0
+4
+0
+3
+0
+0
+2
+4
+0
+5
+1
+4
+7
+0
+1
+0
+0
+0
+2
+3
+5
+2
+6
+1
+3
+0
+5
+8
+0
+0
+0
+0
+2
+0
+0
+1
+1
+1
+7
+0
+0
+0
+3
+0
+0
+0
+0
+6
+0
+2
+0
+0
+4
+9
+4
+0
+8
+2
+2
+0
+3
+0
+9
+2
+10
+0
+1
+0
+6
+0
+0
+0
+0
+0
+1
+0
+0
+7
+10
+0
+2
+0
+0
+3
+0
+0
+0
+4
+0
+1
+1
+2
+1
+1
+8
+0
+11
+0
+3
+0
+2
+0
+0
+7
+3
+0
+5
+11
+0
+0
+0
+4
+0
+0
+1
+4
+1
+0
+12
+0
+0
+0
+13
+0
+8
+0
+0
+0
+0
+0
+0
+0
+5
+3
+9
+6
+1
+0
+14
+0
+0
+0
+0
+0
+6
+0
+0
+0
+5
+0
+0
+1
+0
+0
+0
+0
+1
+0
+9
+0
+0
+0
+1
+7
+0
+0
+10
+0
+2
+15
+0
+2
+2
+0
+0
+0
+16
+0
+7
+0
+3
+0
+0
+0
+0
+0
+12
+0
+4
+0
+4
+0
+5
+0
+0
+8
+0
+0
+17
+0
+8
+0
+0
+0
+6
+0
+0
+0
+11
+9
+0
+18
+0
+1
+0
+0
+13
+1
+0
+0
+7
+0
+9
+0
+0
+12
+19
+0
+8
+0
+0
+9
+0
+0
+0
+10
+1
+0
+2
+0
+1
+0
+0
+6
+0
+0
+13
+0
+0
+1
+20
+2
+0
+0
+10
+1
+0
+0
+1
+0
+0
+3
+1
+7
+0
+0
+10
+21
+0
+0
+14
+0
+5
+0
+0
+0
+1
+4
+1
+0
+14
+0
+0
+1
+0
+0
+3
+2
+0
+8
+1
+11
+0
+0
+3
+0
+0
+11
+0
+10
+3
+1
+1
+0
+0
+0
+11
+4
+15
+2
+2
+0
+0
+9
+0
+3
+0
+22
+0
+0
+23
+0
+3
+3
+4
+0
+0
+12
+0
+1
+1
+12
+2
+15
+0
+12
+0
+13
+0
+13
+0
+0
+0
+4
+0
+0
+14
+0
+3
+0
+5
+1
+14
+2
+4
+2
+5
+0
+24
+0
+0
+6
+1
+0
+7
+1
+1
+0
+16
+0
+15
+0
+10
+0
+17
+11
+16
+0
+13
+25
+0
+2
+0
+26
+0
+16
+0
+4
+0
+8
+0
+LI ARQ N '6'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/3319042006pot.txt
+TIPO DA NOTICIA : pot
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+1
+2
+0
+3
+0
+1
+1
+0
+1
+0
+0
+0
+2
+0
+4
+1
+1
+3
+0
+0
+5
+0
+0
+0
+0
+1
+2
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+1
+0
+4
+2
+1
+5
+0
+0
+0
+3
+1
+6
+1
+1
+0
+2
+1
+3
+0
+0
+0
+4
+3
+1
+0
+6
+1
+0
+1
+1
+1
+0
+0
+0
+0
+0
+7
+3
+0
+5
+4
+3
+1
+2
+0
+0
+1
+7
+2
+2
+2
+3
+0
+8
+2
+0
+0
+1
+0
+0
+0
+9
+1
+0
+4
+0
+0
+0
+0
+5
+0
+10
+0
+2
+1
+0
+0
+1
+0
+11
+0
+0
+2
+0
+3
+0
+1
+0
+0
+12
+0
+0
+2
+1
+0
+0
+13
+0
+3
+0
+0
+2
+1
+0
+3
+2
+0
+0
+0
+0
+3
+0
+1
+1
+8
+0
+4
+0
+6
+0
+0
+0
+0
+1
+2
+1
+0
+6
+0
+0
+7
+0
+3
+0
+9
+0
+4
+0
+7
+1
+14
+0
+0
+0
+5
+3
+0
+0
+6
+0
+1
+0
+2
+0
+0
+1
+1
+0
+7
+1
+4
+0
+8
+1
+1
+2
+15
+3
+4
+1
+1
+8
+9
+3
+1
+2
+1
+0
+10
+0
+16
+0
+8
+0
+10
+0
+5
+0
+2
+0
+9
+0
+0
+0
+5
+1
+0
+0
+3
+2
+1
+1
+10
+4
+1
+11
+5
+1
+0
+1
+9
+0
+12
+0
+17
+0
+13
+0
+0
+0
+0
+6
+5
+1
+2
+10
+1
+4
+1
+0
+0
+0
+1
+4
+0
+0
+3
+2
+LI ARQ N '7'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/a3015012004pot.txt
+TIPO DA NOTICIA : pot
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+1
+0
+0
+0
+0
+0
+1
+0
+1
+0
+0
+1
+0
+0
+1
+2
+0
+2
+1
+2
+0
+0
+0
+0
+0
+2
+2
+0
+0
+3
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+5
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+6
+0
+0
+0
+0
+0
+0
+3
+0
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+7
+0
+3
+0
+0
+0
+4
+1
+1
+0
+0
+1
+0
+0
+0
+2
+0
+0
+0
+0
+5
+0
+0
+0
+0
+4
+1
+1
+0
+1
+1
+0
+0
+1
+0
+0
+0
+2
+0
+0
+0
+5
+0
+1
+0
+1
+0
+8
+1
+1
+0
+0
+0
+0
+0
+0
+1
+4
+0
+3
+0
+2
+0
+3
+0
+0
+0
+9
+0
+0
+0
+0
+0
+1
+4
+0
+5
+2
+1
+4
+0
+0
+0
+1
+3
+0
+0
+0
+0
+2
+5
+0
+6
+0
+0
+0
+1
+0
+0
+2
+10
+0
+7
+1
+8
+0
+6
+0
+0
+0
+11
+0
+0
+9
+0
+3
+0
+0
+0
+6
+0
+10
+0
+5
+1
+2
+7
+0
+0
+4
+0
+0
+0
+0
+1
+0
+0
+0
+0
+8
+0
+0
+7
+0
+1
+3
+0
+12
+0
+2
+0
+0
+1
+6
+0
+0
+0
+0
+0
+0
+13
+0
+6
+0
+0
+0
+3
+0
+1
+5
+0
+0
+0
+0
+7
+0
+0
+0
+0
+14
+0
+0
+9
+0
+8
+0
+0
+0
+0
+0
+0
+1
+0
+11
+0
+0
+10
+0
+2
+1
+0
+0
+0
+0
+0
+4
+0
+2
+0
+0
+1
+1
+0
+12
+1
+0
+2
+0
+0
+0
+15
+0
+0
+9
+0
+4
+0
+1
+0
+0
+8
+3
+0
+0
+1
+16
+0
+11
+0
+0
+0
+17
+0
+0
+0
+0
+18
+3
+5
+1
+0
+0
+0
+0
+0
+0
+3
+4
+0
+1
+0
+9
+6
+19
+0
+13
+0
+1
+0
+0
+0
+0
+0
+12
+0
+10
+0
+5
+0
+0
+0
+2
+0
+0
+0
+20
+1
+7
+0
+14
+0
+0
+1
+0
+11
+1
+0
+15
+0
+1
+21
+1
+0
+0
+0
+7
+0
+0
+0
+16
+0
+0
+0
+0
+0
+0
+0
+0
+0
+12
+22
+1
+8
+0
+4
+0
+0
+0
+17
+0
+0
+0
+13
+0
+18
+0
+0
+19
+0
+0
+0
+6
+0
+23
+0
+0
+1
+0
+0
+0
+0
+0
+20
+0
+9
+0
+21
+0
+0
+2
+0
+13
+0
+0
+0
+1
+2
+24
+0
+0
+0
+0
+0
+8
+0
+0
+0
+0
+9
+1
+0
+1
+0
+14
+0
+4
+0
+0
+2
+0
+6
+1
+10
+0
+0
+11
+0
+15
+0
+0
+2
+0
+0
+14
+0
+22
+0
+12
+1
+1
+1
+5
+15
+0
+23
+0
+0
+24
+0
+0
+16
+0
+0
+0
+1
+0
+6
+2
+25
+2
+7
+0
+1
+0
+17
+0
+0
+16
+0
+1
+3
+1
+0
+0
+2
+1
+3
+0
+0
+3
+0
+18
+2
+4
+8
+1
+0
+1
+0
+17
+0
+0
+0
+26
+0
+25
+0
+26
+0
+0
+0
+19
+27
+0
+1
+0
+27
+0
+1
+1
+1
+1
+4
+0
+2
+0
+1
+0
+10
+0
+0
+1
+18
+1
+28
+0
+7
+0
+0
+1
+1
+0
+4
+0
+29
+0
+0
+0
+1
+28
+2
+9
+0
+0
+1
+0
+0
+0
+0
+11
+0
+0
+19
+0
+13
+5
+3
+8
+1
+29
+0
+3
+2
+30
+2
+0
+3
+1
+12
+0
+20
+0
+7
+0
+0
+0
+1
+31
+1
+1
+0
+10
+1
+1
+0
+8
+32
+0
+0
+33
+1
+0
+13
+4
+0
+2
+9
+21
+0
+2
+0
+2
+30
+0
+34
+0
+0
+0
+10
+0
+0
+0
+3
+0
+0
+0
+4
+0
+0
+5
+1
+0
+35
+1
+1
+14
+3
+5
+2
+0
+0
+1
+1
+1
+1
+0
+0
+11
+0
+0
+20
+0
+31
+0
+36
+0
+0
+37
+0
+32
+4
+21
+14
+4
+0
+0
+2
+0
+33
+0
+22
+0
+0
+6
+0
+0
+5
+0
+0
+15
+0
+0
+0
+0
+0
+3
+0
+0
+38
+0
+0
+2
+3
+0
+3
+1
+0
+3
+6
+0
+0
+0
+0
+22
+0
+11
+0
+0
+0
+3
+1
+0
+12
+0
+34
+0
+13
+0
+35
+0
+LI ARQ N '8'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/4107052006pot.txt
+TIPO DA NOTICIA : pot
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+2
+0
+0
+0
+0
+0
+0
+1
+0
+3
+0
+2
+0
+0
+0
+0
+0
+4
+0
+1
+5
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+2
+0
+0
+0
+0
+0
+1
+2
+0
+0
+0
+0
+0
+0
+6
+0
+0
+7
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+3
+1
+0
+4
+0
+0
+0
+0
+0
+4
+0
+5
+0
+0
+6
+0
+0
+1
+1
+0
+1
+0
+0
+0
+8
+0
+7
+0
+2
+0
+1
+0
+0
+0
+8
+0
+9
+1
+2
+0
+0
+1
+0
+0
+2
+0
+3
+1
+0
+0
+0
+0
+3
+1
+0
+1
+0
+0
+10
+0
+0
+11
+0
+2
+1
+0
+9
+0
+0
+12
+1
+0
+10
+1
+0
+2
+2
+1
+0
+0
+0
+0
+0
+0
+1
+2
+2
+0
+1
+1
+1
+0
+0
+0
+0
+3
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+1
+0
+1
+2
+0
+0
+0
+3
+1
+0
+1
+2
+0
+0
+0
+4
+0
+11
+0
+1
+0
+3
+0
+0
+0
+1
+0
+13
+0
+14
+2
+2
+15
+0
+3
+0
+5
+1
+0
+0
+5
+0
+2
+0
+0
+6
+0
+0
+2
+0
+0
+0
+7
+0
+1
+0
+0
+0
+4
+0
+12
+0
+8
+0
+1
+0
+4
+2
+1
+1
+1
+0
+0
+0
+13
+3
+0
+1
+0
+4
+0
+14
+0
+5
+1
+6
+9
+0
+2
+0
+16
+1
+0
+4
+0
+4
+2
+1
+7
+0
+0
+0
+2
+0
+0
+10
+0
+0
+15
+0
+0
+1
+0
+0
+2
+0
+3
+1
+1
+0
+0
+3
+0
+0
+0
+5
+0
+1
+1
+0
+16
+0
+17
+6
+0
+3
+0
+17
+1
+0
+0
+6
+0
+0
+0
+0
+2
+0
+7
+0
+2
+0
+1
+0
+0
+0
+0
+11
+0
+1
+0
+12
+1
+0
+3
+0
+18
+0
+8
+0
+18
+2
+2
+0
+3
+0
+0
+0
+0
+13
+3
+2
+0
+2
+0
+0
+4
+2
+0
+19
+0
+5
+2
+3
+14
+0
+0
+15
+1
+0
+0
+1
+0
+0
+0
+1
+3
+0
+8
+0
+0
+1
+0
+0
+0
+0
+5
+4
+0
+0
+0
+4
+0
+7
+1
+16
+0
+2
+1
+4
+1
+0
+2
+0
+0
+1
+0
+19
+1
+4
+0
+1
+0
+3
+0
+3
+0
+5
+0
+0
+0
+1
+0
+9
+20
+0
+2
+5
+0
+9
+0
+10
+17
+1
+10
+5
+1
+20
+0
+4
+0
+0
+0
+0
+0
+0
+0
+11
+0
+21
+0
+8
+0
+6
+0
+21
+3
+0
+1
+0
+0
+0
+4
+1
+0
+22
+0
+0
+0
+0
+0
+0
+0
+0
+22
+0
+0
+0
+0
+0
+1
+0
+23
+0
+2
+24
+1
+18
+0
+0
+0
+1
+6
+0
+0
+0
+7
+0
+0
+1
+4
+0
+2
+6
+0
+11
+3
+0
+5
+0
+7
+0
+0
+19
+0
+7
+0
+0
+0
+0
+4
+0
+0
+5
+0
+0
+20
+0
+0
+0
+0
+0
+1
+6
+0
+25
+1
+0
+0
+1
+6
+23
+1
+9
+0
+2
+0
+0
+6
+0
+10
+2
+1
+26
+1
+1
+2
+0
+3
+0
+27
+0
+1
+2
+0
+28
+3
+0
+0
+1
+0
+0
+11
+0
+0
+0
+0
+12
+0
+24
+0
+12
+0
+13
+0
+14
+1
+1
+2
+0
+0
+2
+4
+0
+1
+1
+0
+1
+21
+0
+0
+29
+0
+4
+0
+8
+0
+1
+25
+0
+0
+30
+0
+0
+0
+0
+8
+0
+0
+2
+0
+0
+1
+2
+2
+0
+3
+0
+9
+0
+0
+1
+8
+0
+31
+0
+0
+0
+13
+0
+0
+0
+4
+0
+10
+0
+0
+0
+14
+1
+0
+1
+0
+2
+26
+4
+2
+0
+0
+0
+32
+0
+0
+33
+0
+15
+0
+5
+0
+27
+0
+2
+0
+7
+2
+0
+4
+0
+16
+0
+15
+1
+34
+0
+2
+28
+1
+0
+0
+35
+3
+6
+3
+17
+0
+7
+6
+0
+22
+2
+0
+0
+16
+2
+8
+36
+0
+0
+37
+0
+0
+5
+0
+1
+1
+0
+17
+2
+6
+0
+9
+0
+0
+11
+0
+12
+2
+0
+3
+1
+2
+7
+0
+0
+2
+1
+5
+0
+38
+10
+0
+0
+39
+3
+0
+0
+0
+5
+0
+0
+1
+0
+0
+3
+23
+0
+18
+8
+0
+0
+0
+5
+0
+0
+1
+1
+1
+40
+0
+0
+18
+0
+24
+0
+13
+0
+19
+0
+29
+1
+41
+0
+0
+25
+0
+42
+1
+20
+1
+7
+0
+43
+0
+0
+8
+5
+5
+0
+7
+0
+44
+0
+0
+14
+0
+21
+0
+22
+12
+6
+0
+3
+7
+0
+9
+0
+8
+0
+1
+0
+13
+9
+0
+0
+30
+0
+0
+45
+0
+1
+1
+0
+5
+1
+0
+0
+0
+4
+0
+0
+5
+0
+19
+0
+6
+0
+2
+0
+2
+0
+14
+10
+0
+1
+31
+0
+46
+0
+8
+0
+0
+0
+2
+0
+2
+20
+0
+47
+0
+0
+0
+0
+0
+6
+2
+2
+15
+9
+0
+48
+0
+26
+0
+49
+0
+23
+0
+0
+1
+7
+27
+0
+8
+0
+0
+10
+0
+3
+0
+0
+9
+0
+15
+0
+0
+1
+1
+1
+11
+32
+0
+1
+0
+24
+0
+2
+0
+0
+33
+0
+0
+0
+12
+10
+0
+6
+11
+0
+9
+1
+0
+28
+2
+0
+10
+16
+1
+0
+0
+50
+0
+3
+3
+0
+0
+25
+0
+11
+0
+0
+26
+2
+34
+0
+4
+0
+35
+2
+16
+1
+29
+4
+0
+1
+0
+0
+36
+1
+27
+3
+2
+5
+0
+4
+0
+1
+37
+1
+9
+0
+0
+0
+11
+0
+51
+0
+0
+0
+2
+30
+0
+21
+5
+0
+3
+0
+38
+0
+31
+17
+22
+18
+0
+0
+0
+32
+1
+2
+0
+3
+0
+1
+0
+0
+0
+33
+0
+0
+4
+0
+0
+34
+0
+52
+2
+19
+0
+0
+0
+35
+0
+0
+0
+0
+1
+53
+1
+0
+7
+9
+0
+8
+1
+0
+12
+0
+0
+LI ARQ N '9'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/a1903012004poc.txt
+TIPO DA NOTICIA : poc
+0
+0
+0
+0
+0
+0
+0
+0
+LI ARQ N '10'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/a2023032006poc.txt
+TIPO DA NOTICIA : poc
+0
+0
+0
+1
+0
+0
+1
+2
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+4
+5
+2
+2
+0
+0
+6
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+7
+0
+0
+1
+2
+0
+1
+0
+1
+0
+0
+0
+0
+0
+1
+2
+2
+0
+8
+9
+3
+3
+3
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+3
+0
+4
+0
+2
+0
+4
+0
+10
+11
+5
+0
+0
+0
+0
+2
+0
+5
+1
+0
+0
+0
+0
+0
+0
+0
+0
+6
+0
+2
+0
+3
+7
+1
+6
+0
+1
+1
+12
+0
+2
+1
+0
+3
+1
+2
+0
+3
+1
+0
+1
+0
+0
+0
+13
+2
+4
+0
+14
+15
+1
+0
+0
+0
+0
+3
+0
+0
+7
+0
+0
+1
+1
+4
+4
+16
+0
+5
+2
+2
+2
+8
+9
+0
+3
+1
+4
+0
+1
+1
+17
+0
+18
+0
+0
+6
+0
+0
+0
+0
+2
+1
+19
+0
+0
+0
+0
+1
+1
+0
+0
+7
+0
+0
+0
+0
+3
+0
+0
+2
+0
+0
+0
+20
+0
+8
+0
+0
+0
+1
+0
+8
+0
+5
+0
+3
+21
+1
+0
+1
+0
+0
+6
+0
+0
+0
+0
+1
+0
+4
+0
+4
+9
+0
+0
+1
+0
+0
+5
+0
+2
+0
+0
+1
+0
+22
+1
+1
+10
+23
+0
+4
+0
+1
+1
+2
+2
+1
+3
+6
+1
+0
+0
+4
+1
+2
+1
+0
+11
+1
+1
+9
+1
+0
+5
+0
+0
+0
+0
+1
+2
+0
+0
+0
+24
+0
+4
+0
+0
+0
+0
+1
+0
+6
+3
+1
+0
+1
+3
+5
+5
+0
+10
+0
+12
+11
+0
+25
+0
+1
+5
+0
+26
+1
+0
+0
+6
+0
+0
+1
+1
+7
+1
+0
+0
+4
+6
+6
+1
+0
+0
+1
+2
+LI ARQ N '11'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/1931052005poc.txt
+TIPO DA NOTICIA : poc
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+0
+4
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+1
+0
+1
+1
+1
+1
+2
+0
+2
+0
+1
+0
+1
+0
+3
+2
+0
+0
+1
+1
+1
+1
+0
+0
+3
+1
+5
+0
+0
+4
+0
+2
+0
+0
+0
+0
+3
+1
+0
+4
+0
+0
+5
+0
+1
+0
+0
+2
+0
+0
+6
+0
+0
+0
+1
+0
+3
+5
+2
+0
+0
+0
+2
+1
+0
+0
+0
+6
+2
+0
+0
+7
+0
+2
+0
+0
+0
+7
+0
+0
+0
+0
+4
+0
+0
+0
+8
+0
+8
+0
+0
+0
+0
+9
+1
+0
+3
+0
+0
+6
+3
+2
+9
+1
+10
+0
+0
+2
+0
+0
+7
+2
+10
+1
+1
+0
+1
+0
+0
+0
+1
+8
+0
+11
+2
+1
+0
+9
+1
+1
+1
+1
+1
+1
+1
+4
+0
+0
+3
+0
+11
+2
+2
+0
+10
+0
+0
+12
+0
+2
+2
+0
+0
+1
+4
+1
+2
+0
+1
+1
+0
+0
+12
+0
+3
+0
+0
+3
+1
+2
+2
+0
+1
+5
+0
+11
+0
+2
+0
+0
+5
+0
+0
+1
+3
+0
+5
+2
+1
+3
+4
+4
+2
+4
+1
+0
+6
+3
+2
+5
+0
+2
+0
+4
+0
+1
+0
+13
+0
+2
+0
+4
+0
+0
+0
+0
+3
+0
+0
+1
+7
+0
+0
+0
+2
+1
+12
+2
+2
+3
+2
+3
+0
+13
+0
+0
+6
+0
+0
+0
+0
+14
+3
+3
+0
+15
+0
+14
+3
+6
+0
+13
+0
+15
+3
+14
+3
+3
+0
+7
+0
+15
+2
+0
+0
+6
+0
+1
+4
+0
+0
+5
+0
+8
+1
+0
+0
+2
+0
+0
+0
+0
+5
+0
+1
+3
+6
+0
+16
+4
+2
+0
+7
+1
+8
+1
+9
+8
+0
+1
+9
+0
+0
+1
+2
+2
+0
+0
+1
+0
+6
+7
+3
+0
+0
+7
+16
+4
+4
+2
+1
+17
+5
+0
+1
+0
+0
+3
+2
+1
+0
+2
+0
+1
+4
+3
+1
+1
+18
+1
+7
+1
+1
+1
+19
+4
+4
+0
+17
+4
+20
+1
+1
+18
+1
+16
+1
+17
+4
+2
+1
+21
+1
+1
+0
+0
+0
+0
+0
+18
+4
+8
+1
+1
+1
+3
+10
+19
+5
+5
+3
+2
+2
+2
+2
+19
+5
+0
+0
+10
+0
+4
+3
+11
+3
+3
+2
+1
+2
+20
+0
+20
+1
+11
+0
+21
+2
+0
+6
+0
+0
+1
+12
+0
+22
+5
+22
+0
+8
+0
+0
+1
+0
+1
+0
+0
+0
+0
+0
+12
+4
+0
+7
+1
+0
+8
+0
+0
+0
+23
+0
+0
+0
+5
+0
+0
+3
+0
+9
+1
+0
+4
+24
+1
+23
+6
+0
+0
+1
+5
+0
+21
+1
+0
+0
+6
+0
+24
+2
+4
+0
+0
+1
+3
+0
+0
+7
+0
+3
+4
+3
+1
+2
+5
+5
+2
+2
+5
+4
+0
+13
+4
+0
+7
+13
+14
+0
+10
+0
+0
+4
+0
+0
+1
+2
+0
+25
+0
+1
+0
+0
+4
+0
+2
+6
+1
+5
+2
+1
+15
+0
+5
+2
+6
+3
+25
+3
+2
+5
+1
+1
+26
+0
+0
+0
+0
+16
+1
+0
+5
+1
+0
+17
+6
+4
+26
+3
+0
+0
+27
+0
+0
+6
+3
+0
+2
+27
+6
+3
+3
+6
+18
+0
+7
+0
+2
+5
+0
+0
+7
+1
+22
+5
+28
+2
+8
+1
+23
+1
+29
+3
+28
+7
+6
+0
+0
+29
+0
+1
+5
+30
+6
+30
+3
+1
+0
+0
+1
+1
+0
+2
+0
+6
+0
+1
+0
+0
+1
+24
+4
+0
+31
+0
+0
+25
+5
+1
+7
+0
+31
+5
+14
+8
+7
+0
+1
+0
+0
+1
+2
+1
+15
+11
+0
+3
+1
+32
+4
+16
+0
+32
+1
+17
+2
+0
+1
+8
+7
+1
+2
+1
+1
+1
+0
+8
+0
+0
+33
+8
+4
+4
+33
+2
+4
+2
+2
+2
+8
+1
+2
+0
+3
+34
+0
+1
+0
+2
+1
+3
+19
+9
+1
+3
+34
+5
+7
+0
+0
+0
+0
+8
+2
+12
+1
+18
+35
+2
+2
+0
+6
+0
+3
+0
+0
+8
+0
+1
+2
+36
+6
+0
+4
+13
+0
+35
+0
+0
+0
+1
+0
+9
+6
+19
+10
+1
+1
+37
+9
+2
+0
+1
+10
+3
+0
+1
+9
+14
+0
+0
+0
+LI ARQ N '12'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/b1602062006poc.txt
+TIPO DA NOTICIA : poc
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+3
+0
+2
+0
+1
+0
+4
+0
+0
+0
+0
+0
+0
+1
+0
+1
+0
+0
+5
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+2
+0
+2
+0
+2
+0
+0
+0
+0
+0
+0
+0
+2
+0
+1
+0
+0
+3
+0
+1
+0
+0
+3
+0
+3
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+1
+0
+0
+5
+0
+0
+6
+0
+0
+0
+0
+0
+0
+6
+1
+7
+0
+0
+1
+0
+LI ARQ N '13'
+
+VOU LER ARQUIVO : /home/felipecarpes/TrabDupla/trab2/small/tiny/train/c1906052005poc.txt
+TIPO DA NOTICIA : poc
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+1
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+1
+0
+0
+1
+0
+4
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+1
+0
+0
+1
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+1
+0
+0
+1
+3
+1
+2
+0
+0
+2
+0
+1
+1
+3
+0
+4
+1
+3
+0
+0
+2
+1
+1
+0
+0
+0
+5
+0
+0
+1
+0
+0
+4
+0
+5
+1
+3
+0
+1
+0
+0
+6
+2
+0
+6
+0
+4
+2
+0
+3
+0
+7
+0
+0
+1
+0
+4
+1
+0
+3
+5
+1
+0
+0
+1
+0
+5
+4
+0
+0
+0
+0
+0
+1
+0
+1
+0
+7
+3
+1
+8
+1
+9
+1
+1
+0
+10
+0
+0
+0
+0
+0
+2
+0
+1
+0
+1
+4
+0
+8
+4
+6
+0
+6
+0
+5
+0
+2
+0
+0
+0
+11
+0
+12
+0
+0
+7
+0
+1
+0
+5
+1
+1
+5
+2
+0
+0
+0
+0
+8
+7
+1
+1
+1
+2
+1
+1
+3
+1
+2
+0
+3
+1
+1
+0
+1
+1
+3
+6
+0
+2
+0
+8
+0
+1
+1
+1
+0
+2
+0
+6
+1
+13
+0
+0
+2
+0
+7
+1
+0
+0
+0
+3
+0
+4
+1
+4
+8
+2
+2
+0
+0
+3
+3
+5
+7
+0
+4
+0
+14
+0
+9
+5
+0
+1
+0
+9
+0
+6
+9
+0
+15
+1
+1
+5
+1
+16
+1
+4
+0
+6
+3
+1
+0
+0
+0
+0
+0
+0
+5
+0
+10
+0
+0
+10
+1
+11
+0
+17
+0
+9
+2
+0
+7
+12
+2
+1
+0
+0
+0
+18
+0
+7
+0
+1
+10
+0
+11
+0
+0
+12
+6
+2
+0
+0
+0
+2
+13
+0
+13
+0
+19
+0
+LI ARQ N '14'
+0-----
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 0 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 3 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 4 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 5 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 6 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 7 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 8 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 9 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 10 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 11 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 12 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 13 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 14 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 15 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 16 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 17 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 18 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 19 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 20 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 21 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 22 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 23 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 24 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 25 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 26 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 27 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 28 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 29 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 30 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 31 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 32 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 33 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 34 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 35 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 36 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 37 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 38 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 39 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 40 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 41 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 42 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 43 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 44 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 45 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 46 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 47 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 48 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 49 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 50 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 51 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 52 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 53 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 54 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 55 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 56 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 57 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 58 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 59 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 60 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 61 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 62 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 63 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 64 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 65 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 66 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 67 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 68 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 69 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 70 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 71 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 72 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 73 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 74 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 75 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 76 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 77 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 78 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 79 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 80 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 81 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 82 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 83 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 84 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 85 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 86 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 87 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 88 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 89 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 90 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 91 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 92 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 93 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 94 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 95 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 96 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 97 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 98 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 99 100
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 100 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 101 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 102 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 103 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 104 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 105 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 106 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 107 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 108 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 109 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 110 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 111 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 112 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 113 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 114 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 115 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 116 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 117 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 118 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 119 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 120 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 121 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 122 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 123 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 124 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 125 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 126 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 127 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 128 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 129 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 130 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 131 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 132 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 133 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 134 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 135 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 136 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 137 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 138 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 139 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 140 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 141 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 142 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 143 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 144 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 145 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 146 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 147 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 148 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 149 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 150 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 151 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 152 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 153 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 154 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 155 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 156 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 157 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 158 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 159 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 160 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 161 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 162 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 163 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 164 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 165 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 166 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 167 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 168 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 169 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 170 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 171 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 172 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 173 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 174 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 175 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 176 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 177 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 178 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 179 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 180 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 181 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 182 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 183 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 184 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 185 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 186 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 187 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 188 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 189 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 190 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 191 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 192 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 193 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 194 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 195 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 196 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 197 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 198 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 199 200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 200 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 201 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 202 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 203 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 204 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 205 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 206 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 207 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 208 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 209 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 210 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 211 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 212 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 213 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 214 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 215 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 216 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 217 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 218 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 219 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 220 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 221 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 222 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 223 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 224 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 225 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 226 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 227 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 228 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 229 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 230 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 231 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 232 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 233 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 234 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 235 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 236 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 237 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 238 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 239 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 240 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 241 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 242 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 243 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 244 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 245 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 246 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 247 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 248 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 249 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 250 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 251 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 252 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 253 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 254 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 255 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 256 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 257 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 258 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 259 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 260 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 261 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 262 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 263 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 264 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 265 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 266 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 267 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 268 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 269 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 270 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 271 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 272 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 273 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 274 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 275 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 276 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 277 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 278 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 279 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 280 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 281 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 282 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 283 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 284 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 285 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 286 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 287 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 288 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 289 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 290 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 291 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 292 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 293 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 294 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 295 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 296 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 297 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 298 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 299 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 300 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 301 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 302 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 303 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 304 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 305 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 306 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 307 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 308 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 309 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 310 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 311 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 312 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 313 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 314 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 315 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 316 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 317 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 318 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 319 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 320 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 321 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 322 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 323 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 324 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 325 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 326 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 327 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 328 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 329 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 330 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 331 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 332 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 333 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 334 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 335 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 336 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 337 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 338 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 339 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 340 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 341 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 342 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 343 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 344 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 345 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 346 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 347 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 348 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 349 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 350 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 351 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 352 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 353 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 354 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 355 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 356 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 357 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 358 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 359 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 360 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 361 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 362 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 363 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 364 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 365 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 366 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 367 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 368 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 369 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 370 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 371 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 372 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 373 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 374 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 375 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 376 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 377 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 378 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 379 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 380 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 381 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 382 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 383 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 384 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 385 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 386 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 387 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 388 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 389 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 390 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 391 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 392 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 393 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 394 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 395 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 396 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 397 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 398 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 399 400
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 400 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 401 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 402 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 403 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 404 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 405 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 406 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 407 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 408 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 409 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 410 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 411 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 412 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 413 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 414 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 415 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 416 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 417 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 418 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 419 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 420 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 421 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 422 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 423 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 424 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 425 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 426 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 427 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 428 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 429 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 430 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 431 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 432 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 433 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 434 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 435 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 436 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 437 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 438 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 439 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 440 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 441 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 442 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 443 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 444 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 445 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 446 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 447 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 448 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 449 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 450 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 451 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 452 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 453 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 454 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 455 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 456 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 457 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 458 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 459 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 460 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 461 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 462 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 463 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 464 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 465 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 466 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 467 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 468 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 469 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 470 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 471 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 472 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 473 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 474 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 475 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 476 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 477 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 478 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 479 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 480 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 481 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 482 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 483 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 484 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 485 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 486 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 487 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 488 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 489 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 490 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 491 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 492 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 493 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 494 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 495 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 496 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 497 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 498 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 499 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 500 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 501 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 502 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 503 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 504 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 505 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 506 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 507 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 508 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 509 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 510 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 511 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 512 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 513 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 514 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 515 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 516 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 517 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 518 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 519 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 520 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 521 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 522 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 523 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 524 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 525 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 526 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 527 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 528 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 529 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 530 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 531 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 532 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 533 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 534 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 535 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 536 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 537 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 538 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 539 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 540 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 541 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 542 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 543 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 544 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 545 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 546 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 547 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 548 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 549 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 550 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 551 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 552 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 553 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 554 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 555 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 556 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 557 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 558 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 559 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 560 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 561 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 562 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 563 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 564 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 565 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 566 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 567 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 568 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 569 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 570 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 571 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 572 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 573 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 574 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 575 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 576 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 577 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 578 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 579 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 580 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 581 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 582 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 583 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 584 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 585 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 586 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 587 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 588 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 589 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 590 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 591 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 592 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 593 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 594 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 595 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 596 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 597 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 598 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 599 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 600 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 601 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 602 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 603 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 604 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 605 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 606 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 607 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 608 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 609 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 610 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 611 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 612 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 613 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 614 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 615 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 616 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 617 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 618 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 619 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 620 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 621 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 622 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 623 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 624 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 625 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 626 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 627 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 628 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 629 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 630 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 631 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 632 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 633 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 634 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 635 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 636 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 637 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 638 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 639 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 640 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 641 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 642 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 643 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 644 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 645 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 646 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 647 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 648 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 649 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 650 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 651 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 652 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 653 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 654 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 655 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 656 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 657 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 658 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 659 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 660 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 661 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 662 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 663 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 664 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 665 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 666 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 667 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 668 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 669 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 670 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 671 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 672 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 673 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 674 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 675 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 676 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 677 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 678 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 679 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 680 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 681 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 682 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 683 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 684 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 685 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 686 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 687 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 688 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 689 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 690 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 691 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 692 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 693 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 694 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 695 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 696 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 697 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 698 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 699 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 700 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 701 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 702 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 703 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 704 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 705 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 706 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 707 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 708 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 709 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 710 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 711 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 712 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 713 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 714 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 715 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 716 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 717 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 718 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 719 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 720 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 721 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 722 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 723 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 724 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 725 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 726 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 727 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 728 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 729 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 730 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 731 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 732 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 733 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 734 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 735 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 736 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 737 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 738 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 739 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 740 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 741 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 742 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 743 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 744 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 745 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 746 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 747 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 748 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 749 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 750 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 751 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 752 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 753 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 754 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 755 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 756 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 757 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 758 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 759 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 760 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 761 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 762 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 763 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 764 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 765 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 766 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 767 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 768 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 769 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 770 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 771 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 772 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 773 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 774 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 775 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 776 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 777 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 778 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 779 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 780 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 781 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 782 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 783 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 784 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 785 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 786 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 787 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 788 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 789 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 790 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 791 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 792 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 793 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 794 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 795 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 796 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 797 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 798 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 799 800
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 800 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 801 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 802 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 803 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 804 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 805 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 806 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 807 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 808 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 809 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 810 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 811 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 812 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 813 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 814 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 815 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 816 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 817 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 818 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 819 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 820 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 821 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 822 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 823 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 824 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 825 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 826 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 827 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 828 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 829 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 830 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 831 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 832 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 833 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 834 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 835 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 836 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 837 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 838 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 839 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 840 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 841 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 842 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 843 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 844 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 845 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 846 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 847 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 848 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 849 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 850 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 851 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 852 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 853 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 854 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 855 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 856 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 857 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 858 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 859 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 860 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 861 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 862 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 863 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 864 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 865 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 866 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 867 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 868 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 869 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 870 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 871 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 872 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 873 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 874 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 875 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 876 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 877 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 878 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 879 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 880 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 881 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 882 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 883 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 884 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 885 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 886 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 887 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 888 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 889 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 890 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 891 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 892 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 893 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 894 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 895 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 896 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 897 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 898 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 899 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 900 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 901 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 902 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 903 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 904 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 905 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 906 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 907 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 908 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 909 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 910 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 911 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 912 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 913 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 914 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 915 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 916 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 917 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 918 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 919 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 920 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 921 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 922 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 923 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 924 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 925 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 926 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 927 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 928 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 929 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 930 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 931 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 932 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 933 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 934 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 935 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 936 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 937 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 938 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 939 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 940 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 941 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 942 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 943 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 944 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 945 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 946 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 947 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 948 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 949 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 950 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 951 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 952 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 953 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 954 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 955 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 956 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 957 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 958 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 959 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 960 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 961 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 962 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 963 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 964 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 965 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 966 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 967 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 968 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 969 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 970 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 971 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 972 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 973 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 974 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 975 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 976 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 977 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 978 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 979 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 980 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 981 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 982 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 983 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 984 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 985 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 986 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 987 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 988 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 989 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 990 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 991 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 992 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 993 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 994 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 995 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 996 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 997 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 998 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 999 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1000 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1001 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1002 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1003 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1004 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1005 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1006 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1007 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1008 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1009 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1010 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1011 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1012 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1013 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1014 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1015 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1016 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1017 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1018 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1019 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1020 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1021 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1022 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1023 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1024 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1025 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1026 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1027 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1028 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1029 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1030 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1031 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1032 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1033 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1034 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1035 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1036 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1037 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1038 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1039 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1040 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1041 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1042 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1043 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1044 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1045 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1046 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1047 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1048 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1049 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1050 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1051 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1052 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1053 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1054 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1055 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1056 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1057 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1058 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1059 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1060 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1061 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1062 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1063 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1064 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1065 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1066 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1067 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1068 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1069 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1070 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1071 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1072 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1073 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1074 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1075 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1076 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1077 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1078 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1079 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1080 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1081 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1082 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1083 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1084 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1085 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1086 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1087 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1088 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1089 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1090 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1091 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1092 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1093 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1094 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1095 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1096 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1097 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1098 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1099 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1100 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1101 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1102 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1103 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1104 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1105 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1106 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1107 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1108 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1109 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1110 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1111 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1112 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1113 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1114 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1115 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1116 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1117 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1118 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1119 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1120 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1121 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1122 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1123 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1124 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1125 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1126 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1127 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1128 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1129 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1130 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1131 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1132 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1133 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1134 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1135 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1136 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1137 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1138 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1139 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1140 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1141 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1142 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1143 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1144 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1145 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1146 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1147 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1148 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1149 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1150 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1151 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1152 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1153 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1154 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1155 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1156 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1157 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1158 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1159 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1160 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1161 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1162 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1163 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1164 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1165 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1166 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1167 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1168 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1169 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1170 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1171 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1172 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1173 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1174 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1175 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1176 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1177 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1178 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1179 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1180 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1181 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1182 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1183 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1184 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1185 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1186 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1187 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1188 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1189 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1190 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1191 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1192 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1193 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1194 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1195 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1196 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1197 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1198 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1199 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1200 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1201 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1202 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1203 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1204 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1205 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1206 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1207 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1208 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1209 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1210 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1211 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1212 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1213 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1214 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1215 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1216 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1217 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1218 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1219 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1220 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1221 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1222 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1223 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1224 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1225 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1226 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1227 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1228 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1229 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1230 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1231 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1232 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1233 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1234 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1235 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1236 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1237 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1238 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1239 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1240 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1241 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1242 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1243 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1244 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1245 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1246 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1247 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1248 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1249 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1250 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1251 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1252 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1253 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1254 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1255 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1256 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1257 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1258 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1259 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1260 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1261 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1262 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1263 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1264 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1265 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1266 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1267 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1268 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1269 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1270 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1271 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1272 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1273 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1274 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1275 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1276 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1277 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1278 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1279 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1280 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1281 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1282 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1283 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1284 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1285 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1286 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1287 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1288 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1289 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1290 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1291 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1292 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1293 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1294 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1295 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1296 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1297 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1298 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1299 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1300 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1301 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1302 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1303 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1304 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1305 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1306 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1307 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1308 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1309 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1310 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1311 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1312 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1313 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1314 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1315 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1316 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1317 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1318 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1319 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1320 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1321 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1322 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1323 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1324 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1325 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1326 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1327 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1328 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1329 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1330 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1331 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1332 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1333 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1334 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1335 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1336 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1337 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1338 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1339 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1340 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1341 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1342 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1343 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1344 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1345 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1346 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1347 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1348 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1349 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1350 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1351 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1352 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1353 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1354 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1355 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1356 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1357 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1358 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1359 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1360 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1361 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1362 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1363 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1364 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1365 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1366 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1367 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1368 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1369 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1370 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1371 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1372 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1373 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1374 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1375 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1376 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1377 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1378 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1379 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1380 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1381 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1382 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1383 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1384 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1385 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1386 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1387 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1388 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1389 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1390 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1391 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1392 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1393 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1394 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1395 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1396 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1397 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1398 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1399 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1400 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1401 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1402 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1403 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1404 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1405 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1406 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1407 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1408 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1409 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1410 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1411 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1412 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1413 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1414 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1415 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1416 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1417 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1418 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1419 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1420 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1421 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1422 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1423 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1424 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1425 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1426 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1427 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1428 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1429 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1430 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1431 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1432 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1433 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1434 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1435 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1436 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1437 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1438 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1439 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1440 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1441 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1442 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1443 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1444 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1445 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1446 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1447 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1448 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1449 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1450 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1451 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1452 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1453 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1454 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1455 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1456 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1457 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1458 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1459 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1460 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1461 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1462 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1463 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1464 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1465 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1466 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1467 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1468 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1469 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1470 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1471 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1472 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1473 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1474 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1475 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1476 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1477 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1478 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1479 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1480 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1481 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1482 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1483 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1484 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1485 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1486 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1487 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1488 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1489 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1490 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1491 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1492 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1493 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1494 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1495 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1496 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1497 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1498 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1499 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1500 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1501 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1502 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1503 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1504 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1505 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1506 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1507 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1508 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1509 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1510 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1511 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1512 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1513 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1514 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1515 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1516 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1517 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1518 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1519 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1520 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1521 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1522 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1523 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1524 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1525 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1526 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1527 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1528 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1529 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1530 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1531 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1532 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1533 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1534 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1535 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1536 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1537 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1538 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1539 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1540 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1541 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1542 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1543 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1544 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1545 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1546 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1547 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1548 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1549 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1550 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1551 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1552 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1553 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1554 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1555 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1556 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1557 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1558 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1559 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1560 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1561 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1562 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1563 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1564 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1565 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1566 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1567 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1568 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1569 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1570 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1571 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1572 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1573 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1574 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1575 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1576 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1577 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1578 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1579 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1580 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1581 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1582 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1583 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1584 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1585 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1586 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1587 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1588 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1589 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1590 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1591 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1592 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1593 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1594 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1595 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1596 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1597 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1598 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1599 1600
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1600 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1601 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1602 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1603 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1604 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1605 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1606 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1607 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1608 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1609 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1610 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1611 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1612 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1613 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1614 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1615 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1616 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1617 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1618 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1619 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1620 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1621 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1622 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1623 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1624 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1625 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1626 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1627 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1628 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1629 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1630 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1631 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1632 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1633 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1634 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1635 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1636 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1637 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1638 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1639 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1640 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1641 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1642 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1643 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1644 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1645 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1646 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1647 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1648 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1649 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1650 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1651 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1652 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1653 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1654 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1655 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1656 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1657 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1658 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1659 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1660 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1661 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1662 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1663 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1664 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1665 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1666 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1667 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1668 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1669 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1670 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1671 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1672 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1673 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1674 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1675 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1676 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1677 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1678 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1679 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1680 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1681 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1682 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1683 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1684 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1685 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1686 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1687 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1688 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1689 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1690 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1691 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1692 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1693 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1694 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1695 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1696 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1697 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1698 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1699 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1700 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1701 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1702 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1703 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1704 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1705 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1706 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1707 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1708 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1709 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1710 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1711 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1712 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1713 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1714 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1715 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1716 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1717 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1718 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1719 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1720 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1721 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1722 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1723 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1724 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1725 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1726 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1727 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1728 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1729 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1730 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1731 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1732 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1733 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1734 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1735 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1736 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1737 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1738 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1739 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1740 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1741 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1742 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1743 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1744 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1745 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1746 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1747 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1748 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1749 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1750 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1751 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1752 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1753 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1754 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1755 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1756 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1757 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1758 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1759 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1760 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1761 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1762 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1763 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1764 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1765 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1766 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1767 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1768 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1769 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1770 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1771 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1772 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1773 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1774 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1775 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1776 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1777 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1778 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1779 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1780 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1781 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1782 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1783 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1784 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1785 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1786 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1787 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1788 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1789 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1790 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1791 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1792 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1793 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1794 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1795 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1796 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1797 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1798 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1799 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1800 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1801 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1802 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1803 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1804 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1805 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1806 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1807 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1808 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1809 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1810 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1811 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1812 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1813 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1814 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1815 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1816 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1817 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1818 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1819 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1820 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1821 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1822 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1823 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1824 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1825 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1826 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1827 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1828 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1829 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1830 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1831 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1832 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1833 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1834 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1835 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1836 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1837 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1838 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1839 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1840 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1841 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1842 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1843 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1844 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1845 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1846 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1847 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1848 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1849 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1850 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1851 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1852 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1853 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1854 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1855 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1856 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1857 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1858 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1859 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1860 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1861 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1862 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1863 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1864 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1865 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1866 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1867 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1868 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1869 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1870 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1871 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1872 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1873 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1874 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1875 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1876 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1877 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1878 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1879 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1880 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1881 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1882 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1883 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1884 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1885 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1886 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1887 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1888 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1889 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1890 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1891 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1892 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1893 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1894 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1895 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1896 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1897 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1898 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1899 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1900 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1901 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1902 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1903 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1904 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1905 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1906 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1907 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1908 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1909 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1910 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1911 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1912 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1913 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1914 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1915 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1916 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1917 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1918 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1919 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1920 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1921 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1922 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1923 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1924 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1925 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1926 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1927 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1928 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1929 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1930 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1931 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1932 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1933 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1934 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1935 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1936 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1937 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1938 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1939 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1940 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1941 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1942 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1943 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1944 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1945 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1946 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1947 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1948 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1949 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1950 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1951 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1952 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1953 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1954 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1955 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1956 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1957 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1958 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1959 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1960 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1961 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1962 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1963 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1964 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1965 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1966 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1967 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1968 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1969 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1970 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1971 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1972 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1973 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1974 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1975 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1976 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1977 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1978 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1979 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1980 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1981 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1982 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1983 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1984 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1985 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1986 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1987 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1988 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1989 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1990 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1991 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1992 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1993 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1994 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1995 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1996 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1997 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1998 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 1999 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2000 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2001 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2002 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2003 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2004 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2005 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2006 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2007 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2008 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2009 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2010 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2011 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2012 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2013 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2014 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2015 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2016 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2017 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2018 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2019 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2020 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2021 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2022 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2023 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2024 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2025 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2026 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2027 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2028 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2029 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2030 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2031 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2032 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2033 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2034 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2035 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2036 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2037 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2038 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2039 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2040 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2041 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2042 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2043 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2044 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2045 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2046 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2047 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2048 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2049 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2050 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2051 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2052 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2053 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2054 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2055 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2056 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2057 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2058 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2059 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2060 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2061 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2062 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2063 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2064 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2065 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2066 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2067 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2068 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2069 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2070 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2071 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2072 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2073 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2074 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2075 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2076 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2077 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2078 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2079 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2080 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2081 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2082 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2083 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2084 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2085 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2086 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2087 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2088 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2089 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2090 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2091 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2092 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2093 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2094 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2095 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2096 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2097 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2098 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2099 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2100 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2101 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2102 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2103 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2104 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2105 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2106 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2107 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2108 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2109 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2110 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2111 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2112 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2113 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2114 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2115 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2116 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2117 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2118 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2119 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2120 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2121 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2122 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2123 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2124 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2125 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2126 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2127 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2128 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2129 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2130 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2131 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2132 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2133 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2134 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2135 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2136 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2137 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2138 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2139 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2140 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2141 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2142 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2143 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2144 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2145 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2146 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2147 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2148 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2149 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2150 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2151 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2152 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2153 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2154 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2155 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2156 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2157 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2158 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2159 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2160 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2161 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2162 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2163 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2164 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2165 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2166 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2167 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2168 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2169 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2170 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2171 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2172 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2173 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2174 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2175 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2176 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2177 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2178 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2179 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2180 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2181 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2182 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2183 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2184 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2185 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2186 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2187 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2188 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2189 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2190 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2191 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2192 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2193 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2194 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2195 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2196 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2197 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2198 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2199 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2200 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2201 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2202 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2203 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2204 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2205 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2206 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2207 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2208 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2209 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2210 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2211 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2212 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2213 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2214 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2215 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2216 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2217 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2218 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2219 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2220 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2221 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2222 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2223 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2224 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2225 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2226 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2227 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2228 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2229 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2230 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2231 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2232 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2233 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2234 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2235 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2236 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2237 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2238 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2239 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2240 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2241 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2242 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2243 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2244 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2245 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2246 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2247 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2248 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2249 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2250 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2251 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2252 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2253 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2254 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2255 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2256 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2257 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2258 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2259 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2260 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2261 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2262 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2263 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2264 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2265 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2266 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2267 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2268 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2269 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2270 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2271 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2272 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2273 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2274 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2275 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2276 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2277 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2278 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2279 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2280 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2281 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2282 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2283 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2284 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2285 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2286 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2287 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2288 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2289 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2290 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2291 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2292 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2293 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2294 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2295 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2296 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2297 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2298 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2299 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2300 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2301 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2302 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2303 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2304 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2305 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2306 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2307 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2308 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2309 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2310 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2311 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2312 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2313 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2314 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2315 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2316 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2317 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2318 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2319 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2320 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2321 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2322 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2323 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2324 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2325 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2326 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2327 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2328 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2329 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2330 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2331 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2332 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2333 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2334 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2335 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2336 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2337 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2338 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2339 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2340 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2341 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2342 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2343 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2344 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2345 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2346 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2347 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2348 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2349 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2350 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2351 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2352 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2353 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2354 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2355 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2356 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2357 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2358 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2359 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2360 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2361 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2362 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2363 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2364 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2365 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2366 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2367 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2368 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2369 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2370 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2371 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2372 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2373 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2374 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2375 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2376 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2377 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2378 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2379 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2380 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2381 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2382 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2383 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2384 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2385 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2386 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2387 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2388 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2389 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2390 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2391 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2392 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2393 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2394 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2395 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2396 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2397 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2398 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2399 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2400 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2401 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2402 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2403 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2404 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2405 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2406 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2407 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2408 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2409 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2410 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2411 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2412 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2413 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2414 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2415 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2416 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2417 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2418 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2419 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2420 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2421 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2422 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2423 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2424 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2425 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2426 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2427 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2428 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2429 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2430 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2431 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2432 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2433 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2434 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2435 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2436 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2437 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2438 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2439 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2440 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2441 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2442 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2443 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2444 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2445 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2446 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2447 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2448 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2449 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2450 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2451 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2452 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2453 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2454 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2455 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2456 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2457 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2458 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2459 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2460 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2461 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2462 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2463 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2464 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2465 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2466 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2467 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2468 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2469 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2470 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2471 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2472 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2473 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2474 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2475 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2476 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2477 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2478 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2479 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2480 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2481 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2482 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2483 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2484 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2485 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2486 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2487 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2488 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2489 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2490 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2491 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2492 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2493 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2494 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2495 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2496 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2497 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2498 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2499 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2500 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2501 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2502 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2503 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2504 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2505 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2506 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2507 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2508 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2509 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2510 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2511 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2512 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2513 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2514 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2515 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2516 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2517 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2518 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2519 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2520 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2521 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2522 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2523 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2524 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2525 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2526 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2527 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2528 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2529 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2530 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2531 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2532 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2533 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2534 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2535 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2536 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2537 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2538 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2539 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2540 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2541 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2542 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2543 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2544 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2545 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2546 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2547 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2548 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2549 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2550 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2551 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2552 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2553 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2554 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2555 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2556 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2557 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2558 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2559 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2560 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2561 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2562 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2563 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2564 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2565 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2566 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2567 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2568 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2569 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2570 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2571 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2572 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2573 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2574 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2575 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2576 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2577 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2578 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2579 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2580 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2581 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2582 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2583 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2584 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2585 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2586 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2587 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2588 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2589 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2590 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2591 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2592 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2593 3200
+
+QTD DE PALAVRAS LIDAS E ALOCADAS: 2594 3200
+1
+2
+3
+4
+5
+6
+7
+8
+00
+10
+11
+20
+12
+30
+22
+40
+31
+23
+50
+60
+15
+33
+24
+42
+16
+52
+34
+70
+17
+35
+80
+71
+26
+18
+54
+46
+19
+28
+65
+75
+57
+66
+39
+68
+97
+100
+200
+300
+120
+130
+401
+500
+221
+142
+700
+350
+180
+640
+209
+183
+750
+138
+814
+490
+294
+960
+385
+a
+297
+2000
+288
+c
+d
+e
+2003
+2004
+2005
+h
+2008
+m
+o
+1871
+r
+1980
+1963
+1864
+1945
+4a
+1957
+1986
+1996
+1979
+4o
+a340
+3x4
+8h20
+8h40
+da
+de
+ha
+ai
+ja
+fe
+la
+na
+ao
+13h40
+em
+co
+ii
+do
+ar
+as
+pe
+se
+es
+qg
+ue
+eu
+ir
+lo
+ve
+rj
+no
+ex
+pm
+tj
+pp
+ro
+os
+um
+so
+sp
+ou
+pt
+us
+tv
+dia
+acm
+boa
+ela
+mae
+bem
+hic
+dao
+bme
+cem
+ele
+dar
+gao
+das
+era
+aav
+aes
+lhe
+ate
+mal
+lei
+eua
+der
+gas
+ira
+air
+mao
+ibr
+foi
+nao
+deu
+ano
+bom
+com
+con
+vai
+via
+nem
+mas
+the
+faz
+oco
+mil
+san
+nas
+pfl
+gol
+tam
+sao
+uma
+aos
+dez
+tao
+cor
+ato
+fui
+sem
+psb
+mes
+fez
+dos
+tem
+vao
+max
+ptb
+diz
+eso
+pdt
+sua
+usa
+rio
+ser
+evo
+que
+ter
+paz
+seu
+ver
+los
+oms
+nos
+num
+por
+pos
+pps
+viu
+sul
+vez
+vlt
+uso
+xix
+luz
+tur
+voz
+cada
+acha
+bebe
+alca
+fica
+cana
+fala
+acao
+nada
+boca
+caem
+raca
+casa
+ecoa
+area
+peca
+faco
+dele
+cima
+cuba
+base
+dick
+gado
+bate
+dedo
+dava
+pega
+liga
+jean
+fina
+leal
+alem
+cola
+cair
+mapa
+cria
+fase
+cell
+rede
+lado
+moda
+arma
+dias
+sala
+caiu
+pela
+bobo
+dona
+joia
+nasa
+pmdb
+lima
+mata
+para
+obra
+arap
+vida
+deve
+pena
+boas
+amin
+caro
+sela
+calu
+iria
+onde
+hoje
+caso
+maes
+pele
+mesa
+maio
+veja
+guia
+loja
+toca
+vice
+pode
+fora
+aavp
+vale
+toda
+mico
+eles
+elio
+king
+psdb
+paes
+joao
+mais
+meio
+hora
+fato
+vara
+fogo
+raio
+sera
+cura
+mark
+essa
+tera
+vila
+pais
+voce
+esta
+boom
+duas
+irem
+como
+taxa
+lula
+sido
+dois
+nome
+roma
+sair
+mula
+ramo
+papo
+pelo
+tira
+dono
+aqui
+alto
+esse
+logo
+numa
+anos
+sete
+jose
+tais
+deus
+este
+saiu
+vira
+nota
+jura
+bush
+bons
+alvo
+apos
+qual
+veio
+hugo
+nova
+seis
+teve
+site
+todo
+peso
+judt
+quem
+zona
+nove
+vaso
+wood
+auto
+vive
+suco
+vota
+pior
+teor
+juri
+oito
+usar
+pois
+tose
+tudo
+suas
+peru
+tipo
+quer
+news
+solo
+isso
+tres
+psol
+isto
+sono
+seus
+traz
+novo
+juiz
+quis
+rumo
+vivo
+povo
+luiz
+voto
+tony
+bahia
+idade
+barba
+ibama
+ideia
+ainda
+chapa
+aerea
+mafia
+cerca
+lanca
+achar
+ganha
+media
+afeta
+bebes
+fraga
+bomba
+fabio
+saida
+nacao
+faria
+banco
+casal
+lenda
+bando
+ajuda
+briga
+manha
+brice
+desde
+ecoam
+clima
+falar
+caixa
+foice
+andar
+dando
+freia
+adeno
+feira
+barco
+falsa
+diego
+falta
+barra
+havia
+ajude
+joana
+afora
+delas
+deram
+adota
+feita
+agora
+abril
+final
+maria
+fazia
+local
+dados
+forca
+acoes
+deixa
+geral
+reich
+etapa
+pagar
+cinco
+cargo
+seara
+bndes
+aereo
+gagno
+deles
+wadih
+saber
+negra
+rocha
+podia
+icone
+cesar
+medio
+bater
+malas
+bases
+elias
+coisa
+certa
+adins
+cunha
+dedos
+mando
+terca
+aviao
+frear
+tenha
+fagos
+dessa
+velha
+lider
+matei
+salao
+abrir
+tarde
+crime
+exame
+teera
+longa
+anual
+frase
+dizia
+devem
+gerar
+bolsa
+saias
+saude
+papel
+filho
+ambos
+brejo
+opcao
+marco
+envia
+fazem
+gente
+leite
+baixo
+elite
+cegou
+paula
+mesma
+desse
+seria
+ronda
+armas
+tinha
+fisco
+pedir
+mudam
+foram
+forma
+podem
+conta
+nunca
+teria
+deste
+suica
+matar
+bordo
+ficou
+vinha
+homem
+algum
+dupla
+ogiva
+verde
+crise
+carro
+entao
+feito
+video
+sobra
+santa
+sinal
+pediu
+atual
+golpe
+civil
+blusa
+falou
+disse
+passa
+serie
+maior
+orgao
+fazer
+lucas
+apoio
+mario
+pobre
+serei
+sendo
+casos
+levem
+mudar
+segue
+tango
+apura
+sonha
+troca
+forem
+preco
+costa
+poder
+nessa
+serao
+levar
+cotas
+tendo
+pedro
+antes
+sobre
+nesta
+todas
+lugar
+negro
+pauta
+jeito
+tensa
+corre
+gomes
+terao
+estao
+uniao
+parte
+ocupe
+serem
+preta
+horas
+dubos
+meses
+naves
+reino
+certo
+terco
+curar
+fatos
+varas
+mucio
+meter
+raios
+marks
+entre
+terra
+train
+dizer
+tenho
+nesse
+pleno
+velho
+pegos
+sofre
+paris
+estar
+unido
+noite
+quase
+bolso
+silva
+sosia
+vasta
+neste
+pegou
+fosse
+forte
+risco
+reims
+fugiu
+usava
+ligou
+pista
+mesmo
+paulo
+comum
+curva
+taxas
+corey
+visao
+disso
+julho
+criou
+menos
+rugas
+nomes
+tirar
+preve
+gesto
+enron
+ontem
+tomar
+movel
+mundo
+salto
+esses
+pelos
+quais
+porem
+hospi
+torna
+mauro
+tempo
+texas
+teste
+sexta
+santo
+olhos
+mimos
+porta
+possa
+parto
+volta
+passo
+pouco
+vamos
+motim
+vivem
+morte
+sonho
+vista
+termo
+roupa
+nuroc
+roubo
+norte
+torne
+prova
+temos
+terno
+todos
+ratos
+preso
+turma
+forum
+taxis
+perto
+tocou
+tiver
+tirol
+porte
+pudor
+posse
+outra
+viuva
+autor
+levou
+fotos
+botox
+viver
+prazo
+votar
+tubos
+grupo
+vezes
+muito
+fluxo
+euros
+custo
+utero
+cabeca
+junto
+sutil
+nosso
+souza
+sumiu
+porto
+novos
+visto
+acabam
+ouvir
+posto
+tumor
+rosto
+povos
+cadeia
+ameaca
+sutis
+virus
+lutou
+outro
+careca
+agrada
+chefia
+rebeca
+medica
+biblia
+achava
+medida
+habeas
+edicao
+chegam
+camara
+africa
+amanha
+chefao
+recebe
+atacam
+campea
+chamam
+branca
+indica
+defesa
+comeca
+angela
+tabela
+dancar
+baiano
+doenca
+chegar
+ficava
+acabou
+reacao
+maciel
+cancer
+atacar
+racial
+crenca
+pagara
+fumaca
+chamas
+beijar
+sabiam
+caindo
+afetam
+amaral
+france
+ideias
+brinca
+afirma
+metade
+pagina
+fariam
+chapas
+confia
+grande
+merece
+ganhar
+rapida
+medico
+alheio
+colado
+agulha
+brigam
+ajudam
+igreja
+afetar
+jarbas
+rainha
+demais
+ladrao
+mandar
+animam
+casais
+antiga
+impede
+citado
+morada
+oceano
+semana
+pedido
+branco
+camilo
+adolfo
+caixao
+tomada
+vagina
+tambem
+embora
+comeco
+deviam
+amante
+farias
+regiao
+lancet
+alguma
+famosa
+elegeu
+bordao
+gangue
+acordo
+engano
+apenas
+bancou
+demora
+alerta
+cometa
+latina
+franco
+ferido
+george
+geisel
+chovia
+senado
+milhao
+lisboa
+fechou
+ferias
+coelho
+finais
+reagir
+locais
+renata
+inicio
+podera
+espaco
+social
+chegou
+cheque
+rancho
+alguem
+credit
+nascer
+dirceu
+cheney
+correa
+manoel
+barril
+marido
+funcao
+deixar
+maxima
+brasil
+viajar
+obesas
+fisico
+aquele
+seguia
+saindo
+curado
+itamar
+acesso
+manual
+figura
+confio
+etapas
+cargos
+arruda
+baseou
+bairro
+estado
+estara
+minhas
+genero
+quebra
+penais
+amigos
+jantar
+drogas
+blazer
+espera
+seriam
+center
+mental
+tinham
+proibe
+ataque
+formal
+comite
+chavez
+lancou
+formam
+ingles
+musica
+ironia
+coisas
+cassio
+malote
+teriam
+dessas
+soaram
+campos
+crimes
+rampas
+estava
+frente
+depois
+dormem
+mandou
+alivio
+vicosa
+mexico
+online
+paises
+trecho
+choque
+perdeu
+marcos
+filhos
+enviar
+airbus
+estuda
+artigo
+menino
+guerra
+venceu
+roubei
+pensao
+nucleo
+jornal
+jobert
+lentas
+pilula
+sinais
+melhor
+burger
+contra
+queria
+iraque
+latino
+bunker
+vingar
+desses
+quando
+muleta
+contas
+subita
+bugres
+hitler
+buzina
+normal
+equipe
+minimo
+usaram
+renato
+altura
+pensar
+sergio
+emitir
+homens
+alguns
+passar
+vitima
+tucano
+ocupar
+cupula
+pessoa
+evitar
+sugere
+sonhar
+martin
+trocar
+cortar
+entrem
+seculo
+nenhum
+sofrem
+ultima
+entrar
+dentro
+dexter
+thomas
+sempre
+europa
+castro
+vestia
+bastos
+dormir
+mulher
+votado
+soares
+costas
+fossem
+parque
+tratar
+negros
+quarta
+sessao
+tentar
+forcou
+deixou
+prisao
+nature
+querem
+presta
+walter
+herzog
+onibus
+clovis
+versao
+missil
+sofrer
+nesses
+tungar
+montar
+existe
+unidos
+portal
+partir
+curtas
+riscos
+muitas
+varios
+estudo
+juntar
+luther
+romero
+loucos
+previo
+riscou
+tornar
+numero
+saltos
+tampou
+piloto
+monzar
+junior
+contou
+trazer
+testes
+volume
+sentiu
+tempos
+pretti
+santos
+partos
+pastor
+quiser
+metros
+stough
+mortes
+tostao
+juizes
+pousar
+sonhos
+roubos
+ultimo
+triste
+passou
+provas
+fechada
+porque
+quatro
+corpus
+suisse
+quilos
+entrou
+doutor
+violou
+motivo
+outras
+nuvens
+acabava
+tentou
+grupos
+muitos
+custou
+furtos
+mortos
+bagagem
+nossos
+rebecca
+tornou
+alcance
+trouxe
+agencia
+baleado
+cadeira
+pousou
+defende
+outros
+ciencia
+camacho
+acharam
+chamado
+filmada
+andrade
+chegava
+russos
+ligacao
+cassada
+cascata
+paraiba
+baleias
+criacao
+america
+eleicao
+ficaram
+federal
+clinica
+familia
+dificil
+decidir
+camarao
+benigna
+falaram
+parecia
+alegria
+galeria
+reclama
+conhece
+relacao
+oficial
+debater
+matagal
+decente
+achasse
+coracao
+injecao
+combina
+oferece
+avisada
+unidade
+formada
+camargo
+atencao
+verdade
+recebeu
+planeja
+mercado
+defesas
+declive
+sabendo
+brigava
+debaixo
+selecao
+afirmam
+receita
+apoiara
+diarias
+passada
+aliados
+feridas
+inedita
+geraldo
+inimiga
+digital
+general
+especie
+apelido
+duracao
+entrada
+crencas
+alckmin
+caminho
+criaram
+ocasiao
+causado
+manobra
+avaliar
+deveria
+publica
+bragato
+bocater
+marinha
+acusado
+comidas
+recifes
+policia
+claudio
+clinico
+bravata
+comando
+reacoes
+cerebro
+direita
+charles
+afastar
+carater
+maioria
+viajava
+lotacao
+pedindo
+adequar
+colnago
+nomeado
+imagens
+rapidas
+poderia
+recorde
+pararam
+paredes
+estrada
+eduardo
+cabrito
+covarde
+convida
+pratica
+ricardo
+lembrar
+incluia
+explica
+testada
+terapia
+bilhoes
+bolivia
+diploma
+gravata
+precisa
+engolem
+gaspari
+cigarro
+segunda
+mariano
+celular
+semanas
+lideres
+realiza
+tamanho
+harvard
+trafico
+ligasse
+pereira
+batista
+celulas
+tragico
+exigido
+dormiam
+levando
+segredo
+central
+nuclear
+colisao
+memoria
+mundial
+impedir
+ranking
+habitos
+algumas
+ladroes
+dolares
+hezidog
+mahmoud
+diarios
+prepara
+calipso
+passado
+aumenta
+resgate
+avisava
+jonatan
+comecou
+fugiram
+cardoso
+salario
+liminar
+senador
+diretas
+inimigo
+reforma
+atuando
+araquem
+auxilia
+esperam
+detonar
+humanas
+anuncio
+conexao
+votacao
+empresa
+enganou
+marinho
+publico
+fizeram
+certeza
+puderam
+freitas
+acionou
+efeitos
+pequena
+anselmo
+emprego
+direito
+apontam
+fisicos
+aqueles
+senhora
+aditivo
+mensais
+seguido
+mentais
+milhoes
+rigidos
+equador
+curados
+vontade
+estavam
+esquema
+ferteis
+polonia
+periodo
+coretta
+esperar
+coronel
+cometeu
+kremlin
+militar
+montado
+durante
+repente
+afirmou
+justica
+prendeu
+mineiro
+estados
+subiram
+ninguem
+partido
+virando
+reuniao
+morales
+maruipe
+rodovia
+hajitou
+quimera
+martelo
+ataques
+horario
+segundo
+simbolo
+autoria
+membros
+tribuna
+malotes
+atraves
+vespera
+predios
+sistema
+sentira
+lembrou
+burrico
+favores
+litoral
+londres
+menezes
+tornado
+pessoal
+veiculo
+assalto
+pearson
+tiveram
+estudar
+sugerem
+reserva
+contato
+antonio
+entanto
+diretor
+aumento
+hartung
+bussola
+menores
+escrito
+olivier
+bunkers
+exemplo
+disputa
+unilula
+metodos
+servico
+vivendo
+humanos
+noventa
+valvula
+somente
+ouvidas
+procura
+viverao
+tempero
+relatou
+inverte
+simples
+roberto
+propria
+misseis
+pressao
+imposta
+vitimas
+pessoas
+revista
+martins
+vitoria
+goulart
+quartel
+temores
+momento
+insiste
+teremos
+ajustes
+quadros
+sumindo
+ocorreu
+governo
+proxima
+society
+pleitos
+ernesto
+sumario
+superar
+projeto
+quebrou
+autores
+mostram
+sujeito
+visitas
+tivesse
+missoes
+limitou
+popular
+tijolos
+comprou
+eficacia
+europeu
+chefiada
+sessoes
+prisoes
+recusou
+estudos
+vizinho
+numeros
+ouvidos
+motoboy
+futuras
+vellozo
+ultimos
+assunto
+proximo
+minutos
+tumores
+motivos
+prestou
+turismo
+radiacao
+baseadas
+liberada
+toronto
+alcancar
+delicado
+demencia
+alemanha
+cidadaos
+defendem
+chegando
+campanha
+mostrou
+capixaba
+recebera
+cobranca
+medicina
+algemado
+casamata
+fecharem
+benedita
+batalhao
+acidente
+afetaria
+avancado
+acredita
+facilita
+acionado
+ciencias
+ganharam
+gabinete
+mecanico
+batizada
+chamados
+american
+injetada
+mangarai
+acusacao
+diabetes
+infladas
+acontece
+espacial
+conhecem
+colabora
+nomeacao
+aparecer
+criancas
+liderado
+assinada
+anuencia
+bandidos
+ambiente
+nacional
+familiar
+laranjal
+mendonca
+padarias
+advogado
+nascidas
+biologia
+clinicas
+admitiam
+apoiaria
+concedeu
+abstenha
+brasilia
+deixaria
+ajudarao
+oficiais
+obrigado
+denuncia
+matagais
+deputada
+incendio
+paciente
+paraguai
+detalhes
+camaroes
+ocupacao
+cesarias
+julgadas
+alimenta
+reeleger
+analisar
+mudancas
+aprendem
+infectar
+laranjas
+trabalho
+thoracic
+aliviava
+fernando
+execucao
+deveriam
+policial
+bernardo
+capitais
+barrados
+urgencia
+malandro
+digitais
+relacoes
+ditadura
+atingido
+decisoes
+hectares
+recitava
+material
+firmaram
+criminal
+digestao
+injecoes
+vigiaram
+gastaram
+batalhou
+ferreira
+aeronave
+salienta
+perdendo
+praticam
+caminhos
+engordar
+problema
+criticas
+dinheiro
+parmalat
+recordar
+invencao
+estadual
+acusados
+ocorrida
+clinicos
+mexicano
+conceito
+hibridos
+vermelha
+leonardo
+contaram
+entender
+milhares
+retardar
+comparar
+nicotina
+politica
+atribuam
+deputado
+inglesas
+calculos
+vendedor
+assumida
+londrina
+incluido
+esperava
+negocios
+clientes
+disseram
+explicar
+vereador
+pensando
+baptista
+aguardou
+passaram
+programa
+primeira
+suicidio
+situacao
+recentes
+resgatar
+entregas
+conforme
+esquerda
+realizar
+abrolhos
+implante
+europeia
+anderson
+variante
+palavras
+plenario
+melhorar
+diretora
+rondonia
+cigarros
+encontra
+correram
+satelite
+condenou
+assaltar
+hercules
+dispense
+oliveira
+arterias
+planalto
+ridiculo
+citation
+conselho
+correndo
+distante
+combinou
+palestra
+cristina
+creditos
+aumentar
+seguiram
+explodem
+informar
+prefeito
+comissao
+conflito
+estatais
+permitam
+cloudsat
+montaram
+tenhamos
+presidio
+melhores
+imprensa
+auxiliar
+tucanato
+fraqueza
+jubartes
+hormonal
+friburgo
+tentarem
+responde
+domingos
+partindo
+iluminar
+tribunal
+setembro
+publicos
+continua
+ocorrido
+victoria
+conversa
+derrapou
+portaria
+tratados
+pequenas
+criticou
+embratur
+anunciou
+circuito
+passasse
+completo
+dissesse
+tirolesa
+direitos
+paulista
+historia
+exercito
+golpista
+tornaram
+observar
+seguinte
+morreram
+mulheres
+efetivos
+controle
+examinou
+reduzido
+partidos
+humberto
+gasoduto
+lyonatan
+testados
+naturais
+perfurar
+primeiro
+discutir
+suspende
+turbinas
+emissoes
+consenso
+ratinhos
+tornarem
+privados
+precisos
+tampouco
+tirassem
+sistemas
+internet
+traseiro
+entregou
+comentou
+promessa
+discutiu
+petroleo
+mercosul
+assaltos
+veiculos
+pesquisa
+revestem
+enquanto
+poderoso
+reservas
+explosao
+respeito
+interior
+discurso
+disputar
+servente
+prostata
+sintomas
+empurrar
+processo
+informou
+diversos
+divulgou
+espirito
+cozinhou
+delegacia
+converso
+qualquer
+pequenos
+resposta
+estimulo
+luizinho
+sumarios
+possivel
+traduzir
+afinidade
+observou
+ministro
+recursos
+produzem
+tristeza
+proposta
+faculdade
+estatuto
+elaborada
+escalacao
+embaixada
+suspeito
+ironizou
+torquato
+produtos
+igualdade
+indicadas
+diferenca
+americana
+proximos
+avaliacao
+abordagem
+oferecida
+definicao
+promotor
+afirmacao
+lideranca
+audiencia
+conceicao
+alegacoes
+publicada
+avaliadas
+oportuno
+cesariana
+candidato
+obrigacao
+farmacias
+comecaram
+carregado
+concedido
+alavancar
+reeleicao
+qualidade
+acreditam
+garantida
+tendencia
+nicaragua
+condenado
+imigracao
+combinado
+conhecido
+ambiental
+britanica
+camisinha
+realizada
+descricao
+indicador
+exigencia
+cachoeiro
+bacterias
+atrapalha
+modificar
+itaparica
+americano
+categoria
+cerebrais
+distancia
+afirmando
+divulgada
+encantava
+trabalhar
+caravelas
+indigenas
+percepcao
+colocando
+publicado
+flagrados
+impediria
+sanduiche
+lembrando
+alexandre
+reabriram
+boliviana
+homicidio
+logomarca
+amigaveis
+libertado
+melgarejo
+especiais
+diferente
+telefonia
+andamento
+republica
+assinadas
+inocencio
+governada
+aconteceu
+ventilada
+advogados
+fuselagem
+dirigindo
+argentina
+seguranca
+fraudados
+cearenses
+marcelino
+distracao
+britanico
+acumulado
+realizado
+exercicio
+inscricao
+diplomata
+quadrilha
+crescente
+incluidas
+aprovacao
+convencao
+incendios
+pagamento
+realmente
+favorecer
+linguajar
+temporada
+cartinhas
+policiais
+descobrir
+cometendo
+impedidos
+periodico
+coletados
+sindicato
+robalinho
+incapazes
+aumentado
+prenderam
+marchiori
+aparelhos
+atlantico
+revelaram
+alterados
+potencial
+informado
+celulares
+descobriu
+funcionam
+confirmar
+alzheimer
+eleitoral
+operacoes
+florencio
+microfone
+atmosfera
+jefferson
+guilherme
+enrolando
+executado
+envenenar
+principal
+residente
+espantava
+atentados
+contraria
+estaduais
+boliviano
+priscilla
+sensacoes
+suplencia
+execucoes
+companero
+problemas
+levemente
+telefones
+observado
+viajantes
+coqueiral
+depressao
+manifesto
+conclusao
+tabuleiro
+cobertura
+politicas
+jerusalem
+melbourne
+sanguineo
+redatores
+similares
+deputados
+recuperar
+dispensar
+reverendo
+revirando
+pontuacao
+militares
+vigarista
+exposicao
+masculino
+austriaco
+reservado
+complexas
+suspendia
+televisao
+eleitores
+itamaraty
+moradores
+alimentos
+novamente
+irregular
+principio
+concorrer
+municipio
+satelites
+recusasse
+corrupcao
+executiva
+contratar
+cauteloso
+capacidade
+esperamos
+conseguir
+prestaram
+negativos
+restingas
+auditorio
+arrematou
+poderosas
+contrario
+pretensao
+inclusive
+argumento
+petrobras
+interesse
+congresso
+impropria
+aproximar
+conversar
+industria
+persuasao
+criminoso
+continuar
+escutamos
+hospitais
+criterios
+ocorridos
+repressao
+intervalo
+prestados
+confessou
+multidoes
+politicos
+mostraram
+paulistas
+noticioso
+mostrando
+aerossois
+pitoresco
+articulou
+perguntas
+suspender
+ministrar
+felicidade
+mostravam
+primeiros
+expressao
+aeroporto
+swinburne
+encontrou
+contratos
+desgostou
+pesquisas
+movimento
+contratou
+concursos
+terrestre
+discursou
+previstas
+delegacias
+professor
+progresso
+registrou
+respostas
+possiveis
+turistico
+petroduto
+acomodacao
+abandonado
+sustentar
+fecundacao
+casagrande
+motocross
+ministrou
+prejuizos
+propostas
+condenacao
+defenderam
+portugues
+suspeitos
+arariguaba
+emergencia
+analisadas
+declarados
+instituto
+publicacao
+adicionais
+legislacao
+aplicacoes
+referencia
+protestou
+comparacao
+assembleia
+beneficios
+vigilancia
+facilmente
+anticancer
+california
+condenaram
+lembrancas
+decretando
+comunidade
+amadurecer
+independem
+esplendida
+completada
+partilhada
+cesarianas
+candidatos
+acompanhar
+associadas
+evidencias
+realizacao
+humilhacao
+atrapalham
+magneticas
+descoberta
+embaixador
+propaganda
+brasileira
+analisados
+informacao
+realizadas
+quantidade
+impunidade
+abiscoitar
+cancerosas
+comunicado
+americanos
+localizado
+examinaram
+secretaria
+judiciario
+alteracoes
+animadores
+afirmativa
+preocupada
+inocentado
+tecnologia
+adiamentos
+tramitacao
+telefonava
+selecionar
+prolongada
+leopoldina
+completara
+homicidios
+prejudicar
+inglaterra
+confundido
+estrategia
+associados
+colocassem
+manipulado
+funcionava
+infundados
+configuram
+conseguiam
+solicitado
+escoltaram
+acompanhou
+tempestade
+necessario
+brasileiro
+vasectomia
+pernambuco
+substancia
+passageiro
+realizados
+acionistas
+funcionais
+participar
+contratado
+prodigiosa
+nascimento
+eleitorais
+secretario
+coronarias
+signatario
+integrante
+principais
+divulgados
+brizolinha
+imigrantes
+percentual
+presidente
+convencoes
+felizardos
+referentes
+espoliados
+privataria
+tramitando
+tripulacao
+reproducao
+manguezais
+contestado
+papeleiros
+depoimento
+latrocinio
+prolongado
+deportados
+apresentar
+selecionou
+deturpando
+argumentar
+diretorias
+bolivianos
+arrogantes
+burocratas
+cientistas
+telescopio
+pasqualini
+particular
+governador
+empresario
+jornalista
+companeros
+observados
+criminosas
+orientados
+governante
+interferir
+argentinos
+provocando
+permitirao
+determinou
+conjeturar
+infratores
+requererem
+assessoria
+individuos
+testemunha
+tratamento
+presbitero
+aterrissar
+municipios
+envolvendo
+estudantes
+justamente
+construcao
+renovaveis
+distinguir
+governista
+importante
+ministerio
+escritorio
+vulneravel
+argumentos
+mutuamente
+palmerston
+servidores
+criminosos
+apresentou
+socorridos
+revertidos
+assustador
+suprimiram
+visitantes
+impressoes
+subnitrato
+chancelaria
+curriculos
+existentes
+pittsburgh
+marroquino
+acompanhada
+sustentava
+dificuldade
+aeroportos
+aproveitou
+terrorista
+reversores
+intestinos
+dependencia
+transporte
+territorio
+biomedicina
+motoristas
+declaracoes
+desembarcar
+credenciais
+acompanhado
+desdenharam
+diligencias
+fertilidade
+conferencia
+considerada
+acreditando
+fotografada
+despachados
+trouxessem
+candidatura
+identificar
+suficiencia
+preenchidas
+cordilheira
+presidencia
+competencia
+apresentada
+dificultara
+abertamente
+preencheram
+previdencia
+descobriram
+endureceram
+canhoneiras
+constelacao
+aeronautica
+operacional
+organizacao
+propriedade
+coordenador
+evangelicos
+necessarias
+enfermeiras
+hiperplasia
+remuneracao
+ponderacoes
+conservacao
+diagnostico
+republicano
+legislativa
+informacoes
+afirmativas
+parlamentar
+importancia
+maximiliano
+eletricista
+assassinado
+procedessem
+atribuicoes
+apresentava
+alternativa
+petrocabios
+sinalizando
+crescimento
+prateleiras
+funcionario
+conseguiram
+cooperativa
+assombrados
+atormentado
+camundongos
+magistrados
+helicoptero
+brasileiros
+necessarios
+substancias
+vasconcelos
+patrimonial
+passageiros
+interessado
+respondendo
+consultadas
+ministerial
+conversaram
+suficientes
+normalmente
+distribuido
+contratados
+equivalente
+legislativo
+assaltantes
+halliburton
+aterrissava
+maravilhoso
+desconforto
+competentes
+depoimentos
+historiador
+assassinato
+estimativas
+jornalistas
+intestinais
+venezuelano
+desenvolver
+proveniente
+pesquisador
+experimento
+testemunhas
+substituida
+tratamentos
+responsavel
+identificada
+ministerios
+interromper
+sustentando
+tripulantes
+bibliografia
+encarapitada
+subnitratos
+substituido
+bipolaridade
+reconstruir
+renegociacao
+osteoporose
+terroristas
+quilometros
+voluntarios
+proposition
+ramificacoes
+acompanharam
+bombardeasse
+necessidades
+determinacao
+relacionando
+degenerativa
+conferencias
+oficialmente
+participacao
+permaneceram
+privilegiada
+complicacoes
+negociadores
+parcialmente
+inaceitaveis
+preferencias
+aparecimento
+competencias
+pernambucano
+conhecimento
+investigacao
+comerciantes
+planejamento
+considerados
+asfaltamento
+radiologista
+universidade
+departamento
+organizacoes
+aterrissagem
+apresentavam
+republicanos
+ressonancias
+procedimento
+colonialismo
+fornecimento
+preocupacoes
+internamente
+demonstrando
+metalurgicos
+funcionarios
+pessoalmente
+representava
+demonstravam
+expectativas
+desenvolvido
+teragnostico
+interessados
+australianos
+estrangeiros
+divertimento
+nacionalidade
+observatorio
+restaurantes
+marqueteiros
+superpoderes
+provenientes
+presentinhos
+identificacao
+envolvimento
+diagnosticada
+reciprocidade
+pesquisistas
+desembargador
+discriminacao
+geneticamente
+bacteriofagos
+acrescentando
+coordenadoria
+licenciamento
+instrumentos
+especialmente
+preferenciais
+centralizacao
+manifestacoes
+reorganizacao
+transferencia
+farmaceuticos
+descentraliza
+sindicalistas
+convencionais
+radiopatrulha
+investigacoes
+amortecimento
+participantes
+international
+quimioterapia
+comissionados
+anteriormente
+desautorizado
+representante
+contraditorio
+universitaria
+pesquisadores
+provavelmente
+investimentos
+falsificadores
+aleatoriamente
+fisiopatologia
+principalmente
+empreendimento
+possibilitaria
+constantemente
+exclusivamente
+representantes
+interrogatorio
+vasodilatadoras
+esclarecimentos
+permanentemente
+petrodiplomatas
+desenvolvimento
+antidepressivos
+provisoriamente
+interrogatorios
+anticoncepcional
+descentralizacao
+estabelecimentos
+interessadissimo
+desenvolvimentos
+anticoncepcionais
+neuropsicologicas
+desenvolvimentistas
+inconstitucionalidade

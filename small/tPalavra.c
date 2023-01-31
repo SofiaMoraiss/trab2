@@ -1,5 +1,5 @@
 #include "tPalavra.h"
-
+#include "tHashPalavras.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,6 +7,7 @@
 struct palavra {
     char nome[100];
     int qtd_documentosAlocados;
+    //frequencia de uma palavra em cada documento
     int *qtd_ocorrencias;
     float *tf_idf;
 };
@@ -37,7 +38,7 @@ int get_ocorrencia(tPalavra *palavra, int documento) {
 }
 
 void Adiciona_ocorrencia(tPalavra *palavra, int documento) {
-    while (documento > palavra->qtd_documentosAlocados) {
+    while (documento >= palavra->qtd_documentosAlocados) {
         palavra->qtd_documentosAlocados *= 2;
         palavra->qtd_ocorrencias = realloc(palavra->qtd_ocorrencias, palavra->qtd_documentosAlocados * sizeof(int));
         palavra->tf_idf = realloc(palavra->tf_idf, palavra->qtd_documentosAlocados * sizeof(int));
@@ -46,5 +47,9 @@ void Adiciona_ocorrencia(tPalavra *palavra, int documento) {
             palavra->tf_idf[i] = 0;
         }
     }
+    printf("%d\n",palavra->qtd_ocorrencias[documento]);
     palavra->qtd_ocorrencias[documento] += 1;
+}
+void ImprimePalavra(tPalavra * p){
+  printf("%s\n",p->nome);
 }
