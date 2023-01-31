@@ -12,6 +12,13 @@ struct palavra {
     float *tf_idf;
 };
 
+int ComparaPalavra(const void *ptr, const void *ptr2) {
+    tPalavra *p1;
+    tPalavra *p2;
+    p1=*(tPalavra**)ptr;
+    p2=*(tPalavra**)ptr2;
+  return strcmp(p1->nome, p2->nome);
+}
 tPalavra *Palavra_constroi(char *nome) {
     tPalavra *d = calloc(1, sizeof(tPalavra));
     strcpy(d->nome, nome);

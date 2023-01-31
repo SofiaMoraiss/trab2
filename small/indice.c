@@ -28,6 +28,8 @@ int main(int argc, char *argv[]) {
     
     tHashPalavras *hash = Lista_get_hash(l);
     l=AtribuiVetorPalavras(l,hash);
+    //Lista_OrdenaVetor(l);
+    //GeraBinario(l,argv[2]);
     ImprimeVetPalavras(l);
 
     //imprimeHash(hash, 999);

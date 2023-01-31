@@ -47,8 +47,6 @@ tListas *Lista_adiciona_palavra(tListas *l, tPalavra *p)
   }
 
   l->vetPalavras[qtd_lidas] = p;
-  printf("\nQTD DE PALAVRAS LIDAS E ALOCADAS: %d %d\n", l->qtd_palavras_lidas,
-         l->qtd_palavras_alocadas);
   return l;
 }
 
@@ -117,6 +115,9 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
   printf("%d-----\n",l->qtd_palavras_lidas);
   return l;
 }
+void Lista_OrdenaVetor(tListas *l){
+    //qsort(l->vetPalavras,l->qtd_palavras_lidas,sizeof(tPalavra*),ComparaPalavra);
+}
 tListas* AtribuiVetorPalavras(tListas *l, tHashPalavras *hash)
 {
   for (int i = 0; i < Obtem_idc_max(hash); i++)
@@ -132,6 +133,8 @@ tListas* AtribuiVetorPalavras(tListas *l, tHashPalavras *hash)
         l=Lista_adiciona_palavra(l,Obtem_palavra(temp));
         l->vetPalavras[l->qtd_palavras_lidas]=Obtem_palavra(temp);
         l->qtd_palavras_lidas++;
+        printf("\nQTD DE PALAVRAS LIDAS E ALOCADAS: %d %d\n", l->qtd_palavras_lidas,
+        l->qtd_palavras_alocadas);
         temp=AtribuiProxNo(temp);
       }
     }
@@ -147,10 +150,13 @@ tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d)
 {
   char palavra[100];
   // printf("NOME DENTRO DO LISTAS LER NOTICIAS: %s\n", Documento_get_nome(d));
-  while (!feof(arqDoc))
+  while (1)
   {
     // printf("palavra\n");
     fscanf(arqDoc, "%s", palavra);
+    if(feof(arqDoc)){
+      break;
+    }
     // printf("indice: %d\n", Documento_get_indice(d));
         adicionaPalavra(l->hash, palavra, Documento_get_indice(d));
   }
@@ -161,4 +167,12 @@ tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d)
 tHashPalavras *Lista_get_hash(tListas *lista)
 {
   return lista->hash;
+}
+void GeraBinario(tListas * l, char * nomeBin){
+  FILE*arqIndices=fopen(nomeBin,"wb");
+  
+//   fwrite(l->vetPalavras,sizeof(tPalavra*),l->qtd_palavras_lidas,arqIndices);
+//   fread(l->vetPalavras,sizeof(tPalavra*));
+
+// }
 }

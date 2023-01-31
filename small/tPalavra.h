@@ -9,4 +9,5 @@ char* get_nome(tPalavra* palavra);
 int get_ocorrencia(tPalavra* palavra, int documento);
 void Adiciona_ocorrencia(tPalavra * palavra, int documento);
 void ImprimePalavra(tPalavra * p);
+int ComparaPalavra(const void *ptr, const void *ptr2); 
 #endif
