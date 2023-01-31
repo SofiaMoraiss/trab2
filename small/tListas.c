@@ -115,10 +115,10 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
   printf("%d-----\n",l->qtd_palavras_lidas);
   return l;
 }
-void Lista_OrdenaVetor(tListas *l){
+void Lista_ordena_vetor(tListas *l){
     //qsort(l->vetPalavras,l->qtd_palavras_lidas,sizeof(tPalavra*),ComparaPalavra);
 }
-tListas* AtribuiVetorPalavras(tListas *l, tHashPalavras *hash)
+tListas* Listas_atribui_vetor_palavras(tListas *l, tHashPalavras *hash)
 {
   for (int i = 0; i < Obtem_idc_max(hash); i++)
   {
@@ -141,7 +141,7 @@ tListas* AtribuiVetorPalavras(tListas *l, tHashPalavras *hash)
   }
   return l;
 }
-void ImprimeVetPalavras(tListas *l){
+void Lista_imprime_vet_palavras(tListas *l){
   for(int i=0;i<l->qtd_palavras_lidas;i++){
     ImprimePalavra(l->vetPalavras[i]);
   }

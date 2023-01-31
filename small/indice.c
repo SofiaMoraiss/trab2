@@ -27,10 +27,10 @@ int main(int argc, char *argv[]) {
     l = Listas_ler_train(temp, arqNomeDoc);
     
     tHashPalavras *hash = Lista_get_hash(l);
-    l=AtribuiVetorPalavras(l,hash);
-    //Lista_OrdenaVetor(l);
+    l=Listas_atribui_vetor_palavras(l,hash);
+    Lista_ordena_vetor(l);
     //GeraBinario(l,argv[2]);
-    ImprimeVetPalavras(l);
+    Lista_imprime_vet_palavras(l);
 
     //imprimeHash(hash, 999);
 
