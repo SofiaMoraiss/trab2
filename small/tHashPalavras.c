@@ -30,7 +30,7 @@ tPalavra * Obtem_palavra(tListaPalavra *listaPalavra){
 }
 static int criaIndice(char* p);
 
-tHashPalavras* criaHashPalavras() {
+tHashPalavras* Hash_cria_palavras() {
     tHashPalavras* hashPalavras = calloc(1, sizeof(tHashPalavras));
     hashPalavras->hashmap_lista = calloc(1, sizeof(tListaPalavra*));
 
@@ -61,7 +61,7 @@ void destroiHashPalavras(tHashPalavras* h) {
     free(h);
 }
 
-void adicionaPalavra(tHashPalavras* hashPalavras, char* palavra, int documento) {
+void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int documento) {
     int indice = criaIndice(palavra);
     // printf("'%s': indice %d\n", palavra, indice);
     if (indice > hashPalavras->indiceMaximo) {
