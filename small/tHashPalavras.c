@@ -13,24 +13,39 @@ struct hashPalavras {
     tListaPalavra** hashmap_lista;
     int indiceMaximo;
 };
-tListaPalavra * ObtemNoPalavra(tHashPalavras * hash,int posicao){
+tListaPalavra * Hash_get_no_palavra(tHashPalavras * hash,int posicao){
     return hash->hashmap_lista[posicao];
 }
-tListaPalavra ** ObtemListaPalavra(tHashPalavras * hash){
+tListaPalavra ** Hash_get_lista_palavra(tHashPalavras * hash){
     return hash->hashmap_lista;
 }
-int Obtem_idc_max(tHashPalavras * hash){
+int Hash_get_idc_max(tHashPalavras * hash){
     return hash->indiceMaximo;
 }
-tListaPalavra* AtribuiProxNo(tListaPalavra * lista){
+tListaPalavra* Hash_atribui_prox_no(tListaPalavra * lista){
     return lista->next;
 }
-tPalavra * Obtem_palavra(tListaPalavra *listaPalavra){
+tPalavra * Hash_get_palavra(tListaPalavra *listaPalavra){
     return listaPalavra->palavra;
 }
-static int criaIndice(char* p);
 
-tHashPalavras* Hash_cria_palavras() {
+static char convMaiuscula(char c) {
+    return c = c - 32;
+}
+
+static int Hash_cria_indice(char* p) {
+    int indice = 0;
+    int cont = 0, aux = 0;
+    while (cont < strlen(p)) {
+        aux = convMaiuscula(p[cont]);
+        indice += aux;
+        cont++;
+    }
+    return indice;
+}
+
+
+tHashPalavras* Hash_cria() {
     tHashPalavras* hashPalavras = calloc(1, sizeof(tHashPalavras));
     hashPalavras->hashmap_lista = calloc(1, sizeof(tListaPalavra*));
 
@@ -40,7 +55,7 @@ tHashPalavras* Hash_cria_palavras() {
 }
 
 
-void destroiHashPalavras(tHashPalavras* h) {
+void Hash_destroi(tHashPalavras* h) {
     if (h == NULL) {
         return;
     }
@@ -62,13 +77,13 @@ void destroiHashPalavras(tHashPalavras* h) {
 }
 
 void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int documento) {
-    int indice = criaIndice(palavra);
+    int indice = Hash_cria_indice(palavra);
     // printf("'%s': indice %d\n", palavra, indice);
     if (indice > hashPalavras->indiceMaximo) {
         int i = hashPalavras->indiceMaximo;
         hashPalavras->indiceMaximo = indice + 1;
         hashPalavras->hashmap_lista = realloc(hashPalavras->hashmap_lista, (indice + 1) * sizeof(tListaPalavra*));
-        for (i; i < hashPalavras->indiceMaximo; i++) {
+        for (; i < hashPalavras->indiceMaximo; i++) {
             hashPalavras->hashmap_lista[i] = NULL;
         }
     }
@@ -76,13 +91,13 @@ void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int docum
         hashPalavras->hashmap_lista[indice] = calloc(1, sizeof(tListaPalavra));
         hashPalavras->hashmap_lista[indice]->next = NULL;
         hashPalavras->hashmap_lista[indice]->palavra = Palavra_constroi(palavra);
-        Adiciona_ocorrencia(hashPalavras->hashmap_lista[indice]->palavra, documento);
+        Palavra_adiciona_ocorrencia(hashPalavras->hashmap_lista[indice]->palavra, documento);
 
     } else {
         tListaPalavra* lista = hashPalavras->hashmap_lista[indice];
         tListaPalavra* lista_anterior = NULL;
         while (lista != NULL) {
-            if (strcmp(get_nome(lista->palavra), palavra) == 0) {
+            if (strcmp(Palavra_get_nome(lista->palavra), palavra) == 0) {
                 break;
             }
             lista_anterior = lista;
@@ -94,11 +109,11 @@ void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int docum
             lista->next = NULL;
             lista->palavra = Palavra_constroi(palavra);
         }
-        Adiciona_ocorrencia(lista->palavra, documento);
+        Palavra_adiciona_ocorrencia(lista->palavra, documento);
     }
 }
 
-void imprimeHash(tHashPalavras* hashPalavras, int documento) {
+void Hash_imprime(tHashPalavras* hashPalavras, int documento) {
     //printf("doc: %d\n", documento);
     if (hashPalavras == NULL) {
         return;
@@ -118,17 +133,5 @@ void imprimeHash(tHashPalavras* hashPalavras, int documento) {
 }
 
 
-static char convMaiuscula(char c) {
-    return c = c - 32;
-}
 
-static int criaIndice(char* p) {
-    int indice = 0;
-    int cont = 0, aux = 0;
-    while (cont < strlen(p)) {
-        aux = convMaiuscula(p[cont]);
-        indice += aux;
-        cont++;
-    }
-    return indice;
-}
+

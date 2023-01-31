@@ -12,7 +12,7 @@ struct palavra {
     float *tf_idf;
 };
 
-int ComparaPalavra(const void *ptr, const void *ptr2) {
+int Palavra_compara(const void *ptr, const void *ptr2) {
     tPalavra *p1;
     tPalavra *p2;
     p1=*(tPalavra**)ptr;
@@ -34,17 +34,17 @@ void Palavra_destroi(tPalavra *palavra) {
     free(palavra);
 }
 
-char *get_nome(tPalavra *palavra) {
+char *Palavra_get_nome(tPalavra *palavra) {
     return palavra->nome;
 }
 
-int get_ocorrencia(tPalavra *palavra, int documento) {
+int Palavra_get_ocorrencia(tPalavra *palavra, int documento) {
     if (documento > palavra->qtd_documentosAlocados)
         return 0;
     return palavra->qtd_ocorrencias[documento];
 }
 
-void Adiciona_ocorrencia(tPalavra *palavra, int documento) {
+void Palavra_adiciona_ocorrencia(tPalavra *palavra, int documento) {
     while (documento >= palavra->qtd_documentosAlocados) {
         palavra->qtd_documentosAlocados *= 2;
         palavra->qtd_ocorrencias = realloc(palavra->qtd_ocorrencias, palavra->qtd_documentosAlocados * sizeof(int));
@@ -57,9 +57,9 @@ void Adiciona_ocorrencia(tPalavra *palavra, int documento) {
     //printf("%d\n",palavra->qtd_ocorrencias[documento]);
     palavra->qtd_ocorrencias[documento] += 1;
 }
-void ImprimePalavra(tPalavra * p){
+void Palavra_imprime(tPalavra * p){
   printf("%s\n",p->nome);
 }
-int Palavra_retornaNumBytes(){
+int Palavra_get_num_bytes(){
     return sizeof(tPalavra);
 }

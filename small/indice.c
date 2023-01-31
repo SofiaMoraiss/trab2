@@ -26,13 +26,13 @@ int main(int argc, char *argv[]) {
 
     l = Listas_ler_train(temp, arqNomeDoc);
 
-    Lista_ordena_vetor(l);
-    GeraBinario(l,argv[2]);
+    Listas_ordena_vetor(l);
+    Listas_gera_binario(l,argv[2]);
 //    Lista_imprime_vet_palavras(l);
 
     //imprimeHash(hash, 999);
 
-    Lista_destroi(l);
+    Listas_destroi(l);
     fclose(arqNomeDoc);
 
     return 0;
