@@ -38,14 +38,6 @@ tListaPalavra * tListaPalavra_constroi(char *palavra){
 
     return no;
 }
-// int Percorre(tHashPalavras* hash){
-//     // for(int i=0;i<hash->indiceMaximo;i++){
-//     //     if(hash->hashmap_lista[i]!=NULL){
-//     //         hash->hashmap_lista[i]=realloc(hash->hashmap_lista)
-//     //     }
-//     // }
-//     return hash->hashmap_lista
-// }
 
 void destroiHashPalavras(tHashPalavras* h) {
     if (h == NULL) {
