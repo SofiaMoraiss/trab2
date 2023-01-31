@@ -24,6 +24,20 @@ tHashPalavras* criaHashPalavras() {
 
     return hashPalavras;
 }
+
+void tListaPalavra_destroi(tListaPalavra * no)
+{
+    Palavra_destroi(no->palavra);
+    free(no);
+}
+
+tListaPalavra * tListaPalavra_constroi(char *palavra){
+    tListaPalavra * no = calloc(1, sizeof(tListaPalavra));
+    no->next = NULL;
+    no->palavra = Palavra_constroi(palavra);
+
+    return no;
+}
 // int Percorre(tHashPalavras* hash){
 //     // for(int i=0;i<hash->indiceMaximo;i++){
 //     //     if(hash->hashmap_lista[i]!=NULL){
@@ -43,8 +57,7 @@ void destroiHashPalavras(tHashPalavras* h) {
             tListaPalavra* temp_next = NULL;
             while (temp != NULL) {
                 temp_next = temp->next;
-                Palavra_destroi(temp->palavra);
-                free(temp);
+                tListaPalavra_destroi(temp);
                 temp = temp_next;
             }
         }
@@ -64,10 +77,9 @@ void adicionaPalavra(tHashPalavras* hashPalavras, char* palavra, int documento) 
             hashPalavras->hashmap_lista[i] = NULL;
         }
     }
+    
     if (hashPalavras->hashmap_lista[indice] == NULL) {
-        hashPalavras->hashmap_lista[indice] = calloc(1, sizeof(tListaPalavra));
-        hashPalavras->hashmap_lista[indice]->next = NULL;
-        hashPalavras->hashmap_lista[indice]->palavra = Palavra_constroi(palavra);
+        hashPalavras->hashmap_lista[indice] = tListaPalavra_constroi(palavra);
         Adiciona_ocorrencia(hashPalavras->hashmap_lista[indice]->palavra, documento);
 
     } else {

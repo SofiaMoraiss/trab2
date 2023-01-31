@@ -9,15 +9,6 @@ int main(int argc, char *argv[]) {
     char temp[125];
     FILE *arqDoc = fopen(argv[1], "r");
     sscanf(argv[1], "%[^.].txt", temp);
-    if (!arqDoc) {
-        printf("ARQUIVO NAO ENCONTRADO");
-        exit(1);
-    }
-
-    // printf("\n ARGV 1: %s\n", argv[1]);
-    // printf("\n ARGV 2: %s\n", argv[2]);
-
-    // FILE *arqListadosDocs = fopen(argv[1], "r");
 
     if (arqDoc == NULL) {
         printf("ERRO: Arquivo %s nao encontrado!\n", argv[1]);
