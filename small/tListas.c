@@ -85,7 +85,6 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
     printf("TIPO DA NOTICIA : %s\n", classe);
     // ao sair dessa funcao temos uma lista
     l = Listas_ler_noticia(arqConteudoDoc, l, doc);
-    //l = Listas_adiciona_doc(l, doc);
   }
   return l;
 }
@@ -105,7 +104,7 @@ tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d)
       break;
     }
   }
-  Documento_imprime_palavras(d);
+  //Documento_imprime_palavras(d);
   printf("LI ARQ N '%d'\n", Documento_get_indice(d));
   fclose(arqDoc);
   return l;
@@ -174,6 +173,7 @@ tListas * Listas_calcula_tf_idfs(tListas*l){
   double tfidf;
   for (int i = 0; i < l->qtd_docs_lidos; i++)
   {
+    printf("\n\n----------DOC %d -----------------\n\n", i);
     for (int j=0; j<Documento_get_qtd_palavras(l->vetDocumentos[i]); j++){
       strcpy(palTemp,Documento_get_nome_palavra(l->vetDocumentos[i], j));
       idcTemp=Hash_cria_indice(palTemp);
@@ -187,8 +187,9 @@ tListas * Listas_calcula_tf_idfs(tListas*l){
 
         if (strcmp(nomePal, palTemp)==0){
           tfidf=Palavra_get_tf_idf(Palavra, Documento_get_indice(l->vetDocumentos[i]));
-          Documento_atribui_tf_idf(l->vetDocumentos[i], j, tfidf);
-          Documento_imprime_palavras(l->vetDocumentos[i]);
+          printf("%s TF: %lf\n", nomePal, tfidf);
+          l->vetDocumentos[i]=Documento_atribui_tf_idf(l->vetDocumentos[i], j, tfidf);
+          //Documento_imprime_palavras(l->vetDocumentos[i]);
         }
         temp=Hash_atribui_prox_no(temp);
       }

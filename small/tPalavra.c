@@ -48,7 +48,13 @@ char *Palavra_get_nome(tPalavra *palavra) {
 }
 
 double Palavra_get_tf_idf(tPalavra *palavra, int doc) {
-    return palavra->tf_idf[doc];
+
+    for (int i=0; i<palavra->qtd_documentos_q_aparece; i++){
+        if (palavra->vetDocumentos[i]==doc){
+            return palavra->tf_idf[doc];
+        }
+    }
+    return 10;
 }
 
 double * Palavra_get_vetTFIDF(tPalavra * p){ return p->tf_idf;}

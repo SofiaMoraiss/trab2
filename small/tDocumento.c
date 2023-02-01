@@ -95,6 +95,7 @@ int Documento_get_qtd_palavras(tDocumento* d){ return d->qtd_palavras_dif_lidas;
 
 char *Documento_get_nome_palavra(tDocumento* d, int idc){ return d->palavras[idc].palavra; }
 
-void Documento_atribui_tf_idf(tDocumento* d, int idc, int tfidf){
+tDocumento * Documento_atribui_tf_idf(tDocumento* d, int idc, int tfidf){
   d->palavras[idc].tf_idf=tfidf;
+  return d;
 }
