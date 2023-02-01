@@ -10,11 +10,8 @@ struct listas
 {
   tDocumento **vetDocumentos;
   int qtd_docs_lidos;
-  int qtd_docs_alocados;
-  tPalavra **vetPalavras;
   int qtd_palavras_lidas;
-  int qtd_palavras_alocadas;
-  int teste;
+  int qtd_docs_alocados;
   tHashPalavras *hash;
 };
 
@@ -36,19 +33,6 @@ tListas *Listas_adiciona_doc(tListas *l, tDocumento *doc)
   return l;
 }
 
-tListas *Listas_adiciona_palavra(tListas *l, tPalavra *p)
-{
-  int qtd_lidas = l->qtd_palavras_lidas;
-  if (qtd_lidas >= l->qtd_palavras_alocadas)
-  {
-    l->vetPalavras = realloc(l->vetPalavras, (l->qtd_palavras_alocadas * 2) *
-                                                 sizeof(tPalavra *));
-    l->qtd_palavras_alocadas *= 2;
-  }
-
-  l->vetPalavras[qtd_lidas] = p;
-  return l;
-}
 
 tListas *Listas_constroi()
 {
@@ -56,11 +40,7 @@ tListas *Listas_constroi()
 
   l->vetDocumentos = calloc(2, sizeof(tDocumento *));
   l->qtd_docs_alocados = 2;
-  l->qtd_docs_lidos = 0;
-  l->vetPalavras = calloc(100, sizeof(tPalavra *));
-  l->qtd_palavras_alocadas = 100;
-  l->qtd_palavras_lidas = 0;
-  l->teste=0;
+  l->qtd_docs_lidos = 0;;
   l->hash = Hash_cria();
   return l;
 }
@@ -72,11 +52,6 @@ void Listas_destroi(tListas *l)
     Documento_destroi(l->vetDocumentos[i]);
   }
   free(l->vetDocumentos);
-  for (int i = 0; i < l->qtd_palavras_lidas; i++)
-  {
-    Palavra_destroi(l->vetPalavras[i]);
-  }
-  free(l->vetPalavras);
 
   Hash_destroi(l->hash);
   free(l);
@@ -111,43 +86,9 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
     l = Listas_ler_noticia(arqConteudoDoc, l, doc);
     l = Listas_adiciona_doc(l, doc);
   }
-  l=Listas_atribui_vetor_palavras(l,l->hash);
-  printf("%d-----\n",l->qtd_palavras_lidas);
   return l;
 }
-void Listas_ordena_vetor(tListas *l){
-    qsort(l->vetPalavras,l->qtd_palavras_lidas,sizeof(tPalavra*),Palavra_compara);
-}
-tListas* Listas_atribui_vetor_palavras(tListas *l, tHashPalavras *hash)
-{
-  for (int i = 0; i < Hash_get_idc_max(hash); i++)
-  {
-    
-    if (Hash_get_no_palavra(hash,i) != NULL)
-    {
-        tListaPalavra * temp=Hash_get_no_palavra(hash,i);
-      while ( temp!= NULL)
-      {
-        //ImprimePalavra(Obtem_palavra(temp));
-        //printf("%d-----\n",l->teste);
-        l=Listas_adiciona_palavra(l,Hash_get_palavra(temp));
-        l->vetPalavras[l->qtd_palavras_lidas]=Hash_get_palavra(temp);
-        l->qtd_palavras_lidas++;
-        //printf("\nQTD DE PALAVRAS LIDAS E ALOCADAS: %d %d\n", l->qtd_palavras_lidas,
-        //l->qtd_palavras_alocadas);
-        temp=Hash_atribui_prox_no(temp);
-      }
-    }
-  }
-  return l;
-}
-void Listas_imprime_vet_palavras(tListas *l){
-  
-  for(int i=0;i<l->qtd_palavras_lidas;i++){
-    Palavra_imprime(l->vetPalavras[i]);
-  }
-  printf("====%d\n",l->qtd_palavras_lidas);
-}
+
 tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d)
 {
   // printf("NOME DENTRO DO LISTAS LER NOTICIAS: %s\n", Documento_get_nome(d));
@@ -206,4 +147,23 @@ void Listas_gera_binario(tListas * l, char * nomeBin){
       free(palavra);
     }
     fclose(arqIndices);
+}
+
+tListas * Listas_calcula_tf_idfs(tListas*l){
+
+  tHashPalavras *hash= Listas_get_hash(l);
+  for (int i = 0; i < Hash_get_idc_max(hash); i++)
+  {
+    if (Hash_get_no_palavra(hash,i) != NULL)
+    {
+      tListaPalavra * temp=Hash_get_no_palavra(hash,i);
+      while ( temp!= NULL)
+      {
+        tPalavra* p= Hash_get_palavra(temp);
+        p=Palavra_constroi_todos_TFIDFs(p, l->qtd_docs_lidos);
+        temp=Hash_atribui_prox_no(temp);
+      }
+    }
+  }
+  return l;
 }

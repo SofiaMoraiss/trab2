@@ -11,7 +11,7 @@ struct documento {
   char classe[4];
   tPalavra ** vetPalavras;
   int *qtd_ocorrencias_palavras;
-  float *tf_idf;
+  double *tf_idf;
 };
 
 tDocumento *Documento_constroi(char *nome, char *classe, int indice) {

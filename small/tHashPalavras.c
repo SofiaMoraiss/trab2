@@ -25,6 +25,8 @@ int Hash_get_idc_max(tHashPalavras * hash){
 tListaPalavra* Hash_atribui_prox_no(tListaPalavra * lista){
     return lista->next;
 }
+
+
 tPalavra * Hash_get_palavra(tListaPalavra *listaPalavra){
     return listaPalavra->palavra;
 }

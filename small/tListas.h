@@ -16,9 +16,10 @@ tListas *Listas_ler_noticia(FILE *, tListas *, tDocumento *);
 void Listas_destroi(tListas *);
 tListas *Listas_ler_train(char *, FILE *);
 tHashPalavras *Listas_get_hash(tListas *);
-tListas * Listas_atribui_vetor_palavras(tListas *l, tHashPalavras *hash);
-void Listas_imprime_vet_palavras(tListas *l);
-void Listas_ordena_vetor(tListas *l);
-void Listas_gera_binario(tListas * l, char * caminho);
+tListas * Listas_atribui_vetor_palavras(tListas *, tHashPalavras *);
+void Listas_imprime_vet_palavras(tListas *);
+void Listas_ordena_vetor(tListas *);
+void Listas_gera_binario(tListas * , char * );
+tListas * Listas_calcula_tf_idfs(tListas*);
 
 #endif

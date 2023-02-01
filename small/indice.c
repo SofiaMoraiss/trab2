@@ -26,11 +26,9 @@ int main(int argc, char *argv[]) {
 
     l = Listas_ler_train(temp, arqNomeDoc);
 
-    Listas_ordena_vetor(l);
-    Listas_gera_binario(l,argv[2]);
-//    Lista_imprime_vet_palavras(l);
+    Listas_calcula_tf_idfs(l);
 
-    //imprimeHash(hash, 999);
+    Listas_gera_binario(l,argv[2]);
 
     Listas_destroi(l);
     fclose(arqNomeDoc);
