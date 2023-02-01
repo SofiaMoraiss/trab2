@@ -68,7 +68,7 @@ void Hash_destroi(tHashPalavras* h) {
             while (temp != NULL) {
                 temp_next = temp->next;
                 //ImprimePalavra(temp->palavra);
-                //Palavra_destroi(temp->palavra);
+                Palavra_destroi(temp->palavra);
                 free(temp);
                 temp = temp_next;
             }
@@ -92,7 +92,7 @@ void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int docum
     if (hashPalavras->hashmap_lista[indice] == NULL) {
         hashPalavras->hashmap_lista[indice] = calloc(1, sizeof(tListaPalavra));
         hashPalavras->hashmap_lista[indice]->next = NULL;
-        hashPalavras->hashmap_lista[indice]->palavra = Palavra_constroi(palavra);
+        hashPalavras->hashmap_lista[indice]->palavra = Palavra_constroi(palavra); //// FREE N TA INDO
         Palavra_adiciona_ocorrencia(hashPalavras->hashmap_lista[indice]->palavra, documento);
 
     } else {
@@ -109,7 +109,7 @@ void Hash_adiciona_palavra(tHashPalavras* hashPalavras, char* palavra, int docum
             lista_anterior->next = calloc(1, sizeof(tListaPalavra));
             lista = lista_anterior->next;
             lista->next = NULL;
-            lista->palavra = Palavra_constroi(palavra);
+            lista->palavra = Palavra_constroi(palavra); //// FREE N TA FREEANDO
         }
         Palavra_adiciona_ocorrencia(lista->palavra, documento);
     }
