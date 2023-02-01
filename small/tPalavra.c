@@ -1,6 +1,7 @@
 #include "tPalavra.h"
 #include "tHashPalavras.h"
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -46,7 +47,7 @@ int Palavra_get_ocorrencia(tPalavra *palavra, int documento) {
 
 void Palavra_adiciona_ocorrencia(tPalavra *palavra, int documento) {
     while (documento >= palavra->qtd_documentosAlocados) {
-        palavra->qtd_documentosAlocados *= 2;
+        palavra->qtd_documentosAlocados += 1;
         palavra->qtd_ocorrencias = realloc(palavra->qtd_ocorrencias, palavra->qtd_documentosAlocados * sizeof(int));
         palavra->tf_idf = realloc(palavra->tf_idf, palavra->qtd_documentosAlocados * sizeof(int));
         for (int i = documento; i < palavra->qtd_documentosAlocados; i++) {
@@ -62,4 +63,29 @@ void Palavra_imprime(tPalavra * p){
 }
 int Palavra_get_num_bytes(){
     return sizeof(tPalavra);
+}
+
+double Palavra_calcula_tf_df(tPalavra *p, int doc, int nTotaldeDocs)
+{
+    int qtd_documentos_que_aparece = 0;
+
+    for (int i = 0; i < p->qtd_documentosAlocados; i++)
+    {
+        if (1/*p->qtd_ocorrencias[i]!=NULL*/){
+            if (Palavra_get_ocorrencia(p, i) > 0){
+                qtd_documentos_que_aparece++;
+            }
+        }
+    }
+
+    int df = qtd_documentos_que_aparece;
+    int n = nTotaldeDocs;
+    int tf = Palavra_get_ocorrencia(p, doc);
+    double TFIDF = 0;
+
+    double idf = log((1 + n) / (1 + df));
+
+    TFIDF = tf*idf;
+
+    return TFIDF;
 }

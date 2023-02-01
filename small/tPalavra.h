@@ -1,6 +1,8 @@
-#pragma once
+#ifndef PALAVRA_H
+#define PALAVRA_H
 
 typedef struct palavra tPalavra;
+typedef struct vetdoc tVetDocumentos;
 
 tPalavra *Palavra_constroi(char *);
 void Palavra_destroi(tPalavra *);
@@ -10,3 +12,6 @@ void Palavra_adiciona_ocorrencia(tPalavra * palavra, int documento);
 void Palavra_imprime(tPalavra * p);
 int Palavra_compara(const void *ptr, const void *ptr2);
 int Palavra_get_num_bytes();
+double Palavra_calcula_tf_df(tPalavra *, int, int);
+
+#endif

@@ -1,4 +1,5 @@
 #include "tDocumento.h"
+#include "tPalavra.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,7 +9,7 @@ struct documento {
   char nome[1024];
   int indiceNaLista;
   char classe[4];
-  int *palavras;
+  tPalavra ** palavras;
   int *qtd_ocorrencias_palavras;
   float *tf_idf;
 };
