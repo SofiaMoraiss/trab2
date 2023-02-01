@@ -6,11 +6,12 @@ typedef struct vetdoc tVetDocumentos;
 
 tPalavra *Palavra_constroi(char *);
 void Palavra_destroi(tPalavra *);
-char* Palavra_get_nome(tPalavra* palavra);
-int Palavra_get_ocorrencia(tPalavra* palavra, int documento);
-void Palavra_adiciona_ocorrencia(tPalavra * palavra, int documento);
-void Palavra_imprime(tPalavra * p);
-int Palavra_compara(const void *ptr, const void *ptr2);
+char* Palavra_get_nome(tPalavra* );
+int Palavra_get_ocorrencia(tPalavra* , int );
+void Palavra_adiciona_ocorrencia(tPalavra * , int );
+void Palavra_adiciona_ocorrencia2(tPalavra *, int );
+void Palavra_imprime(tPalavra * );
+int Palavra_compara(const void *, const void *);
 int Palavra_get_num_bytes();
 double Palavra_calcula_tf_df(tPalavra *, int, int);
 
