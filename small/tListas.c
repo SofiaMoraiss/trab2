@@ -91,19 +91,20 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
 
 tListas *Listas_ler_noticia(FILE *arqDoc, tListas *l, tDocumento *d)
 {
-  // printf("NOME DENTRO DO LISTAS LER NOTICIAS: %s\n", Documento_get_nome(d));
   while (1)
   {
     char palavra[50];
     memset(palavra,'\0',sizeof(char));
-    // printf("palavra\n");
+
+
     fscanf(arqDoc, "%s", palavra);
+    d=Documento_adiciona_palavra(d, palavra);    
+    Hash_adiciona_palavra(l->hash, palavra, Documento_get_indice(d));
     if(feof(arqDoc)){
       break;
     }
-    // printf("indice: %d\n", Documento_get_indice(d));
-     Hash_adiciona_palavra(l->hash, palavra, Documento_get_indice(d));
   }
+  Documento_imprime_palavras(d);
   printf("LI ARQ N '%d'\n", Documento_get_indice(d));
   fclose(arqDoc);
   return l;
