@@ -13,8 +13,8 @@ struct hashPalavras {
     tListaPalavra** hashmap_lista;
     int indiceMaximo;
 };
-tListaPalavra * Hash_get_no_palavra(tHashPalavras * hash,int posicao){
-    return hash->hashmap_lista[posicao];
+tListaPalavra * Hash_get_no_palavra(tHashPalavras * hash, int idcHash){
+    return hash->hashmap_lista[idcHash];
 }
 tListaPalavra ** Hash_get_lista_palavra(tHashPalavras * hash){
     return hash->hashmap_lista;
@@ -22,6 +22,7 @@ tListaPalavra ** Hash_get_lista_palavra(tHashPalavras * hash){
 int Hash_get_idc_max(tHashPalavras * hash){
     return hash->indiceMaximo;
 }
+
 tListaPalavra* Hash_atribui_prox_no(tListaPalavra * lista){
     return lista->next;
 }
@@ -35,7 +36,7 @@ static char convMaiuscula(char c) {
     return c = c - 32;
 }
 
-static int Hash_cria_indice(char* p) {
+int Hash_cria_indice(char* p) {
     int indice = 0;
     int cont = 0, aux = 0;
     while (cont < strlen(p)) {

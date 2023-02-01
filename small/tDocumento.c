@@ -80,7 +80,7 @@ void Documento_imprime_palavras(tDocumento *d){
 
   printf("qtd_palavras_dif_lidas: %d\n", d->qtd_palavras_dif_lidas);
   for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
-    printf("PALAVRA '%s': %d vezes\n", d->palavras[i].palavra, d->palavras[i].qtd_ocorrencias_palavras);
+    printf("PALAVRA '%s': %d vezes TF-IDF: %lf\n", d->palavras[i].palavra, d->palavras[i].qtd_ocorrencias_palavras, d->palavras[i].tf_idf);
   }
 }
 
@@ -90,3 +90,11 @@ void Documento_destroi(tDocumento * d) {
 }
 
 char *Documento_get_nome(tDocumento* d){ return d->nome; }
+
+int Documento_get_qtd_palavras(tDocumento* d){ return d->qtd_palavras_dif_lidas; }
+
+char *Documento_get_nome_palavra(tDocumento* d, int idc){ return d->palavras[idc].palavra; }
+
+void Documento_atribui_tf_idf(tDocumento* d, int idc, int tfidf){
+  d->palavras[idc].tf_idf=tfidf;
+}

@@ -6,13 +6,14 @@
 typedef struct hashPalavras tHashPalavras;
 typedef struct listaPalavra tListaPalavra;
 tHashPalavras * Hash_cria();
-void Hash_adiciona_palavra(tHashPalavras * hashPalavras, char* palavra, int documento);
-void Hash_imprime(tHashPalavras * hashPalavras, int documento);
-tPalavra * Hash_get_palavra(tListaPalavra * listaPalavra);
-tListaPalavra* Hash_get_no_palavra(tHashPalavras * hash,int posicao);
-tListaPalavra ** Hash_get_lista_palavra(tHashPalavras * hash);
-tListaPalavra* Hash_atribui_prox_no(tListaPalavra * lista);
-int Hash_get_idc_max(tHashPalavras * hash);
-void Hash_destroi(tHashPalavras * h);
+int Hash_cria_indice(char* );
+void Hash_adiciona_palavra(tHashPalavras * , char* , int );
+void Hash_imprime(tHashPalavras *, int);
+tPalavra * Hash_get_palavra(tListaPalavra * );
+tListaPalavra* Hash_get_no_palavra(tHashPalavras * , int ); // Recebe o indice hash e retorna o nó que inicia a lista encadeada daquela posicao
+tListaPalavra ** Hash_get_lista_palavra(tHashPalavras * );
+tListaPalavra* Hash_atribui_prox_no(tListaPalavra * );
+int Hash_get_idc_max(tHashPalavras * );
+void Hash_destroi(tHashPalavras * );
 
 #endif

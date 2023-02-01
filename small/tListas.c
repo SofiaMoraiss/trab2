@@ -17,18 +17,18 @@ struct listas
 
 tListas *Listas_adiciona_doc(tListas *l, tDocumento *doc)
 {
-  int qtd_lidas = l->qtd_docs_lidos;
+  int qtd_lidos = l->qtd_docs_lidos;
 
-  if (qtd_lidas >= l->qtd_docs_alocados)
+  if (qtd_lidos >= l->qtd_docs_alocados)
   {
-    l->vetDocumentos = realloc(l->vetDocumentos, (l->qtd_docs_alocados * 2) *
-                                                     sizeof(tDocumento *));
     l->qtd_docs_alocados *= 2;
+    l->vetDocumentos = realloc(l->vetDocumentos, (l->qtd_docs_alocados) *
+                                                     sizeof(tDocumento *));
   }
 
-  l->vetDocumentos[qtd_lidas] = doc;
+  l->vetDocumentos[qtd_lidos] = doc;
   l->qtd_docs_lidos++;
-  // printf("QTD DE DOCS LIDOS E ALOCADOS: %d %d\n", l->qtd_docs_lidos,
+  printf("QTD DE DOCS LIDOS E ALOCADOS: %d %d\n", l->qtd_docs_lidos, l->qtd_docs_alocados);
   // l->qtd_docs_alocados);
   return l;
 }
@@ -38,8 +38,8 @@ tListas *Listas_constroi()
 {
   tListas *l = calloc(1, sizeof(tListas));
 
-  l->vetDocumentos = calloc(2, sizeof(tDocumento *));
-  l->qtd_docs_alocados = 2;
+  l->vetDocumentos = calloc(100, sizeof(tDocumento *));
+  l->qtd_docs_alocados = 100;
   l->qtd_docs_lidos = 0;;
   l->hash = Hash_cria();
   return l;
@@ -80,11 +80,12 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
       break;
     }
     doc = Documento_constroi(leitura, classe, l->qtd_docs_lidos);
+    l = Listas_adiciona_doc(l, doc);
     printf("\nVOU LER ARQUIVO : %s\n", path);
     printf("TIPO DA NOTICIA : %s\n", classe);
     // ao sair dessa funcao temos uma lista
     l = Listas_ler_noticia(arqConteudoDoc, l, doc);
-    l = Listas_adiciona_doc(l, doc);
+    //l = Listas_adiciona_doc(l, doc);
   }
   return l;
 }
@@ -166,5 +167,33 @@ tListas * Listas_calcula_tf_idfs(tListas*l){
       }
     }
   }
+
+  // ESSA SEGUNDA PARTE DA FUNÇÃO ATRIBUI OS VALORES CALCULADOS DE TD-IDF PRA CADA PALAVRA DE CADA DOCUMENTO
+  char palTemp[50];
+  int idcTemp;
+  double tfidf;
+  for (int i = 0; i < l->qtd_docs_lidos; i++)
+  {
+    for (int j=0; j<Documento_get_qtd_palavras(l->vetDocumentos[i]); j++){
+      strcpy(palTemp,Documento_get_nome_palavra(l->vetDocumentos[i], j));
+      idcTemp=Hash_cria_indice(palTemp);
+
+      tListaPalavra * temp=Hash_get_no_palavra(hash,idcTemp);
+      while ( temp!= NULL)
+      {
+        tPalavra * Palavra=Hash_get_palavra(temp);
+        char nomePal[50];
+        strcpy(nomePal,Palavra_get_nome(Palavra));
+
+        if (strcmp(nomePal, palTemp)==0){
+          tfidf=Palavra_get_tf_idf(Palavra, Documento_get_indice(l->vetDocumentos[i]));
+          Documento_atribui_tf_idf(l->vetDocumentos[i], j, tfidf);
+          Documento_imprime_palavras(l->vetDocumentos[i]);
+        }
+        temp=Hash_atribui_prox_no(temp);
+      }
+    }
+  }
+
   return l;
 }

@@ -47,6 +47,10 @@ char *Palavra_get_nome(tPalavra *palavra) {
     return palavra->nome;
 }
 
+double Palavra_get_tf_idf(tPalavra *palavra, int doc) {
+    return palavra->tf_idf[doc];
+}
+
 double * Palavra_get_vetTFIDF(tPalavra * p){ return p->tf_idf;}
 
 int Palavra_get_ocorrencia(tPalavra *p, int doc) {
@@ -68,10 +72,6 @@ void Palavra_adiciona_ocorrencia(tPalavra *p, int doc) {
         p->vetDocumentos = realloc(p->vetDocumentos, p->qtd_documentos_alocados * sizeof(int));
         p->qtd_ocorrencias = realloc(p->qtd_ocorrencias, p->qtd_documentos_alocados * sizeof(int));
         p->tf_idf = realloc(p->tf_idf, p->qtd_documentos_alocados * sizeof(double));
-        //for (int i = p->qtd_documentos_q_aparece; i < p->qtd_documentos_alocados; i++) {
-            //p->qtd_ocorrencias[i] = 0;
-           // p->tf_idf[i] = 0;
-        //}
     }
     int idc=p->qtd_documentos_q_aparece;
     p->vetDocumentos[idc]=doc;
@@ -106,11 +106,11 @@ double Palavra_calcula_1tf_idf(int tf, int nTotaldeDocs, int qtdDocsAparece )
 
     int df = qtdDocsAparece;
     int n = nTotaldeDocs;
-    double TFIDF = 0;
+    double TF_IDF = 0;
 
     double idf = log((1 + n) / (1 + df));
 
-    TFIDF = tf*idf;
+    TF_IDF = tf*idf;
 
-    return TFIDF;
+    return TF_IDF;
 }
