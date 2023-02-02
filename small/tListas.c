@@ -212,3 +212,11 @@ void Listas_gera_relatorio_palavra(char *nome, tListas *l)
   printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
   printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
 }
+
+void Listas_gera_relatorio_documento(char *nome, tListas *l)
+{
+
+  tPalavra *p = Hash_procura_palavra(nome, l->hash);
+  printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
+  printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
+}
