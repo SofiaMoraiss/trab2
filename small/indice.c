@@ -4,25 +4,39 @@
 #include "tHashPalavras.h"
 #include "tListas.h"
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     tListas *l;
     char temp[125];
-    FILE *arqDoc = fopen(argv[1], "r");
+    FILE *arqNomeDoc = fopen(argv[1], "r");
     sscanf(argv[1], "%[^.].txt", temp);
-
-    if (arqDoc == NULL) {
-        printf("ERRO: Arquivo %s nao encontrado!\n", argv[1]);
-        return 1;  // VER SE VAI SAIR SEM FINALIZAR TUDO
+    if (!arqNomeDoc)
+    {
+        printf("ARQUIVO NAO ENCONTRADO");
+        exit(1);
     }
 
-    l = Listas_ler_train(temp, arqDoc);
+    // printf("\n ARGV 1: %s\n", argv[1]);
+    // printf("\n ARGV 2: %s\n", argv[2]);
 
-    tHashPalavras *hash = Lista_get_hash(l);
-    //imprimeHash(hash, 10);
+    // FILE *arqListadosDocs = fopen(argv[1], "r");
 
-    Lista_destroi(l);
+    if (arqNomeDoc == NULL)
+    {
+        printf("ERRO: Arquivo %s nao encontrado!\n", argv[1]);
+        return 1; // VER SE VAI SAIR SEM FINALIZAR TUDO
+    }
 
-    fclose(arqDoc);
+    l = Listas_ler_train(temp, arqNomeDoc);
+
+    l = Listas_calcula_tf_idfs(l);
+
+    Listas_gera_binario(l, argv[2]);
+
+    Listas_gera_relatorio_palavra("outros", l);
+
+    Listas_destroi(l);
+    fclose(arqNomeDoc);
 
     return 0;
 }

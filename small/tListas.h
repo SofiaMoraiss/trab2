@@ -9,12 +9,18 @@
 
 typedef struct listas tListas;
 
-tListas *Lista_adiciona_doc(tListas *, tDocumento *);
-tListas *Lista_constroi();
-tListas *Lista_adiciona_palavra(tListas *, tPalavra *);
+tListas *Listas_adiciona_doc(tListas *, tDocumento *);
+tListas *Listas_constroi();
+tListas *Listas_adiciona_palavra(tListas *, tPalavra *);
 tListas *Listas_ler_noticia(FILE *, tListas *, tDocumento *);
-void Lista_destroi(tListas *);
+void Listas_destroi(tListas *);
+void Listas_gera_relatorio_palavra(char *, tListas *);
 tListas *Listas_ler_train(char *, FILE *);
-tHashPalavras *Lista_get_hash(tListas *);
+tHashPalavras *Listas_get_hash(tListas *);
+tListas *Listas_atribui_vetor_palavras(tListas *, tHashPalavras *);
+void Listas_imprime_vet_palavras(tListas *);
+void Listas_ordena_vetor(tListas *);
+void Listas_gera_binario(tListas *, char *);
+tListas *Listas_calcula_tf_idfs(tListas *);
 
 #endif

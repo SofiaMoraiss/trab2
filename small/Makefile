@@ -18,12 +18,12 @@ create_executable:
 	@ $(CC) -g -o $(NAME_PROGRAM) $(O_FILES) -lm
 
 run: 
-	@ ./$(NAME_PROGRAM)
+	@ ./$(NAME_PROGRAM) /home/felipecarpes/TrabDupla/trab2/small/medium-large/train.txt indice.bin
 
 test: clean all run
 
-valgrind: 
-	@ valgrind ./$(NAME_PROGRAM)
+val: 
+	@ valgrind --leak-check=full -s ./$(NAME_PROGRAM) /home/felipecarpes/TrabDupla/trab2/small/medium-small/train.txt > output.txt
 
 clean: 
 	@ rm -rf $(NAME_PROGRAM) $(O_FILES)
