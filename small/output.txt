@@ -18382,3 +18382,8 @@ feita TF: 0.000000
 cobranca TF: 0.000000
 taxas TF: 0.000000
 0 esse aqui
+
+
+PALAVRA 'outros':
+
+Qtd de docs q aparece: 5
