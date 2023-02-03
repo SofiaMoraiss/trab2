@@ -16,6 +16,12 @@ struct hashPalavras
     tListaPalavra **hashmap_lista;
     int indiceMaximo;
 };
+
+struct palavrasAux {
+  int *vetIndices;
+  int *qtd_palavras;
+};
+
 tListaPalavra *Hash_get_no_palavra(tHashPalavras *hash, int idcHash)
 {
     return hash->hashmap_lista[idcHash];

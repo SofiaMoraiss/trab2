@@ -5,6 +5,8 @@
 
 typedef struct hashPalavras tHashPalavras;
 typedef struct listaPalavra tListaPalavra;
+typedef struct palavrasAux tPalavrasAux;
+
 tHashPalavras *Hash_cria();
 int Hash_cria_indice(char *);
 void Hash_adiciona_palavra(tHashPalavras *, char *, int);

@@ -125,3 +125,9 @@ tDocumento * Documento_atribui_tf_idf(tDocumento* d, int idc, int tfidf){
   d->palavras[idc].tf_idf=tfidf;
   return d;
 }
+
+void Documento_imprime(tDocumento*d, int i){
+  
+  printf("%d: %s / %d palavras / Classe: %s\n", d->nome, i+1, d->qtd_palavras_total, d->classe);
+
+}

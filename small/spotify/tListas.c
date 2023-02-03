@@ -13,6 +13,12 @@ struct listas
   int qtd_palavras_lidas;
   int qtd_docs_alocados;
   tHashPalavras *hash;
+  tPalavrasAux** vetPalavrasAux;
+};
+
+typedef struct noticiasAux {
+  int *vetIndices;
+  int *qtd_palavras;
 };
 
 tListas *Listas_adiciona_doc(tListas *l, tDocumento *doc)
@@ -216,13 +222,7 @@ tListas *Listas_calcula_tf_idfs(tListas *l)
   return l;
 }
 
-void Listas_imprime_relatorio_palavra(char *nome, tListas *l)
-{
 
-  tPalavra *p = Hash_procura_palavra(nome, l->hash);
-  printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
-  printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
-}
 
 int ordena(tDocumento *docA, tDocumento *docB)
 {
@@ -233,14 +233,18 @@ int ordena(tDocumento *docA, tDocumento *docB)
     return -1;
 }
 
-tListas * Listas_imprime_relatorio_documento(tListas *l)
+/*void Listas_imprime_relatorio_documento(tListas *l)
 {
+  noticiasAux **vetDocsAux=calloc(l->qtd_docs_lidos, sizeof(noticiasAux));
+  for (int i=0; i<10; i++){
+    vet
+  }
   tDocumento **docsAux=calloc(l->qtd_docs_lidos, sizeof(tDocumento*));
   docsAux=l->vetDocumentos;
-    /*for (int i = 0; i < l->qtd_docs_lidos; i++)
-    {
-        Documento_get_qtd_palavras_total(docsAux[i]) = Documento_calcula_qtd_palavras_total(t);
-    }*/
+    //for (int i = 0; i < l->qtd_docs_lidos; i++)
+    //{
+     //   Documento_get_qtd_palavras_total(docsAux[i]) = Documento_calcula_qtd_palavras_total(t);
+    //}
     qsort(docsAux, l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
 
     printf("10 DOCUMENTOS MAIS LONGOS: \n");
@@ -248,4 +252,19 @@ tListas * Listas_imprime_relatorio_documento(tListas *l)
       printf("%d: %d palavras / Classe: %s\n", i+1, Documento_get_qtd_palavras_total(docsAux[i]), Documento_get_classe(docsAux[i]));
     }
 
+    printf("10 DOCUMENTOS MAIS CURTOS: \n");
+    for (int i=l->qtd_docs_lidos; i>l->qtd_docs_lidos-10; i++){
+      Documento_imprime()
+    }
+
+}*/
+
+void Listas_imprime_relatorio_palavra(char *nome, tListas *l)
+{
+    l->vetPalavrasAux=calloc(l->qtd_palavras_lidas, sizeof(tPalavrasAux*));
+    vetPalavrasAux->vetIndices=calloc(l->qtd_docs_lidos, sizeof(int));
+    vetPalavrasAux->=calloc(l->qtd_docs_lidos, sizeof(int));
+  tPalavra *p = Hash_procura_palavra(nome, l->hash);
+  printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
+  printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
 }

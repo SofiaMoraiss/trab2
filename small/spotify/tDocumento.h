@@ -20,5 +20,5 @@ tDocumento* Documento_atribui_tf_idf(tDocumento* , int , int );
 char *Documento_get_nome_palavra(tDocumento *, int );
 char *Documento_get_classe(tDocumento* );
 int Documento_Tem_palavra_documento(tDocumento * ,char * );
-
+void Documento_imprime(tDocumento*, int);
 #endif
