@@ -213,10 +213,28 @@ void Listas_gera_relatorio_palavra(char *nome, tListas *l)
   printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
 }
 
-void Listas_gera_relatorio_documento(char *nome, tListas *l)
+tListas *l Listas_imprime_relatorio_documento(tListas *l)
+{
+  tDocumento **docsAux=calloc(docsAux, l->qtd_docs_lidos*sizeof(tDocumento*));
+  docsAux=l->vetDocumentos;
+    /*for (int i = 0; i < l->qtd_docs_lidos; i++)
+    {
+        Documento_get_qtd_palavras_total(docsAux[i]) = Documento_calcula_qtd_palavras_total(t);
+    }*/
+    qsort(docsAux[i], l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
+
+    printf("10 DOCUMENTOS MAIS LONGOS: \n");
+    printf("10 DOCUMENTOS MAIS LONGOS: \n");
+
+}
+
+
+int ordena(tDocumento *docA, tDocumento *docB)
 {
 
-  tPalavra *p = Hash_procura_palavra(nome, l->hash);
-  printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
-  printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
+    if (docA->qtd_palavras_total > docB->qtd_palavras_total)
+    {
+        return 1;
+    }
+    return -1;
 }

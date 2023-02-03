@@ -22,5 +22,6 @@ void Listas_imprime_vet_palavras(tListas *);
 void Listas_ordena_vetor(tListas *);
 void Listas_gera_binario(tListas *, char *);
 tListas *Listas_calcula_tf_idfs(tListas *);
+tListas * Listas_imprime_relatorio_documento(tListas *);
 
 #endif

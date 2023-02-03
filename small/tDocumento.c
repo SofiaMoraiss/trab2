@@ -16,6 +16,7 @@ struct documento {
   int indiceNaLista;
   char classe[4];
   int qtd_palavras_dif_lidas;
+  int qtd_palavras_total;
   int qtd_palavras_dif_alocadas;
   //tPalavra ** vetPalavras;
 
@@ -67,6 +68,8 @@ tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
       d->palavras[i].tf_idf=0;
     }*/
   }
+  
+  d->qtd_palavras_total++;
   d->qtd_palavras_dif_alocadas=alocadas;
   d->qtd_palavras_dif_lidas++;
   strcpy(d->palavras[i].palavra,nomeP);
@@ -93,9 +96,20 @@ char *Documento_get_nome(tDocumento* d){ return d->nome; }
 
 int Documento_get_qtd_palavras(tDocumento* d){ return d->qtd_palavras_dif_lidas; }
 
+int Documento_get_qtd_palavras_total(tDocumento* d){ return d->qtd_palavras_total; }
+
 char *Documento_get_nome_palavra(tDocumento* d, int idc){ return d->palavras[idc].palavra; }
 
 tDocumento * Documento_atribui_tf_idf(tDocumento* d, int idc, int tfidf){
   d->palavras[idc].tf_idf=tfidf;
   return d;
+}
+
+int ordena(tDocumento *docA, tDocumento *docB)
+{
+
+    if (docA->qtd_palavras_total > docB->qtd_palavras_total){
+        return 1;
+    }
+    return -1;
 }

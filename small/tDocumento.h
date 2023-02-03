@@ -15,5 +15,6 @@ int Documento_get_qtd_palavras(tDocumento* );
 tDocumento *Documento_adiciona_palavra(tDocumento *, char *);
 void Documento_imprime_palavras(tDocumento *);
 tDocumento* Documento_atribui_tf_idf(tDocumento* , int , int );
+int ordena(tDocumento *docA, tDocumento *docB);
 
 #endif
