@@ -7,6 +7,8 @@
 #include "tPalavra.h"
 
 typedef struct listas tListas;
+typedef struct noticiasAux tNoticiasAux;
+typedef struct palavrasAux tPalavrasAux;
 
 tListas *Listas_adiciona_doc(tListas *, tDocumento *);
 tListas *Listas_constroi();

@@ -17,10 +17,7 @@ struct hashPalavras
     int indiceMaximo;
 };
 
-struct palavrasAux {
-  int *vetIndices;
-  int *qtd_palavras;
-};
+
 
 tListaPalavra *Hash_get_no_palavra(tHashPalavras *hash, int idcHash)
 {

@@ -13,10 +13,15 @@ struct listas
   int qtd_palavras_lidas;
   int qtd_docs_alocados;
   tHashPalavras *hash;
-  tPalavrasAux** vetPalavrasAux;
+  struct palavrasAux* vetPalavrasAux;
 };
 
-typedef struct noticiasAux {
+struct noticiasAux {
+  int *vetIndices;
+  int *qtd_palavras;
+};
+
+struct palavrasAux {
   int *vetIndices;
   int *qtd_palavras;
 };
@@ -262,8 +267,9 @@ int ordena(tDocumento *docA, tDocumento *docB)
 void Listas_imprime_relatorio_palavra(char *nome, tListas *l)
 {
     l->vetPalavrasAux=calloc(l->qtd_palavras_lidas, sizeof(tPalavrasAux*));
-    vetPalavrasAux->vetIndices=calloc(l->qtd_docs_lidos, sizeof(int));
-    vetPalavrasAux->=calloc(l->qtd_docs_lidos, sizeof(int));
+    l->vetPalavrasAux->qtd_palavras= calloc(l->qtd_docs_lidos, sizeof(int));
+    l->vetPalavrasAux->vetIndices=calloc(l->qtd_docs_lidos, sizeof(int));
+
   tPalavra *p = Hash_procura_palavra(nome, l->hash);
   printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
   printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
