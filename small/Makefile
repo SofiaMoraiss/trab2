@@ -1,29 +1,17 @@
-NAME_PROGRAM = indice
-CC = gcc
-FLAGS = -lm -pedantic -Wall -g
-C_FILES = $(wildcard *.c)
-O_FILES = $(patsubst %.c, %.o, $(C_FILES))
-
-all: clean $(O_FILES) create_executable
-
-main.o: main.c
-	@ $(CC) -c $< $(FLAGS)
-	
+all: programa
 
 %.o: %.c %.h
+	gcc -c $< -o $@
 
-	@ $(CC) -c -g $< $(FLAGS)
+libspotify.a: spotify/tDocumento.o spotify/tListas.o spotify/tPalavra.o spotify/tHashPalavras.o
+	ar -crs libspotify.a spotify/tDocumento.o spotify/tListas.o spotify/tPalavra.o spotify/tHashPalavras.o
 
-create_executable: 
-	@ $(CC) -g -o $(NAME_PROGRAM) $(O_FILES) -lm
+programa: indice.c buscador.c libspotify.a
+	gcc -L. indice.c -o indice  -I spotify -lspotify  -lm
+	gcc -L. buscador.c -o buscador  -I spotify -lspotify  -lm
 
-run: 
-	@ ./$(NAME_PROGRAM) /home/felipecarpes/TrabDupla/trab2/small/medium-large/train.txt indice.bin
+clean:
+	rm -f main libspotify spotify.a spotify/*.o *.o
 
-test: clean all run
-
-val: 
-	@ valgrind --leak-check=full -s ./$(NAME_PROGRAM) /home/felipecarpes/TrabDupla/trab2/small/medium-small/train.txt > output.txt
-
-clean: 
-	@ rm -rf $(NAME_PROGRAM) $(O_FILES)
+run:
+	./main tracks_full.csv artists_full.csv
