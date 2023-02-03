@@ -10,6 +10,11 @@ typedef struct palavra {
   double tf_idf;
 } dPalavra;
 
+struct docTf_idf{
+  int idcDoc;
+  double tfidfBsucas;
+};
+
 struct documento {
 
   char nome[100];
@@ -68,7 +73,7 @@ tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
       d->palavras[i].tf_idf=0;
     }*/
   }
-  
+
   d->qtd_palavras_total++;
   d->qtd_palavras_dif_alocadas=alocadas;
   d->qtd_palavras_dif_lidas++;
@@ -94,11 +99,27 @@ void Documento_destroi(tDocumento * d) {
 
 char *Documento_get_nome(tDocumento* d){ return d->nome; }
 
+char *Documento_get_classe(tDocumento* d){ return d->classe; }
+
 int Documento_get_qtd_palavras(tDocumento* d){ return d->qtd_palavras_dif_lidas; }
 
 int Documento_get_qtd_palavras_total(tDocumento* d){ return d->qtd_palavras_total; }
 
+int Documento_get_numBytes(){
+  return sizeof(Docf);
+}
+
 char *Documento_get_nome_palavra(tDocumento* d, int idc){ return d->palavras[idc].palavra; }
+
+int Documento_Tem_palavra_documento(tDocumento * documento,char * p){
+    for(int i=0;i<Documento_get_qtd_palavras(documento);i++){
+      if(strcmp(Documento_get_nome_palavra(documento,i),p)){
+        return 1;
+      }
+    }
+        
+    return 0;
+}
 
 tDocumento * Documento_atribui_tf_idf(tDocumento* d, int idc, int tfidf){
   d->palavras[idc].tf_idf=tfidf;

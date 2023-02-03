@@ -14,7 +14,7 @@ tListas *Listas_constroi();
 tListas *Listas_adiciona_palavra(tListas *, tPalavra *);
 tListas *Listas_ler_noticia(FILE *, tListas *, tDocumento *);
 void Listas_destroi(tListas *);
-void Listas_gera_relatorio_palavra(char *, tListas *);
+void Listas_imprime_relatorio_palavra(char *, tListas *);
 tListas *Listas_ler_train(char *, FILE *);
 tHashPalavras *Listas_get_hash(tListas *);
 tListas *Listas_atribui_vetor_palavras(tListas *, tHashPalavras *);

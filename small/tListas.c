@@ -205,7 +205,7 @@ tListas *Listas_calcula_tf_idfs(tListas *l)
   return l;
 }
 
-void Listas_gera_relatorio_palavra(char *nome, tListas *l)
+void Listas_imprime_relatorio_palavra(char *nome, tListas *l)
 {
 
   tPalavra *p = Hash_procura_palavra(nome, l->hash);
@@ -213,7 +213,7 @@ void Listas_gera_relatorio_palavra(char *nome, tListas *l)
   printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
 }
 
-tListas *l Listas_imprime_relatorio_documento(tListas *l)
+tListas * Listas_imprime_relatorio_documento(tListas *l)
 {
   tDocumento **docsAux=calloc(docsAux, l->qtd_docs_lidos*sizeof(tDocumento*));
   docsAux=l->vetDocumentos;
@@ -221,20 +221,13 @@ tListas *l Listas_imprime_relatorio_documento(tListas *l)
     {
         Documento_get_qtd_palavras_total(docsAux[i]) = Documento_calcula_qtd_palavras_total(t);
     }*/
-    qsort(docsAux[i], l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
+    qsort(docsAux, l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
 
     printf("10 DOCUMENTOS MAIS LONGOS: \n");
-    printf("10 DOCUMENTOS MAIS LONGOS: \n");
-
-}
-
-
-int ordena(tDocumento *docA, tDocumento *docB)
-{
-
-    if (docA->qtd_palavras_total > docB->qtd_palavras_total)
-    {
-        return 1;
+    for (int i=0; i<10; i++){
+      printf("%d: %d palavras / Classe: %s\n", i+1, Documento_get_qtd_palavras_total(docsAux[i]), Documento_get_classe(docsAux[i]));
     }
-    return -1;
+
 }
+
+

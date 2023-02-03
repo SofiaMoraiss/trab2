@@ -13,10 +13,12 @@ int Documento_get_indice(tDocumento *);
 char *Documento_get_nome(tDocumento *);
 char *Documento_get_nome_palavra(tDocumento* , int );
 int Documento_get_qtd_palavras(tDocumento* );
+int Documento_get_qtd_palavras(tDocumento* );
 tDocumento *Documento_adiciona_palavra(tDocumento *, char *);
 void Documento_imprime_palavras(tDocumento *);
 tDocumento* Documento_atribui_tf_idf(tDocumento* , int , int );
-char *Documento_get_nome_palavra(tDocumento *d, int idc);
-int Documento_Tem_palavra_documento(tDocumento * documento,char * p);
+char *Documento_get_nome_palavra(tDocumento *, int );
+char *Documento_get_classe(tDocumento* );
+int Documento_Tem_palavra_documento(tDocumento * ,char * );
 
 #endif
