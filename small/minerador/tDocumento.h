@@ -16,7 +16,6 @@ int Documento_get_qtd_palavras(tDocumento* );
 int Documento_get_qtd_palavras(tDocumento* );
 tDocumento *Documento_adiciona_palavra(tDocumento *, char *);
 void Documento_imprime_palavras(tDocumento *);
-tDocumento* Documento_atribui_tf_idf(tDocumento* , int , int );
 char *Documento_get_nome_palavra(tDocumento *, int );
 char *Documento_get_classe(tDocumento* );
 int Documento_get_qtd_palavras_total(tDocumento* );
@@ -28,6 +27,10 @@ void Documento_destroi_idc(tDocumento ** vetDocumentos,int qtdDocsLidos);
 void Documento_soma_tfidf(Docf *vet_soma_busca,int idcDoc,double tf_idf);
 int Documento_compara(const void *,const void*);
 int Docf_get_numBytes();
+void Documento_atribui_tf_idf(tDocumento* d, char* palavra, double tfidf);
 void Documento_imprime_docf(Docf * vet_soma_busca,int qtdDocs);
+double Documento_calcula_mult_numerador(tDocumento*d1, tDocumento*d2, char*p);
+double Documento_calcula_cosseno(tDocumento*d1, tDocumento *d2);
+int Documento_get_ocorrencia_palavra(tDocumento *d, char * p);
 
 #endif
