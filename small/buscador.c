@@ -26,7 +26,7 @@ int main(int argc, char * argv[]){
         switch (escolha)
         {
         case BUSCA:
-            Listas_busca_noticia(hash,*qtdDocsLidos);
+            Listas_busca_noticia(hash,*qtdDocsLidos,vetDocumentos);
             break;
         
         default:

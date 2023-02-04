@@ -134,12 +134,10 @@ tHashPalavras *Hash_le_bin(FILE * arqIndices)
     return hash;
 }
 
+
 void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
 {
-    Palavra_imprime(pal);
     int indice = Hash_cria_indice(Palavra_get_nome(pal));
-
-    // printf("'%s': indice %d\n", palavra, indice);
     if (hashPalavras->hashmap_lista[indice] == NULL)
     {
         hashPalavras->hashmap_lista[indice] = calloc(1, sizeof(tListaPalavra));
@@ -233,7 +231,7 @@ void Hash_imprime(tHashPalavras *hashPalavras, int documento)
             tListaPalavra *temp = hashPalavras->hashmap_lista[i];
             while (temp != NULL)
             {
-                // printf("%s (%d)\n", get_nome(temp->palavra), get_ocorrencia(temp->palavra, documento));
+                printf("%s (%d)\n", Palavra_get_nome(temp->palavra), Palavra_get_ocorrencia(temp->palavra, documento));
                 temp = temp->next;
             }
         }

@@ -1,5 +1,6 @@
 #include "tPalavra.h"
 #include "tHashPalavras.h"
+#include "recalloc.h"
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -24,6 +25,10 @@ int Palavra_compara(const void *ptr, const void *ptr2)
     p1 = *(tPalavra **)ptr;
     p2 = *(tPalavra **)ptr2;
     return strcmp(p1->nome, p2->nome);
+}
+//retorna o indice do documento da iesima posicao 
+int Palavra_get_documento(tPalavra * palavra, int idcDoc){
+        return palavra->vetDocumentos[idcDoc];
 }
 tPalavra *Palavra_constroi(char *nome)
 {
@@ -78,7 +83,8 @@ int Palavra_get_ocorrencia(tPalavra *p, int doc)
 
 void Palavra_adiciona_ocorrencia(tPalavra *p, int doc)
 {
-    if (p->qtd_documentos_q_aparece >= p->qtd_documentos_alocados)
+
+    if (p->qtd_documentos_q_aparece == p->qtd_documentos_alocados)
     {
         p->qtd_documentos_alocados *= 2;
 
@@ -92,6 +98,10 @@ void Palavra_adiciona_ocorrencia(tPalavra *p, int doc)
             p->vetDocumentos[i] = 0;            
 
         }
+
+        // p->vetDocumentos = recalloc(p->vetDocumentos, p->qtd_documentos_alocados, sizeof(int));
+        // p->qtd_ocorrencias = recalloc(p->qtd_ocorrencias, p->qtd_documentos_alocados, sizeof(int));
+        // p->tf_idf = recalloc(p->tf_idf, p->qtd_documentos_alocados, sizeof(double));
     }
     int idc = p->qtd_documentos_q_aparece;
     p->vetDocumentos[idc] = doc;
@@ -124,17 +134,13 @@ tPalavra *Palavra_le_binario(FILE *arquivo)
     fread(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
     fread(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
     p->vetDocumentos=calloc(p->qtd_documentos_q_aparece,sizeof(int));
-    p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    //p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
     p->qtd_ocorrencias=calloc(p->qtd_documentos_q_aparece,sizeof(double));
     int tam;
     fread(&tam,sizeof(int),1,arquivo);
-    printf("%d\n",tam);
-    printf("%d\n",p->qtd_documentos_q_aparece);
-    printf("%d\n",p->n_do_ultimo_doc_q_aparece);
     fread(p->nome, sizeof(char),tam, arquivo);
-    printf("%s\n",p->nome);
     fread(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    //fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
     fread(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 
     return p;
@@ -147,11 +153,11 @@ void Palavra_escreve_binario(tPalavra *p, FILE *arquivo)
 {
     fwrite(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
     fwrite(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
-    int tam=strlen(p->nome);
+    int tam=strlen(p->nome)+1;
     fwrite(&tam,sizeof(int),1,arquivo);
     fwrite(p->nome, sizeof(char), tam, arquivo);
     fwrite(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    //fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo); // resolver função de criar tf_idf
     fwrite(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 }
 int Palavra_get_num_bytes()
