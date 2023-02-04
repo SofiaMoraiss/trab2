@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct palavra {
+struct palavra {
   char palavra[50];
   int qtd_ocorrencias_palavras;
   double tf_idf;
-} dPalavra;
+};
 
 struct docTf_idf{
   int idcDoc;
@@ -104,6 +104,18 @@ int Documento_get_qtd_palavras_total(tDocumento* d){ return d->qtd_palavras_tota
 
 int Documento_get_numBytes(){
   return sizeof(Docf);
+}
+
+void Documento_escreve_bin(tDocumento * documento,FILE * file){
+  
+  int tam=strlen(tam);
+  fwrite(&tam,sizeof(int),1,file);
+  fwrite(&documento->nome,sizeof(char),tam,file);
+  fwrite(documento->classe,sizeof(char),4,file);
+  fwrite(&documento->indiceNaLista,sizeof(int),1,file);
+  fwrite(&documento->qtd_palavras_dif_lidas,sizeof(int),1,file);
+  fwrite(&documento->qtd_palavras_total,sizeof(int),1,file);
+  fwrite(documento->palavras,sizeof(dPalavra),documento->qtd_palavras_dif_lidas,file);
 }
 
 char *Documento_get_nome_palavra(tDocumento* d, int idc){ return d->palavras[idc].palavra; }

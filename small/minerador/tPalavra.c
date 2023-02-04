@@ -84,13 +84,21 @@ int Palavra_get_ocorrencia(tPalavra *p, int doc)
 
 void Palavra_adiciona_ocorrencia(tPalavra *p, int doc)
 {
-    if (p->qtd_documentos_q_aparece >= p->qtd_documentos_alocados)
+
+    if (p->qtd_documentos_q_aparece == p->qtd_documentos_alocados)
     {
         p->qtd_documentos_alocados *= 2;
 
         p->vetDocumentos = realloc(p->vetDocumentos, p->qtd_documentos_alocados * sizeof(int));
         p->qtd_ocorrencias = realloc(p->qtd_ocorrencias, p->qtd_documentos_alocados * sizeof(int));
         p->tf_idf = realloc(p->tf_idf, p->qtd_documentos_alocados * sizeof(double));
+        for (int i = p->qtd_documentos_q_aparece; i < p->qtd_documentos_alocados; i++)
+        {
+            p->qtd_ocorrencias[i] = 0;            
+            p->tf_idf[i] = 0.0;            
+            p->vetDocumentos[i] = 0;            
+
+        }
     }
     int idc = p->qtd_documentos_q_aparece;
     p->vetDocumentos[idc] = doc;
@@ -150,11 +158,11 @@ void Palavra_escreve_binario(tPalavra *p, FILE *arquivo)
 {
     fwrite(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
     fwrite(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
-    int tam=strlen(p->nome);
+    int tam=strlen(p->nome)+1;
     fwrite(&tam,sizeof(int),1,arquivo);
     fwrite(p->nome, sizeof(char), tam, arquivo);
     fwrite(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    //fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo); // resolver função de criar tf_idf
     fwrite(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 }
 int Palavra_get_num_bytes()
