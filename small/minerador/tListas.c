@@ -13,6 +13,18 @@ struct listas
   int qtd_palavras_lidas;
   int qtd_docs_alocados;
   tHashPalavras *hash;
+  tDocsAux *vetDocsAux;
+  tPalavrasAux *vetPalavrasAux;
+};
+
+struct docsAux {
+  int idc;
+  int qtd_palavras;
+};
+
+struct palavrasAux {
+  int Idc;
+  int qtd_palavras;
 };
 
 tListas *Listas_adiciona_doc(tListas *l, tDocumento *doc)
@@ -208,28 +220,42 @@ void Listas_imprime_relatorio_palavra(char *nome, tListas *l)
   printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
 }
 
-int ordena(tDocumento *docA, tDocumento *docB)
+int ordena(const void *docA, const void *docB)
 {
+  tDocsAux A=*(tDocsAux*)docA;
+  tDocsAux B=*(tDocsAux*)docB;
 
-    if (Documento_get_qtd_palavras_total(docA) > Documento_get_qtd_palavras_total(docB)){
-        return 1;
-    }
-    return -1;
+    return (B.qtd_palavras - A.qtd_palavras);
+
 }
 
-tListas * Listas_imprime_relatorio_documento(tListas *l)
+void Listas_imprime_relatorio_documentos(tListas *l)
 {
-  tDocumento **docsAux=calloc(l->qtd_docs_lidos, sizeof(tDocumento*));
-  docsAux=l->vetDocumentos;
-    /*for (int i = 0; i < l->qtd_docs_lidos; i++)
+  l->vetDocsAux=calloc(l->qtd_docs_lidos, sizeof(tDocsAux));
+    for (int i = 0; i < l->qtd_docs_lidos; i++)
     {
-        Documento_get_qtd_palavras_total(docsAux[i]) = Documento_calcula_qtd_palavras_total(t);
-    }*/
-    qsort(docsAux, l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
-
-    printf("10 DOCUMENTOS MAIS LONGOS: \n");
-    for (int i=0; i<10; i++){
-      printf("%d: %d palavras / Classe: %s\n", i+1, Documento_get_qtd_palavras_total(docsAux[i]), Documento_get_classe(docsAux[i]));
+        l->vetDocsAux[i].qtd_palavras=Documento_get_qtd_palavras_total(l->vetDocumentos[i]);
+        l->vetDocsAux[i].idc=Documento_get_indice(l->vetDocumentos[i]);
     }
+    qsort(l->vetDocsAux, l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
 
+    printf("\n10 DOCUMENTOS MAIS LONGOS: \n");
+    int idc, qtd_palavras;
+    for (int i=0; i<10; i++){
+      idc=l->vetDocsAux[i].idc;
+      qtd_palavras=l->vetDocsAux[i].qtd_palavras;
+      //Documento_imprime(l->vetDocumentos[i], i+1);
+      printf("%d: Documento '%s' ---> %d palavras", i+1, Documento_get_nome(l->vetDocumentos[idc]), l->vetDocsAux[i].qtd_palavras);
+      printf("     / Classe: %s\n", Documento_get_classe(l->vetDocumentos[idc])) ;
+    }
+    int j=1;
+    printf("\n\n10 DOCUMENTOS MAIS CURTOS: \n");
+    for (int i=l->qtd_docs_lidos-1; i>l->qtd_docs_lidos-10; i--){
+      j++;
+      //Documento_imprime(l->vetDocumentos[i], j);
+      printf("%d: Documento '%s' ---> %d palavras", i+1, Documento_get_nome(l->vetDocumentos[idc]), l->vetDocsAux[i].qtd_palavras);
+      printf("     / Classe: %s\n", Documento_get_classe(l->vetDocumentos[idc])) ;
+
+    }
+  free(l->vetDocsAux);
 }

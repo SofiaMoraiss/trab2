@@ -49,10 +49,7 @@ tDocumento *Documento_constroi(char *nome, char *classe, int indice) {
 
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
 
-/*int Documento_get_ocorrencias_palavra(tDocumento *d, tPalavra*p)
-{ 
-  return d->vetPalavras;
-}*/
+
 
 tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
 

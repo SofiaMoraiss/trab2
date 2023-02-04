@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 
     Listas_gera_binario(l, argv[2]);
 
-    Listas_imprime_relatorio_documento(l);
+    Listas_imprime_relatorio_documentos(l);
 
     Listas_destroi(l);
     fclose(arqNomeDoc);

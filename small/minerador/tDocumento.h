@@ -19,6 +19,7 @@ void Documento_imprime_palavras(tDocumento *);
 tDocumento* Documento_atribui_tf_idf(tDocumento* , int , int );
 char *Documento_get_nome_palavra(tDocumento *, int );
 char *Documento_get_classe(tDocumento* );
+int Documento_get_qtd_palavras_total(tDocumento* );
 int Documento_Tem_palavra_documento(tDocumento * ,char * );
 
 #endif
