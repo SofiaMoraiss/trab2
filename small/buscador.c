@@ -7,8 +7,7 @@
 #define RELDOC 4
 int main(int argc, char * argv[]){
     FILE * arqIndices=fopen(argv[1],"rb");
-    tHashPalavras * hash=calloc(1,Hash_obtem_numBytes());
-    Listas_le_binario(argv[1],hash);
+    tHashPalavras * hash=Hash_le_bin(argv[1]);
     //Hash_imprime(hash,0);
     //Listas_imprime_vet_palavras(lista);
     //LeIndices(arqIndices,lista);
@@ -31,7 +30,7 @@ int main(int argc, char * argv[]){
         }
 
     }while(escolha);
-    free(hash);
+    Hash_destroi(hash);
     fclose(arqIndices);
 
     return 0;

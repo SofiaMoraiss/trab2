@@ -12,6 +12,7 @@ struct listaPalavra
 
 struct hashPalavras
 {
+    int qtdPalavrasLidas;
     tListaPalavra **hashmap_lista;
     int indiceMaximo;
 };
@@ -27,7 +28,10 @@ int Hash_get_idc_max(tHashPalavras *hash)
 {
     return hash->indiceMaximo;
 }
-
+void Hash_atribui_idcMax(tHashPalavras *hash, int idcMax)
+{
+    hash->indiceMaximo = idcMax;
+}
 tListaPalavra *Hash_atribui_prox_no(tListaPalavra *lista)
 {
     return lista->next;
@@ -60,7 +64,7 @@ tHashPalavras *Hash_cria()
 {
     tHashPalavras *hashPalavras = calloc(1, sizeof(tHashPalavras));
     hashPalavras->hashmap_lista = calloc(1, sizeof(tListaPalavra *));
-
+    hashPalavras->qtdPalavrasLidas = 0;
     hashPalavras->indiceMaximo = 1;
 
     return hashPalavras;
@@ -91,7 +95,89 @@ void Hash_destroi(tHashPalavras *h)
     free(h->hashmap_lista);
     free(h);
 }
+int Hash_obtem_qtdPalavras(tHashPalavras *hash)
+{
+    return hash->qtdPalavrasLidas;
+}
+void Hash_escreve_bin(tHashPalavras *hash, FILE *file)
+{
 
+    fwrite(&hash->qtdPalavrasLidas, sizeof(int), 1, file);
+    fwrite(&hash->indiceMaximo, sizeof(int), 1, file);
+    for (int i = 0; i < hash->indiceMaximo; i++)
+    {
+        if (hash->hashmap_lista[i] != NULL)
+        {
+            tListaPalavra *temp = hash->hashmap_lista[i];
+            tListaPalavra *temp_next = NULL;
+            while (temp != NULL)
+            {
+                temp_next = temp->next;
+                Palavra_escreve_binario(temp->palavra, file);
+                temp = temp_next;
+            }
+        }
+    }
+}
+tHashPalavras *Hash_le_bin(char *nomeBin)
+{
+    FILE *arqIndices = fopen(nomeBin, "rb");
+
+    int qtd;
+    int idcMax;
+    tHashPalavras *hash = Hash_cria();
+    fread(&hash->qtdPalavrasLidas, sizeof(int), 1, arqIndices);
+    fread(&hash->indiceMaximo, sizeof(int), 1, arqIndices);
+    // for (int i = 0; i < hash->qtdPalavrasLidas; i++)
+    // {
+    //     hash->hashmap_lista[i]=NULL;
+    // };
+    for (int i = 0; i < hash->qtdPalavrasLidas; i++)
+    {
+        tPalavra *palavra = Palavra_le_binario(arqIndices);
+        //Hash_cria_indice(Palavra_get_nome(palavra));
+        //Hash_recria(hash, palavra);
+        Palavra_imprime(palavra);
+    };
+
+    fclose(arqIndices);
+}
+
+void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
+{
+    Palavra_imprime(pal);
+    int indice = Hash_cria_indice(Palavra_get_nome(pal));
+
+    // printf("'%s': indice %d\n", palavra, indice);
+    if (hashPalavras->hashmap_lista[indice] == NULL)
+    {
+        hashPalavras->hashmap_lista[indice] = calloc(1, sizeof(tListaPalavra));
+        hashPalavras->hashmap_lista[indice]->next = NULL;
+        hashPalavras->hashmap_lista[indice]->palavra = pal;
+    }
+    else
+    {
+        tListaPalavra *lista = hashPalavras->hashmap_lista[indice];
+        tListaPalavra *lista_anterior = NULL;
+        while (lista != NULL)
+        {
+
+            if (strcmp(Palavra_get_nome(lista->palavra), Palavra_get_nome(pal)) == 0)
+            {
+                break;
+            }
+            lista_anterior = lista;
+            lista = lista->next;
+        }
+        if (lista == NULL)
+        {
+            lista_anterior->next = calloc(1, sizeof(tListaPalavra));
+            lista = lista_anterior->next;
+            lista->next = NULL;
+            lista->palavra = pal;
+        }
+    }
+}
 void Hash_adiciona_palavra(tHashPalavras *hashPalavras, char *palavra, int documento)
 {
     int indice = Hash_cria_indice(palavra);
@@ -112,6 +198,7 @@ void Hash_adiciona_palavra(tHashPalavras *hashPalavras, char *palavra, int docum
         hashPalavras->hashmap_lista[indice]->next = NULL;
         hashPalavras->hashmap_lista[indice]->palavra = Palavra_constroi(palavra); //// FREE N TA INDO
         Palavra_adiciona_ocorrencia(hashPalavras->hashmap_lista[indice]->palavra, documento);
+        hashPalavras->qtdPalavrasLidas++;
     }
     else
     {
@@ -132,6 +219,7 @@ void Hash_adiciona_palavra(tHashPalavras *hashPalavras, char *palavra, int docum
             lista = lista_anterior->next;
             lista->next = NULL;
             lista->palavra = Palavra_constroi(palavra); //// FREE N TA FREEANDO
+            hashPalavras->qtdPalavrasLidas++;
         }
         Palavra_adiciona_ocorrencia(lista->palavra, documento);
     }
@@ -180,4 +268,8 @@ tPalavra *Hash_procura_palavra(char *nome, tHashPalavras *hash)
         temp = Hash_atribui_prox_no(temp);
     }
     return NULL;
+}
+int Hash_obtem_numBytes()
+{
+    return sizeof(tHashPalavras);
 }

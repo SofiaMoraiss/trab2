@@ -43,29 +43,13 @@ tListas *Listas_constroi()
   l->hash = Hash_cria();
   return l;
 }
+
 void Listas_gera_binario(tListas * l, char * nomeBin){
  FILE*arqIndices=fopen(nomeBin,"wb");
  if(!arqIndices){
   exit(1);
  }
-  for (int i = 0; i < Hash_get_idc_max(l->hash); i++)
-  {
-    if(i==0){
-      int idcMax=Hash_get_idc_max(l->hash);
-      int v=(Hash_obtem_qtdPalavras(l->hash));
-      fwrite(&v,sizeof(int),1,arqIndices);
-      fwrite(&idcMax,sizeof(int),1,arqIndices);
-    }
-    if (Hash_get_no_palavra(l->hash,i) != NULL)
-    {
-        tListaPalavra * temp=Hash_get_no_palavra(l->hash,i);
-      while ( temp!= NULL)
-      {
-        fwrite(Hash_get_palavra(temp),Palavra_get_num_bytes(),1,arqIndices);
-        temp=Hash_atribui_prox_no(temp);
-      }
-    }
-  }
+  Hash_escreve_bin(l->hash,arqIndices);
   fclose(arqIndices);
 }
 void Listas_destroi(tListas *l)
@@ -147,20 +131,20 @@ void Listas_busca_noticia(tListas * lista, char * frase){
   
 
   //ao sair desse laço temos o valor os valores tfidf para aquela busca em todos os documentos
-  // while(i<lista->qtd_docs_lidos){
-  //   int soma_Tf_idf_digitadas=0;
-  //   //Ao sair desse laço temos o valor de um tf idf para aquela busca em um documento
-  //   while(aux){
-  //     if(Documento_Tem_palavra_documento(lista->vetDocumentos[i],aux)){
-  //       tPalavra *palavra=Hash_get_palavra(Hash_get_no_palavra(hash,indice));
-  //         soma_Tf_idf_digitadas+=Palavra_get_tf_idf(palavra,indiceDoc);
-  //     }
-  //     aux=strtok(NULL," ");
-  //   }
-  //   //imprimir os indices ordenados conformes os 10 primeiros valores
-  //   //ImprimeBusca();
-  //   indiceDoc++;
-  // }
+  while(i<lista->qtd_docs_lidos){
+    int soma_Tf_idf_digitadas=0;
+    //Ao sair desse laço temos o valor de um tf idf para aquela busca em um documento
+    while(aux){
+      if(Documento_Tem_palavra_documento(lista->vetDocumentos[i],aux)){
+        tPalavra *palavra=Hash_get_palavra(Hash_get_no_palavra(hash,indice));
+          soma_Tf_idf_digitadas+=Palavra_get_tf_idf(palavra,indiceDoc);
+      }
+      aux=strtok(NULL," ");
+    }
+    //imprimir os indices ordenados conformes os 10 primeiros valores
+    //ImprimeBusca();
+    indiceDoc++;
+  }
   //qsort(vet_tf_idf,lista->qtd_docs_lidos,sizeof(double),comparaDouble);
   //ImprimeBusca(vet_tf_idf);
 }

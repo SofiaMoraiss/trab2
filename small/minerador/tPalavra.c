@@ -105,9 +105,58 @@ void Palavra_adiciona_ocorrencia(tPalavra *p, int doc)
 void Palavra_imprime(tPalavra *p)
 {
     printf("%s\n", p->nome);
-    printf("%d",p->qtd_documentos_q_aparece);
+    printf("%d\n", p->qtd_documentos_q_aparece);
+    for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
+    {
+        printf("%d\n", p->vetDocumentos[i]);
+        printf("--------");
+        //printf("%d\n", p->qtd_ocorrencias[i]);
+    }
 }
+tPalavra *Palavra_construtor()
+{
+    tPalavra *d = calloc(1, sizeof(tPalavra));
+    d->qtd_ocorrencias = calloc(100, sizeof(int));
+    d->tf_idf = calloc(100, sizeof(int));
+    d->vetDocumentos = calloc(100, sizeof(int));
+    return d;
+}
+tPalavra *Palavra_le_binario(FILE *arquivo)
+{
+     tPalavra *p = calloc(1, sizeof(tPalavra));
+    fread(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
+    fread(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
+    p->vetDocumentos=calloc(p->qtd_documentos_q_aparece,sizeof(int));
+    p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    p->qtd_ocorrencias=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    int tam;
+    fread(&tam,sizeof(int),1,arquivo);
+    printf("%d\n",tam);
+    printf("%d\n",p->qtd_documentos_q_aparece);
+    printf("%d\n",p->n_do_ultimo_doc_q_aparece);
+    fread(p->nome, sizeof(char),tam, arquivo);
+    printf("%s\n",p->nome);
+    fread(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
+    fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    fread(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 
+    return p;
+}
+int Palavra_get_tam(tPalavra *palavra)
+{
+    return strlen(Palavra_get_nome(palavra));
+}
+void Palavra_escreve_binario(tPalavra *p, FILE *arquivo)
+{
+    fwrite(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
+    fwrite(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
+    int tam=strlen(p->nome);
+    fwrite(&tam,sizeof(int),1,arquivo);
+    fwrite(p->nome, sizeof(char), tam, arquivo);
+    fwrite(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
+    fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    fwrite(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
+}
 int Palavra_get_num_bytes()
 {
     return sizeof(tPalavra);

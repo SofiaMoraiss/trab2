@@ -1,5 +1,6 @@
 #ifndef PALAVRA_H
 #define PALAVRA_H
+#include <stdio.h>
 
 typedef struct palavra tPalavra;
 typedef struct vetdoc tVetDocumentos;
@@ -17,5 +18,8 @@ int Palavra_get_num_bytes();
 tPalavra *Palavra_constroi_todos_TFIDFs(tPalavra *, int);
 double Palavra_calcula_1tf_idf(int, int, int);
 double *Palavra_get_vetTFIDF(tPalavra *p);
-
+tPalavra * Palavra_costrutor();
+void Palavra_escreve_binario(tPalavra * p,FILE * arquivo);
+tPalavra * Palavra_le_binario(FILE  * arquivo);
+int Palavra_get_tam(tPalavra *palavra);
 #endif
