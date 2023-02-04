@@ -46,10 +46,30 @@ tDocumento *Documento_constroi(char *nome, char *classe, int indice) {
 
   return d;
 }
-
+int Docf_get_numBytes(){
+  return sizeof(Docf);
+}
+void Documento_imprime_docf(Docf * vet_soma_busca,int qtdDocs){
+  for(int i=qtdDocs-1;i>qtdDocs-10;i--){
+    printf("tf_idf: %lf\n",vet_soma_busca[i].tfidfBsucas);
+    printf("indice do documento: %d\n",vet_soma_busca[i].idcDoc);
+  }
+}
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
-
-
+int Documento_compara(const void * d1, const void * d2){
+  Docf * doc1=(Docf*)d1;
+  Docf * doc2=(Docf*)d2;
+  if(doc1->tfidfBsucas > doc2->tfidfBsucas){
+    return 1;
+  }else if(doc1->tfidfBsucas < doc2->tfidfBsucas){
+    return -1;
+  }
+  return 0;
+}
+void Documento_soma_tfidf(Docf * vet_soma_busca,int idcDoc,double tf_idf){
+  vet_soma_busca[idcDoc].tfidfBsucas+=tf_idf;
+  //vet_soma_busca[idcDoc]->tfidfBsucas+=tf_idf;
+}
 
 tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
 
@@ -118,7 +138,7 @@ void Documento_escreve_bin(tDocumento * documento,FILE * file){
   
   int tam=strlen(documento->nome)+1;
   fwrite(&tam,sizeof(int),1,file);
-  printf("%d---",tam);
+  //printf("%d---",tam);
   fwrite(documento->nome,sizeof(char),tam,file);
   fwrite(documento->classe,sizeof(char),4,file);
   fwrite(&documento->indiceNaLista,sizeof(int),1,file);
@@ -142,7 +162,6 @@ tDocumento * Documento_le_bin(FILE * file){
 }
 tDocumento ** Documento_le_indice(FILE * file,int * qtd){
       fread(qtd,sizeof(int),1,file);
-      printf("%d\n",*(qtd));
       tDocumento ** vetDocumentos=calloc(*(qtd),sizeof(tDocumento*));     
       for(int i=0;i<*(qtd);i++){
         vetDocumentos[i]=Documento_le_bin(file);

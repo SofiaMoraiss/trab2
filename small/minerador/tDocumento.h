@@ -25,5 +25,9 @@ void Documento_escreve_bin(tDocumento * documento,FILE * file);
 tDocumento ** Documento_le_indice(FILE * file,int * qtd);
 tDocumento * Documento_le_bin(FILE * file);
 void Documento_destroi_idc(tDocumento ** vetDocumentos,int qtdDocsLidos);
+void Documento_soma_tfidf(Docf *vet_soma_busca,int idcDoc,double tf_idf);
+int Documento_compara(const void *,const void*);
+int Docf_get_numBytes();
+void Documento_imprime_docf(Docf * vet_soma_busca,int qtdDocs);
 
 #endif

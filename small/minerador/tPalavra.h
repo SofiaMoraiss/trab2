@@ -22,4 +22,5 @@ tPalavra * Palavra_costrutor();
 void Palavra_escreve_binario(tPalavra * p,FILE * arquivo);
 tPalavra * Palavra_le_binario(FILE  * arquivo);
 int Palavra_get_tam(tPalavra *palavra);
+int Palavra_get_documento(tPalavra * palavra, int idcDoc);
 #endif

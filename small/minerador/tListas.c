@@ -63,7 +63,7 @@ void Listas_gera_binario(tListas * l, char * nomeBin){
  }
   Hash_escreve_bin(l->hash,arqIndices);
    fwrite(&l->qtd_docs_lidos,sizeof(int),1,arqIndices);
-   printf("%d-----",l->qtd_docs_lidos);
+   //printf("%d-----",l->qtd_docs_lidos);
   for(int i=0;i<l->qtd_docs_lidos;i++){
     Documento_escreve_bin(l->vetDocumentos[i],arqIndices);
   }
@@ -141,31 +141,34 @@ tHashPalavras *Listas_get_hash(tListas *lista)
   return lista->hash;
 }
 
-void Listas_busca_noticia(tListas * lista, char * frase){
-  char * aux;
-  tHashPalavras * hash=Listas_get_hash(lista);
-  aux =strtok(frase," ");
-  int indice,i=0;
-  int indiceDoc=0;
-  
-
-  //ao sair desse laço temos o valor os valores tfidf para aquela busca em todos os documentos
-  while(i<lista->qtd_docs_lidos){
-    int soma_Tf_idf_digitadas=0;
-    //Ao sair desse laço temos o valor de um tf idf para aquela busca em um documento
-    while(aux){
-      if(Documento_Tem_palavra_documento(lista->vetDocumentos[i],aux)){
-        tPalavra *palavra=Hash_get_palavra(Hash_get_no_palavra(hash,indice));
-          soma_Tf_idf_digitadas+=Palavra_get_tf_idf(palavra,indiceDoc);
+void Listas_busca_noticia(tHashPalavras * hash,int qtd){
+  Docf *vet_soma_busca=calloc(qtd,Docf_get_numBytes());
+  printf("quanto de documento %d\n",qtd);
+  int idcDoc;
+  double tf_idf;
+  char frase[50];
+  char c;
+  do{
+      scanf("%s%c",frase,&c);
+      printf("%c\n",c);
+      printf("%s\n",frase);
+      tPalavra * palavra=Hash_procura_palavra(frase,hash);
+      if(!palavra){
+        printf("nao tem palavra!\n");
+        return;
       }
-      aux=strtok(NULL," ");
-    }
-    //imprimir os indices ordenados conformes os 10 primeiros valores
-    //ImprimeBusca();
-    indiceDoc++;
-  }
-  //qsort(vet_tf_idf,lista->qtd_docs_lidos,sizeof(double),comparaDouble);
-  //ImprimeBusca(vet_tf_idf);
+      Palavra_imprime(palavra);
+
+      for(int i=0;i<Palavra_get_qtd_docs_q_aparece(palavra);i++){
+        idcDoc=Palavra_get_documento(palavra,i);
+        tf_idf=0.0;
+        //tf_idf=Palavra_get_tf_idf(palavra,idcDoc);
+        Documento_soma_tfidf(vet_soma_busca,idcDoc,tf_idf);
+      }
+  }while(c!='\n');
+    //qsort(vet_soma_busca,qtd,Docf_get_numBytes(),Documento_compara);
+    Documento_imprime_docf(vet_soma_busca,qtd);
+    free(vet_soma_busca);
 }
 tListas *Listas_calcula_tf_idfs(tListas *l)
 {

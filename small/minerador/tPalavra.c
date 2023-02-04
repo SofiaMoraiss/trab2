@@ -1,5 +1,6 @@
 #include "tPalavra.h"
 #include "tHashPalavras.h"
+#include "recalloc.h"
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -24,6 +25,10 @@ int Palavra_compara(const void *ptr, const void *ptr2)
     p1 = *(tPalavra **)ptr;
     p2 = *(tPalavra **)ptr2;
     return strcmp(p1->nome, p2->nome);
+}
+//retorna o indice do documento da iesima posicao 
+int Palavra_get_documento(tPalavra * palavra, int idcDoc){
+        return palavra->vetDocumentos[idcDoc];
 }
 tPalavra *Palavra_constroi(char *nome)
 {
@@ -99,6 +104,10 @@ void Palavra_adiciona_ocorrencia(tPalavra *p, int doc)
             p->vetDocumentos[i] = 0;            
 
         }
+
+        // p->vetDocumentos = recalloc(p->vetDocumentos, p->qtd_documentos_alocados, sizeof(int));
+        // p->qtd_ocorrencias = recalloc(p->qtd_ocorrencias, p->qtd_documentos_alocados, sizeof(int));
+        // p->tf_idf = recalloc(p->tf_idf, p->qtd_documentos_alocados, sizeof(double));
     }
     int idc = p->qtd_documentos_q_aparece;
     p->vetDocumentos[idc] = doc;
