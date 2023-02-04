@@ -23,5 +23,5 @@ void Listas_imprime_vet_palavras(tListas *);
 void Listas_ordena_vetor(tListas *);
 void Listas_gera_binario(tListas *, char *);
 tListas *Listas_calcula_tf_idfs(tListas * );
-void Listas_busca_noticia(tHashPalavras * , int qtd );
+void Listas_busca_noticia(tHashPalavras * , int qtd, tDocumento ** vetDocs );
 void Listas_imprime_relatorio_documentos(tListas *);

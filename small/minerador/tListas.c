@@ -141,7 +141,7 @@ tHashPalavras *Listas_get_hash(tListas *lista)
   return lista->hash;
 }
 
-void Listas_busca_noticia(tHashPalavras * hash,int qtd){
+void Listas_busca_noticia(tHashPalavras * hash,int qtd, tDocumento ** vetDocumento){
   Docf *vet_soma_busca=calloc(qtd,Docf_get_numBytes());
   printf("quanto de documento %d\n",qtd);
   int idcDoc;
@@ -150,24 +150,20 @@ void Listas_busca_noticia(tHashPalavras * hash,int qtd){
   char c;
   do{
       scanf("%s%c",frase,&c);
-      printf("%c\n",c);
-      printf("%s\n",frase);
       tPalavra * palavra=Hash_procura_palavra(frase,hash);
       if(!palavra){
         printf("nao tem palavra!\n");
         return;
       }
-      Palavra_imprime(palavra);
-
       for(int i=0;i<Palavra_get_qtd_docs_q_aparece(palavra);i++){
         idcDoc=Palavra_get_documento(palavra,i);
         tf_idf=0.0;
         //tf_idf=Palavra_get_tf_idf(palavra,idcDoc);
-        Documento_soma_tfidf(vet_soma_busca,idcDoc,tf_idf);
+        vet_soma_busca=Documento_soma_tfidf(vet_soma_busca,idcDoc,tf_idf);
       }
   }while(c!='\n');
     //qsort(vet_soma_busca,qtd,Docf_get_numBytes(),Documento_compara);
-    Documento_imprime_docf(vet_soma_busca,qtd);
+    Documento_imprime_docf(vet_soma_busca,qtd,vetDocumento);
     free(vet_soma_busca);
 }
 tListas *Listas_calcula_tf_idfs(tListas *l)

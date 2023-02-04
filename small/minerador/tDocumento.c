@@ -49,11 +49,16 @@ tDocumento *Documento_constroi(char *nome, char *classe, int indice) {
 int Docf_get_numBytes(){
   return sizeof(Docf);
 }
-void Documento_imprime_docf(Docf * vet_soma_busca,int qtdDocs){
+void Documento_imprime_docf(Docf * vet_soma_busca,int qtdDocs, tDocumento ** vetDocs){
   for(int i=qtdDocs-1;i>qtdDocs-10;i--){
+    int idc=vet_soma_busca[i].idcDoc;
+    Documento_imprime_palavras(vetDocs[idc]);
     printf("tf_idf: %lf\n",vet_soma_busca[i].tfidfBsucas);
-    printf("indice do documento: %d\n",vet_soma_busca[i].idcDoc);
+    //printf("indice do documento: %d\n",vet_soma_busca[i].idcDoc);
   }
+}
+void Documento_imprime(tDocumento *doc){
+
 }
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
 int Documento_compara(const void * d1, const void * d2){
@@ -66,9 +71,11 @@ int Documento_compara(const void * d1, const void * d2){
   }
   return 0;
 }
-void Documento_soma_tfidf(Docf * vet_soma_busca,int idcDoc,double tf_idf){
+Docf * Documento_soma_tfidf(Docf * vet_soma_busca,int idcDoc,double tf_idf){
+  vet_soma_busca[idcDoc].idcDoc=idcDoc;
   vet_soma_busca[idcDoc].tfidfBsucas+=tf_idf;
   //vet_soma_busca[idcDoc]->tfidfBsucas+=tf_idf;
+  return vet_soma_busca;
 }
 
 tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
@@ -102,7 +109,6 @@ tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
 }
 
 void Documento_imprime_palavras(tDocumento *d){
-
   printf("qtd_palavras_dif_lidas: %d\n", d->qtd_palavras_dif_lidas);
   printf("%s %s %d %d\n",d->nome,d->classe,d->indiceNaLista,d->qtd_palavras_dif_lidas);
   // for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
@@ -138,7 +144,6 @@ void Documento_escreve_bin(tDocumento * documento,FILE * file){
   
   int tam=strlen(documento->nome)+1;
   fwrite(&tam,sizeof(int),1,file);
-  //printf("%d---",tam);
   fwrite(documento->nome,sizeof(char),tam,file);
   fwrite(documento->classe,sizeof(char),4,file);
   fwrite(&documento->indiceNaLista,sizeof(int),1,file);
@@ -150,7 +155,6 @@ tDocumento * Documento_le_bin(FILE * file){
   tDocumento * documento=calloc(1,sizeof(tDocumento));
   int tam;
   fread(&tam,sizeof(int),1,file);
-  printf("%d---",tam);
 
   fread(documento->nome,sizeof(char),tam,file);
   fread(documento->classe,sizeof(char),4,file);
