@@ -17,6 +17,6 @@ val1:
 val2:
 	@valgrind --leak-check=full ./buscador indice.bin > output.txt2
 run1:
-	@./indice tiny/train.txt indice.bin > output.txt
+	@./indice tiny/train.txt indice.bin > output.txt1
 run2:
-	@./buscador indice.bin > output.txt
+	@./buscador indice.bin > output.txt2

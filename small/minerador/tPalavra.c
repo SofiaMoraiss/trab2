@@ -135,17 +135,13 @@ tPalavra *Palavra_le_binario(FILE *arquivo)
     fread(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
     fread(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
     p->vetDocumentos=calloc(p->qtd_documentos_q_aparece,sizeof(int));
-    p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    //p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
     p->qtd_ocorrencias=calloc(p->qtd_documentos_q_aparece,sizeof(double));
     int tam;
     fread(&tam,sizeof(int),1,arquivo);
-    printf("%d\n",tam);
-    printf("%d\n",p->qtd_documentos_q_aparece);
-    printf("%d\n",p->n_do_ultimo_doc_q_aparece);
     fread(p->nome, sizeof(char),tam, arquivo);
-    printf("%s\n",p->nome);
     fread(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    //fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
     fread(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 
     return p;

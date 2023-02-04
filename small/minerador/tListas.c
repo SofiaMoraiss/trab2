@@ -62,8 +62,14 @@ void Listas_gera_binario(tListas * l, char * nomeBin){
   exit(1);
  }
   Hash_escreve_bin(l->hash,arqIndices);
+   fwrite(&l->qtd_docs_lidos,sizeof(int),1,arqIndices);
+   printf("%d-----",l->qtd_docs_lidos);
+  for(int i=0;i<l->qtd_docs_lidos;i++){
+    Documento_escreve_bin(l->vetDocumentos[i],arqIndices);
+  }
   fclose(arqIndices);
 }
+
 
 void Listas_destroi(tListas *l)
 {

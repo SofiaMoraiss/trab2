@@ -1,13023 +1,2004 @@
-1
-4
-9
-1
-1
-2
-9
-2
-1
-1
-2
-3
-1
-3
-9
-4
-1
-6
-10
-5
-1
-1
-8
-6
-1
-2
-8
-7
-1
-2
-13
-8
-2
-1
-9
-00
-2
-3
-14
-10
-2
-2
-12
-11
-2
-4
-13
-20
-2
-1
-1
-12
-2
-1
-2
-30
-2
-1
-1
-22
-2
-3
-9
-40
-2
-1
-9
-31
-2
-1
-8
-23
-2
-2
-14
-50
-2
-1
-2
-60
-2
-2
-6
-15
-2
-1
-4
-33
-2
-2
-13
-24
-2
-1
-14
-42
-2
-3
-9
-16
-2
-1
-3
-52
-2
-1
-4
-34
-2
-1
-9
-70
-2
-1
-1
-17
-2
-1
-4
-35
-2
-1
-4
-80
-2
-1
-4
-71
-2
-2
-12
-26
-2
-2
-4
-18
-2
-1
-5
-54
-2
-1
-5
-46
-2
-1
-9
-19
-2
-1
-13
-28
-2
-1
-4
-65
-2
-1
-9
-75
-2
-1
-9
-57
-2
-1
-9
-66
-2
-1
-13
-39
-2
-1
-4
-68
-2
-1
-4
-97
-3
-1
-3
-100
-3
-2
-9
-200
-3
-1
-1
-300
-3
-2
-4
-120
-3
-1
-8
-130
-3
-1
-1
-401
-3
-1
-2
-500
-3
-1
-4
-221
-3
-1
-3
-142
-3
-1
-6
-700
-3
-1
-14
-350
-3
-1
-3
-180
-3
-1
-3
-640
-3
-1
-5
-209
-3
-1
-4
-183
-3
-1
-8
-750
-3
-1
-9
-138
-3
-1
-3
-814
-3
-1
-8
-490
-3
-1
-9
-294
-3
-1
-9
-960
-3
-1
-3
-385
-1
-14
-14
-a
-3
-1
-1
-297
-4
-2
-9
-2000
-3
-1
-4
-288
-1
-1
-8
-c
-1
-2
-4
-d
-1
-15
-14
-e
-4
-1
-3
-2003
-4
-3
-6
-2004
-4
-1
-6
-2005
-1
-1
-6
-h
-4
-1
-2
-2008
-1
-1
-4
-m
-1
-14
-14
-o
-4
-1
-9
-1871
-1
-4
-14
-r
-4
-1
-9
-1980
-4
-1
-5
-1963
-4
-1
-9
-1864
-4
-1
-9
-1945
-2
-1
-12
-4a
-4
-1
-9
-1957
-4
-1
-4
-1986
-4
-1
-5
-1996
-4
-1
-9
-1979
-2
-1
-11
-4o
-4
-1
-1
-a340
-3
-1
-14
-3x4
-4
-1
-12
-8h20
-4
-1
-12
-8h40
-2
-13
-14
-da
-2
-14
-14
-de
-2
-4
-8
-ha
-2
-2
-9
-ai
-2
-7
-12
-ja
-2
-1
-12
-fe
-2
-2
-9
-la
-2
-14
-14
-na
-2
-12
-14
-ao
-5
-1
-12
-13h40
-2
-12
-14
-em
-2
-1
-5
-co
-2
-1
-11
-ii
-2
-14
-14
-do
-2
-2
-5
-ar
-2
-12
-14
-as
-2
-3
-8
-pe
-2
-11
-14
-se
-2
-1
-7
-es
-2
-1
-9
-qg
-2
-1
-3
-ue
-2
-4
-12
-eu
-2
-2
-8
-ir
-2
-3
-14
-lo
-2
-1
-8
-ve
-2
-1
-8
-rj
-2
-12
-14
-no
-2
-3
-12
-ex
-2
-3
-12
-pm
-2
-1
-7
-tj
-2
-1
-8
-pp
-2
-1
-8
-ro
-2
-14
-14
-os
-2
-13
-14
-um
-2
-4
-9
-so
-2
-1
-8
-sp
-2
-6
-12
-ou
-2
-1
-8
-pt
-2
-2
-9
-us
-2
-2
-6
-tv
-3
-6
-13
-dia
-3
-1
-8
-acm
-3
-2
-7
-boa
-3
-2
-14
-ela
-3
-2
-8
-mae
-3
-7
-9
-bem
-3
-1
-8
-hic
-3
-1
-11
-dao
-3
-1
-12
-bme
-3
-1
-9
-cem
-3
-9
-14
-ele
-3
-1
-8
-dar
-3
-1
-11
-gao
-3
-11
-14
-das
-3
-6
-14
-era
-3
-1
-4
-aav
-3
-1
-8
-aes
-3
-1
-9
-lhe
-3
-7
-12
-ate
-3
-3
-9
-mal
-3
-2
-7
-lei
-3
-4
-8
-eua
-3
-1
-4
-der
-3
-1
-9
-gas
-3
-1
-0
-ira
-3
-1
-1
-air
-3
-2
-12
-mao
-3
-1
-14
-ibr
-3
-13
-14
-foi
-3
-11
-14
-nao
-3
-2
-9
-deu
-3
-4
-11
-ano
-3
-2
-8
-bom
-3
-14
-14
-com
-3
-1
-2
-con
-3
-5
-12
-vai
-3
-1
-6
-via
-3
-2
-8
-nem
-3
-10
-12
-mas
-3
-2
-4
-the
-3
-3
-8
-faz
-3
-1
-2
-oco
-3
-6
-9
-mil
-3
-1
-4
-san
-3
-4
-13
-nas
-3
-1
-8
-pfl
-3
-1
-12
-gol
-3
-1
-14
-tam
-3
-9
-14
-sao
-3
-12
-14
-uma
-3
-5
-11
-aos
-3
-1
-4
-dez
-3
-1
-4
-tao
-3
-2
-12
-cor
-3
-1
-6
-ato
-3
-1
-8
-fui
-3
-6
-13
-sem
-3
-2
-8
-psb
-3
-2
-9
-mes
-3
-2
-9
-fez
-3
-12
-14
-dos
-3
-7
-12
-tem
-3
-3
-12
-vao
-3
-1
-6
-max
-3
-1
-8
-ptb
-3
-4
-9
-diz
-3
-1
-2
-eso
-3
-1
-6
-pdt
-3
-6
-9
-sua
-3
-2
-5
-usa
-3
-1
-2
-rio
-3
-8
-12
-ser
-3
-1
-9
-evo
-3
-14
-14
-que
-3
-3
-11
-ter
-3
-2
-9
-paz
-3
-8
-12
-seu
-3
-1
-4
-ver
-3
-1
-8
-los
-3
-1
-4
-oms
-3
-5
-11
-nos
-3
-4
-11
-num
-3
-11
-14
-por
-3
-1
-4
-pos
-3
-1
-6
-pps
-3
-1
-1
-viu
-3
-3
-13
-sul
-3
-4
-12
-vez
-3
-1
-2
-vlt
-3
-3
-5
-uso
-3
-1
-9
-xix
-3
-1
-1
-luz
-3
-1
-8
-tur
-3
-1
-1
-voz
-4
-4
-12
-cada
-4
-1
-9
-acha
-4
-1
-2
-bebe
-4
-1
-8
-alca
-4
-5
-11
-fica
-4
-1
-9
-cana
-4
-2
-5
-fala
-4
-1
-5
-acao
-4
-2
-12
-nada
-4
-1
-12
-boca
-4
-1
-14
-caem
-4
-2
-9
-raca
-4
-3
-9
-casa
-4
-1
-9
-ecoa
-4
-1
-2
-area
-4
-1
-5
-peca
-4
-1
-9
-faco
-4
-3
-12
-dele
-4
-1
-9
-cima
-4
-1
-4
-cuba
-4
-1
-4
-base
-4
-1
-8
-dick
-4
-1
-9
-gado
-4
-1
-2
-bate
-4
-2
-12
-dedo
-4
-1
-14
-dava
-4
-1
-1
-pega
-4
-1
-6
-liga
-4
-1
-3
-jean
-4
-1
-8
-fina
-4
-1
-8
-leal
-4
-2
-12
-alem
-4
-1
-6
-cola
-4
-1
-6
-cair
-4
-1
-9
-mapa
-4
-1
-9
-cria
-4
-1
-12
-fase
-4
-1
-4
-cell
-4
-1
-4
-rede
-4
-2
-11
-lado
-4
-1
-2
-moda
-4
-1
-4
-arma
-4
-2
-9
-dias
-4
-2
-14
-sala
-4
-1
-1
-caiu
-4
-10
-14
-pela
-4
-1
-9
-bobo
-4
-1
-9
-dona
-4
-1
-2
-joia
-4
-1
-2
-nasa
-4
-2
-8
-pmdb
-4
-1
-8
-lima
-4
-1
-10
-mata
-4
-12
-14
-para
-4
-1
-2
-obra
-4
-1
-4
-arap
-4
-3
-13
-vida
-4
-1
-7
-deve
-4
-1
-9
-pena
-4
-1
-2
-boas
-4
-1
-4
-amin
-4
-2
-9
-caro
-4
-1
-9
-sela
-4
-1
-12
-calu
-4
-1
-14
-iria
-4
-4
-9
-onde
-4
-4
-12
-hoje
-4
-5
-12
-caso
-4
-1
-4
-maes
-4
-1
-5
-pele
-4
-1
-6
-mesa
-4
-2
-13
-maio
-4
-1
-9
-veja
-4
-1
-9
-guia
-4
-1
-14
-loja
-4
-1
-2
-toca
-4
-2
-8
-vice
-4
-7
-12
-pode
-4
-3
-9
-fora
-4
-1
-4
-aavp
-4
-1
-9
-vale
-4
-1
-9
-toda
-4
-1
-9
-mico
-4
-6
-12
-eles
-4
-2
-9
-elio
-4
-1
-5
-king
-4
-3
-9
-psdb
-4
-1
-8
-paes
-4
-2
-11
-joao
-4
-11
-13
-mais
-4
-3
-9
-meio
-4
-5
-14
-hora
-4
-1
-4
-fato
-4
-1
-12
-vara
-4
-1
-1
-fogo
-4
-1
-1
-raio
-4
-5
-12
-sera
-4
-1
-4
-cura
-4
-1
-9
-mark
-4
-4
-6
-essa
-4
-1
-6
-tera
-4
-3
-14
-vila
-4
-7
-12
-pais
-4
-2
-12
-voce
-4
-7
-12
-esta
-4
-1
-3
-boom
-4
-1
-12
-duas
-4
-1
-14
-irem
-4
-10
-14
-como
-4
-1
-4
-taxa
-4
-3
-9
-lula
-4
-2
-9
-sido
-4
-9
-14
-dois
-4
-4
-12
-nome
-4
-1
-8
-roma
-4
-2
-12
-sair
-4
-1
-9
-mula
-4
-1
-13
-ramo
-4
-2
-8
-papo
-4
-9
-13
-pelo
-4
-1
-2
-tira
-4
-1
-2
-dono
-4
-1
-5
-aqui
-4
-1
-6
-alto
-4
-1
-9
-esse
-4
-1
-1
-logo
-4
-4
-14
-numa
-4
-7
-14
-anos
-4
-4
-14
-sete
-4
-2
-9
-jose
-4
-1
-8
-tais
-4
-2
-14
-deus
-4
-1
-14
-este
-4
-2
-4
-saiu
-4
-2
-10
-vira
-4
-2
-5
-nota
-4
-1
-8
-jura
-4
-1
-8
-bush
-4
-1
-8
-bons
-4
-1
-11
-alvo
-4
-5
-12
-apos
-4
-4
-14
-qual
-4
-1
-9
-veio
-4
-1
-9
-hugo
-4
-3
-8
-nova
-4
-4
-12
-seis
-4
-2
-9
-teve
-4
-1
-8
-site
-4
-2
-12
-todo
-4
-1
-4
-peso
-4
-1
-9
-judt
-4
-5
-12
-quem
-4
-2
-2
-zona
-4
-3
-12
-nove
-4
-1
-4
-vaso
-4
-1
-5
-wood
-4
-1
-9
-auto
-4
-2
-9
-vive
-4
-1
-6
-suco
-4
-1
-7
-vota
-4
-1
-8
-pior
-4
-1
-12
-teor
-4
-1
-12
-juri
-4
-1
-4
-oito
-4
-2
-8
-usar
-4
-1
-6
-pois
-4
-1
-6
-tose
-4
-2
-4
-tudo
-4
-3
-9
-suas
-4
-1
-4
-peru
-4
-1
-14
-tipo
-4
-3
-8
-quer
-4
-1
-2
-news
-4
-1
-3
-solo
-4
-6
-11
-isso
-4
-2
-8
-tres
-4
-1
-7
-psol
-4
-1
-4
-isto
-4
-1
-4
-sono
-4
-4
-9
-seus
-4
-1
-4
-traz
-4
-2
-9
-novo
-4
-2
-12
-juiz
-4
-1
-9
-quis
-4
-1
-12
-rumo
-4
-1
-1
-vivo
-4
-2
-9
-povo
-4
-2
-12
-luiz
-4
-1
-6
-voto
-4
-1
-9
-tony
-5
-3
-10
-bahia
-5
-2
-4
-idade
-5
-1
-9
-barba
-5
-1
-2
-ibama
-5
-2
-9
-ideia
-5
-6
-14
-ainda
-5
-1
-6
-chapa
-5
-1
-8
-aerea
-5
-1
-8
-mafia
-5
-1
-14
-cerca
-5
-1
-2
-lanca
-5
-1
-6
-achar
-5
-1
-8
-ganha
-5
-3
-8
-media
-5
-1
-2
-afeta
-5
-1
-4
-bebes
-5
-1
-6
-fraga
-5
-1
-9
-bomba
-5
-1
-13
-fabio
-5
-1
-3
-saida
-5
-1
-5
-nacao
-5
-1
-2
-faria
-5
-2
-12
-banco
-5
-2
-6
-casal
-5
-1
-9
-lenda
-5
-1
-11
-bando
-5
-3
-6
-ajuda
-5
-1
-5
-briga
-5
-5
-14
-manha
-5
-1
-7
-brice
-5
-2
-12
-desde
-5
-1
-9
-ecoam
-5
-1
-2
-clima
-5
-1
-6
-falar
-5
-1
-8
-caixa
-5
-1
-8
-foice
-5
-1
-9
-andar
-5
-1
-11
-dando
-5
-1
-2
-freia
-5
-1
-4
-adeno
-5
-3
-14
-feira
-5
-1
-10
-barco
-5
-1
-14
-falsa
-5
-1
-4
-diego
-5
-1
-8
-falta
-5
-1
-11
-barra
-5
-3
-6
-havia
-5
-1
-2
-ajude
-5
-1
-8
-joana
-5
-1
-9
-afora
-5
-2
-14
-delas
-5
-1
-12
-deram
-5
-1
-14
-adota
-5
-1
-14
-feita
-5
-4
-9
-agora
-5
-3
-12
-abril
-5
-3
-12
-final
-5
-1
-14
-maria
-5
-1
-1
-fazia
-5
-4
-14
-local
-5
-2
-4
-dados
-5
-2
-9
-forca
-5
-2
-7
-acoes
-5
-1
-8
-deixa
-5
-2
-12
-geral
-5
-1
-9
-reich
-5
-1
-14
-etapa
-5
-1
-14
-pagar
-5
-2
-12
-cinco
-5
-2
-8
-cargo
-5
-1
-6
-seara
-5
-1
-8
-bndes
-5
-2
-14
-aereo
-5
-1
-12
-gagno
-5
-2
-4
-deles
-5
-1
-4
-wadih
-5
-4
-12
-saber
-5
-1
-5
-negra
-5
-1
-6
-rocha
-5
-1
-12
-podia
-5
-1
-5
-icone
-5
-1
-7
-cesar
-5
-1
-8
-medio
-5
-1
-8
-bater
-5
-1
-9
-malas
-5
-1
-9
-bases
-5
-1
-13
-elias
-5
-4
-12
-coisa
-5
-1
-6
-certa
-5
-1
-7
-adins
-5
-1
-8
-cunha
-5
-1
-8
-dedos
-5
-2
-12
-mando
-5
-1
-9
-terca
-5
-1
-1
-aviao
-5
-1
-1
-frear
-5
-2
-4
-tenha
-5
-1
-4
-fagos
-5
-1
-4
-dessa
-5
-4
-14
-velha
-5
-2
-8
-lider
-5
-1
-8
-matei
-5
-1
-8
-salao
-5
-1
-9
-abrir
-5
-1
-11
-tarde
-5
-1
-12
-crime
-5
-1
-14
-exame
-5
-1
-0
-teera
-5
-2
-8
-longa
-5
-1
-4
-anual
-5
-1
-5
-frase
-5
-1
-5
-dizia
-5
-2
-14
-devem
-5
-1
-7
-gerar
-5
-1
-9
-bolsa
-5
-1
-9
-saias
-5
-4
-8
-saude
-5
-2
-9
-papel
-5
-4
-12
-filho
-5
-1
-4
-ambos
-5
-1
-5
-brejo
-5
-2
-8
-opcao
-5
-1
-8
-marco
-5
-1
-4
-envia
-5
-2
-9
-fazem
-5
-2
-12
-gente
-5
-1
-8
-leite
-5
-2
-12
-baixo
-5
-1
-9
-elite
-5
-1
-9
-cegou
-5
-1
-11
-paula
-5
-1
-12
-mesma
-5
-2
-12
-desse
-5
-3
-14
-seria
-5
-1
-6
-ronda
-5
-1
-6
-armas
-5
-1
-9
-tinha
-5
-1
-9
-fisco
-5
-1
-9
-pedir
-5
-1
-11
-mudam
-5
-7
-14
-foram
-5
-1
-2
-forma
-5
-2
-4
-podem
-5
-4
-12
-conta
-5
-1
-5
-nunca
-5
-1
-8
-teria
-5
-1
-9
-deste
-5
-1
-9
-suica
-5
-2
-13
-matar
-5
-2
-2
-bordo
-5
-3
-9
-ficou
-5
-1
-2
-vinha
-5
-1
-2
-homem
-5
-3
-11
-algum
-5
-1
-2
-dupla
-5
-1
-4
-ogiva
-5
-1
-8
-verde
-5
-1
-9
-crise
-5
-1
-2
-carro
-5
-1
-4
-entao
-5
-2
-14
-feito
-5
-1
-5
-video
-5
-1
-5
-sobra
-5
-2
-11
-santa
-5
-1
-6
-sinal
-5
-3
-14
-pediu
-5
-1
-8
-atual
-5
-2
-14
-golpe
-5
-1
-12
-civil
-5
-1
-12
-blusa
-5
-1
-12
-falou
-5
-9
-14
-disse
-5
-2
-12
-passa
-5
-1
-2
-serie
-5
-4
-8
-maior
-5
-1
-2
-orgao
-5
-4
-14
-fazer
-5
-1
-6
-lucas
-5
-2
-11
-apoio
-5
-1
-8
-mario
-5
-1
-9
-pobre
-5
-1
-12
-serei
-5
-3
-8
-sendo
-5
-2
-9
-casos
-5
-1
-5
-levem
-5
-1
-6
-mudar
-5
-1
-6
-segue
-5
-1
-8
-tango
-5
-1
-8
-apura
-5
-1
-8
-sonha
-5
-1
-8
-troca
-5
-1
-9
-forem
-5
-1
-9
-preco
-5
-2
-8
-costa
-5
-4
-9
-poder
-5
-1
-4
-nessa
-5
-4
-12
-serao
-5
-3
-14
-levar
-5
-1
-5
-cotas
-5
-1
-6
-tendo
-5
-1
-8
-pedro
-5
-5
-9
-antes
-5
-7
-12
-sobre
-5
-1
-2
-nesta
-5
-3
-14
-todas
-5
-4
-9
-lugar
-5
-1
-5
-negro
-5
-2
-7
-pauta
-5
-1
-7
-jeito
-5
-1
-8
-tensa
-5
-1
-9
-corre
-5
-1
-12
-gomes
-5
-1
-12
-terao
-5
-5
-11
-estao
-5
-1
-3
-uniao
-5
-1
-3
-parte
-5
-1
-5
-ocupe
-5
-1
-11
-serem
-5
-1
-12
-preta
-5
-4
-8
-horas
-5
-1
-1
-dubos
-5
-1
-2
-meses
-5
-1
-2
-naves
-5
-1
-3
-reino
-5
-1
-4
-certo
-5
-2
-12
-terco
-5
-1
-4
-curar
-5
-2
-12
-fatos
-5
-1
-7
-varas
-5
-1
-8
-mucio
-5
-1
-8
-meter
-5
-1
-1
-raios
-5
-1
-1
-marks
-5
-6
-9
-entre
-5
-2
-11
-terra
-5
-1
-2
-train
-5
-3
-12
-dizer
-5
-2
-12
-tenho
-5
-1
-5
-nesse
-5
-1
-6
-pleno
-5
-1
-8
-velho
-5
-1
-11
-pegos
-5
-3
-12
-sofre
-5
-1
-1
-paris
-5
-2
-12
-estar
-5
-1
-3
-unido
-5
-4
-14
-noite
-5
-1
-5
-quase
-5
-1
-5
-bolso
-5
-2
-9
-silva
-5
-1
-9
-sosia
-5
-1
-9
-vasta
-5
-2
-12
-neste
-5
-1
-1
-pegou
-5
-2
-5
-fosse
-5
-2
-12
-forte
-5
-2
-9
-risco
-5
-1
-9
-reims
-5
-1
-14
-fugiu
-5
-1
-14
-usava
-5
-1
-14
-ligou
-5
-1
-1
-pista
-5
-3
-8
-mesmo
-5
-2
-8
-paulo
-5
-1
-9
-comum
-5
-1
-13
-curva
-5
-1
-14
-taxas
-5
-1
-1
-corey
-5
-1
-2
-visao
-5
-2
-9
-disso
-5
-1
-3
-julho
-5
-1
-4
-criou
-5
-1
-4
-menos
-5
-1
-4
-rugas
-5
-1
-6
-nomes
-5
-2
-14
-tirar
-5
-1
-7
-preve
-5
-1
-8
-gesto
-5
-1
-9
-enron
-5
-11
-14
-ontem
-5
-3
-12
-tomar
-5
-1
-2
-movel
-5
-2
-9
-mundo
-5
-1
-3
-salto
-5
-2
-11
-esses
-5
-1
-4
-pelos
-5
-1
-6
-quais
-5
-1
-7
-porem
-5
-1
-8
-hospi
-5
-1
-2
-torna
-5
-1
-6
-mauro
-5
-3
-7
-tempo
-5
-1
-4
-texas
-5
-1
-4
-teste
-5
-1
-6
-sexta
-5
-1
-7
-santo
-5
-1
-8
-olhos
-5
-1
-9
-mimos
-5
-1
-1
-porta
-5
-1
-2
-possa
-5
-2
-4
-parto
-5
-2
-9
-volta
-5
-2
-12
-passo
-5
-2
-8
-pouco
-5
-1
-6
-vamos
-5
-1
-9
-motim
-5
-1
-2
-vivem
-5
-3
-13
-morte
-5
-1
-5
-sonho
-5
-2
-12
-vista
-5
-1
-8
-termo
-5
-1
-9
-roupa
-5
-1
-11
-nuroc
-5
-1
-13
-roubo
-5
-1
-1
-norte
-5
-1
-4
-torne
-5
-1
-4
-prova
-5
-1
-7
-temos
-5
-1
-12
-terno
-5
-4
-9
-todos
-5
-1
-2
-ratos
-5
-5
-13
-preso
-5
-1
-8
-turma
-5
-2
-14
-forum
-5
-1
-14
-taxis
-5
-2
-4
-perto
-5
-1
-1
-tocou
-5
-1
-6
-tiver
-5
-1
-6
-tirol
-5
-1
-6
-porte
-5
-1
-8
-pudor
-5
-1
-14
-posse
-5
-3
-6
-outra
-5
-1
-5
-viuva
-5
-1
-5
-autor
-5
-2
-14
-levou
-5
-1
-14
-fotos
-5
-1
-4
-botox
-5
-2
-9
-viver
-5
-2
-12
-prazo
-5
-1
-9
-votar
-5
-1
-2
-tubos
-5
-3
-11
-grupo
-5
-1
-9
-vezes
-5
-3
-5
-muito
-5
-1
-1
-fluxo
-5
-1
-6
-euros
-5
-1
-14
-custo
-5
-1
-2
-utero
-6
-3
-11
-cabeca
-5
-1
-8
-junto
-5
-1
-4
-sutil
-5
-2
-9
-nosso
-5
-1
-12
-souza
-5
-1
-9
-sumiu
-5
-1
-8
-porto
-5
-1
-2
-novos
-5
-1
-3
-visto
-6
-1
-6
-acabam
-5
-1
-8
-ouvir
-5
-1
-8
-posto
-5
-1
-4
-tumor
-5
-2
-12
-rosto
-5
-1
-9
-povos
-6
-1
-9
-cadeia
-6
-1
-2
-ameaca
-5
-1
-4
-sutis
-5
-1
-4
-virus
-5
-1
-5
-lutou
-5
-2
-8
-outro
-6
-1
-9
-careca
-6
-1
-6
-agrada
-6
-1
-11
-chefia
-6
-1
-9
-rebeca
-6
-2
-4
-medica
-6
-1
-12
-biblia
-6
-1
-5
-achava
-6
-1
-6
-medida
-6
-1
-8
-habeas
-6
-1
-2
-edicao
-6
-1
-4
-chegam
-6
-2
-8
-camara
-6
-1
-3
-africa
-6
-1
-6
-amanha
-6
-1
-8
-chefao
-6
-2
-9
-recebe
-6
-1
-2
-atacam
-6
-1
-3
-campea
-6
-1
-11
-chamam
-6
-1
-12
-branca
-6
-1
-4
-indica
-6
-1
-12
-defesa
-6
-1
-13
-comeca
-6
-1
-14
-angela
-6
-1
-3
-tabela
-6
-1
-8
-dancar
-6
-2
-8
-baiano
-6
-1
-4
-doenca
-6
-1
-9
-chegar
-6
-1
-9
-ficava
-6
-1
-1
-acabou
-6
-1
-2
-reacao
-6
-1
-8
-maciel
-6
-2
-4
-cancer
-6
-1
-4
-atacar
-6
-1
-5
-racial
-6
-1
-9
-crenca
-6
-1
-9
-pagara
-6
-1
-1
-fumaca
-6
-1
-1
-chamas
-6
-1
-9
-beijar
-6
-1
-9
-sabiam
-6
-1
-1
-caindo
-6
-1
-2
-afetam
-6
-1
-13
-amaral
-6
-1
-1
-france
-6
-1
-5
-ideias
-6
-1
-9
-brinca
-6
-2
-4
-afirma
-6
-2
-9
-metade
-6
-1
-5
-pagina
-6
-1
-5
-fariam
-6
-1
-6
-chapas
-6
-1
-12
-confia
-6
-3
-11
-grande
-6
-2
-9
-merece
-6
-1
-8
-ganhar
-6
-1
-8
-rapida
-6
-1
-14
-medico
-6
-1
-5
-alheio
-6
-1
-8
-colado
-6
-1
-9
-agulha
-6
-1
-9
-brigam
-6
-1
-11
-ajudam
-6
-1
-14
-igreja
-6
-1
-2
-afetar
-6
-1
-8
-jarbas
-6
-1
-9
-rainha
-6
-1
-9
-demais
-6
-1
-11
-ladrao
-6
-1
-12
-mandar
-6
-1
-12
-animam
-6
-1
-2
-casais
-6
-1
-2
-antiga
-6
-1
-5
-impede
-6
-1
-11
-citado
-6
-1
-11
-morada
-6
-1
-2
-oceano
-6
-3
-11
-semana
-6
-3
-8
-pedido
-6
-2
-12
-branco
-6
-1
-6
-camilo
-6
-1
-9
-adolfo
-6
-1
-13
-caixao
-6
-1
-2
-tomada
-6
-1
-2
-vagina
-6
-7
-13
-tambem
-6
-1
-4
-embora
-6
-1
-4
-comeco
-6
-1
-4
-deviam
-6
-1
-9
-amante
-6
-1
-14
-farias
-6
-4
-13
-regiao
-6
-2
-4
-lancet
-6
-1
-2
-alguma
-6
-1
-5
-famosa
-6
-1
-6
-elegeu
-6
-1
-8
-bordao
-6
-1
-11
-gangue
-6
-3
-8
-acordo
-6
-1
-3
-engano
-6
-3
-14
-apenas
-6
-1
-8
-bancou
-6
-1
-8
-demora
-6
-1
-2
-alerta
-6
-1
-2
-cometa
-6
-1
-4
-latina
-6
-1
-8
-franco
-6
-1
-8
-ferido
-6
-1
-8
-george
-6
-1
-9
-geisel
-6
-1
-1
-chovia
-6
-1
-6
-senado
-6
-1
-8
-milhao
-6
-2
-12
-lisboa
-6
-1
-9
-fechou
-6
-1
-9
-ferias
-6
-1
-12
-coelho
-6
-1
-12
-finais
-6
-1
-13
-reagir
-6
-2
-2
-locais
-6
-1
-4
-renata
-6
-2
-14
-inicio
-6
-2
-7
-podera
-6
-2
-8
-espaco
-6
-1
-8
-social
-6
-3
-14
-chegou
-6
-1
-9
-cheque
-6
-1
-9
-rancho
-6
-1
-9
-alguem
-6
-1
-9
-credit
-6
-1
-2
-nascer
-6
-2
-9
-dirceu
-6
-1
-8
-cheney
-6
-1
-8
-correa
-6
-1
-8
-manoel
-6
-1
-9
-barril
-6
-2
-12
-marido
-6
-2
-12
-funcao
-6
-2
-2
-deixar
-6
-1
-2
-maxima
-6
-4
-9
-brasil
-6
-1
-3
-viajar
-6
-1
-4
-obesas
-6
-1
-4
-fisico
-6
-1
-5
-aquele
-6
-1
-1
-seguia
-6
-1
-1
-saindo
-6
-1
-4
-curado
-6
-1
-8
-itamar
-6
-1
-8
-acesso
-6
-1
-8
-manual
-6
-1
-9
-figura
-6
-1
-12
-confio
-6
-1
-12
-etapas
-6
-1
-7
-cargos
-6
-1
-8
-arruda
-6
-1
-9
-baseou
-6
-2
-13
-bairro
-6
-4
-7
-estado
-6
-1
-4
-estara
-6
-1
-5
-minhas
-6
-1
-5
-genero
-6
-1
-6
-quebra
-6
-1
-7
-penais
-6
-1
-8
-amigos
-6
-1
-9
-jantar
-6
-1
-11
-drogas
-6
-1
-12
-blazer
-6
-1
-12
-espera
-6
-2
-5
-seriam
-6
-1
-4
-center
-6
-1
-4
-mental
-6
-1
-5
-tinham
-6
-1
-6
-proibe
-6
-1
-8
-ataque
-6
-1
-8
-formal
-6
-1
-8
-comite
-6
-1
-9
-chavez
-6
-1
-2
-lancou
-6
-1
-3
-formam
-6
-2
-9
-ingles
-6
-1
-6
-musica
-6
-1
-8
-ironia
-6
-1
-8
-coisas
-6
-1
-8
-cassio
-6
-1
-13
-malote
-6
-1
-14
-teriam
-6
-1
-4
-dessas
-6
-1
-6
-soaram
-6
-1
-8
-campos
-6
-2
-13
-crimes
-6
-1
-1
-rampas
-6
-5
-13
-estava
-6
-2
-14
-frente
-6
-5
-12
-depois
-6
-1
-4
-dormem
-6
-3
-9
-mandou
-6
-1
-8
-alivio
-6
-1
-2
-vicosa
-6
-3
-9
-mexico
-6
-1
-2
-online
-6
-2
-4
-paises
-6
-1
-5
-trecho
-6
-1
-9
-choque
-6
-1
-9
-perdeu
-6
-1
-9
-marcos
-6
-2
-12
-filhos
-6
-1
-14
-enviar
-6
-1
-1
-airbus
-6
-1
-2
-estuda
-6
-1
-2
-artigo
-6
-1
-2
-menino
-6
-1
-4
-guerra
-6
-1
-5
-venceu
-6
-1
-8
-roubei
-6
-1
-9
-pensao
-6
-1
-11
-nucleo
-6
-1
-12
-jornal
-6
-1
-13
-jobert
-6
-1
-2
-lentas
-6
-1
-2
-pilula
-6
-1
-4
-sinais
-6
-3
-9
-melhor
-6
-1
-5
-burger
-6
-4
-13
-contra
-6
-1
-8
-queria
-6
-1
-8
-iraque
-6
-1
-9
-latino
-6
-1
-9
-bunker
-6
-1
-11
-vingar
-6
-1
-11
-desses
-6
-10
-12
-quando
-6
-1
-5
-muleta
-6
-1
-6
-contas
-6
-1
-8
-subita
-6
-1
-9
-bugres
-6
-1
-9
-hitler
-6
-1
-2
-buzina
-6
-2
-12
-normal
-6
-1
-4
-equipe
-6
-1
-4
-minimo
-6
-1
-5
-usaram
-6
-2
-13
-renato
-6
-1
-6
-altura
-6
-1
-8
-pensar
-6
-1
-12
-sergio
-6
-1
-2
-emitir
-6
-3
-14
-homens
-6
-4
-9
-alguns
-6
-2
-8
-passar
-6
-3
-14
-vitima
-6
-1
-6
-tucano
-6
-1
-8
-ocupar
-6
-1
-9
-cupula
-6
-2
-12
-pessoa
-6
-2
-12
-evitar
-6
-1
-2
-sugere
-6
-1
-5
-sonhar
-6
-1
-5
-martin
-6
-1
-8
-trocar
-6
-1
-8
-cortar
-6
-1
-8
-entrem
-6
-1
-9
-seculo
-6
-1
-11
-nenhum
-6
-1
-0
-sofrem
-6
-2
-6
-ultima
-6
-2
-12
-entrar
-6
-1
-4
-dentro
-6
-1
-5
-dexter
-6
-1
-5
-thomas
-6
-1
-6
-sempre
-6
-1
-9
-europa
-6
-1
-12
-castro
-6
-1
-12
-vestia
-6
-1
-13
-bastos
-6
-1
-4
-dormir
-6
-2
-12
-mulher
-6
-1
-7
-votado
-6
-1
-8
-soares
-6
-2
-13
-costas
-6
-1
-14
-fossem
-6
-1
-2
-parque
-6
-1
-4
-tratar
-6
-1
-5
-negros
-6
-2
-14
-quarta
-6
-1
-6
-sessao
-6
-1
-7
-tentar
-6
-1
-9
-forcou
-6
-1
-9
-deixou
-6
-1
-13
-prisao
-6
-1
-2
-nature
-6
-3
-8
-querem
-6
-1
-11
-presta
-6
-1
-12
-walter
-6
-1
-12
-herzog
-6
-1
-11
-onibus
-6
-1
-12
-clovis
-6
-1
-12
-versao
-6
-1
-4
-missil
-6
-1
-4
-sofrer
-6
-1
-4
-nesses
-6
-1
-5
-tungar
-6
-1
-6
-montar
-6
-2
-9
-existe
-6
-1
-4
-unidos
-6
-1
-8
-portal
-6
-1
-9
-partir
-6
-1
-9
-curtas
-6
-2
-4
-riscos
-6
-1
-2
-muitas
-6
-1
-1
-varios
-6
-2
-4
-estudo
-6
-1
-2
-juntar
-6
-1
-5
-luther
-6
-1
-13
-romero
-6
-2
-1
-loucos
-6
-1
-3
-previo
-6
-1
-9
-riscou
-6
-1
-2
-tornar
-6
-3
-12
-numero
-6
-1
-9
-saltos
-6
-1
-12
-tampou
-6
-2
-13
-piloto
-6
-1
-8
-monzar
-6
-1
-13
-junior
-6
-3
-14
-contou
-6
-1
-2
-trazer
-6
-2
-14
-testes
-6
-1
-4
-volume
-6
-1
-4
-sentiu
-6
-1
-8
-tempos
-6
-1
-12
-pretti
-6
-1
-13
-santos
-6
-1
-4
-partos
-6
-1
-5
-pastor
-6
-1
-9
-quiser
-6
-1
-1
-metros
-6
-1
-2
-stough
-6
-2
-11
-mortes
-6
-1
-5
-tostao
-6
-1
-7
-juizes
-6
-1
-8
-pousar
-6
-1
-8
-sonhos
-6
-1
-11
-roubos
-6
-1
-12
-ultimo
-6
-1
-0
-triste
-6
-3
-14
-passou
-6
-1
-5
-provas
-7
-1
-1
-fechada
-6
-3
-9
-porque
-6
-5
-9
-quatro
-6
-1
-8
-corpus
-6
-1
-9
-suisse
-6
-1
-4
-quilos
-6
-2
-9
-entrou
-6
-1
-9
-doutor
-6
-1
-8
-violou
-6
-1
-12
-motivo
-6
-1
-12
-outras
-6
-1
-2
-nuvens
-7
-1
-5
-acabava
-6
-1
-8
-tentou
-6
-1
-9
-grupos
-6
-4
-7
-muitos
-6
-1
-8
-custou
-6
-1
-11
-furtos
-6
-1
-8
-mortos
-7
-1
-9
-bagagem
-6
-1
-2
-nossos
-7
-1
-9
-rebecca
-6
-1
-3
-tornou
-7
-1
-9
-alcance
-6
-1
-9
-trouxe
-7
-2
-14
-agencia
-7
-1
-13
-baleado
-7
-1
-2
-cadeira
-6
-1
-8
-pousou
-7
-1
-12
-defende
-6
-5
-9
-outros
-7
-3
-8
-ciencia
-7
-1
-2
-camacho
-7
-1
-8
-acharam
-7
-1
-8
-chamado
-7
-1
-12
-filmada
-7
-2
-12
-andrade
-7
-1
-9
-chegava
-6
-1
-9
-russos
-7
-1
-2
-ligacao
-7
-1
-2
-cassada
-7
-1
-8
-cascata
-7
-1
-8
-paraiba
-7
-1
-2
-baleias
-7
-3
-9
-criacao
-7
-1
-4
-america
-7
-1
-6
-eleicao
-7
-1
-1
-ficaram
-7
-3
-7
-federal
-7
-2
-14
-clinica
-7
-2
-12
-familia
-7
-2
-9
-dificil
-7
-2
-12
-decidir
-7
-1
-2
-camarao
-7
-1
-4
-benigna
-7
-1
-12
-falaram
-7
-2
-9
-parecia
-7
-1
-4
-alegria
-7
-1
-6
-galeria
-7
-1
-8
-reclama
-7
-1
-12
-conhece
-7
-2
-4
-relacao
-7
-1
-6
-oficial
-7
-1
-7
-debater
-7
-1
-11
-matagal
-7
-1
-5
-decente
-7
-1
-5
-achasse
-7
-1
-8
-coracao
-7
-1
-2
-injecao
-7
-1
-4
-combina
-7
-1
-8
-oferece
-7
-1
-8
-avisada
-7
-1
-2
-unidade
-7
-1
-7
-formada
-7
-1
-8
-camargo
-7
-3
-11
-atencao
-7
-2
-5
-verdade
-7
-1
-6
-recebeu
-7
-1
-8
-planeja
-7
-1
-9
-mercado
-7
-1
-12
-defesas
-7
-1
-1
-declive
-7
-1
-8
-sabendo
-7
-1
-9
-brigava
-7
-1
-9
-debaixo
-7
-1
-14
-selecao
-7
-1
-2
-afirmam
-7
-1
-5
-receita
-7
-1
-8
-apoiara
-7
-1
-8
-diarias
-7
-2
-11
-passada
-7
-1
-9
-aliados
-7
-1
-1
-feridas
-7
-1
-4
-inedita
-7
-2
-9
-geraldo
-7
-1
-8
-inimiga
-7
-1
-8
-digital
-7
-1
-9
-general
-7
-1
-9
-especie
-7
-1
-9
-apelido
-7
-1
-2
-duracao
-7
-1
-3
-entrada
-7
-1
-5
-crencas
-7
-2
-9
-alckmin
-7
-2
-9
-caminho
-7
-1
-9
-criaram
-7
-1
-11
-ocasiao
-7
-1
-1
-causado
-7
-1
-1
-manobra
-7
-1
-4
-avaliar
-7
-3
-9
-deveria
-7
-1
-7
-publica
-7
-1
-7
-bragato
-7
-1
-8
-bocater
-7
-1
-8
-marinha
-7
-2
-13
-acusado
-7
-1
-11
-comidas
-7
-1
-2
-recifes
-7
-5
-14
-policia
-7
-2
-12
-claudio
-7
-1
-8
-clinico
-7
-1
-9
-bravata
-7
-2
-12
-comando
-7
-1
-2
-reacoes
-7
-2
-4
-cerebro
-7
-2
-12
-direita
-7
-1
-3
-charles
-7
-1
-4
-afastar
-7
-1
-5
-carater
-7
-1
-8
-maioria
-7
-1
-9
-viajava
-7
-1
-2
-lotacao
-7
-1
-6
-pedindo
-7
-1
-7
-adequar
-7
-1
-7
-colnago
-7
-1
-9
-nomeado
-7
-1
-1
-imagens
-7
-1
-2
-rapidas
-7
-3
-7
-poderia
-7
-1
-2
-recorde
-7
-1
-3
-pararam
-7
-1
-4
-paredes
-7
-1
-6
-estrada
-7
-1
-8
-eduardo
-7
-1
-8
-cabrito
-7
-1
-8
-covarde
-7
-1
-9
-convida
-7
-1
-11
-pratica
-7
-1
-12
-ricardo
-7
-1
-9
-lembrar
-7
-1
-9
-incluia
-7
-1
-2
-explica
-7
-1
-4
-testada
-7
-1
-4
-terapia
-7
-2
-9
-bilhoes
-7
-1
-9
-bolivia
-7
-1
-9
-diploma
-7
-1
-14
-gravata
-7
-2
-6
-precisa
-7
-1
-2
-engolem
-7
-2
-9
-gaspari
-7
-1
-8
-cigarro
-7
-1
-9
-segunda
-7
-1
-9
-mariano
-7
-1
-2
-celular
-7
-1
-4
-semanas
-7
-1
-5
-lideres
-7
-1
-6
-realiza
-7
-1
-9
-tamanho
-7
-1
-9
-harvard
-7
-1
-11
-trafico
-7
-1
-12
-ligasse
-7
-1
-13
-pereira
-7
-1
-14
-batista
-7
-2
-4
-celulas
-7
-1
-3
-tragico
-7
-1
-3
-exigido
-7
-1
-4
-dormiam
-7
-1
-11
-levando
-7
-1
-12
-segredo
-7
-1
-14
-central
-7
-1
-0
-nuclear
-7
-1
-2
-colisao
-7
-1
-2
-memoria
-7
-2
-4
-mundial
-7
-2
-8
-impedir
-7
-1
-3
-ranking
-7
-1
-4
-habitos
-7
-3
-12
-algumas
-7
-1
-8
-ladroes
-7
-1
-9
-dolares
-7
-1
-12
-hezidog
-7
-1
-0
-mahmoud
-7
-1
-2
-diarios
-7
-1
-2
-prepara
-7
-1
-2
-calipso
-7
-2
-3
-passado
-7
-1
-4
-aumenta
-7
-1
-8
-resgate
-7
-1
-9
-avisava
-7
-1
-11
-jonatan
-7
-1
-12
-comecou
-7
-1
-13
-fugiram
-7
-1
-13
-cardoso
-7
-1
-14
-salario
-7
-1
-2
-liminar
-7
-2
-8
-senador
-7
-1
-7
-diretas
-7
-1
-8
-inimigo
-7
-1
-8
-reforma
-7
-1
-12
-atuando
-7
-1
-13
-araquem
-7
-1
-2
-auxilia
-7
-1
-2
-esperam
-7
-1
-4
-detonar
-7
-1
-4
-humanas
-7
-1
-5
-anuncio
-7
-1
-6
-conexao
-7
-1
-7
-votacao
-7
-3
-14
-empresa
-7
-1
-14
-enganou
-7
-1
-2
-marinho
-7
-2
-12
-publico
-7
-2
-14
-fizeram
-7
-1
-12
-certeza
-7
-1
-12
-puderam
-7
-1
-13
-freitas
-7
-1
-14
-acionou
-7
-1
-2
-efeitos
-7
-1
-4
-pequena
-7
-1
-6
-anselmo
-7
-1
-14
-emprego
-7
-2
-5
-direito
-7
-2
-4
-apontam
-7
-1
-4
-fisicos
-7
-3
-9
-aqueles
-7
-1
-5
-senhora
-7
-1
-8
-aditivo
-7
-1
-9
-mensais
-7
-1
-9
-seguido
-7
-2
-4
-mentais
-7
-3
-9
-milhoes
-7
-1
-3
-rigidos
-7
-1
-4
-equador
-7
-1
-4
-curados
-7
-1
-5
-vontade
-7
-1
-9
-estavam
-7
-2
-12
-esquema
-7
-1
-2
-ferteis
-7
-1
-3
-polonia
-7
-1
-4
-periodo
-7
-1
-5
-coretta
-7
-1
-8
-esperar
-7
-2
-12
-coronel
-7
-1
-9
-cometeu
-7
-1
-9
-kremlin
-7
-1
-12
-militar
-7
-1
-12
-montado
-7
-9
-12
-durante
-7
-1
-1
-repente
-7
-3
-14
-afirmou
-7
-3
-12
-justica
-7
-1
-2
-prendeu
-7
-1
-3
-mineiro
-7
-1
-4
-estados
-7
-1
-4
-subiram
-7
-2
-8
-ninguem
-7
-2
-8
-partido
-7
-1
-6
-virando
-7
-1
-8
-reuniao
-7
-1
-9
-morales
-7
-1
-12
-maruipe
-7
-1
-1
-rodovia
-7
-1
-4
-hajitou
-7
-1
-4
-quimera
-7
-1
-8
-martelo
-7
-1
-11
-ataques
-7
-1
-14
-horario
-7
-7
-12
-segundo
-7
-2
-8
-simbolo
-7
-1
-7
-autoria
-7
-1
-7
-membros
-7
-1
-9
-tribuna
-7
-1
-13
-malotes
-7
-1
-2
-atraves
-7
-1
-2
-vespera
-7
-1
-4
-predios
-7
-2
-7
-sistema
-7
-1
-8
-sentira
-7
-1
-8
-lembrou
-7
-1
-9
-burrico
-7
-1
-11
-favores
-7
-1
-2
-litoral
-7
-2
-9
-londres
-7
-1
-3
-menezes
-7
-1
-3
-tornado
-7
-4
-12
-pessoal
-7
-1
-12
-veiculo
-7
-1
-13
-assalto
-7
-1
-1
-pearson
-7
-2
-4
-tiveram
-7
-1
-2
-estudar
-7
-1
-5
-sugerem
-7
-1
-12
-reserva
-7
-2
-14
-contato
-7
-1
-13
-antonio
-7
-1
-2
-entanto
-7
-1
-2
-diretor
-7
-2
-4
-aumento
-7
-1
-6
-hartung
-7
-1
-8
-bussola
-7
-1
-11
-menores
-7
-1
-12
-escrito
-7
-1
-1
-olivier
-7
-1
-4
-bunkers
-7
-1
-4
-exemplo
-7
-1
-6
-disputa
-7
-1
-9
-unilula
-7
-2
-4
-metodos
-7
-2
-11
-servico
-7
-1
-3
-vivendo
-7
-1
-4
-humanos
-7
-1
-9
-noventa
-7
-1
-9
-valvula
-7
-1
-12
-somente
-7
-1
-12
-ouvidas
-7
-1
-3
-procura
-7
-1
-5
-viverao
-7
-1
-5
-tempero
-7
-1
-12
-relatou
-7
-1
-1
-inverte
-7
-1
-2
-simples
-7
-2
-8
-roberto
-7
-1
-3
-propria
-7
-1
-4
-misseis
-7
-1
-6
-pressao
-7
-1
-9
-imposta
-7
-1
-14
-vitimas
-7
-6
-14
-pessoas
-7
-2
-4
-revista
-7
-2
-12
-martins
-7
-1
-11
-vitoria
-7
-1
-11
-goulart
-7
-1
-12
-quartel
-7
-1
-2
-temores
-7
-2
-12
-momento
-7
-1
-6
-insiste
-7
-1
-6
-teremos
-7
-1
-7
-ajustes
-7
-1
-8
-quadros
-7
-1
-8
-sumindo
-7
-1
-9
-ocorreu
-7
-5
-9
-governo
-7
-2
-6
-proxima
-7
-1
-4
-society
-7
-1
-9
-pleitos
-7
-1
-9
-ernesto
-7
-1
-12
-sumario
-7
-1
-6
-superar
-7
-3
-7
-projeto
-7
-1
-2
-quebrou
-7
-1
-4
-autores
-7
-1
-4
-mostram
-7
-1
-5
-sujeito
-7
-2
-9
-visitas
-7
-2
-12
-tivesse
-7
-1
-12
-missoes
-7
-1
-12
-limitou
-7
-1
-12
-popular
-7
-1
-9
-tijolos
-7
-2
-9
-comprou
-8
-1
-2
-eficacia
-7
-2
-9
-europeu
-8
-1
-7
-chefiada
-7
-1
-8
-sessoes
-7
-1
-13
-prisoes
-7
-2
-9
-recusou
-7
-2
-4
-estudos
-7
-1
-11
-vizinho
-7
-2
-6
-numeros
-7
-1
-6
-ouvidos
-7
-1
-13
-motoboy
-7
-1
-4
-futuras
-7
-1
-6
-vellozo
-7
-2
-9
-ultimos
-7
-1
-7
-assunto
-7
-2
-13
-proximo
-7
-1
-2
-minutos
-7
-1
-4
-tumores
-7
-1
-6
-motivos
-7
-1
-12
-prestou
-7
-2
-14
-turismo
-8
-1
-2
-radiacao
-8
-1
-5
-baseadas
-8
-1
-8
-liberada
-7
-1
-1
-toronto
-8
-1
-2
-alcancar
-8
-1
-6
-delicado
-8
-1
-4
-demencia
-8
-1
-2
-alemanha
-8
-2
-5
-cidadaos
-8
-1
-9
-defendem
-8
-1
-1
-chegando
-8
-3
-9
-campanha
-7
-1
-6
-mostrou
-8
-1
-7
-capixaba
-8
-1
-9
-recebera
-8
-1
-14
-cobranca
-8
-1
-2
-medicina
-8
-1
-12
-algemado
-8
-1
-9
-casamata
-8
-1
-9
-fecharem
-8
-1
-8
-benedita
-8
-2
-12
-batalhao
-8
-1
-1
-acidente
-8
-1
-2
-afetaria
-8
-1
-2
-avancado
-8
-2
-9
-acredita
-8
-1
-6
-facilita
-8
-1
-11
-acionado
-8
-1
-2
-ciencias
-8
-1
-8
-ganharam
-8
-1
-8
-gabinete
-8
-1
-9
-mecanico
-8
-2
-4
-batizada
-8
-1
-4
-chamados
-8
-1
-4
-american
-8
-1
-4
-injetada
-8
-1
-6
-mangarai
-8
-1
-12
-acusacao
-8
-1
-2
-diabetes
-8
-1
-1
-infladas
-8
-2
-9
-acontece
-8
-1
-2
-espacial
-8
-1
-12
-conhecem
-8
-1
-8
-colabora
-8
-1
-8
-nomeacao
-8
-1
-12
-aparecer
-8
-2
-5
-criancas
-8
-1
-4
-liderado
-8
-1
-5
-assinada
-8
-1
-8
-anuencia
-8
-2
-13
-bandidos
-8
-1
-2
-ambiente
-8
-4
-9
-nacional
-8
-1
-2
-familiar
-8
-1
-6
-laranjal
-8
-1
-9
-mendonca
-8
-1
-11
-padarias
-8
-1
-12
-advogado
-8
-1
-2
-nascidas
-8
-1
-4
-biologia
-8
-1
-4
-clinicas
-8
-1
-5
-admitiam
-8
-1
-5
-apoiaria
-8
-1
-9
-concedeu
-8
-1
-9
-abstenha
-8
-1
-1
-brasilia
-8
-1
-2
-deixaria
-8
-1
-2
-ajudarao
-8
-2
-4
-oficiais
-8
-1
-5
-obrigado
-8
-1
-8
-denuncia
-8
-1
-11
-matagais
-8
-1
-7
-deputada
-8
-1
-1
-incendio
-8
-1
-4
-paciente
-8
-1
-4
-paraguai
-8
-1
-12
-detalhes
-8
-1
-2
-camaroes
-8
-1
-3
-ocupacao
-8
-1
-4
-cesarias
-8
-1
-5
-julgadas
-8
-1
-9
-alimenta
-8
-1
-9
-reeleger
-8
-1
-12
-analisar
-8
-1
-2
-mudancas
-8
-1
-2
-aprendem
-8
-1
-4
-infectar
-8
-1
-6
-laranjas
-8
-5
-14
-trabalho
-8
-1
-4
-thoracic
-8
-1
-4
-aliviava
-8
-1
-6
-fernando
-8
-1
-7
-execucao
-8
-2
-14
-deveriam
-8
-2
-12
-policial
-8
-1
-9
-bernardo
-8
-1
-2
-capitais
-8
-1
-3
-barrados
-8
-1
-7
-urgencia
-8
-1
-8
-malandro
-8
-1
-8
-digitais
-8
-1
-9
-relacoes
-8
-1
-9
-ditadura
-8
-2
-8
-atingido
-8
-2
-8
-decisoes
-8
-1
-2
-hectares
-8
-1
-2
-recitava
-8
-1
-2
-material
-8
-1
-8
-firmaram
-8
-1
-12
-criminal
-8
-1
-2
-digestao
-8
-1
-4
-injecoes
-8
-1
-6
-vigiaram
-8
-1
-9
-gastaram
-8
-1
-9
-batalhou
-8
-1
-12
-ferreira
-8
-1
-1
-aeronave
-8
-1
-2
-salienta
-8
-1
-2
-perdendo
-8
-1
-11
-praticam
-8
-1
-4
-caminhos
-8
-1
-4
-engordar
-8
-2
-8
-problema
-8
-1
-8
-criticas
-8
-2
-14
-dinheiro
-8
-1
-8
-parmalat
-8
-1
-9
-recordar
-8
-1
-4
-invencao
-8
-2
-7
-estadual
-8
-3
-12
-acusados
-8
-1
-9
-ocorrida
-8
-1
-2
-clinicos
-8
-1
-2
-mexicano
-8
-1
-4
-conceito
-8
-1
-4
-hibridos
-8
-1
-11
-vermelha
-8
-1
-12
-leonardo
-8
-1
-1
-contaram
-8
-2
-9
-entender
-8
-1
-4
-milhares
-8
-1
-4
-retardar
-8
-2
-9
-comparar
-8
-1
-8
-nicotina
-8
-1
-9
-politica
-8
-1
-9
-atribuam
-8
-2
-8
-deputado
-8
-1
-9
-inglesas
-8
-1
-9
-calculos
-8
-1
-2
-vendedor
-8
-1
-3
-assumida
-8
-1
-3
-londrina
-8
-1
-5
-incluido
-8
-2
-8
-esperava
-8
-1
-9
-negocios
-8
-1
-9
-clientes
-8
-3
-12
-disseram
-8
-1
-2
-explicar
-8
-1
-6
-vereador
-8
-1
-8
-pensando
-8
-1
-12
-baptista
-8
-1
-12
-aguardou
-8
-1
-12
-passaram
-8
-1
-0
-programa
-8
-5
-14
-primeira
-8
-1
-2
-suicidio
-8
-2
-6
-situacao
-8
-1
-4
-recentes
-8
-1
-8
-resgatar
-8
-1
-13
-entregas
-8
-1
-14
-conforme
-8
-2
-12
-esquerda
-8
-1
-2
-realizar
-8
-1
-2
-abrolhos
-8
-1
-2
-implante
-8
-2
-9
-europeia
-8
-1
-4
-anderson
-8
-1
-5
-variante
-8
-2
-9
-palavras
-8
-3
-8
-plenario
-8
-1
-6
-melhorar
-8
-1
-6
-diretora
-8
-1
-8
-rondonia
-8
-1
-8
-cigarros
-8
-1
-14
-encontra
-8
-1
-1
-correram
-8
-1
-2
-satelite
-8
-1
-5
-condenou
-8
-1
-8
-assaltar
-8
-1
-8
-hercules
-8
-1
-8
-dispense
-8
-1
-8
-oliveira
-8
-1
-8
-arterias
-8
-1
-9
-planalto
-8
-1
-9
-ridiculo
-8
-1
-9
-citation
-8
-1
-9
-conselho
-8
-1
-2
-correndo
-8
-1
-3
-distante
-8
-1
-4
-combinou
-8
-1
-14
-palestra
-8
-1
-6
-cristina
-8
-1
-8
-creditos
-8
-1
-12
-aumentar
-8
-1
-14
-seguiram
-8
-1
-4
-explodem
-8
-2
-12
-informar
-8
-1
-6
-prefeito
-8
-1
-7
-comissao
-8
-1
-7
-conflito
-8
-1
-8
-estatais
-8
-1
-2
-permitam
-8
-1
-2
-cloudsat
-8
-1
-4
-montaram
-8
-1
-4
-tenhamos
-8
-1
-7
-presidio
-8
-1
-8
-melhores
-8
-3
-14
-imprensa
-8
-1
-8
-auxiliar
-8
-1
-9
-tucanato
-8
-1
-9
-fraqueza
-8
-1
-0
-criticos
-8
-1
-2
-jubartes
-8
-1
-2
-hormonal
-8
-1
-2
-friburgo
-8
-1
-3
-tentarem
-8
-1
-4
-responde
-8
-2
-9
-domingos
-8
-1
-1
-partindo
-8
-1
-1
-iluminar
-8
-3
-7
-tribunal
-8
-1
-3
-setembro
-8
-3
-8
-publicos
-8
-2
-8
-continua
-8
-1
-8
-ocorrido
-8
-1
-9
-victoria
-8
-1
-9
-conversa
-8
-1
-1
-derrapou
-8
-1
-2
-portaria
-8
-1
-4
-tratados
-8
-1
-5
-pequenas
-8
-1
-7
-criticou
-8
-1
-8
-embratur
-8
-1
-9
-anunciou
-8
-1
-9
-circuito
-8
-1
-2
-passasse
-8
-1
-4
-completo
-8
-1
-5
-dissesse
-8
-1
-6
-tirolesa
-8
-1
-9
-direitos
-8
-1
-9
-paulista
-8
-1
-9
-historia
-8
-2
-11
-exercito
-8
-1
-14
-golpista
-8
-1
-2
-tornaram
-8
-1
-2
-observar
-8
-2
-9
-seguinte
-8
-1
-3
-morreram
-8
-3
-14
-mulheres
-8
-1
-7
-efetivos
-8
-1
-3
-controle
-8
-1
-4
-examinou
-8
-1
-6
-reduzido
-8
-1
-6
-partidos
-8
-1
-8
-humberto
-8
-1
-9
-gasoduto
-8
-1
-11
-lyonatan
-8
-1
-2
-testados
-8
-1
-2
-naturais
-8
-1
-4
-perfurar
-8
-4
-14
-primeiro
-8
-1
-5
-discutir
-8
-1
-7
-suspende
-8
-1
-1
-turbinas
-8
-1
-2
-emissoes
-8
-1
-2
-consenso
-8
-1
-2
-ratinhos
-8
-1
-4
-tornarem
-8
-1
-4
-privados
-8
-1
-4
-precisos
-8
-1
-8
-tampouco
-8
-1
-9
-tirassem
-8
-1
-4
-sistemas
-8
-1
-8
-internet
-8
-2
-12
-traseiro
-8
-1
-11
-entregou
-8
-1
-2
-comentou
-8
-1
-6
-promessa
-8
-1
-8
-discutiu
-8
-1
-9
-petroleo
-8
-1
-9
-mercosul
-8
-1
-11
-assaltos
-8
-1
-12
-veiculos
-8
-3
-6
-pesquisa
-8
-1
-2
-revestem
-8
-1
-4
-enquanto
-8
-1
-8
-poderoso
-8
-1
-9
-reservas
-8
-1
-9
-explosao
-8
-1
-12
-respeito
-8
-1
-3
-interior
-8
-1
-5
-discurso
-8
-1
-6
-disputar
-8
-1
-14
-servente
-8
-1
-4
-prostata
-8
-1
-4
-sintomas
-8
-1
-9
-empurrar
-8
-3
-14
-processo
-8
-3
-14
-informou
-8
-1
-5
-diversos
-8
-1
-5
-divulgou
-8
-1
-7
-espirito
-8
-1
-9
-cozinhou
-9
-1
-12
-delegacia
-8
-1
-12
-converso
-8
-3
-12
-qualquer
-8
-1
-11
-pequenos
-8
-1
-2
-resposta
-8
-1
-6
-estimulo
-8
-1
-8
-luizinho
-8
-1
-12
-sumarios
-8
-2
-4
-possivel
-8
-1
-4
-traduzir
-9
-1
-5
-afinidade
-8
-1
-7
-observou
-8
-2
-9
-ministro
-8
-1
-2
-recursos
-8
-1
-4
-produzem
-8
-1
-4
-tristeza
-8
-4
-14
-proposta
-9
-1
-2
-faculdade
-8
-1
-5
-estatuto
-9
-1
-7
-elaborada
-9
-1
-6
-escalacao
-9
-1
-8
-embaixada
-8
-2
-11
-suspeito
-8
-1
-0
-ironizou
-8
-1
-14
-torquato
-8
-1
-2
-produtos
-9
-1
-5
-igualdade
-9
-1
-12
-indicadas
-9
-1
-6
-diferenca
-9
-1
-8
-americana
-8
-1
-9
-proximos
-9
-1
-14
-avaliacao
-9
-1
-4
-abordagem
-9
-1
-6
-oferecida
-9
-1
-8
-definicao
-8
-1
-12
-promotor
-9
-1
-2
-afirmacao
-9
-2
-4
-lideranca
-9
-1
-7
-audiencia
-9
-1
-11
-conceicao
-9
-1
-12
-alegacoes
-9
-1
-2
-publicada
-9
-1
-5
-avaliadas
-8
-1
-12
-oportuno
-9
-2
-4
-cesariana
-9
-2
-14
-candidato
-9
-1
-9
-obrigacao
-9
-1
-11
-farmacias
-9
-1
-1
-comecaram
-9
-1
-6
-carregado
-9
-1
-8
-concedido
-9
-1
-5
-alavancar
-9
-1
-6
-reeleicao
-9
-1
-2
-qualidade
-9
-1
-7
-acreditam
-9
-1
-2
-garantida
-9
-1
-3
-tendencia
-9
-1
-4
-nicaragua
-9
-1
-8
-condenado
-9
-1
-3
-imigracao
-9
-1
-7
-combinado
-9
-1
-11
-conhecido
-9
-1
-2
-ambiental
-9
-2
-3
-britanica
-9
-1
-2
-camisinha
-9
-3
-7
-realizada
-9
-1
-4
-descricao
-9
-2
-12
-indicador
-9
-1
-8
-exigencia
-9
-1
-13
-cachoeiro
-9
-2
-4
-bacterias
-9
-1
-6
-atrapalha
-9
-1
-7
-modificar
-9
-1
-14
-itaparica
-9
-3
-9
-americano
-9
-1
-6
-categoria
-9
-1
-2
-cerebrais
-9
-3
-9
-distancia
-9
-1
-0
-afirmando
-9
-1
-3
-divulgada
-9
-1
-9
-encantava
-9
-1
-9
-trabalhar
-9
-1
-2
-caravelas
-9
-1
-9
-indigenas
-9
-1
-9
-percepcao
-9
-1
-9
-colocando
-9
-2
-4
-publicado
-9
-1
-11
-flagrados
-9
-1
-2
-impediria
-9
-1
-5
-sanduiche
-9
-1
-8
-lembrando
-9
-1
-12
-alexandre
-9
-1
-6
-reabriram
-9
-1
-9
-boliviana
-9
-1
-9
-homicidio
-9
-1
-14
-logomarca
-9
-1
-2
-amigaveis
-9
-1
-8
-libertado
-9
-1
-9
-melgarejo
-9
-1
-12
-especiais
-9
-1
-12
-diferente
-9
-1
-2
-telefonia
-9
-2
-12
-andamento
-9
-2
-9
-republica
-9
-1
-6
-assinadas
-9
-1
-8
-inocencio
-9
-1
-9
-governada
-9
-2
-14
-aconteceu
-9
-1
-6
-ventilada
-9
-2
-12
-advogados
-9
-1
-1
-fuselagem
-9
-1
-2
-dirigindo
-9
-2
-8
-argentina
-9
-3
-12
-seguranca
-9
-1
-9
-fraudados
-9
-1
-9
-cearenses
-9
-1
-6
-marcelino
-9
-1
-14
-distracao
-9
-1
-3
-britanico
-9
-1
-3
-acumulado
-9
-1
-4
-realizado
-9
-1
-4
-exercicio
-9
-1
-6
-inscricao
-9
-1
-9
-diplomata
-9
-2
-13
-quadrilha
-9
-1
-3
-crescente
-9
-1
-4
-incluidas
-9
-1
-5
-aprovacao
-9
-1
-6
-convencao
-9
-1
-11
-incendios
-9
-1
-14
-pagamento
-9
-1
-1
-realmente
-9
-2
-8
-favorecer
-9
-1
-2
-linguajar
-9
-1
-6
-temporada
-9
-1
-6
-cartinhas
-9
-4
-13
-policiais
-9
-1
-13
-descobrir
-9
-1
-2
-cometendo
-9
-1
-3
-impedidos
-9
-1
-4
-periodico
-9
-1
-4
-coletados
-9
-2
-9
-sindicato
-9
-1
-8
-robalinho
-9
-1
-9
-incapazes
-9
-1
-9
-aumentado
-9
-1
-13
-prenderam
-9
-1
-13
-marchiori
-9
-1
-2
-aparelhos
-9
-1
-2
-atlantico
-9
-1
-2
-revelaram
-9
-1
-4
-alterados
-9
-1
-6
-potencial
-9
-1
-9
-informado
-9
-1
-2
-celulares
-9
-1
-4
-descobriu
-9
-1
-6
-funcionam
-9
-1
-2
-confirmar
-9
-1
-4
-alzheimer
-9
-1
-6
-eleitoral
-9
-1
-11
-operacoes
-9
-1
-12
-florencio
-9
-1
-2
-microfone
-9
-1
-2
-atmosfera
-9
-1
-8
-jefferson
-9
-1
-8
-guilherme
-9
-1
-8
-enrolando
-9
-1
-8
-executado
-9
-1
-9
-envenenar
-9
-1
-9
-principal
-9
-1
-2
-residente
-9
-1
-2
-espantava
-9
-1
-3
-atentados
-9
-2
-11
-contraria
-9
-1
-7
-estaduais
-9
-2
-9
-boliviano
-9
-1
-12
-priscilla
-9
-1
-4
-sensacoes
-9
-1
-6
-suplencia
-9
-1
-7
-execucoes
-9
-1
-9
-companero
-9
-1
-0
-problemas
-9
-1
-1
-levemente
-9
-1
-2
-telefones
-9
-2
-4
-observado
-9
-1
-3
-viajantes
-9
-1
-14
-coqueiral
-9
-1
-4
-depressao
-9
-1
-5
-manifesto
-9
-2
-12
-conclusao
-9
-1
-6
-tabuleiro
-9
-1
-11
-cobertura
-9
-1
-5
-politicas
-9
-1
-14
-jerusalem
-9
-1
-2
-melbourne
-9
-1
-4
-sanguineo
-9
-1
-5
-redatores
-9
-1
-5
-similares
-9
-2
-8
-deputados
-9
-1
-8
-recuperar
-9
-1
-8
-dispensar
-9
-1
-5
-reverendo
-9
-1
-6
-revirando
-9
-1
-6
-pontuacao
-9
-1
-12
-militares
-9
-1
-14
-vigarista
-9
-1
-2
-exposicao
-9
-1
-2
-masculino
-9
-1
-6
-austriaco
-9
-1
-11
-reservado
-9
-1
-2
-complexas
-9
-1
-2
-suspendia
-9
-2
-6
-televisao
-9
-2
-9
-eleitores
-9
-1
-9
-itamaraty
-9
-1
-11
-moradores
-9
-1
-11
-alimentos
-9
-1
-2
-novamente
-9
-1
-3
-irregular
-9
-1
-4
-principio
-9
-1
-6
-concorrer
-9
-1
-12
-municipio
-9
-1
-2
-satelites
-9
-1
-8
-recusasse
-9
-1
-8
-corrupcao
-9
-1
-9
-executiva
-9
-1
-14
-contratar
-9
-1
-2
-cauteloso
-10
-1
-4
-capacidade
-9
-1
-4
-esperamos
-9
-1
-9
-conseguir
-9
-1
-12
-prestaram
-9
-1
-2
-negativos
-9
-1
-2
-restingas
-9
-1
-2
-auditorio
-9
-1
-8
-arrematou
-9
-1
-9
-poderosas
-9
-2
-9
-contrario
-9
-1
-9
-pretensao
-9
-5
-14
-inclusive
-9
-2
-9
-argumento
-9
-1
-9
-petrobras
-9
-1
-9
-interesse
-9
-1
-4
-congresso
-9
-1
-5
-impropria
-9
-1
-7
-aproximar
-9
-1
-7
-conversar
-9
-1
-9
-industria
-9
-1
-9
-persuasao
-9
-2
-14
-criminoso
-9
-2
-14
-continuar
-9
-1
-1
-escutamos
-9
-1
-4
-hospitais
-9
-1
-5
-criterios
-9
-1
-11
-ocorridos
-9
-1
-11
-repressao
-9
-1
-12
-intervalo
-9
-1
-12
-prestados
-9
-1
-13
-confessou
-9
-1
-2
-multidoes
-9
-1
-8
-politicos
-9
-1
-9
-mostraram
-9
-1
-9
-paulistas
-9
-1
-2
-noticioso
-9
-1
-5
-mostrando
-9
-1
-2
-aerossois
-9
-1
-9
-pitoresco
-9
-1
-9
-articulou
-9
-1
-2
-perguntas
-9
-1
-7
-suspender
-9
-1
-14
-ministrar
-10
-1
-0
-felicidade
-9
-2
-4
-mostravam
-9
-1
-4
-primeiros
-9
-1
-8
-expressao
-9
-1
-1
-aeroporto
-9
-1
-2
-swinburne
-9
-1
-2
-encontrou
-9
-2
-9
-contratos
-9
-1
-9
-desgostou
-9
-1
-2
-pesquisas
-9
-1
-5
-movimento
-9
-1
-8
-contratou
-9
-1
-8
-concursos
-9
-1
-2
-terrestre
-9
-1
-5
-discursou
-9
-1
-7
-previstas
-10
-1
-13
-delegacias
-9
-3
-8
-professor
-9
-1
-0
-progresso
-9
-1
-6
-registrou
-9
-1
-9
-respostas
-9
-1
-7
-possiveis
-9
-1
-6
-turistico
-9
-1
-9
-petroduto
-10
-1
-6
-acomodacao
-10
-1
-9
-abandonado
-9
-1
-2
-sustentar
-10
-1
-2
-fecundacao
-10
-1
-6
-casagrande
-9
-1
-13
-motocross
-9
-1
-2
-ministrou
-9
-1
-2
-prejuizos
-9
-1
-5
-propostas
-10
-2
-12
-condenacao
-10
-1
-7
-defenderam
-9
-1
-8
-portugues
-9
-1
-8
-suspeitos
-10
-1
-13
-arariguaba
-10
-1
-1
-emergencia
-10
-1
-12
-analisadas
-10
-2
-12
-declarados
-9
-1
-2
-instituto
-10
-1
-2
-publicacao
-10
-1
-2
-adicionais
-10
-2
-5
-legislacao
-10
-1
-4
-aplicacoes
-10
-1
-8
-referencia
-9
-1
-5
-protestou
-10
-1
-4
-comparacao
-10
-3
-14
-assembleia
-10
-2
-14
-beneficios
-10
-1
-6
-vigilancia
-10
-1
-2
-facilmente
-10
-1
-4
-anticancer
-10
-2
-5
-california
-10
-1
-5
-condenaram
-10
-1
-9
-lembrancas
-10
-1
-2
-decretando
-10
-4
-11
-comunidade
-10
-1
-6
-amadurecer
-10
-1
-8
-independem
-10
-1
-9
-esplendida
-10
-1
-2
-completada
-10
-1
-4
-partilhada
-10
-1
-4
-cesarianas
-10
-2
-14
-candidatos
-10
-1
-12
-acompanhar
-10
-1
-2
-associadas
-10
-1
-2
-evidencias
-10
-1
-8
-realizacao
-10
-1
-9
-humilhacao
-10
-1
-11
-atrapalham
-10
-1
-2
-magneticas
-10
-1
-2
-descoberta
-10
-2
-9
-embaixador
-10
-1
-5
-propaganda
-10
-1
-9
-brasileira
-10
-1
-4
-analisados
-10
-1
-9
-informacao
-10
-1
-4
-realizadas
-10
-1
-4
-quantidade
-10
-1
-8
-impunidade
-10
-1
-8
-abiscoitar
-10
-1
-4
-cancerosas
-10
-1
-4
-comunicado
-10
-2
-8
-americanos
-10
-1
-14
-localizado
-10
-1
-2
-examinaram
-10
-3
-14
-secretaria
-10
-1
-7
-judiciario
-10
-1
-7
-alteracoes
-10
-1
-12
-animadores
-10
-1
-5
-afirmativa
-10
-1
-8
-preocupada
-10
-1
-12
-inocentado
-10
-3
-8
-tecnologia
-10
-1
-2
-adiamentos
-10
-1
-7
-tramitacao
-10
-1
-9
-telefonava
-10
-1
-14
-selecionar
-10
-1
-4
-prolongada
-10
-1
-6
-leopoldina
-10
-1
-9
-completara
-10
-1
-11
-homicidios
-10
-1
-2
-prejudicar
-10
-1
-3
-inglaterra
-10
-1
-3
-confundido
-10
-1
-4
-estrategia
-10
-2
-8
-associados
-10
-1
-9
-colocassem
-10
-1
-5
-manipulado
-10
-1
-9
-funcionava
-10
-1
-2
-infundados
-10
-1
-3
-configuram
-10
-1
-4
-conseguiam
-10
-1
-8
-solicitado
-10
-1
-12
-escoltaram
-10
-1
-12
-acompanhou
-10
-1
-1
-tempestade
-10
-1
-2
-necessario
-10
-4
-9
-brasileiro
-10
-1
-2
-vasectomia
-10
-1
-8
-pernambuco
-10
-1
-4
-substancia
-10
-1
-1
-passageiro
-10
-1
-4
-realizados
-10
-1
-9
-acionistas
-10
-1
-2
-funcionais
-10
-1
-11
-participar
-10
-1
-14
-contratado
-10
-1
-2
-prodigiosa
-10
-1
-2
-nascimento
-10
-1
-6
-eleitorais
-10
-2
-8
-secretario
-10
-1
-8
-coronarias
-10
-1
-9
-signatario
-10
-1
-11
-integrante
-10
-1
-2
-principais
-10
-1
-3
-divulgados
-10
-1
-6
-brizolinha
-10
-5
-9
-presidente
-10
-1
-3
-imigrantes
-10
-1
-3
-percentual
-10
-1
-6
-convencoes
-10
-1
-6
-felizardos
-10
-1
-6
-referentes
-10
-1
-9
-espoliados
-10
-1
-9
-privataria
-10
-1
-12
-tramitando
-10
-2
-8
-tripulacao
-10
-1
-2
-reproducao
-10
-1
-2
-manguezais
-10
-2
-5
-contestado
-10
-1
-9
-papeleiros
-10
-1
-12
-depoimento
-10
-1
-13
-latrocinio
-10
-1
-2
-prolongado
-10
-1
-3
-deportados
-10
-1
-9
-apresentar
-10
-1
-4
-selecionou
-10
-1
-5
-deturpando
-10
-1
-5
-argumentar
-10
-1
-8
-diretorias
-10
-1
-9
-bolivianos
-10
-1
-9
-arrogantes
-10
-1
-9
-burocratas
-10
-1
-2
-cientistas
-10
-1
-2
-telescopio
-10
-1
-4
-pasqualini
-10
-1
-4
-particular
-10
-3
-9
-governador
-10
-2
-13
-empresario
-10
-1
-8
-jornalista
-10
-1
-9
-companeros
-10
-1
-4
-observados
-10
-1
-11
-criminosas
-10
-1
-14
-orientados
-10
-1
-9
-governante
-10
-1
-7
-interferir
-10
-1
-8
-argentinos
-10
-1
-1
-provocando
-10
-1
-2
-permitirao
-10
-2
-14
-determinou
-10
-1
-5
-conjeturar
-10
-1
-11
-infratores
-10
-1
-12
-requererem
-10
-1
-14
-assessoria
-10
-1
-4
-individuos
-10
-1
-12
-testemunha
-10
-1
-2
-tratamento
-10
-1
-14
-presbitero
-10
-1
-1
-aterrissar
-10
-1
-2
-municipios
-10
-1
-2
-envolvendo
-10
-1
-2
-estudantes
-10
-1
-3
-justamente
-10
-2
-9
-construcao
-10
-1
-2
-renovaveis
-10
-1
-4
-distinguir
-10
-1
-6
-governista
-10
-2
-4
-importante
-10
-3
-12
-ministerio
-10
-1
-8
-escritorio
-10
-1
-8
-vulneravel
-10
-2
-5
-argumentos
-10
-1
-6
-mutuamente
-10
-1
-9
-palmerston
-11
-1
-0
-ahmadinejad
-10
-1
-7
-servidores
-10
-1
-11
-criminosos
-10
-1
-12
-apresentou
-10
-1
-1
-socorridos
-10
-1
-2
-revertidos
-10
-1
-1
-assustador
-10
-1
-5
-suprimiram
-10
-1
-8
-visitantes
-10
-1
-8
-impressoes
-10
-1
-8
-subnitrato
-11
-1
-9
-chancelaria
-10
-1
-14
-curriculos
-10
-1
-2
-existentes
-10
-1
-4
-pittsburgh
-10
-1
-4
-marroquino
-11
-1
-9
-acompanhada
-10
-1
-5
-sustentava
-11
-1
-8
-dificuldade
-10
-1
-8
-aeroportos
-10
-1
-14
-aproveitou
-10
-1
-3
-terrorista
-10
-1
-1
-reversores
-10
-1
-2
-intestinos
-11
-1
-9
-dependencia
-10
-1
-14
-transporte
-10
-1
-8
-territorio
-11
-1
-4
-biomedicina
-10
-1
-1
-motoristas
-11
-1
-12
-declaracoes
-10
-1
-0
-opositores
-11
-1
-3
-desembarcar
-11
-1
-9
-credenciais
-11
-1
-12
-acompanhado
-11
-1
-9
-desdenharam
-11
-1
-12
-diligencias
-11
-1
-2
-fertilidade
-11
-1
-2
-conferencia
-11
-2
-9
-considerada
-11
-1
-9
-acreditando
-11
-1
-12
-fotografada
-11
-1
-3
-despachados
-10
-1
-9
-trouxessem
-11
-1
-6
-candidatura
-11
-1
-4
-identificar
-11
-1
-9
-suficiencia
-11
-1
-7
-preenchidas
-11
-1
-9
-cordilheira
-11
-2
-9
-presidencia
-11
-2
-7
-competencia
-11
-1
-4
-apresentada
-11
-1
-6
-dificultara
-11
-1
-9
-abertamente
-11
-1
-6
-preencheram
-11
-1
-8
-previdencia
-11
-1
-2
-descobriram
-11
-1
-3
-endureceram
-11
-1
-9
-canhoneiras
-11
-1
-2
-constelacao
-11
-1
-8
-aeronautica
-11
-1
-11
-operacional
-11
-2
-4
-organizacao
-11
-2
-11
-propriedade
-11
-1
-7
-coordenador
-11
-1
-14
-evangelicos
-11
-1
-2
-necessarias
-11
-1
-4
-enfermeiras
-11
-1
-4
-hiperplasia
-11
-1
-9
-remuneracao
-11
-1
-9
-ponderacoes
-11
-1
-2
-conservacao
-11
-1
-4
-diagnostico
-11
-1
-5
-republicano
-11
-2
-7
-legislativa
-11
-1
-14
-informacoes
-11
-1
-5
-afirmativas
-11
-1
-7
-parlamentar
-11
-1
-9
-importancia
-11
-1
-2
-maximiliano
-11
-1
-3
-eletricista
-11
-1
-3
-assassinado
-11
-1
-5
-procedessem
-11
-1
-7
-atribuicoes
-11
-1
-14
-apresentava
-11
-1
-2
-alternativa
-11
-1
-9
-petrocabios
-11
-1
-6
-sinalizando
-11
-1
-6
-crescimento
-11
-1
-8
-prateleiras
-11
-3
-14
-funcionario
-11
-2
-14
-conseguiram
-11
-1
-2
-cooperativa
-11
-1
-2
-assombrados
-11
-1
-2
-atormentado
-11
-1
-4
-camundongos
-11
-1
-7
-magistrados
-11
-1
-8
-helicoptero
-11
-3
-9
-brasileiros
-11
-1
-4
-necessarios
-11
-2
-8
-substancias
-11
-1
-8
-vasconcelos
-11
-1
-13
-patrimonial
-11
-1
-1
-passageiros
-11
-1
-4
-interessado
-11
-1
-4
-respondendo
-11
-1
-4
-consultadas
-11
-1
-8
-ministerial
-11
-1
-12
-conversaram
-11
-1
-2
-suficientes
-11
-1
-2
-normalmente
-11
-1
-9
-distribuido
-11
-1
-9
-contratados
-11
-1
-2
-equivalente
-11
-1
-7
-legislativo
-11
-1
-11
-assaltantes
-11
-1
-8
-halliburton
-11
-1
-1
-aterrissava
-11
-1
-12
-maravilhoso
-11
-1
-9
-desconforto
-11
-1
-9
-competentes
-11
-1
-12
-depoimentos
-11
-1
-9
-historiador
-11
-2
-12
-assassinato
-11
-1
-3
-estimativas
-11
-1
-8
-jornalistas
-11
-1
-2
-intestinais
-11
-1
-9
-venezuelano
-11
-1
-2
-desenvolver
-11
-1
-2
-proveniente
-11
-1
-2
-pesquisador
-11
-1
-4
-experimento
-11
-2
-12
-testemunhas
-11
-1
-8
-substituida
-11
-2
-5
-tratamentos
-11
-1
-13
-responsavel
-12
-1
-14
-identificada
-11
-1
-8
-ministerios
-11
-1
-2
-interromper
-11
-1
-5
-sustentando
-11
-2
-8
-tripulantes
-12
-1
-5
-bibliografia
-12
-1
-9
-encarapitada
-11
-1
-8
-subnitratos
-11
-1
-8
-substituido
-12
-1
-4
-bipolaridade
-11
-1
-8
-reconstruir
-12
-1
-9
-renegociacao
-11
-1
-2
-osteoporose
-11
-1
-3
-terroristas
-11
-2
-9
-quilometros
-11
-2
-4
-voluntarios
-11
-1
-5
-proposition
-12
-1
-9
-ramificacoes
-12
-2
-12
-acompanharam
-12
-1
-9
-bombardeasse
-12
-1
-7
-necessidades
-12
-1
-12
-determinacao
-12
-1
-2
-relacionando
-12
-1
-4
-degenerativa
-12
-1
-2
-conferencias
-12
-1
-3
-oficialmente
-12
-2
-11
-participacao
-12
-1
-12
-permaneceram
-12
-1
-2
-privilegiada
-12
-1
-4
-complicacoes
-12
-1
-9
-negociadores
-12
-1
-1
-parcialmente
-12
-1
-2
-inaceitaveis
-12
-1
-5
-preferencias
-12
-1
-4
-aparecimento
-12
-1
-7
-competencias
-12
-2
-9
-pernambucano
-12
-1
-9
-conhecimento
-12
-1
-4
-investigacao
-12
-1
-11
-comerciantes
-12
-1
-2
-planejamento
-12
-1
-12
-considerados
-12
-1
-6
-asfaltamento
-12
-1
-8
-radiologista
-12
-2
-4
-universidade
-12
-1
-12
-departamento
-12
-1
-11
-organizacoes
-12
-1
-1
-aterrissagem
-12
-1
-4
-apresentavam
-12
-1
-5
-republicanos
-12
-1
-2
-ressonancias
-12
-2
-14
-procedimento
-12
-1
-9
-colonialismo
-12
-1
-9
-fornecimento
-12
-1
-9
-preocupacoes
-12
-1
-14
-internamente
-12
-1
-0
-psicologicos
-12
-1
-12
-demonstrando
-12
-1
-9
-metalurgicos
-12
-2
-14
-funcionarios
-12
-1
-8
-pessoalmente
-12
-1
-14
-representava
-12
-1
-4
-demonstravam
-12
-1
-6
-expectativas
-12
-1
-2
-desenvolvido
-12
-1
-4
-teragnostico
-12
-1
-14
-interessados
-12
-1
-2
-australianos
-12
-2
-8
-estrangeiros
-12
-1
-9
-divertimento
-13
-1
-5
-nacionalidade
-12
-1
-2
-observatorio
-12
-1
-5
-restaurantes
-12
-2
-9
-marqueteiros
-12
-1
-9
-superpoderes
-12
-1
-2
-provenientes
-12
-1
-9
-presentinhos
-13
-1
-8
-identificacao
-12
-2
-13
-envolvimento
-13
-1
-4
-diagnosticada
-13
-1
-8
-reciprocidade
-12
-1
-9
-pesquisistas
-13
-1
-7
-desembargador
-13
-1
-5
-discriminacao
-13
-1
-4
-geneticamente
-13
-1
-4
-bacteriofagos
-13
-1
-1
-acrescentando
-13
-1
-7
-coordenadoria
-13
-1
-2
-licenciamento
-12
-1
-2
-instrumentos
-13
-1
-3
-especialmente
-13
-1
-5
-preferenciais
-13
-1
-7
-centralizacao
-13
-1
-6
-manifestacoes
-13
-1
-7
-reorganizacao
-13
-1
-8
-transferencia
-13
-1
-2
-farmaceuticos
-13
-1
-1
-internacional
-13
-1
-7
-descentraliza
-13
-1
-7
-sindicalistas
-13
-2
-6
-convencionais
-13
-1
-12
-radiopatrulha
-13
-1
-11
-investigacoes
-13
-1
-2
-amortecimento
-13
-1
-4
-participantes
-13
-1
-9
-international
-13
-1
-4
-quimioterapia
-13
-1
-7
-comissionados
-13
-1
-12
-anteriormente
-13
-1
-8
-desautorizado
-13
-1
-9
-representante
-13
-1
-12
-contraditorio
-13
-1
-2
-universitaria
-13
-2
-4
-pesquisadores
-13
-2
-9
-provavelmente
-13
-1
-9
-investimentos
-14
-1
-8
-falsificadores
-14
-1
-1
-engarrafamento
-14
-1
-4
-aleatoriamente
-14
-1
-2
-fisiopatologia
-14
-1
-11
-principalmente
-14
-1
-2
-empreendimento
-14
-1
-4
-possibilitaria
-14
-1
-11
-constantemente
-14
-1
-2
-exclusivamente
-14
-1
-7
-representantes
-14
-1
-12
-interrogatorio
-15
-1
-2
-eletromagnetica
-15
-1
-8
-vasodilatadoras
-15
-1
-12
-esclarecimentos
-15
-1
-2
-permanentemente
-15
-1
-9
-petrodiplomatas
-15
-2
-4
-desenvolvimento
-15
-1
-4
-antidepressivos
-15
-1
-6
-provisoriamente
-15
-1
-12
-interrogatorios
-16
-1
-2
-anticoncepcional
-16
-1
-7
-descentralizacao
-16
-1
-5
-estabelecimentos
-16
-1
-9
-interessadissimo
-16
-1
-2
-neuropsychologia
-16
-1
-4
-desenvolvimentos
-17
-1
-2
-anticoncepcionais
-17
-1
-2
-neuropsicologicas
-17
-1
-2
-neuropsicologicos
-19
-1
-9
-desenvolvimentistas
-21
-1
-7
-inconstitucionalidade
-1 (0)
-2 (0)
-3 (0)
-4 (0)
-5 (0)
-6 (0)
-7 (0)
-8 (0)
-00 (0)
-10 (0)
-11 (0)
-20 (0)
-12 (0)
-30 (0)
-22 (0)
-40 (0)
-31 (0)
-23 (0)
-50 (0)
-60 (0)
-15 (0)
-33 (0)
-24 (0)
-42 (0)
-16 (0)
-52 (0)
-34 (0)
-70 (0)
-17 (0)
-35 (0)
-80 (0)
-71 (0)
-26 (0)
-18 (0)
-54 (0)
-46 (0)
-19 (0)
-28 (0)
-65 (0)
-75 (0)
-57 (0)
-66 (0)
-39 (0)
-68 (0)
-97 (0)
-100 (0)
-200 (0)
-300 (0)
-120 (0)
-130 (0)
-401 (0)
-500 (0)
-221 (0)
-142 (0)
-700 (0)
-350 (0)
-180 (0)
-640 (0)
-209 (0)
-183 (0)
-750 (0)
-138 (0)
-814 (0)
-490 (0)
-294 (0)
-960 (0)
-385 (0)
-a (1)
-297 (0)
-2000 (0)
-288 (0)
-c (0)
-d (0)
-e (1)
-2003 (0)
-2004 (0)
-2005 (0)
-h (0)
-2008 (0)
-m (0)
-o (1)
-1871 (0)
-r (0)
-1980 (0)
-1963 (0)
-1864 (0)
-1945 (0)
-4a (0)
-1957 (0)
-1986 (0)
-1996 (0)
-1979 (0)
-4o (0)
-a340 (0)
-3x4 (0)
-8h20 (0)
-8h40 (0)
-da (0)
-de (1)
-ha (0)
-ai (0)
-ja (0)
-fe (0)
-la (0)
-na (0)
-ao (0)
-13h40 (0)
-em (0)
-co (0)
-ii (0)
-do (1)
-ar (0)
-as (0)
-pe (0)
-se (0)
-es (0)
-qg (0)
-ue (0)
-eu (0)
-ir (0)
-lo (0)
-ve (0)
-rj (0)
-no (0)
-ex (0)
-pm (0)
-tj (0)
-pp (0)
-ro (0)
-os (1)
-um (0)
-so (0)
-sp (0)
-ou (0)
-pt (0)
-us (0)
-tv (0)
-dia (0)
-acm (0)
-boa (0)
-ela (0)
-mae (0)
-bem (0)
-hic (0)
-dao (0)
-bme (0)
-cem (0)
-ele (0)
-dar (0)
-gao (0)
-das (0)
-era (0)
-aav (0)
-aes (0)
-lhe (0)
-ate (0)
-mal (0)
-lei (0)
-eua (0)
-der (0)
-gas (0)
-ira (1)
-air (0)
-mao (0)
-ibr (0)
-foi (0)
-nao (0)
-deu (0)
-ano (0)
-bom (0)
-com (1)
-con (0)
-vai (0)
-via (0)
-nem (0)
-mas (0)
-the (0)
-faz (0)
-oco (0)
-mil (0)
-san (0)
-nas (0)
-pfl (0)
-gol (0)
-tam (0)
-sao (1)
-uma (0)
-aos (0)
-dez (0)
-tao (0)
-cor (0)
-ato (0)
-fui (0)
-sem (0)
-psb (0)
-mes (0)
-fez (0)
-dos (1)
-tem (0)
-vao (0)
-max (0)
-ptb (0)
-diz (1)
-eso (0)
-pdt (0)
-sua (0)
-usa (0)
-rio (0)
-ser (0)
-evo (0)
-que (1)
-ter (0)
-paz (0)
-seu (1)
-ver (0)
-los (0)
-oms (0)
-nos (0)
-num (0)
-por (0)
-pos (0)
-pps (0)
-viu (0)
-sul (0)
-vez (0)
-vlt (0)
-uso (0)
-xix (0)
-luz (0)
-tur (0)
-voz (0)
-cada (0)
-acha (0)
-bebe (0)
-alca (0)
-fica (1)
-cana (0)
-fala (0)
-acao (0)
-nada (0)
-boca (0)
-caem (0)
-raca (0)
-casa (0)
-ecoa (0)
-area (0)
-peca (0)
-faco (0)
-dele (0)
-cima (0)
-cuba (0)
-base (0)
-dick (0)
-gado (0)
-bate (0)
-dedo (0)
-dava (0)
-pega (0)
-liga (0)
-jean (0)
-fina (0)
-leal (0)
-alem (0)
-cola (0)
-cair (0)
-mapa (0)
-cria (0)
-fase (0)
-cell (0)
-rede (0)
-lado (0)
-moda (0)
-arma (0)
-dias (0)
-sala (0)
-caiu (0)
-pela (0)
-bobo (0)
-dona (0)
-joia (0)
-nasa (0)
-pmdb (0)
-lima (0)
-mata (0)
-para (0)
-obra (0)
-arap (0)
-vida (0)
-deve (0)
-pena (0)
-boas (0)
-amin (0)
-caro (0)
-sela (0)
-calu (0)
-iria (0)
-onde (0)
-hoje (0)
-caso (0)
-maes (0)
-pele (0)
-mesa (0)
-maio (0)
-veja (0)
-guia (0)
-loja (0)
-toca (0)
-vice (0)
-pode (0)
-fora (0)
-aavp (0)
-vale (0)
-toda (0)
-mico (0)
-eles (1)
-elio (0)
-king (0)
-psdb (0)
-paes (0)
-joao (0)
-mais (0)
-meio (0)
-hora (0)
-fato (0)
-vara (0)
-fogo (0)
-raio (0)
-sera (0)
-cura (0)
-mark (0)
-essa (0)
-tera (0)
-vila (0)
-pais (1)
-voce (0)
-esta (0)
-boom (0)
-duas (0)
-irem (0)
-como (0)
-taxa (0)
-lula (0)
-sido (0)
-dois (0)
-nome (0)
-roma (0)
-sair (0)
-mula (0)
-ramo (0)
-papo (0)
-pelo (0)
-tira (0)
-dono (0)
-aqui (0)
-alto (0)
-esse (0)
-logo (0)
-numa (0)
-anos (0)
-sete (0)
-jose (0)
-tais (0)
-deus (0)
-este (0)
-saiu (0)
-vira (0)
-nota (0)
-jura (0)
-bush (0)
-bons (0)
-alvo (0)
-apos (0)
-qual (0)
-veio (0)
-hugo (0)
-nova (0)
-seis (0)
-teve (0)
-site (0)
-todo (0)
-peso (0)
-judt (0)
-quem (1)
-zona (0)
-nove (0)
-vaso (0)
-wood (0)
-auto (0)
-vive (0)
-suco (0)
-vota (0)
-pior (0)
-teor (0)
-juri (0)
-oito (0)
-usar (0)
-pois (0)
-tose (0)
-tudo (0)
-suas (0)
-peru (0)
-tipo (0)
-quer (0)
-news (0)
-solo (0)
-isso (0)
-tres (0)
-psol (0)
-isto (0)
-sono (0)
-seus (0)
-traz (0)
-novo (0)
-juiz (0)
-quis (0)
-rumo (0)
-vivo (0)
-povo (0)
-luiz (0)
-voto (0)
-tony (0)
-bahia (0)
-idade (0)
-barba (0)
-ibama (0)
-ideia (0)
-ainda (0)
-chapa (0)
-aerea (0)
-mafia (0)
-cerca (0)
-lanca (0)
-achar (0)
-ganha (0)
-media (0)
-afeta (0)
-bebes (0)
-fraga (0)
-bomba (0)
-fabio (0)
-saida (0)
-nacao (0)
-faria (0)
-banco (0)
-casal (0)
-lenda (0)
-bando (0)
-ajuda (0)
-briga (0)
-manha (0)
-brice (0)
-desde (0)
-ecoam (0)
-clima (0)
-falar (0)
-caixa (0)
-foice (0)
-andar (0)
-dando (0)
-freia (0)
-adeno (0)
-feira (0)
-barco (0)
-falsa (0)
-diego (0)
-falta (0)
-barra (0)
-havia (0)
-ajude (0)
-joana (0)
-afora (0)
-delas (0)
-deram (0)
-adota (0)
-feita (0)
-agora (0)
-abril (0)
-final (0)
-maria (0)
-fazia (0)
-local (0)
-dados (0)
-forca (0)
-acoes (0)
-deixa (0)
-geral (0)
-reich (0)
-etapa (0)
-pagar (0)
-cinco (0)
-cargo (0)
-seara (0)
-bndes (0)
-aereo (0)
-gagno (0)
-deles (0)
-wadih (0)
-saber (0)
-negra (0)
-rocha (0)
-podia (0)
-icone (0)
-cesar (0)
-medio (0)
-bater (0)
-malas (0)
-bases (0)
-elias (0)
-coisa (0)
-certa (0)
-adins (0)
-cunha (0)
-dedos (0)
-mando (0)
-terca (0)
-aviao (0)
-frear (0)
-tenha (0)
-fagos (0)
-dessa (0)
-velha (0)
-lider (0)
-matei (0)
-salao (0)
-abrir (0)
-tarde (0)
-crime (0)
-exame (0)
-teera (1)
-longa (0)
-anual (0)
-frase (0)
-dizia (0)
-devem (0)
-gerar (0)
-bolsa (0)
-saias (0)
-saude (0)
-papel (0)
-filho (0)
-ambos (0)
-brejo (0)
-opcao (0)
-marco (0)
-envia (0)
-fazem (0)
-gente (0)
-leite (0)
-baixo (0)
-elite (0)
-cegou (0)
-paula (0)
-mesma (0)
-desse (0)
-seria (0)
-ronda (0)
-armas (0)
-tinha (0)
-fisco (0)
-pedir (0)
-mudam (0)
-foram (0)
-forma (0)
-podem (0)
-conta (0)
-nunca (0)
-teria (0)
-deste (0)
-suica (0)
-matar (0)
-bordo (0)
-ficou (0)
-vinha (0)
-homem (0)
-algum (0)
-dupla (0)
-ogiva (0)
-verde (0)
-crise (0)
-carro (0)
-entao (0)
-feito (0)
-video (0)
-sobra (0)
-santa (0)
-sinal (0)
-pediu (0)
-atual (0)
-golpe (0)
-civil (0)
-blusa (0)
-falou (0)
-disse (1)
-passa (0)
-serie (0)
-maior (0)
-orgao (0)
-fazer (0)
-lucas (0)
-apoio (0)
-mario (0)
-pobre (0)
-serei (0)
-sendo (0)
-casos (0)
-levem (0)
-mudar (0)
-segue (0)
-tango (0)
-apura (0)
-sonha (0)
-troca (0)
-forem (0)
-preco (0)
-costa (0)
-poder (0)
-nessa (0)
-serao (0)
-levar (0)
-cotas (0)
-tendo (0)
-pedro (0)
-antes (0)
-sobre (0)
-nesta (0)
-todas (0)
-lugar (0)
-negro (0)
-pauta (0)
-jeito (0)
-tensa (0)
-corre (0)
-gomes (0)
-terao (0)
-estao (0)
-uniao (0)
-parte (0)
-ocupe (0)
-serem (0)
-preta (0)
-horas (0)
-dubos (0)
-meses (0)
-naves (0)
-reino (0)
-certo (0)
-terco (0)
-curar (0)
-fatos (0)
-varas (0)
-mucio (0)
-meter (0)
-raios (0)
-marks (0)
-entre (0)
-terra (0)
-train (0)
-dizer (0)
-tenho (0)
-nesse (0)
-pleno (0)
-velho (0)
-pegos (0)
-sofre (1)
-paris (0)
-estar (0)
-unido (0)
-noite (0)
-quase (0)
-bolso (0)
-silva (0)
-sosia (0)
-vasta (0)
-neste (0)
-pegou (0)
-fosse (0)
-forte (0)
-risco (0)
-reims (0)
-fugiu (0)
-usava (0)
-ligou (0)
-pista (0)
-mesmo (0)
-paulo (0)
-comum (0)
-curva (0)
-taxas (0)
-corey (0)
-visao (0)
-disso (0)
-julho (0)
-criou (0)
-menos (0)
-rugas (0)
-nomes (0)
-tirar (0)
-preve (0)
-gesto (0)
-enron (0)
-ontem (1)
-tomar (0)
-movel (0)
-mundo (0)
-salto (0)
-esses (0)
-pelos (0)
-quais (0)
-porem (0)
-hospi (0)
-torna (0)
-mauro (0)
-tempo (0)
-texas (0)
-teste (0)
-sexta (0)
-santo (0)
-olhos (0)
-mimos (0)
-porta (0)
-possa (0)
-parto (0)
-volta (0)
-passo (0)
-pouco (0)
-vamos (0)
-motim (0)
-vivem (0)
-morte (0)
-sonho (0)
-vista (0)
-termo (0)
-roupa (0)
-nuroc (0)
-roubo (0)
-norte (0)
-torne (0)
-prova (0)
-temos (0)
-terno (0)
-todos (0)
-ratos (0)
-preso (0)
-turma (0)
-forum (0)
-taxis (0)
-perto (0)
-tocou (0)
-tiver (0)
-tirol (0)
-porte (0)
-pudor (0)
-posse (0)
-outra (0)
-viuva (0)
-autor (0)
-levou (0)
-fotos (0)
-botox (0)
-viver (0)
-prazo (0)
-votar (0)
-tubos (0)
-grupo (0)
-vezes (0)
-muito (0)
-fluxo (0)
-euros (0)
-custo (0)
-utero (0)
-cabeca (0)
-junto (0)
-sutil (0)
-nosso (0)
-souza (0)
-sumiu (0)
-porto (0)
-novos (0)
-visto (0)
-acabam (0)
-ouvir (0)
-posto (0)
-tumor (0)
-rosto (0)
-povos (0)
-cadeia (0)
-ameaca (0)
-sutis (0)
-virus (0)
-lutou (0)
-outro (0)
-careca (0)
-agrada (0)
-chefia (0)
-rebeca (0)
-medica (0)
-biblia (0)
-achava (0)
-medida (0)
-habeas (0)
-edicao (0)
-chegam (0)
-camara (0)
-africa (0)
-amanha (0)
-chefao (0)
-recebe (0)
-atacam (0)
-campea (0)
-chamam (0)
-branca (0)
-indica (0)
-defesa (0)
-comeca (0)
-angela (0)
-tabela (0)
-dancar (0)
-baiano (0)
-doenca (0)
-chegar (0)
-ficava (0)
-acabou (0)
-reacao (0)
-maciel (0)
-cancer (0)
-atacar (0)
-racial (0)
-crenca (0)
-pagara (0)
-fumaca (0)
-chamas (0)
-beijar (0)
-sabiam (0)
-caindo (0)
-afetam (0)
-amaral (0)
-france (0)
-ideias (0)
-brinca (0)
-afirma (0)
-metade (0)
-pagina (0)
-fariam (0)
-chapas (0)
-confia (0)
-grande (0)
-merece (0)
-ganhar (0)
-rapida (0)
-medico (0)
-alheio (0)
-colado (0)
-agulha (0)
-brigam (0)
-ajudam (0)
-igreja (0)
-afetar (0)
-jarbas (0)
-rainha (0)
-demais (0)
-ladrao (0)
-mandar (0)
-animam (0)
-casais (0)
-antiga (0)
-impede (0)
-citado (0)
-morada (0)
-oceano (0)
-semana (0)
-pedido (0)
-branco (0)
-camilo (0)
-adolfo (0)
-caixao (0)
-tomada (0)
-vagina (0)
-tambem (0)
-embora (0)
-comeco (0)
-deviam (0)
-amante (0)
-farias (0)
-regiao (0)
-lancet (0)
-alguma (0)
-famosa (0)
-elegeu (0)
-bordao (0)
-gangue (0)
-acordo (0)
-engano (0)
-apenas (0)
-bancou (0)
-demora (0)
-alerta (0)
-cometa (0)
-latina (0)
-franco (0)
-ferido (0)
-george (0)
-geisel (0)
-chovia (0)
-senado (0)
-milhao (0)
-lisboa (0)
-fechou (0)
-ferias (0)
-coelho (0)
-finais (0)
-reagir (0)
-locais (0)
-renata (0)
-inicio (0)
-podera (0)
-espaco (0)
-social (0)
-chegou (0)
-cheque (0)
-rancho (0)
-alguem (0)
-credit (0)
-nascer (0)
-dirceu (0)
-cheney (0)
-correa (0)
-manoel (0)
-barril (0)
-marido (0)
-funcao (0)
-deixar (0)
-maxima (0)
-brasil (0)
-viajar (0)
-obesas (0)
-fisico (0)
-aquele (0)
-seguia (0)
-saindo (0)
-curado (0)
-itamar (0)
-acesso (0)
-manual (0)
-figura (0)
-confio (0)
-etapas (0)
-cargos (0)
-arruda (0)
-baseou (0)
-bairro (0)
-estado (0)
-estara (0)
-minhas (0)
-genero (0)
-quebra (0)
-penais (0)
-amigos (0)
-jantar (0)
-drogas (0)
-blazer (0)
-espera (0)
-seriam (0)
-center (0)
-mental (0)
-tinham (0)
-proibe (0)
-ataque (0)
-formal (0)
-comite (0)
-chavez (0)
-lancou (0)
-formam (0)
-ingles (0)
-musica (0)
-ironia (0)
-coisas (0)
-cassio (0)
-malote (0)
-teriam (0)
-dessas (0)
-soaram (0)
-campos (0)
-crimes (0)
-rampas (0)
-estava (0)
-frente (0)
-depois (0)
-dormem (0)
-mandou (0)
-alivio (0)
-vicosa (0)
-mexico (0)
-online (0)
-paises (0)
-trecho (0)
-choque (0)
-perdeu (0)
-marcos (0)
-filhos (0)
-enviar (0)
-airbus (0)
-estuda (0)
-artigo (0)
-menino (0)
-guerra (0)
-venceu (0)
-roubei (0)
-pensao (0)
-nucleo (0)
-jornal (0)
-jobert (0)
-lentas (0)
-pilula (0)
-sinais (0)
-melhor (0)
-burger (0)
-contra (0)
-queria (0)
-iraque (0)
-latino (0)
-bunker (0)
-vingar (0)
-desses (0)
-quando (0)
-muleta (0)
-contas (0)
-subita (0)
-bugres (0)
-hitler (0)
-buzina (0)
-normal (0)
-equipe (0)
-minimo (0)
-usaram (0)
-renato (0)
-altura (0)
-pensar (0)
-sergio (0)
-emitir (0)
-homens (0)
-alguns (0)
-passar (0)
-vitima (0)
-tucano (0)
-ocupar (0)
-cupula (0)
-pessoa (0)
-evitar (0)
-sugere (0)
-sonhar (0)
-martin (0)
-trocar (0)
-cortar (0)
-entrem (0)
-seculo (0)
-nenhum (0)
-sofrem (1)
-ultima (0)
-entrar (0)
-dentro (0)
-dexter (0)
-thomas (0)
-sempre (0)
-europa (0)
-castro (0)
-vestia (0)
-bastos (0)
-dormir (0)
-mulher (0)
-votado (0)
-soares (0)
-costas (0)
-fossem (0)
-parque (0)
-tratar (0)
-negros (0)
-quarta (0)
-sessao (0)
-tentar (0)
-forcou (0)
-deixou (0)
-prisao (0)
-nature (0)
-querem (0)
-presta (0)
-walter (0)
-herzog (0)
-onibus (0)
-clovis (0)
-versao (0)
-missil (0)
-sofrer (0)
-nesses (0)
-tungar (0)
-montar (0)
-existe (0)
-unidos (0)
-portal (0)
-partir (0)
-curtas (0)
-riscos (0)
-muitas (0)
-varios (0)
-estudo (0)
-juntar (0)
-luther (0)
-romero (0)
-loucos (1)
-previo (0)
-riscou (0)
-tornar (0)
-numero (0)
-saltos (0)
-tampou (0)
-piloto (0)
-monzar (0)
-junior (0)
-contou (0)
-trazer (0)
-testes (0)
-volume (0)
-sentiu (0)
-tempos (0)
-pretti (0)
-santos (0)
-partos (0)
-pastor (0)
-quiser (0)
-metros (0)
-stough (0)
-mortes (0)
-tostao (0)
-juizes (0)
-pousar (0)
-sonhos (0)
-roubos (0)
-ultimo (0)
-triste (1)
-passou (0)
-provas (0)
-fechada (0)
-porque (0)
-quatro (0)
-corpus (0)
-suisse (0)
-quilos (0)
-entrou (0)
-doutor (0)
-violou (0)
-motivo (0)
-outras (0)
-nuvens (0)
-acabava (0)
-tentou (0)
-grupos (0)
-muitos (0)
-custou (0)
-furtos (0)
-mortos (0)
-bagagem (0)
-nossos (0)
-rebecca (0)
-tornou (0)
-alcance (0)
-trouxe (0)
-agencia (0)
-baleado (0)
-cadeira (0)
-pousou (0)
-defende (0)
-outros (1)
-ciencia (0)
-camacho (0)
-acharam (0)
-chamado (0)
-filmada (0)
-andrade (0)
-chegava (0)
-russos (0)
-ligacao (0)
-cassada (0)
-cascata (0)
-paraiba (0)
-baleias (0)
-criacao (0)
-america (0)
-eleicao (0)
-ficaram (0)
-federal (0)
-clinica (0)
-familia (0)
-dificil (0)
-decidir (0)
-camarao (0)
-benigna (0)
-falaram (0)
-parecia (0)
-alegria (0)
-galeria (0)
-reclama (0)
-conhece (0)
-relacao (0)
-oficial (0)
-debater (0)
-matagal (0)
-decente (0)
-achasse (0)
-coracao (0)
-injecao (0)
-combina (0)
-oferece (0)
-avisada (0)
-unidade (0)
-formada (0)
-camargo (0)
-atencao (0)
-verdade (0)
-recebeu (0)
-planeja (0)
-mercado (0)
-defesas (0)
-declive (0)
-sabendo (0)
-brigava (0)
-debaixo (0)
-selecao (0)
-afirmam (0)
-receita (0)
-apoiara (0)
-diarias (0)
-passada (0)
-aliados (0)
-feridas (0)
-inedita (0)
-geraldo (0)
-inimiga (0)
-digital (0)
-general (0)
-especie (0)
-apelido (0)
-duracao (0)
-entrada (0)
-crencas (0)
-alckmin (0)
-caminho (0)
-criaram (0)
-ocasiao (0)
-causado (0)
-manobra (0)
-avaliar (0)
-deveria (0)
-publica (0)
-bragato (0)
-bocater (0)
-marinha (0)
-acusado (0)
-comidas (0)
-recifes (0)
-policia (0)
-claudio (0)
-clinico (0)
-bravata (0)
-comando (0)
-reacoes (0)
-cerebro (0)
-direita (0)
-charles (0)
-afastar (0)
-carater (0)
-maioria (0)
-viajava (0)
-lotacao (0)
-pedindo (0)
-adequar (0)
-colnago (0)
-nomeado (0)
-imagens (0)
-rapidas (0)
-poderia (0)
-recorde (0)
-pararam (0)
-paredes (0)
-estrada (0)
-eduardo (0)
-cabrito (0)
-covarde (0)
-convida (0)
-pratica (0)
-ricardo (0)
-lembrar (0)
-incluia (0)
-explica (0)
-testada (0)
-terapia (0)
-bilhoes (0)
-bolivia (0)
-diploma (0)
-gravata (0)
-precisa (0)
-engolem (0)
-gaspari (0)
-cigarro (0)
-segunda (0)
-mariano (0)
-celular (0)
-semanas (0)
-lideres (0)
-realiza (0)
-tamanho (0)
-harvard (0)
-trafico (0)
-ligasse (0)
-pereira (0)
-batista (0)
-celulas (0)
-tragico (0)
-exigido (0)
-dormiam (0)
-levando (0)
-segredo (0)
-central (0)
-nuclear (1)
-colisao (0)
-memoria (0)
-mundial (0)
-impedir (0)
-ranking (0)
-habitos (0)
-algumas (0)
-ladroes (0)
-dolares (0)
-hezidog (0)
-mahmoud (1)
-diarios (0)
-prepara (0)
-calipso (0)
-passado (0)
-aumenta (0)
-resgate (0)
-avisava (0)
-jonatan (0)
-comecou (0)
-fugiram (0)
-cardoso (0)
-salario (0)
-liminar (0)
-senador (0)
-diretas (0)
-inimigo (0)
-reforma (0)
-atuando (0)
-araquem (0)
-auxilia (0)
-esperam (0)
-detonar (0)
-humanas (0)
-anuncio (0)
-conexao (0)
-votacao (0)
-empresa (0)
-enganou (0)
-marinho (0)
-publico (0)
-fizeram (0)
-certeza (0)
-puderam (0)
-freitas (0)
-acionou (0)
-efeitos (0)
-pequena (0)
-anselmo (0)
-emprego (0)
-direito (0)
-apontam (0)
-fisicos (0)
-aqueles (0)
-senhora (0)
-aditivo (0)
-mensais (0)
-seguido (0)
-mentais (1)
-milhoes (0)
-rigidos (0)
-equador (0)
-curados (0)
-vontade (0)
-estavam (0)
-esquema (0)
-ferteis (0)
-polonia (0)
-periodo (0)
-coretta (0)
-esperar (0)
-coronel (0)
-cometeu (0)
-kremlin (0)
-militar (0)
-montado (0)
-durante (0)
-repente (0)
-afirmou (0)
-justica (0)
-prendeu (0)
-mineiro (0)
-estados (0)
-subiram (0)
-ninguem (0)
-partido (0)
-virando (0)
-reuniao (0)
-morales (0)
-maruipe (0)
-rodovia (0)
-hajitou (0)
-quimera (0)
-martelo (0)
-ataques (0)
-horario (0)
-segundo (0)
-simbolo (0)
-autoria (0)
-membros (0)
-tribuna (0)
-malotes (0)
-atraves (0)
-vespera (0)
-predios (0)
-sistema (0)
-sentira (0)
-lembrou (0)
-burrico (0)
-favores (0)
-litoral (0)
-londres (0)
-menezes (0)
-tornado (0)
-pessoal (0)
-veiculo (0)
-assalto (0)
-pearson (0)
-tiveram (0)
-estudar (0)
-sugerem (0)
-reserva (0)
-contato (0)
-antonio (0)
-entanto (0)
-diretor (0)
-aumento (0)
-hartung (0)
-bussola (0)
-menores (0)
-escrito (0)
-olivier (0)
-bunkers (0)
-exemplo (0)
-disputa (0)
-unilula (0)
-metodos (0)
-servico (0)
-vivendo (0)
-humanos (0)
-noventa (0)
-valvula (0)
-somente (0)
-ouvidas (0)
-procura (0)
-viverao (0)
-tempero (0)
-relatou (0)
-inverte (0)
-simples (0)
-roberto (0)
-propria (0)
-misseis (0)
-pressao (0)
-imposta (0)
-vitimas (0)
-pessoas (0)
-revista (0)
-martins (0)
-vitoria (0)
-goulart (0)
-quartel (0)
-temores (0)
-momento (0)
-insiste (0)
-teremos (0)
-ajustes (0)
-quadros (0)
-sumindo (0)
-ocorreu (0)
-governo (1)
-proxima (0)
-society (0)
-pleitos (0)
-ernesto (0)
-sumario (0)
-superar (0)
-projeto (0)
-quebrou (0)
-autores (0)
-mostram (0)
-sujeito (0)
-visitas (0)
-tivesse (0)
-missoes (0)
-limitou (0)
-popular (0)
-tijolos (0)
-comprou (0)
-eficacia (0)
-europeu (0)
-chefiada (0)
-sessoes (0)
-prisoes (0)
-recusou (0)
-estudos (0)
-vizinho (0)
-numeros (0)
-ouvidos (0)
-motoboy (0)
-futuras (0)
-vellozo (0)
-ultimos (0)
-assunto (0)
-proximo (0)
-minutos (0)
-tumores (0)
-motivos (0)
-prestou (0)
-turismo (0)
-radiacao (0)
-baseadas (0)
-liberada (0)
-toronto (0)
-alcancar (0)
-delicado (0)
-demencia (0)
-alemanha (0)
-cidadaos (0)
-defendem (0)
-chegando (0)
-campanha (0)
-mostrou (0)
-capixaba (0)
-recebera (0)
-cobranca (0)
-medicina (0)
-algemado (0)
-casamata (0)
-fecharem (0)
-benedita (0)
-batalhao (0)
-acidente (0)
-afetaria (0)
-avancado (0)
-acredita (0)
-facilita (0)
-acionado (0)
-ciencias (0)
-ganharam (0)
-gabinete (0)
-mecanico (0)
-batizada (0)
-chamados (0)
-american (0)
-injetada (0)
-mangarai (0)
-acusacao (0)
-diabetes (0)
-infladas (0)
-acontece (0)
-espacial (0)
-conhecem (0)
-colabora (0)
-nomeacao (0)
-aparecer (0)
-criancas (0)
-liderado (0)
-assinada (0)
-anuencia (0)
-bandidos (0)
-ambiente (0)
-nacional (0)
-familiar (0)
-laranjal (0)
-mendonca (0)
-padarias (0)
-advogado (0)
-nascidas (0)
-biologia (0)
-clinicas (0)
-admitiam (0)
-apoiaria (0)
-concedeu (0)
-abstenha (0)
-brasilia (0)
-deixaria (0)
-ajudarao (0)
-oficiais (0)
-obrigado (0)
-denuncia (0)
-matagais (0)
-deputada (0)
-incendio (0)
-paciente (0)
-paraguai (0)
-detalhes (0)
-camaroes (0)
-ocupacao (0)
-cesarias (0)
-julgadas (0)
-alimenta (0)
-reeleger (0)
-analisar (0)
-mudancas (0)
-aprendem (0)
-infectar (0)
-laranjas (0)
-trabalho (0)
-thoracic (0)
-aliviava (0)
-fernando (0)
-execucao (0)
-deveriam (0)
-policial (0)
-bernardo (0)
-capitais (0)
-barrados (0)
-urgencia (0)
-malandro (0)
-digitais (0)
-relacoes (0)
-ditadura (0)
-atingido (0)
-decisoes (0)
-hectares (0)
-recitava (0)
-material (0)
-firmaram (0)
-criminal (0)
-digestao (0)
-injecoes (0)
-vigiaram (0)
-gastaram (0)
-batalhou (0)
-ferreira (0)
-aeronave (0)
-salienta (0)
-perdendo (0)
-praticam (0)
-caminhos (0)
-engordar (0)
-problema (0)
-criticas (0)
-dinheiro (0)
-parmalat (0)
-recordar (0)
-invencao (0)
-estadual (0)
-acusados (0)
-ocorrida (0)
-clinicos (0)
-mexicano (0)
-conceito (0)
-hibridos (0)
-vermelha (0)
-leonardo (0)
-contaram (0)
-entender (0)
-milhares (0)
-retardar (0)
-comparar (0)
-nicotina (0)
-politica (0)
-atribuam (0)
-deputado (0)
-inglesas (0)
-calculos (0)
-vendedor (0)
-assumida (0)
-londrina (0)
-incluido (0)
-esperava (0)
-negocios (0)
-clientes (0)
-disseram (0)
-explicar (0)
-vereador (0)
-pensando (0)
-baptista (0)
-aguardou (0)
-passaram (0)
-programa (1)
-primeira (0)
-suicidio (0)
-situacao (0)
-recentes (0)
-resgatar (0)
-entregas (0)
-conforme (0)
-esquerda (0)
-realizar (0)
-abrolhos (0)
-implante (0)
-europeia (0)
-anderson (0)
-variante (0)
-palavras (0)
-plenario (0)
-melhorar (0)
-diretora (0)
-rondonia (0)
-cigarros (0)
-encontra (0)
-correram (0)
-satelite (0)
-condenou (0)
-assaltar (0)
-hercules (0)
-dispense (0)
-oliveira (0)
-arterias (0)
-planalto (0)
-ridiculo (0)
-citation (0)
-conselho (0)
-correndo (0)
-distante (0)
-combinou (0)
-palestra (0)
-cristina (0)
-creditos (0)
-aumentar (0)
-seguiram (0)
-explodem (0)
-informar (0)
-prefeito (0)
-comissao (0)
-conflito (0)
-estatais (0)
-permitam (0)
-cloudsat (0)
-montaram (0)
-tenhamos (0)
-presidio (0)
-melhores (0)
-imprensa (0)
-auxiliar (0)
-tucanato (0)
-fraqueza (0)
-criticos (1)
-jubartes (0)
-hormonal (0)
-friburgo (0)
-tentarem (0)
-responde (0)
-domingos (0)
-partindo (0)
-iluminar (0)
-tribunal (0)
-setembro (0)
-publicos (0)
-continua (0)
-ocorrido (0)
-victoria (0)
-conversa (0)
-derrapou (0)
-portaria (0)
-tratados (0)
-pequenas (0)
-criticou (0)
-embratur (0)
-anunciou (0)
-circuito (0)
-passasse (0)
-completo (0)
-dissesse (0)
-tirolesa (0)
-direitos (0)
-paulista (0)
-historia (0)
-exercito (0)
-golpista (0)
-tornaram (0)
-observar (0)
-seguinte (0)
-morreram (0)
-mulheres (0)
-efetivos (0)
-controle (0)
-examinou (0)
-reduzido (0)
-partidos (0)
-humberto (0)
-gasoduto (0)
-lyonatan (0)
-testados (0)
-naturais (0)
-perfurar (0)
-primeiro (0)
-discutir (0)
-suspende (0)
-turbinas (0)
-emissoes (0)
-consenso (0)
-ratinhos (0)
-tornarem (0)
-privados (0)
-precisos (0)
-tampouco (0)
-tirassem (0)
-sistemas (0)
-internet (0)
-traseiro (0)
-entregou (0)
-comentou (0)
-promessa (0)
-discutiu (0)
-petroleo (0)
-mercosul (0)
-assaltos (0)
-veiculos (0)
-pesquisa (0)
-revestem (0)
-enquanto (0)
-poderoso (0)
-reservas (0)
-explosao (0)
-respeito (0)
-interior (0)
-discurso (0)
-disputar (0)
-servente (0)
-prostata (0)
-sintomas (0)
-empurrar (0)
-processo (0)
-informou (0)
-diversos (0)
-divulgou (0)
-espirito (0)
-cozinhou (0)
-delegacia (0)
-converso (0)
-qualquer (0)
-pequenos (0)
-resposta (0)
-estimulo (0)
-luizinho (0)
-sumarios (0)
-possivel (0)
-traduzir (0)
-afinidade (0)
-observou (0)
-ministro (0)
-recursos (0)
-produzem (0)
-tristeza (0)
-proposta (0)
-faculdade (0)
-estatuto (0)
-elaborada (0)
-escalacao (0)
-embaixada (0)
-suspeito (0)
-ironizou (1)
-torquato (0)
-produtos (0)
-igualdade (0)
-indicadas (0)
-diferenca (0)
-americana (0)
-proximos (0)
-avaliacao (0)
-abordagem (0)
-oferecida (0)
-definicao (0)
-promotor (0)
-afirmacao (0)
-lideranca (0)
-audiencia (0)
-conceicao (0)
-alegacoes (0)
-publicada (0)
-avaliadas (0)
-oportuno (0)
-cesariana (0)
-candidato (0)
-obrigacao (0)
-farmacias (0)
-comecaram (0)
-carregado (0)
-concedido (0)
-alavancar (0)
-reeleicao (0)
-qualidade (0)
-acreditam (0)
-garantida (0)
-tendencia (0)
-nicaragua (0)
-condenado (0)
-imigracao (0)
-combinado (0)
-conhecido (0)
-ambiental (0)
-britanica (0)
-camisinha (0)
-realizada (0)
-descricao (0)
-indicador (0)
-exigencia (0)
-cachoeiro (0)
-bacterias (0)
-atrapalha (0)
-modificar (0)
-itaparica (0)
-americano (0)
-categoria (0)
-cerebrais (0)
-distancia (0)
-afirmando (1)
-divulgada (0)
-encantava (0)
-trabalhar (0)
-caravelas (0)
-indigenas (0)
-percepcao (0)
-colocando (0)
-publicado (0)
-flagrados (0)
-impediria (0)
-sanduiche (0)
-lembrando (0)
-alexandre (0)
-reabriram (0)
-boliviana (0)
-homicidio (0)
-logomarca (0)
-amigaveis (0)
-libertado (0)
-melgarejo (0)
-especiais (0)
-diferente (0)
-telefonia (0)
-andamento (0)
-republica (0)
-assinadas (0)
-inocencio (0)
-governada (0)
-aconteceu (0)
-ventilada (0)
-advogados (0)
-fuselagem (0)
-dirigindo (0)
-argentina (0)
-seguranca (0)
-fraudados (0)
-cearenses (0)
-marcelino (0)
-distracao (0)
-britanico (0)
-acumulado (0)
-realizado (0)
-exercicio (0)
-inscricao (0)
-diplomata (0)
-quadrilha (0)
-crescente (0)
-incluidas (0)
-aprovacao (0)
-convencao (0)
-incendios (0)
-pagamento (0)
-realmente (0)
-favorecer (0)
-linguajar (0)
-temporada (0)
-cartinhas (0)
-policiais (0)
-descobrir (0)
-cometendo (0)
-impedidos (0)
-periodico (0)
-coletados (0)
-sindicato (0)
-robalinho (0)
-incapazes (0)
-aumentado (0)
-prenderam (0)
-marchiori (0)
-aparelhos (0)
-atlantico (0)
-revelaram (0)
-alterados (0)
-potencial (0)
-informado (0)
-celulares (0)
-descobriu (0)
-funcionam (0)
-confirmar (0)
-alzheimer (0)
-eleitoral (0)
-operacoes (0)
-florencio (0)
-microfone (0)
-atmosfera (0)
-jefferson (0)
-guilherme (0)
-enrolando (0)
-executado (0)
-envenenar (0)
-principal (0)
-residente (0)
-espantava (0)
-atentados (0)
-contraria (0)
-estaduais (0)
-boliviano (0)
-priscilla (0)
-sensacoes (0)
-suplencia (0)
-execucoes (0)
-companero (0)
-problemas (1)
-levemente (0)
-telefones (0)
-observado (0)
-viajantes (0)
-coqueiral (0)
-depressao (0)
-manifesto (0)
-conclusao (0)
-tabuleiro (0)
-cobertura (0)
-politicas (0)
-jerusalem (0)
-melbourne (0)
-sanguineo (0)
-redatores (0)
-similares (0)
-deputados (0)
-recuperar (0)
-dispensar (0)
-reverendo (0)
-revirando (0)
-pontuacao (0)
-militares (0)
-vigarista (0)
-exposicao (0)
-masculino (0)
-austriaco (0)
-reservado (0)
-complexas (0)
-suspendia (0)
-televisao (0)
-eleitores (0)
-itamaraty (0)
-moradores (0)
-alimentos (0)
-novamente (0)
-irregular (0)
-principio (0)
-concorrer (0)
-municipio (0)
-satelites (0)
-recusasse (0)
-corrupcao (0)
-executiva (0)
-contratar (0)
-cauteloso (0)
-capacidade (0)
-esperamos (0)
-conseguir (0)
-prestaram (0)
-negativos (0)
-restingas (0)
-auditorio (0)
-arrematou (0)
-poderosas (0)
-contrario (0)
-pretensao (0)
-inclusive (0)
-argumento (0)
-petrobras (0)
-interesse (0)
-congresso (0)
-impropria (0)
-aproximar (0)
-conversar (0)
-industria (0)
-persuasao (0)
-criminoso (0)
-continuar (0)
-escutamos (0)
-hospitais (0)
-criterios (0)
-ocorridos (0)
-repressao (0)
-intervalo (0)
-prestados (0)
-confessou (0)
-multidoes (0)
-politicos (0)
-mostraram (0)
-paulistas (0)
-noticioso (0)
-mostrando (0)
-aerossois (0)
-pitoresco (0)
-articulou (0)
-perguntas (0)
-suspender (0)
-ministrar (0)
-felicidade (1)
-mostravam (0)
-primeiros (0)
-expressao (0)
-aeroporto (0)
-swinburne (0)
-encontrou (0)
-contratos (0)
-desgostou (0)
-pesquisas (0)
-movimento (0)
-contratou (0)
-concursos (0)
-terrestre (0)
-discursou (0)
-previstas (0)
-delegacias (0)
-professor (0)
-progresso (1)
-registrou (0)
-respostas (0)
-possiveis (0)
-turistico (0)
-petroduto (0)
-acomodacao (0)
-abandonado (0)
-sustentar (0)
-fecundacao (0)
-casagrande (0)
-motocross (0)
-ministrou (0)
-prejuizos (0)
-propostas (0)
-condenacao (0)
-defenderam (0)
-portugues (0)
-suspeitos (0)
-arariguaba (0)
-emergencia (0)
-analisadas (0)
-declarados (0)
-instituto (0)
-publicacao (0)
-adicionais (0)
-legislacao (0)
-aplicacoes (0)
-referencia (0)
-protestou (0)
-comparacao (0)
-assembleia (0)
-beneficios (0)
-vigilancia (0)
-facilmente (0)
-anticancer (0)
-california (0)
-condenaram (0)
-lembrancas (0)
-decretando (0)
-comunidade (0)
-amadurecer (0)
-independem (0)
-esplendida (0)
-completada (0)
-partilhada (0)
-cesarianas (0)
-candidatos (0)
-acompanhar (0)
-associadas (0)
-evidencias (0)
-realizacao (0)
-humilhacao (0)
-atrapalham (0)
-magneticas (0)
-descoberta (0)
-embaixador (0)
-propaganda (0)
-brasileira (0)
-analisados (0)
-informacao (0)
-realizadas (0)
-quantidade (0)
-impunidade (0)
-abiscoitar (0)
-cancerosas (0)
-comunicado (0)
-americanos (0)
-localizado (0)
-examinaram (0)
-secretaria (0)
-judiciario (0)
-alteracoes (0)
-animadores (0)
-afirmativa (0)
-preocupada (0)
-inocentado (0)
-tecnologia (0)
-adiamentos (0)
-tramitacao (0)
-telefonava (0)
-selecionar (0)
-prolongada (0)
-leopoldina (0)
-completara (0)
-homicidios (0)
-prejudicar (0)
-inglaterra (0)
-confundido (0)
-estrategia (0)
-associados (0)
-colocassem (0)
-manipulado (0)
-funcionava (0)
-infundados (0)
-configuram (0)
-conseguiam (0)
-solicitado (0)
-escoltaram (0)
-acompanhou (0)
-tempestade (0)
-necessario (0)
-brasileiro (0)
-vasectomia (0)
-pernambuco (0)
-substancia (0)
-passageiro (0)
-realizados (0)
-acionistas (0)
-funcionais (0)
-participar (0)
-contratado (0)
-prodigiosa (0)
-nascimento (0)
-eleitorais (0)
-secretario (0)
-coronarias (0)
-signatario (0)
-integrante (0)
-principais (0)
-divulgados (0)
-brizolinha (0)
-presidente (1)
-imigrantes (0)
-percentual (0)
-convencoes (0)
-felizardos (0)
-referentes (0)
-espoliados (0)
-privataria (0)
-tramitando (0)
-tripulacao (0)
-reproducao (0)
-manguezais (0)
-contestado (0)
-papeleiros (0)
-depoimento (0)
-latrocinio (0)
-prolongado (0)
-deportados (0)
-apresentar (0)
-selecionou (0)
-deturpando (0)
-argumentar (0)
-diretorias (0)
-bolivianos (0)
-arrogantes (0)
-burocratas (0)
-cientistas (0)
-telescopio (0)
-pasqualini (0)
-particular (0)
-governador (0)
-empresario (0)
-jornalista (0)
-companeros (0)
-observados (0)
-criminosas (0)
-orientados (0)
-governante (0)
-interferir (0)
-argentinos (0)
-provocando (0)
-permitirao (0)
-determinou (0)
-conjeturar (0)
-infratores (0)
-requererem (0)
-assessoria (0)
-individuos (0)
-testemunha (0)
-tratamento (0)
-presbitero (0)
-aterrissar (0)
-municipios (0)
-envolvendo (0)
-estudantes (0)
-justamente (0)
-construcao (0)
-renovaveis (0)
-distinguir (0)
-governista (0)
-importante (0)
-ministerio (0)
-escritorio (0)
-vulneravel (0)
-argumentos (0)
-mutuamente (0)
-palmerston (0)
-ahmadinejad (1)
-servidores (0)
-criminosos (0)
-apresentou (0)
-socorridos (0)
-revertidos (0)
-assustador (0)
-suprimiram (0)
-visitantes (0)
-impressoes (0)
-subnitrato (0)
-chancelaria (0)
-curriculos (0)
-existentes (0)
-pittsburgh (0)
-marroquino (0)
-acompanhada (0)
-sustentava (0)
-dificuldade (0)
-aeroportos (0)
-aproveitou (0)
-terrorista (0)
-reversores (0)
-intestinos (0)
-dependencia (0)
-transporte (0)
-territorio (0)
-biomedicina (0)
-motoristas (0)
-declaracoes (0)
-opositores (1)
-desembarcar (0)
-credenciais (0)
-acompanhado (0)
-desdenharam (0)
-diligencias (0)
-fertilidade (0)
-conferencia (0)
-considerada (0)
-acreditando (0)
-fotografada (0)
-despachados (0)
-trouxessem (0)
-candidatura (0)
-identificar (0)
-suficiencia (0)
-preenchidas (0)
-cordilheira (0)
-presidencia (0)
-competencia (0)
-apresentada (0)
-dificultara (0)
-abertamente (0)
-preencheram (0)
-previdencia (0)
-descobriram (0)
-endureceram (0)
-canhoneiras (0)
-constelacao (0)
-aeronautica (0)
-operacional (0)
-organizacao (0)
-propriedade (0)
-coordenador (0)
-evangelicos (0)
-necessarias (0)
-enfermeiras (0)
-hiperplasia (0)
-remuneracao (0)
-ponderacoes (0)
-conservacao (0)
-diagnostico (0)
-republicano (0)
-legislativa (0)
-informacoes (0)
-afirmativas (0)
-parlamentar (0)
-importancia (0)
-maximiliano (0)
-eletricista (0)
-assassinado (0)
-procedessem (0)
-atribuicoes (0)
-apresentava (0)
-alternativa (0)
-petrocabios (0)
-sinalizando (0)
-crescimento (0)
-prateleiras (0)
-funcionario (0)
-conseguiram (0)
-cooperativa (0)
-assombrados (0)
-atormentado (0)
-camundongos (0)
-magistrados (0)
-helicoptero (0)
-brasileiros (0)
-necessarios (0)
-substancias (0)
-vasconcelos (0)
-patrimonial (0)
-passageiros (0)
-interessado (0)
-respondendo (0)
-consultadas (0)
-ministerial (0)
-conversaram (0)
-suficientes (0)
-normalmente (0)
-distribuido (0)
-contratados (0)
-equivalente (0)
-legislativo (0)
-assaltantes (0)
-halliburton (0)
-aterrissava (0)
-maravilhoso (0)
-desconforto (0)
-competentes (0)
-depoimentos (0)
-historiador (0)
-assassinato (0)
-estimativas (0)
-jornalistas (0)
-intestinais (0)
-venezuelano (0)
-desenvolver (0)
-proveniente (0)
-pesquisador (0)
-experimento (0)
-testemunhas (0)
-substituida (0)
-tratamentos (0)
-responsavel (0)
-identificada (0)
-ministerios (0)
-interromper (0)
-sustentando (0)
-tripulantes (0)
-bibliografia (0)
-encarapitada (0)
-subnitratos (0)
-substituido (0)
-bipolaridade (0)
-reconstruir (0)
-renegociacao (0)
-osteoporose (0)
-terroristas (0)
-quilometros (0)
-voluntarios (0)
-proposition (0)
-ramificacoes (0)
-acompanharam (0)
-bombardeasse (0)
-necessidades (0)
-determinacao (0)
-relacionando (0)
-degenerativa (0)
-conferencias (0)
-oficialmente (0)
-participacao (0)
-permaneceram (0)
-privilegiada (0)
-complicacoes (0)
-negociadores (0)
-parcialmente (0)
-inaceitaveis (0)
-preferencias (0)
-aparecimento (0)
-competencias (0)
-pernambucano (0)
-conhecimento (0)
-investigacao (0)
-comerciantes (0)
-planejamento (0)
-considerados (0)
-asfaltamento (0)
-radiologista (0)
-universidade (0)
-departamento (0)
-organizacoes (0)
-aterrissagem (0)
-apresentavam (0)
-republicanos (0)
-ressonancias (0)
-procedimento (0)
-colonialismo (0)
-fornecimento (0)
-preocupacoes (0)
-internamente (0)
-psicologicos (1)
-demonstrando (0)
-metalurgicos (0)
-funcionarios (0)
-pessoalmente (0)
-representava (0)
-demonstravam (0)
-expectativas (0)
-desenvolvido (0)
-teragnostico (0)
-interessados (0)
-australianos (0)
-estrangeiros (0)
-divertimento (0)
-nacionalidade (0)
-observatorio (0)
-restaurantes (0)
-marqueteiros (0)
-superpoderes (0)
-provenientes (0)
-presentinhos (0)
-identificacao (0)
-envolvimento (0)
-diagnosticada (0)
-reciprocidade (0)
-pesquisistas (0)
-desembargador (0)
-discriminacao (0)
-geneticamente (0)
-bacteriofagos (0)
-acrescentando (0)
-coordenadoria (0)
-licenciamento (0)
-instrumentos (0)
-especialmente (0)
-preferenciais (0)
-centralizacao (0)
-manifestacoes (0)
-reorganizacao (0)
-transferencia (0)
-farmaceuticos (0)
-internacional (0)
-descentraliza (0)
-sindicalistas (0)
-convencionais (0)
-radiopatrulha (0)
-investigacoes (0)
-amortecimento (0)
-participantes (0)
-international (0)
-quimioterapia (0)
-comissionados (0)
-anteriormente (0)
-desautorizado (0)
-representante (0)
-contraditorio (0)
-universitaria (0)
-pesquisadores (0)
-provavelmente (0)
-investimentos (0)
-falsificadores (0)
-engarrafamento (0)
-aleatoriamente (0)
-fisiopatologia (0)
-principalmente (0)
-empreendimento (0)
-possibilitaria (0)
-constantemente (0)
-exclusivamente (0)
-representantes (0)
-interrogatorio (0)
-eletromagnetica (0)
-vasodilatadoras (0)
-esclarecimentos (0)
-permanentemente (0)
-petrodiplomatas (0)
-desenvolvimento (0)
-antidepressivos (0)
-provisoriamente (0)
-interrogatorios (0)
-anticoncepcional (0)
-descentralizacao (0)
-estabelecimentos (0)
-interessadissimo (0)
-neuropsychologia (0)
-desenvolvimentos (0)
-anticoncepcionais (0)
-neuropsicologicas (0)
-neuropsicologicos (0)
-desenvolvimentistas (0)
-inconstitucionalidade (0)
+1000
+20---20---20---20---20---20---20---19---19---19---20---20---19---20---20---20---20---19---19---19---20---19---19---19---20---19---20---20---19---18---20---20---20---19---19---19---19---19---19---19---20---19---18---20---19---20---20---19---19---19---19---20---20---20---19---19---19---20---20---19---20---19---19---19---20---18---19---19---19---20---20---19---19---19---19---19---20---20---20---18---19---19---18---20---19---19---19---20---20---20---19---19---20---19---19---19---19---20---20---20---20---20---20---20---20---19---20---19---19---20---18---19---20---20---20---18---20---19---19---19---20---19---19---19---19---19---20---20---19---18---19---19---20---20---19---19---20---20---19---20---20---19---19---19---20---19---19---19---19---18---20---20---20---19---19---19---20---19---20---20---20---20---19---19---19---18---20---20---20---19---19---19---20---19---20---19---20---19---20---20---20---19---19---19---19---20---20---19---19---19---19---19---19---20---20---19---18---19---19---19---19---20---20---19---20---19---20---20---19---20---20---20---20---20---20---19---19---20---20---20---20---19---19---20---20---20---19---20---20---19---20---20---20---20---19---20---20---20---20---20---20---20---19---20---20---20---19---20---20---20---19---19---20---20---19---20---20---20---19---19---19---20---20---20---19---20---20---20---20---19---19---19---20---20---20---20---20---20---20---19---19---19---19---20---19---19---19---20---19---20---20---20---20---19---19---19---20---19---19---20---20---20---19---20---20---20---19---20---20---20---20---19---19---20---19---19---20---20---19---20---19---20---19---20---20---20---19---20---19---19---20---20---19---20---19---19---19---19---20---20---19---20---20---20---20---19---19---19---20---20---20---20---20---19---19---19---19---20---20---20---20---20---20---20---20---20---20---20---20---20---20---19---19---19---20---20---20---20---20---20---20---20---19---20---20---20---20---20---20---20---19---20---19---20---20---19---20---19---20---20---19---19---19---20---19---20---20---19---19---19---20---20---20---20---19---20---19---20---20---19---20---20---19---20---20---20---20---19---19---20---19---19---20---20---19---20---20---20---20---20---19---19---20---19---20---19---19---20---20---19---19---19---19---20---20---20---20---19---19---19---19---19---19---19---19---20---19---19---20---20---19---20---19---20---19---20---20---19---20---20---20---20---19---19---19---20---19---20---20---20---20---19---19---19---19---20---19---20---20---19---19---20---20---19---19---20---19---19---20---19---19---19---19---20---20---19---19---19---20---19---19---20---19---20---19---20---20---19---20---20---20---19---20---19---20---19---19---20---19---20---20---19---20---19---20---19---20---20---19---20---19---20---19---19---20---20---19---19---20---20---19---19---20---20---20---19---19---19---20---19---19---20---19---20---19---19---20---19---20---19---20---20---20---20---20---19---19---19---19---20---19---20---20---20---19---20---20---19---20---20---19---19---20---19---20---20---19---20---19---20---20---20---19---20---19---19---20---19---19---20---20---19---20---19---20---20---19---19---20---20---20---20---20---20---20---19---20---19---19---20---20---19---20---20---20---20---20---20---19---19---20---19---20---20---19---20---20---19---19---19---20---20---19---19---19---19---19---19---20---19---19---20---19---20---20---19---20---20---20---20---20---20---19---20---20---19---20---20---20---19---20---19---19---19---19---20---19---19---19---20---20---19---20---20---19---19---20---19---19---19---20---20---19---20---19---19---19---20---19---19---20---19---19---20---19---20---19---20---19---19---19---19---19---20---20---19---19---20---20---20---20---20---20---19---20---19---20---20---19---19---20---19---20---20---19---19---20---20---19---19---20---20---17---19---20---19---19---19---19---19---19---19---19---19---19---19---19---19---19---20---20---20---20---19---19---19---19---20---20---20---20---20---19---19---19---20---20---19---19---20---19---19---20---20---20---20---20---20---20---19---19---19---20---19---19---19---20---19---20---20---19---19---19---20---19---19---19---20---19---20---19---19---20---20---19---20---20---20---19---19---19---20---20---19---20---19---19---20---19---20---20---20---20---20---20---20---19---19---19---20---20---20---20---19---19---20---20---19---20---19---20---20---20---19---19---20---19---20---20---20---19---20---19---19---20---20---20---20---19---20---20---20---19---20---20---20---19---20---20---20---20---19---19---20---19---19---20---20---19---20---20---20---19---19---20---19---19---20---19---19---20---19---20---20---20---20---19---20---20---19---20---20---19---20---19---20---20---20---20---20---19---19---20---20---20---20---19---19---19---19---20---19---20---19---20---20---20---20---19---20---19---20---20---19---20---20---19---20---20---20---19---19---20---20---19---19---20---20---19---19---20---20---20---19---19---19---19---20---20---19---19---19---19---19---19---20---19---20---20---19---qtd_palavras_dif_lidas: 121
+/a0827042006cid.txt cid 0 121
+qtd_palavras_dif_lidas: 125
+/b1203062006cid.txt cid 1 125
+qtd_palavras_dif_lidas: 6
+/e1405022003cid.txt cid 2 6
+qtd_palavras_dif_lidas: 69
+/a0602052005cid.txt cid 3 69
+qtd_palavras_dif_lidas: 185
+/a0816102006cid.txt cid 4 185
+qtd_palavras_dif_lidas: 548
+/e0809102006cid.txt cid 5 548
+qtd_palavras_dif_lidas: 68
+/c0728112005cid.txt cid 6 68
+qtd_palavras_dif_lidas: 492
+/1302032006cid.txt cid 7 492
+qtd_palavras_dif_lidas: 3
+/c725012004cid.txt cid 8 3
+qtd_palavras_dif_lidas: 528
+/1611112005cid.txt cid 9 528
+qtd_palavras_dif_lidas: 49
+/b0526042006cid.txt cid 10 49
+qtd_palavras_dif_lidas: 234
+/a0509102006cid.txt cid 11 234
+qtd_palavras_dif_lidas: 216
+/1006052005cid.txt cid 12 216
+qtd_palavras_dif_lidas: 80
+/a0409022006cid.txt cid 13 80
+qtd_palavras_dif_lidas: 192
+/a0403082006cid.txt cid 14 192
+qtd_palavras_dif_lidas: 86
+/b0625072006cid.txt cid 15 86
+qtd_palavras_dif_lidas: 134
+/a0701072005cid.txt cid 16 134
+qtd_palavras_dif_lidas: 472
+/1119082006cid.txt cid 17 472
+qtd_palavras_dif_lidas: 170
+/0424052006cid.txt cid 18 170
+qtd_palavras_dif_lidas: 319
+/0408092006cid.txt cid 19 319
+qtd_palavras_dif_lidas: 303
+/a1212052006cid.txt cid 20 303
+qtd_palavras_dif_lidas: 124
+/d414062005cid.txt cid 21 124
+qtd_palavras_dif_lidas: 446
+/1101122005cid.txt cid 22 446
+qtd_palavras_dif_lidas: 512
+/1406082005cid.txt cid 23 512
+qtd_palavras_dif_lidas: 108
+/a1215072006cid.txt cid 24 108
+qtd_palavras_dif_lidas: 214
+/0924122005cid.txt cid 25 214
+qtd_palavras_dif_lidas: 506
+/a1205052006cid.txt cid 26 506
+qtd_palavras_dif_lidas: 86
+/b0706112006cid.txt cid 27 86
+qtd_palavras_dif_lidas: 280
+/1103052005cid.txt cid 28 280
+qtd_palavras_dif_lidas: 233
+/620012004cid.txt cid 29 233
+qtd_palavras_dif_lidas: 102
+/d1021032006cid.txt cid 30 102
+qtd_palavras_dif_lidas: 162
+/b1127042005cid.txt cid 31 162
+qtd_palavras_dif_lidas: 161
+/b0921092006cid.txt cid 32 161
+qtd_palavras_dif_lidas: 303
+/1005032006cid.txt cid 33 303
+qtd_palavras_dif_lidas: 269
+/0920082006cid.txt cid 34 269
+qtd_palavras_dif_lidas: 360
+/0918052005cid.txt cid 35 360
+qtd_palavras_dif_lidas: 508
+/1003022004cid.txt cid 36 508
+qtd_palavras_dif_lidas: 167
+/0705072005cid.txt cid 37 167
+qtd_palavras_dif_lidas: 179
+/0729012006cid.txt cid 38 179
+qtd_palavras_dif_lidas: 302
+/0411022006cid.txt cid 39 302
+qtd_palavras_dif_lidas: 46
+/a0917052005cid.txt cid 40 46
+qtd_palavras_dif_lidas: 225
+/1004052005cid.txt cid 41 225
+qtd_palavras_dif_lidas: 248
+/630012004cid.txt cid 42 248
+qtd_palavras_dif_lidas: 130
+/b1109092005cid.txt cid 43 130
+qtd_palavras_dif_lidas: 186
+/1010112006cid.txt cid 44 186
+qtd_palavras_dif_lidas: 142
+/a0519112005cid.txt cid 45 142
+qtd_palavras_dif_lidas: 303
+/a1104052005cid.txt cid 46 303
+qtd_palavras_dif_lidas: 232
+/1121092006cid.txt cid 47 232
+qtd_palavras_dif_lidas: 215
+/0413062006cid.txt cid 48 215
+qtd_palavras_dif_lidas: 273
+/0907062005cid.txt cid 49 273
+qtd_palavras_dif_lidas: 457
+/1209092005cid.txt cid 50 457
+qtd_palavras_dif_lidas: 127
+/a0819052005cid.txt cid 51 127
+qtd_palavras_dif_lidas: 303
+/c0827092006cid.txt cid 52 303
+qtd_palavras_dif_lidas: 100
+/b0708052006cid.txt cid 53 100
+qtd_palavras_dif_lidas: 513
+/0225102006cid.txt cid 54 513
+qtd_palavras_dif_lidas: 500
+/1109012004cid.txt cid 55 500
+qtd_palavras_dif_lidas: 157
+/0827042006cid.txt cid 56 157
+qtd_palavras_dif_lidas: 32
+/c0704022006cid.txt cid 57 32
+qtd_palavras_dif_lidas: 60
+/a1218032006cid.txt cid 58 60
+qtd_palavras_dif_lidas: 6
+/a423012004cid.txt cid 59 6
+qtd_palavras_dif_lidas: 91
+/a1222072005cid.txt cid 60 91
+qtd_palavras_dif_lidas: 78
+/0703072006cid.txt cid 61 78
+qtd_palavras_dif_lidas: 7
+/a621012004cid.txt cid 62 7
+qtd_palavras_dif_lidas: 291
+/0807062006cid.txt cid 63 291
+qtd_palavras_dif_lidas: 282
+/a0819032006cid.txt cid 64 282
+qtd_palavras_dif_lidas: 442
+/712012004cid.txt cid 65 442
+qtd_palavras_dif_lidas: 176
+/1109112006cid.txt cid 66 176
+qtd_palavras_dif_lidas: 174
+/0530012006cid.txt cid 67 174
+qtd_palavras_dif_lidas: 165
+/0708062006cid.txt cid 68 165
+qtd_palavras_dif_lidas: 553
+/b0507062006cid.txt cid 69 553
+qtd_palavras_dif_lidas: 174
+/a0811092006cid.txt cid 70 174
+qtd_palavras_dif_lidas: 163
+/0623042005cid.txt cid 71 163
+qtd_palavras_dif_lidas: 182
+/0508092006cid.txt cid 72 182
+qtd_palavras_dif_lidas: 353
+/0908062006cid.txt cid 73 353
+qtd_palavras_dif_lidas: 199
+/1026052006cid.txt cid 74 199
+qtd_palavras_dif_lidas: 314
+/0928112006cid.txt cid 75 314
+qtd_palavras_dif_lidas: 232
+/a1120102006cid.txt cid 76 232
+qtd_palavras_dif_lidas: 105
+/f0905052006cid.txt cid 77 105
+qtd_palavras_dif_lidas: 146
+/a0818082006cid.txt cid 78 146
+qtd_palavras_dif_lidas: 23
+/627012004cid.txt cid 79 23
+qtd_palavras_dif_lidas: 417
+/0405072006cid.txt cid 80 417
+qtd_palavras_dif_lidas: 379
+/0817022006cid.txt cid 81 379
+qtd_palavras_dif_lidas: 233
+/610062005cid.txt cid 82 233
+qtd_palavras_dif_lidas: 120
+/b1029062005cid.txt cid 83 120
+qtd_palavras_dif_lidas: 318
+/0406072005cid.txt cid 84 318
+qtd_palavras_dif_lidas: 105
+/0707052005cid.txt cid 85 105
+qtd_palavras_dif_lidas: 543
+/1217052006cid.txt cid 86 543
+qtd_palavras_dif_lidas: 272
+/b0420082005cid.txt cid 87 272
+qtd_palavras_dif_lidas: 77
+/a0526072005cid.txt cid 88 77
+qtd_palavras_dif_lidas: 234
+/b0903082006cid.txt cid 89 234
+qtd_palavras_dif_lidas: 204
+/0518092005cid.txt cid 90 204
+qtd_palavras_dif_lidas: 279
+/0726072006cid.txt cid 91 279
+qtd_palavras_dif_lidas: 196
+/a1010062005cid.txt cid 92 196
+qtd_palavras_dif_lidas: 183
+/0412022006cid.txt cid 93 183
+qtd_palavras_dif_lidas: 266
+/0729112006cid.txt cid 94 266
+qtd_palavras_dif_lidas: 261
+/0523052006cid.txt cid 95 261
+qtd_palavras_dif_lidas: 404
+/1520062005cid.txt cid 96 404
+qtd_palavras_dif_lidas: 82
+/a0525092006cid.txt cid 97 82
+qtd_palavras_dif_lidas: 104
+/a0814092005cid.txt cid 98 104
+qtd_palavras_dif_lidas: 66
+/d1125082005cid.txt cid 99 66
+qtd_palavras_dif_lidas: 91
+/b0502052006cid.txt cid 100 91
+qtd_palavras_dif_lidas: 155
+/a0929122005cid.txt cid 101 155
+qtd_palavras_dif_lidas: 116
+/a0402022006cid.txt cid 102 116
+qtd_palavras_dif_lidas: 261
+/a1029082006cid.txt cid 103 261
+qtd_palavras_dif_lidas: 109
+/a0430042005cid.txt cid 104 109
+qtd_palavras_dif_lidas: 227
+/0421032006cid.txt cid 105 227
+qtd_palavras_dif_lidas: 109
+/b0803042006cid.txt cid 106 109
+qtd_palavras_dif_lidas: 502
+/0603052005cid.txt cid 107 502
+qtd_palavras_dif_lidas: 142
+/a914062005cid.txt cid 108 142
+qtd_palavras_dif_lidas: 67
+/a0715092005cid.txt cid 109 67
+qtd_palavras_dif_lidas: 188
+/824012004cid.txt cid 110 188
+qtd_palavras_dif_lidas: 551
+/0911112005cid.txt cid 111 551
+qtd_palavras_dif_lidas: 98
+/a1029062005cid.txt cid 112 98
+qtd_palavras_dif_lidas: 61
+/b0718052005cid.txt cid 113 61
+qtd_palavras_dif_lidas: 57
+/b1101032006cid.txt cid 114 57
+qtd_palavras_dif_lidas: 15
+/704012004cid.txt cid 115 15
+qtd_palavras_dif_lidas: 316
+/a1010052006cid.txt cid 116 316
+qtd_palavras_dif_lidas: 9
+/a519012004cid.txt cid 117 9
+qtd_palavras_dif_lidas: 257
+/0806092005cid.txt cid 118 257
+qtd_palavras_dif_lidas: 177
+/0920062006cid.txt cid 119 177
+qtd_palavras_dif_lidas: 175
+/a0502062006cid.txt cid 120 175
+qtd_palavras_dif_lidas: 237
+/0813082006cid.txt cid 121 237
+qtd_palavras_dif_lidas: 712
+/1013072006cid.txt cid 122 712
+qtd_palavras_dif_lidas: 498
+/1504112006cid.txt cid 123 498
+qtd_palavras_dif_lidas: 239
+/0816022006cid.txt cid 124 239
+qtd_palavras_dif_lidas: 184
+/0823072006cid.txt cid 125 184
+qtd_palavras_dif_lidas: 104
+/a0415072006cid.txt cid 126 104
+qtd_palavras_dif_lidas: 128
+/b0712092005cid.txt cid 127 128
+qtd_palavras_dif_lidas: 499
+/0409062006cid.txt cid 128 499
+qtd_palavras_dif_lidas: 358
+/923012004cid.txt cid 129 358
+qtd_palavras_dif_lidas: 292
+/0926102006cid.txt cid 130 292
+qtd_palavras_dif_lidas: 506
+/1225052006cid.txt cid 131 506
+qtd_palavras_dif_lidas: 236
+/b1123112005cid.txt cid 132 236
+qtd_palavras_dif_lidas: 191
+/a0715052006cid.txt cid 133 191
+qtd_palavras_dif_lidas: 354
+/0829112005cid.txt cid 134 354
+qtd_palavras_dif_lidas: 337
+/0922092006cid.txt cid 135 337
+qtd_palavras_dif_lidas: 143
+/b0707112006cid.txt cid 136 143
+qtd_palavras_dif_lidas: 256
+/a0619112005cid.txt cid 137 256
+qtd_palavras_dif_lidas: 180
+/1228042006cid.txt cid 138 180
+qtd_palavras_dif_lidas: 93
+/a0807082006cid.txt cid 139 93
+qtd_palavras_dif_lidas: 156
+/c0427062006cid.txt cid 140 156
+qtd_palavras_dif_lidas: 202
+/0704122005cid.txt cid 141 202
+qtd_palavras_dif_lidas: 160
+/0729072006cid.txt cid 142 160
+qtd_palavras_dif_lidas: 335
+/1014062006cid.txt cid 143 335
+qtd_palavras_dif_lidas: 276
+/a0807062005cid.txt cid 144 276
+qtd_palavras_dif_lidas: 456
+/1322112006cid.txt cid 145 456
+qtd_palavras_dif_lidas: 437
+/0407082005cid.txt cid 146 437
+qtd_palavras_dif_lidas: 344
+/0611022006cid.txt cid 147 344
+qtd_palavras_dif_lidas: 407
+/0629112005cid.txt cid 148 407
+qtd_palavras_dif_lidas: 546
+/713062005cid.txt cid 149 546
+qtd_palavras_dif_lidas: 38
+/a0416082006cid.txt cid 150 38
+qtd_palavras_dif_lidas: 33
+/b0827042005cid.txt cid 151 33
+qtd_palavras_dif_lidas: 117
+/b1015122005cid.txt cid 152 117
+qtd_palavras_dif_lidas: 471
+/1124032006cid.txt cid 153 471
+qtd_palavras_dif_lidas: 638
+/0621112006cid.txt cid 154 638
+qtd_palavras_dif_lidas: 508
+/1207062006cid.txt cid 155 508
+qtd_palavras_dif_lidas: 4
+/c1405022003cid.txt cid 156 4
+qtd_palavras_dif_lidas: 293
+/0917022006cid.txt cid 157 293
+qtd_palavras_dif_lidas: 38
+/b0921092005cid.txt cid 158 38
+qtd_palavras_dif_lidas: 273
+/b0924112006cid.txt cid 159 273
+qtd_palavras_dif_lidas: 154
+/b1526052006cid.txt cid 160 154
+qtd_palavras_dif_lidas: 211
+/a1023052006cid.txt cid 161 211
+qtd_palavras_dif_lidas: 455
+/0713062006cid.txt cid 162 455
+qtd_palavras_dif_lidas: 501
+/0908112006cid.txt cid 163 501
+qtd_palavras_dif_lidas: 394
+/0418112005cid.txt cid 164 394
+qtd_palavras_dif_lidas: 205
+/401012004cid.txt cid 165 205
+qtd_palavras_dif_lidas: 167
+/a0702082005cid.txt cid 166 167
+qtd_palavras_dif_lidas: 60
+/b1225102006cid.txt cid 167 60
+qtd_palavras_dif_lidas: 295
+/a0514072006cid.txt cid 168 295
+qtd_palavras_dif_lidas: 529
+/0401102005cid.txt cid 169 529
+qtd_palavras_dif_lidas: 280
+/1203052005cid.txt cid 170 280
+qtd_palavras_dif_lidas: 741
+/0413072006cid.txt cid 171 741
+qtd_palavras_dif_lidas: 180
+/d0408092005cid.txt cid 172 180
+qtd_palavras_dif_lidas: 205
+/1028032006cid.txt cid 173 205
+qtd_palavras_dif_lidas: 78
+/a0927052005cid.txt cid 174 78
+qtd_palavras_dif_lidas: 286
+/0426042006cid.txt cid 175 286
+qtd_palavras_dif_lidas: 143
+/a0402012004cid.txt cid 176 143
+qtd_palavras_dif_lidas: 335
+/0815092006cid.txt cid 177 335
+qtd_palavras_dif_lidas: 53
+/a1017082006cid.txt cid 178 53
+qtd_palavras_dif_lidas: 286
+/a0508122005cid.txt cid 179 286
+qtd_palavras_dif_lidas: 161
+/a0404082006cid.txt cid 180 161
+qtd_palavras_dif_lidas: 152
+/0725112006cid.txt cid 181 152
+qtd_palavras_dif_lidas: 271
+/0829062005cid.txt cid 182 271
+qtd_palavras_dif_lidas: 546
+/1011072006cid.txt cid 183 546
+qtd_palavras_dif_lidas: 164
+/0513112005cid.txt cid 184 164
+qtd_palavras_dif_lidas: 129
+/a0922032006cid.txt cid 185 129
+qtd_palavras_dif_lidas: 238
+/d0521112006cid.txt cid 186 238
+qtd_palavras_dif_lidas: 506
+/1626052006cid.txt cid 187 506
+qtd_palavras_dif_lidas: 397
+/0901102006cid.txt cid 188 397
+qtd_palavras_dif_lidas: 339
+/0418092006cid.txt cid 189 339
+qtd_palavras_dif_lidas: 241
+/0831052006cid.txt cid 190 241
+qtd_palavras_dif_lidas: 455
+/0901062006cid.txt cid 191 455
+qtd_palavras_dif_lidas: 233
+/1131082006cid.txt cid 192 233
+qtd_palavras_dif_lidas: 45
+/a0713112006cid.txt cid 193 45
+qtd_palavras_dif_lidas: 88
+/e1117052006cid.txt cid 194 88
+qtd_palavras_dif_lidas: 524
+/0612102006cid.txt cid 195 524
+qtd_palavras_dif_lidas: 24
+/602022004cid.txt cid 196 24
+qtd_palavras_dif_lidas: 407
+/1009082006cid.txt cid 197 407
+qtd_palavras_dif_lidas: 227
+/1211042006cid.txt cid 198 227
+qtd_palavras_dif_lidas: 428
+/1117022006cid.txt cid 199 428
+qtd_palavras_dif_lidas: 529
+/0928082006poc.txt poc 200 529
+qtd_palavras_dif_lidas: 135
+/b2014072006poc.txt poc 201 135
+qtd_palavras_dif_lidas: 157
+/f1611082006poc.txt poc 202 157
+qtd_palavras_dif_lidas: 179
+/1106112006poc.txt poc 203 179
+qtd_palavras_dif_lidas: 7
+/c1602012004poc.txt poc 204 7
+qtd_palavras_dif_lidas: 384
+/1403052006poc.txt poc 205 384
+qtd_palavras_dif_lidas: 51
+/a1611082006poc.txt poc 206 51
+qtd_palavras_dif_lidas: 147
+/a1614092006poc.txt poc 207 147
+qtd_palavras_dif_lidas: 476
+/1507042006poc.txt poc 208 476
+qtd_palavras_dif_lidas: 5
+/b1718012004poc.txt poc 209 5
+qtd_palavras_dif_lidas: 104
+/b1930122005poc.txt poc 210 104
+qtd_palavras_dif_lidas: 162
+/e1928112006poc.txt poc 211 162
+qtd_palavras_dif_lidas: 217
+/b2005072005poc.txt poc 212 217
+qtd_palavras_dif_lidas: 174
+/a1606102006poc.txt poc 213 174
+qtd_palavras_dif_lidas: 120
+/a1614022006poc.txt poc 214 120
+qtd_palavras_dif_lidas: 439
+/1401082006poc.txt poc 215 439
+qtd_palavras_dif_lidas: 506
+/1718082006poc.txt poc 216 506
+qtd_palavras_dif_lidas: 179
+/e1614062006poc.txt poc 217 179
+qtd_palavras_dif_lidas: 4
+/b1804112006poc.txt poc 218 4
+qtd_palavras_dif_lidas: 142
+/d1829112006poc.txt poc 219 142
+qtd_palavras_dif_lidas: 80
+/b1405092006poc.txt poc 220 80
+qtd_palavras_dif_lidas: 184
+/2028042005poc.txt poc 221 184
+qtd_palavras_dif_lidas: 530
+/1728012004poc.txt poc 222 530
+qtd_palavras_dif_lidas: 77
+/b1627092006poc.txt poc 223 77
+qtd_palavras_dif_lidas: 157
+/a2513082005poc.txt poc 224 157
+qtd_palavras_dif_lidas: 199
+/a1620042006poc.txt poc 225 199
+qtd_palavras_dif_lidas: 183
+/2117062005poc.txt poc 226 183
+qtd_palavras_dif_lidas: 143
+/b1820082006poc.txt poc 227 143
+qtd_palavras_dif_lidas: 63
+/b1630082006poc.txt poc 228 63
+qtd_palavras_dif_lidas: 209
+/0920062005poc.txt poc 229 209
+qtd_palavras_dif_lidas: 238
+/a1506082006poc.txt poc 230 238
+qtd_palavras_dif_lidas: 60
+/d1105122005poc.txt poc 231 60
+qtd_palavras_dif_lidas: 98
+/b1928052006poc.txt poc 232 98
+qtd_palavras_dif_lidas: 87
+/a1908022006poc.txt poc 233 87
+qtd_palavras_dif_lidas: 408
+/1616062006poc.txt poc 234 408
+qtd_palavras_dif_lidas: 154
+/a1809092005poc.txt poc 235 154
+qtd_palavras_dif_lidas: 4
+/d1809012004poc.txt poc 236 4
+qtd_palavras_dif_lidas: 95
+/a1806052006poc.txt poc 237 95
+qtd_palavras_dif_lidas: 4
+/d1702022003poc.txt poc 238 4
+qtd_palavras_dif_lidas: 76
+/a1631102006poc.txt poc 239 76
+qtd_palavras_dif_lidas: 173
+/a1708012004poc.txt poc 240 173
+qtd_palavras_dif_lidas: 317
+/b2230042005poc.txt poc 241 317
+qtd_palavras_dif_lidas: 193
+/1710052006poc.txt poc 242 193
+qtd_palavras_dif_lidas: 4
+/d1802022003poc.txt poc 243 4
+qtd_palavras_dif_lidas: 189
+/c2030122005poc.txt poc 244 189
+qtd_palavras_dif_lidas: 148
+/b1931102006poc.txt poc 245 148
+qtd_palavras_dif_lidas: 308
+/2021032006poc.txt poc 246 308
+qtd_palavras_dif_lidas: 185
+/a1801072006poc.txt poc 247 185
+qtd_palavras_dif_lidas: 89
+/a2009022006poc.txt poc 248 89
+qtd_palavras_dif_lidas: 186
+/d2029042005poc.txt poc 249 186
+qtd_palavras_dif_lidas: 488
+/1411062006poc.txt poc 250 488
+qtd_palavras_dif_lidas: 400
+/1625052006poc.txt poc 251 400
+qtd_palavras_dif_lidas: 122
+/a1717082006poc.txt poc 252 122
+qtd_palavras_dif_lidas: 217
+/a1807112006poc.txt poc 253 217
+qtd_palavras_dif_lidas: 192
+/2415122005poc.txt poc 254 192
+qtd_palavras_dif_lidas: 155
+/a1923092006poc.txt poc 255 155
+qtd_palavras_dif_lidas: 165
+/b1003042006poc.txt poc 256 165
+qtd_palavras_dif_lidas: 3
+/e1604022003poc.txt poc 257 3
+qtd_palavras_dif_lidas: 395
+/1827072006poc.txt poc 258 395
+qtd_palavras_dif_lidas: 329
+/1806052005poc.txt poc 259 329
+qtd_palavras_dif_lidas: 176
+/1602082006poc.txt poc 260 176
+qtd_palavras_dif_lidas: 7
+/b1602022003poc.txt poc 261 7
+qtd_palavras_dif_lidas: 135
+/a1604102006poc.txt poc 262 135
+qtd_palavras_dif_lidas: 6
+/c1703012004poc.txt poc 263 6
+qtd_palavras_dif_lidas: 192
+/2002092006poc.txt poc 264 192
+qtd_palavras_dif_lidas: 56
+/b2103022006poc.txt poc 265 56
+qtd_palavras_dif_lidas: 122
+/d1905072005poc.txt poc 266 122
+qtd_palavras_dif_lidas: 111
+/b1506072006poc.txt poc 267 111
+qtd_palavras_dif_lidas: 306
+/b1811052006poc.txt poc 268 306
+qtd_palavras_dif_lidas: 24
+/1703012004poc.txt poc 269 24
+qtd_palavras_dif_lidas: 213
+/3111052005poc.txt poc 270 213
+qtd_palavras_dif_lidas: 181
+/1822102006poc.txt poc 271 181
+qtd_palavras_dif_lidas: 58
+/a1507092006poc.txt poc 272 58
+qtd_palavras_dif_lidas: 170
+/a1827052005poc.txt poc 273 170
+qtd_palavras_dif_lidas: 84
+/b2014092006poc.txt poc 274 84
+qtd_palavras_dif_lidas: 175
+/a1921022006poc.txt poc 275 175
+qtd_palavras_dif_lidas: 126
+/b1722082006poc.txt poc 276 126
+qtd_palavras_dif_lidas: 71
+/b1908052005poc.txt poc 277 71
+qtd_palavras_dif_lidas: 157
+/c1623042006poc.txt poc 278 157
+qtd_palavras_dif_lidas: 169
+/1905022006poc.txt poc 279 169
+qtd_palavras_dif_lidas: 285
+/1606102006poc.txt poc 280 285
+qtd_palavras_dif_lidas: 21
+/1715012004poc.txt poc 281 21
+qtd_palavras_dif_lidas: 195
+/2008122005poc.txt poc 282 195
+qtd_palavras_dif_lidas: 60
+/d1023052005poc.txt poc 283 60
+qtd_palavras_dif_lidas: 515
+/2129012006poc.txt poc 284 515
+qtd_palavras_dif_lidas: 158
+/1908052005poc.txt poc 285 158
+qtd_palavras_dif_lidas: 189
+/1909082006poc.txt poc 286 189
+qtd_palavras_dif_lidas: 95
+/d2109022006poc.txt poc 287 95
+qtd_palavras_dif_lidas: 411
+/1407052006poc.txt poc 288 411
+qtd_palavras_dif_lidas: 227
+/a1927102005poc.txt poc 289 227
+qtd_palavras_dif_lidas: 36
+/b1517102006poc.txt poc 290 36
+qtd_palavras_dif_lidas: 71
+/a2020082006poc.txt poc 291 71
+qtd_palavras_dif_lidas: 91
+/b2021032006poc.txt poc 292 91
+qtd_palavras_dif_lidas: 268
+/1610102006poc.txt poc 293 268
+qtd_palavras_dif_lidas: 416
+/1808092005poc.txt poc 294 416
+qtd_palavras_dif_lidas: 490
+/1927082006poc.txt poc 295 490
+qtd_palavras_dif_lidas: 186
+/a1828052006poc.txt poc 296 186
+qtd_palavras_dif_lidas: 209
+/2010062005poc.txt poc 297 209
+qtd_palavras_dif_lidas: 452
+/1823052006poc.txt poc 298 452
+qtd_palavras_dif_lidas: 249
+/a1627062006poc.txt poc 299 249
+qtd_palavras_dif_lidas: 171
+/c1422092006poc.txt poc 300 171
+qtd_palavras_dif_lidas: 161
+/a2006052005poc.txt poc 301 161
+qtd_palavras_dif_lidas: 270
+/1415092006poc.txt poc 302 270
+qtd_palavras_dif_lidas: 131
+/c2016092006poc.txt poc 303 131
+qtd_palavras_dif_lidas: 108
+/b0922052006poc.txt poc 304 108
+qtd_palavras_dif_lidas: 88
+/a1003072006poc.txt poc 305 88
+qtd_palavras_dif_lidas: 325
+/1931052005poc.txt poc 306 325
+qtd_palavras_dif_lidas: 74
+/a1621092006poc.txt poc 307 74
+qtd_palavras_dif_lidas: 67
+/a1630102006poc.txt poc 308 67
+qtd_palavras_dif_lidas: 109
+/a1502112006poc.txt poc 309 109
+qtd_palavras_dif_lidas: 155
+/b1715112006poc.txt poc 310 155
+qtd_palavras_dif_lidas: 370
+/1416082006poc.txt poc 311 370
+qtd_palavras_dif_lidas: 171
+/2213082005poc.txt poc 312 171
+qtd_palavras_dif_lidas: 193
+/a1923032006poc.txt poc 313 193
+qtd_palavras_dif_lidas: 298
+/1611082006poc.txt poc 314 298
+qtd_palavras_dif_lidas: 365
+/1830032006poc.txt poc 315 365
+qtd_palavras_dif_lidas: 128
+/a1601092006poc.txt poc 316 128
+qtd_palavras_dif_lidas: 235
+/c0922052006poc.txt poc 317 235
+qtd_palavras_dif_lidas: 270
+/1730072006poc.txt poc 318 270
+qtd_palavras_dif_lidas: 115
+/a1017072006poc.txt poc 319 115
+qtd_palavras_dif_lidas: 180
+/1930112006poc.txt poc 320 180
+qtd_palavras_dif_lidas: 100
+/d1630102006poc.txt poc 321 100
+qtd_palavras_dif_lidas: 339
+/1718012004poc.txt poc 322 339
+qtd_palavras_dif_lidas: 10
+/b1508012004poc.txt poc 323 10
+qtd_palavras_dif_lidas: 79
+/c2018092005poc.txt poc 324 79
+qtd_palavras_dif_lidas: 178
+/b1829012006poc.txt poc 325 178
+qtd_palavras_dif_lidas: 247
+/1929032006poc.txt poc 326 247
+qtd_palavras_dif_lidas: 99
+/b1724102006poc.txt poc 327 99
+qtd_palavras_dif_lidas: 311
+/1807112006poc.txt poc 328 311
+qtd_palavras_dif_lidas: 299
+/1709012004poc.txt poc 329 299
+qtd_palavras_dif_lidas: 98
+/b1005092006poc.txt poc 330 98
+qtd_palavras_dif_lidas: 62
+/c1023052005poc.txt poc 331 62
+qtd_palavras_dif_lidas: 188
+/1116102006poc.txt poc 332 188
+qtd_palavras_dif_lidas: 55
+/e1602102006poc.txt poc 333 55
+qtd_palavras_dif_lidas: 176
+/1918122005poc.txt poc 334 176
+qtd_palavras_dif_lidas: 264
+/1915102006poc.txt poc 335 264
+qtd_palavras_dif_lidas: 362
+/1409042006poc.txt poc 336 362
+qtd_palavras_dif_lidas: 315
+/0913022006poc.txt poc 337 315
+qtd_palavras_dif_lidas: 317
+/a1005062006poc.txt poc 338 317
+qtd_palavras_dif_lidas: 109
+/b1801032006poc.txt poc 339 109
+qtd_palavras_dif_lidas: 190
+/1519052006poc.txt poc 340 190
+qtd_palavras_dif_lidas: 126
+/a1603092006poc.txt poc 341 126
+qtd_palavras_dif_lidas: 146
+/d1530052006poc.txt poc 342 146
+qtd_palavras_dif_lidas: 71
+/a1328112005poc.txt poc 343 71
+qtd_palavras_dif_lidas: 100
+/b1514052006poc.txt poc 344 100
+qtd_palavras_dif_lidas: 565
+/2010062006poc.txt poc 345 565
+qtd_palavras_dif_lidas: 7
+/b912012004poc.txt poc 346 7
+qtd_palavras_dif_lidas: 221
+/1801112006poc.txt poc 347 221
+qtd_palavras_dif_lidas: 184
+/b1720042006poc.txt poc 348 184
+qtd_palavras_dif_lidas: 60
+/d2001112006poc.txt poc 349 60
+qtd_palavras_dif_lidas: 112
+/a1810112006poc.txt poc 350 112
+qtd_palavras_dif_lidas: 83
+/a1821032006poc.txt poc 351 83
+qtd_palavras_dif_lidas: 203
+/a1709082005poc.txt poc 352 203
+qtd_palavras_dif_lidas: 251
+/1822012004poc.txt poc 353 251
+qtd_palavras_dif_lidas: 195
+/1202082006poc.txt poc 354 195
+qtd_palavras_dif_lidas: 271
+/2001052005poc.txt poc 355 271
+qtd_palavras_dif_lidas: 84
+/a813062005poc.txt poc 356 84
+qtd_palavras_dif_lidas: 174
+/d2218122005poc.txt poc 357 174
+qtd_palavras_dif_lidas: 130
+/b1507062006poc.txt poc 358 130
+qtd_palavras_dif_lidas: 125
+/c2028072006poc.txt poc 359 125
+qtd_palavras_dif_lidas: 145
+/b1506052006poc.txt poc 360 145
+qtd_palavras_dif_lidas: 7
+/d1714012004poc.txt poc 361 7
+qtd_palavras_dif_lidas: 153
+/a2122112005poc.txt poc 362 153
+qtd_palavras_dif_lidas: 134
+/b2028112006poc.txt poc 363 134
+qtd_palavras_dif_lidas: 53
+/c1130012006poc.txt poc 364 53
+qtd_palavras_dif_lidas: 204
+/a2124122005poc.txt poc 365 204
+qtd_palavras_dif_lidas: 187
+/c1929032006poc.txt poc 366 187
+qtd_palavras_dif_lidas: 237
+/b3419092006poc.txt poc 367 237
+qtd_palavras_dif_lidas: 71
+/c2322122005poc.txt poc 368 71
+qtd_palavras_dif_lidas: 91
+/a1624082006poc.txt poc 369 91
+qtd_palavras_dif_lidas: 129
+/a2029032006poc.txt poc 370 129
+qtd_palavras_dif_lidas: 299
+/2018032006poc.txt poc 371 299
+qtd_palavras_dif_lidas: 86
+/2116032006poc.txt poc 372 86
+qtd_palavras_dif_lidas: 194
+/2305082006poc.txt poc 373 194
+qtd_palavras_dif_lidas: 6
+/c2117012004poc.txt poc 374 6
+qtd_palavras_dif_lidas: 211
+/a2002042006poc.txt poc 375 211
+qtd_palavras_dif_lidas: 75
+/a1709112005poc.txt poc 376 75
+qtd_palavras_dif_lidas: 70
+/c2519112005poc.txt poc 377 70
+qtd_palavras_dif_lidas: 246
+/a0918092006poc.txt poc 378 246
+qtd_palavras_dif_lidas: 175
+/b1631102006poc.txt poc 379 175
+qtd_palavras_dif_lidas: 121
+/a1525042006poc.txt poc 380 121
+qtd_palavras_dif_lidas: 211
+/b1519072006poc.txt poc 381 211
+qtd_palavras_dif_lidas: 527
+/2108052005poc.txt poc 382 527
+qtd_palavras_dif_lidas: 4
+/b2117012004poc.txt poc 383 4
+qtd_palavras_dif_lidas: 173
+/b1805052006poc.txt poc 384 173
+qtd_palavras_dif_lidas: 97
+/c1020022006poc.txt poc 385 97
+qtd_palavras_dif_lidas: 183
+/c2110112005poc.txt poc 386 183
+qtd_palavras_dif_lidas: 136
+/a1728122005poc.txt poc 387 136
+qtd_palavras_dif_lidas: 7
+/c1707022003poc.txt poc 388 7
+qtd_palavras_dif_lidas: 182
+/b2012112006poc.txt poc 389 182
+qtd_palavras_dif_lidas: 160
+/2517092005poc.txt poc 390 160
+qtd_palavras_dif_lidas: 143
+/a2110052005poc.txt poc 391 143
+qtd_palavras_dif_lidas: 247
+/2206072005poc.txt poc 392 247
+qtd_palavras_dif_lidas: 90
+/b2102122005poc.txt poc 393 90
+qtd_palavras_dif_lidas: 155
+/a1629112006poc.txt poc 394 155
+qtd_palavras_dif_lidas: 265
+/1913122005poc.txt poc 395 265
+qtd_palavras_dif_lidas: 7
+/c1404012004poc.txt poc 396 7
+qtd_palavras_dif_lidas: 559
+/2024112005poc.txt poc 397 559
+qtd_palavras_dif_lidas: 182
+/a1927102006poc.txt poc 398 182
+qtd_palavras_dif_lidas: 6
+/b1613012004poc.txt poc 399 6
+qtd_palavras_dif_lidas: 437
+/4318072006pot.txt pot 400 437
+qtd_palavras_dif_lidas: 399
+/3625102006pot.txt pot 401 399
+qtd_palavras_dif_lidas: 185
+/3119052006pot.txt pot 402 185
+qtd_palavras_dif_lidas: 242
+/a3214022006pot.txt pot 403 242
+qtd_palavras_dif_lidas: 216
+/3917032006pot.txt pot 404 216
+qtd_palavras_dif_lidas: 118
+/c3526042006pot.txt pot 405 118
+qtd_palavras_dif_lidas: 298
+/b3601062006pot.txt pot 406 298
+qtd_palavras_dif_lidas: 352
+/4323092006pot.txt pot 407 352
+qtd_palavras_dif_lidas: 290
+/3614052006pot.txt pot 408 290
+qtd_palavras_dif_lidas: 549
+/3114082005pot.txt pot 409 549
+qtd_palavras_dif_lidas: 247
+/c3213122005pot.txt pot 410 247
+qtd_palavras_dif_lidas: 162
+/a4112112006pot.txt pot 411 162
+qtd_palavras_dif_lidas: 79
+/a1605092006pot.txt pot 412 79
+qtd_palavras_dif_lidas: 167
+/a4031102006pot.txt pot 413 167
+qtd_palavras_dif_lidas: 183
+/2019092005pot.txt pot 414 183
+qtd_palavras_dif_lidas: 97
+/a3129082006pot.txt pot 415 97
+qtd_palavras_dif_lidas: 17
+/2801022003pot.txt pot 416 17
+qtd_palavras_dif_lidas: 229
+/a4003092006pot.txt pot 417 229
+qtd_palavras_dif_lidas: 97
+/b3809082006pot.txt pot 418 97
+qtd_palavras_dif_lidas: 313
+/3423062005pot.txt pot 419 313
+qtd_palavras_dif_lidas: 7
+/b2810012004pot.txt pot 420 7
+qtd_palavras_dif_lidas: 360
+/a4302072006pot.txt pot 421 360
+qtd_palavras_dif_lidas: 529
+/3812102006pot.txt pot 422 529
+qtd_palavras_dif_lidas: 152
+/a3304082006pot.txt pot 423 152
+qtd_palavras_dif_lidas: 229
+/b3208062005pot.txt pot 424 229
+qtd_palavras_dif_lidas: 98
+/b3028122005pot.txt pot 425 98
+qtd_palavras_dif_lidas: 156
+/b4030072006pot.txt pot 426 156
+qtd_palavras_dif_lidas: 545
+/3223032006pot.txt pot 427 545
+qtd_palavras_dif_lidas: 186
+/3628072005pot.txt pot 428 186
+qtd_palavras_dif_lidas: 237
+/c3810092005pot.txt pot 429 237
+qtd_palavras_dif_lidas: 195
+/4329102006pot.txt pot 430 195
+qtd_palavras_dif_lidas: 428
+/3329062006pot.txt pot 431 428
+qtd_palavras_dif_lidas: 105
+/a3327072006pot.txt pot 432 105
+qtd_palavras_dif_lidas: 274
+/d3220062006pot.txt pot 433 274
+qtd_palavras_dif_lidas: 319
+/3422112005pot.txt pot 434 319
+qtd_palavras_dif_lidas: 301
+/b4020082006pot.txt pot 435 301
+qtd_palavras_dif_lidas: 269
+/a3823042006pot.txt pot 436 269
+qtd_palavras_dif_lidas: 95
+/a3410112005pot.txt pot 437 95
+qtd_palavras_dif_lidas: 116
+/a3422072005pot.txt pot 438 116
+qtd_palavras_dif_lidas: 363
+/c3801062006pot.txt pot 439 363
+qtd_palavras_dif_lidas: 404
+/3715102006pot.txt pot 440 404
+qtd_palavras_dif_lidas: 134
+/4322122005pot.txt pot 441 134
+qtd_palavras_dif_lidas: 300
+/a3421092006pot.txt pot 442 300
+qtd_palavras_dif_lidas: 244
+/3504052006pot.txt pot 443 244
+qtd_palavras_dif_lidas: 167
+/a4202092006pot.txt pot 444 167
+qtd_palavras_dif_lidas: 380
+/3607112006pot.txt pot 445 380
+qtd_palavras_dif_lidas: 578
+/3312102006pot.txt pot 446 578
+qtd_palavras_dif_lidas: 411
+/a3203112006pot.txt pot 447 411
+qtd_palavras_dif_lidas: 35
+/b1926062006pot.txt pot 448 35
+qtd_palavras_dif_lidas: 365
+/3414052006pot.txt pot 449 365
+qtd_palavras_dif_lidas: 14
+/2609012004pot.txt pot 450 14
+qtd_palavras_dif_lidas: 391
+/3313122005pot.txt pot 451 391
+qtd_palavras_dif_lidas: 498
+/3506102006pot.txt pot 452 498
+qtd_palavras_dif_lidas: 83
+/c3611102006pot.txt pot 453 83
+qtd_palavras_dif_lidas: 82
+/b3013092005pot.txt pot 454 82
+qtd_palavras_dif_lidas: 323
+/a2501032006pot.txt pot 455 323
+qtd_palavras_dif_lidas: 7
+/a2815012004pot.txt pot 456 7
+qtd_palavras_dif_lidas: 168
+/3623062005pot.txt pot 457 168
+qtd_palavras_dif_lidas: 160
+/3310112005pot.txt pot 458 160
+qtd_palavras_dif_lidas: 273
+/3331102006pot.txt pot 459 273
+qtd_palavras_dif_lidas: 157
+/3523062005pot.txt pot 460 157
+qtd_palavras_dif_lidas: 534
+/4629102006pot.txt pot 461 534
+qtd_palavras_dif_lidas: 179
+/3506042006pot.txt pot 462 179
+qtd_palavras_dif_lidas: 274
+/3029062006pot.txt pot 463 274
+qtd_palavras_dif_lidas: 98
+/3414112006pot.txt pot 464 98
+qtd_palavras_dif_lidas: 131
+/a3123032006pot.txt pot 465 131
+qtd_palavras_dif_lidas: 173
+/3914052006pot.txt pot 466 173
+qtd_palavras_dif_lidas: 307
+/3228072006pot.txt pot 467 307
+qtd_palavras_dif_lidas: 196
+/a2101052006pot.txt pot 468 196
+qtd_palavras_dif_lidas: 82
+/a3224042005pot.txt pot 469 82
+qtd_palavras_dif_lidas: 299
+/3211052006pot.txt pot 470 299
+qtd_palavras_dif_lidas: 275
+/b4718072006pot.txt pot 471 275
+qtd_palavras_dif_lidas: 270
+/3212122005pot.txt pot 472 270
+qtd_palavras_dif_lidas: 188
+/b3402092006pot.txt pot 473 188
+qtd_palavras_dif_lidas: 526
+/3401072006pot.txt pot 474 526
+qtd_palavras_dif_lidas: 600
+/a5026112006pot.txt pot 475 600
+qtd_palavras_dif_lidas: 152
+/a3205042006pot.txt pot 476 152
+qtd_palavras_dif_lidas: 513
+/3503082005pot.txt pot 477 513
+qtd_palavras_dif_lidas: 278
+/b3127062006pot.txt pot 478 278
+qtd_palavras_dif_lidas: 145
+/c2926072006pot.txt pot 479 145
+qtd_palavras_dif_lidas: 87
+/b3811082006pot.txt pot 480 87
+qtd_palavras_dif_lidas: 297
+/a1830012006pot.txt pot 481 297
+qtd_palavras_dif_lidas: 124
+/3424012006pot.txt pot 482 124
+qtd_palavras_dif_lidas: 264
+/3218112006pot.txt pot 483 264
+qtd_palavras_dif_lidas: 158
+/4328102006pot.txt pot 484 158
+qtd_palavras_dif_lidas: 77
+/c3717032006pot.txt pot 485 77
+qtd_palavras_dif_lidas: 306
+/3425122005pot.txt pot 486 306
+qtd_palavras_dif_lidas: 7
+/a2902022003pot.txt pot 487 7
+qtd_palavras_dif_lidas: 278
+/a3527062006pot.txt pot 488 278
+qtd_palavras_dif_lidas: 99
+/a3325072006pot.txt pot 489 99
+qtd_palavras_dif_lidas: 301
+/a3229092006pot.txt pot 490 301
+qtd_palavras_dif_lidas: 521
+/4229102006pot.txt pot 491 521
+qtd_palavras_dif_lidas: 407
+/3212052006pot.txt pot 492 407
+qtd_palavras_dif_lidas: 210
+/3605032006pot.txt pot 493 210
+qtd_palavras_dif_lidas: 265
+/3510052006pot.txt pot 494 265
+qtd_palavras_dif_lidas: 203
+/a3411112006pot.txt pot 495 203
+qtd_palavras_dif_lidas: 269
+/3929112006pot.txt pot 496 269
+qtd_palavras_dif_lidas: 66
+/b3409112006pot.txt pot 497 66
+qtd_palavras_dif_lidas: 324
+/a3923112006pot.txt pot 498 324
+qtd_palavras_dif_lidas: 331
+/2909092005pot.txt pot 499 331
+qtd_palavras_dif_lidas: 277
+/1709102006pot.txt pot 500 277
+qtd_palavras_dif_lidas: 144
+/a4017102006pot.txt pot 501 144
+qtd_palavras_dif_lidas: 138
+/b3320042006pot.txt pot 502 138
+qtd_palavras_dif_lidas: 466
+/3323082006pot.txt pot 503 466
+qtd_palavras_dif_lidas: 249
+/1919122005pot.txt pot 504 249
+qtd_palavras_dif_lidas: 187
+/a3307022006pot.txt pot 505 187
+qtd_palavras_dif_lidas: 186
+/1823052005pot.txt pot 506 186
+qtd_palavras_dif_lidas: 185
+/3609022006pot.txt pot 507 185
+qtd_palavras_dif_lidas: 25
+/a1412012004pot.txt pot 508 25
+qtd_palavras_dif_lidas: 154
+/3507042006pot.txt pot 509 154
+qtd_palavras_dif_lidas: 177
+/3621022006pot.txt pot 510 177
+qtd_palavras_dif_lidas: 557
+/4324092006pot.txt pot 511 557
+qtd_palavras_dif_lidas: 333
+/4405082006pot.txt pot 512 333
+qtd_palavras_dif_lidas: 87
+/b3704052006pot.txt pot 513 87
+qtd_palavras_dif_lidas: 225
+/a1530052005pot.txt pot 514 225
+qtd_palavras_dif_lidas: 330
+/3518092005pot.txt pot 515 330
+qtd_palavras_dif_lidas: 325
+/4019092006pot.txt pot 516 325
+qtd_palavras_dif_lidas: 287
+/3304102006pot.txt pot 517 287
+qtd_palavras_dif_lidas: 289
+/a1609052005pot.txt pot 518 289
+qtd_palavras_dif_lidas: 251
+/3104102006pot.txt pot 519 251
+qtd_palavras_dif_lidas: 250
+/3608122005pot.txt pot 520 250
+qtd_palavras_dif_lidas: 122
+/a3212072006pot.txt pot 521 122
+qtd_palavras_dif_lidas: 188
+/3629112005pot.txt pot 522 188
+qtd_palavras_dif_lidas: 204
+/c3429082006pot.txt pot 523 204
+qtd_palavras_dif_lidas: 287
+/1716052005pot.txt pot 524 287
+qtd_palavras_dif_lidas: 155
+/a3827092006pot.txt pot 525 155
+qtd_palavras_dif_lidas: 230
+/c3529032006pot.txt pot 526 230
+qtd_palavras_dif_lidas: 187
+/3028112006pot.txt pot 527 187
+qtd_palavras_dif_lidas: 99
+/b3203112006pot.txt pot 528 99
+qtd_palavras_dif_lidas: 238
+/a2820072006pot.txt pot 529 238
+qtd_palavras_dif_lidas: 77
+/b3222082006pot.txt pot 530 77
+qtd_palavras_dif_lidas: 366
+/1606032006pot.txt pot 531 366
+qtd_palavras_dif_lidas: 141
+/b4121052006pot.txt pot 532 141
+qtd_palavras_dif_lidas: 291
+/3326072006pot.txt pot 533 291
+qtd_palavras_dif_lidas: 287
+/a1712062006pot.txt pot 534 287
+qtd_palavras_dif_lidas: 415
+/4626112006pot.txt pot 535 415
+qtd_palavras_dif_lidas: 228
+/3011072006pot.txt pot 536 228
+qtd_palavras_dif_lidas: 122
+/b2816062006pot.txt pot 537 122
+qtd_palavras_dif_lidas: 23
+/3814012004pot.txt pot 538 23
+qtd_palavras_dif_lidas: 180
+/a2915012004pot.txt pot 539 180
+qtd_palavras_dif_lidas: 171
+/a3515082006pot.txt pot 540 171
+qtd_palavras_dif_lidas: 143
+/3912052006pot.txt pot 541 143
+qtd_palavras_dif_lidas: 380
+/a3621092005pot.txt pot 542 380
+qtd_palavras_dif_lidas: 294
+/3108082006pot.txt pot 543 294
+qtd_palavras_dif_lidas: 171
+/a4207102006pot.txt pot 544 171
+qtd_palavras_dif_lidas: 342
+/4421122005pot.txt pot 545 342
+qtd_palavras_dif_lidas: 183
+/a3502022006pot.txt pot 546 183
+qtd_palavras_dif_lidas: 288
+/b3230082006pot.txt pot 547 288
+qtd_palavras_dif_lidas: 181
+/3207032006pot.txt pot 548 181
+qtd_palavras_dif_lidas: 9
+/b1819012004pot.txt pot 549 9
+qtd_palavras_dif_lidas: 352
+/3323122005pot.txt pot 550 352
+qtd_palavras_dif_lidas: 45
+/a1805092006pot.txt pot 551 45
+qtd_palavras_dif_lidas: 258
+/1712062006pot.txt pot 552 258
+qtd_palavras_dif_lidas: 294
+/3530082006pot.txt pot 553 294
+qtd_palavras_dif_lidas: 91
+/c2928012004pot.txt pot 554 91
+qtd_palavras_dif_lidas: 549
+/b3825102006pot.txt pot 555 549
+qtd_palavras_dif_lidas: 124
+/3819112006pot.txt pot 556 124
+qtd_palavras_dif_lidas: 394
+/3513082006pot.txt pot 557 394
+qtd_palavras_dif_lidas: 264
+/d3414122005pot.txt pot 558 264
+qtd_palavras_dif_lidas: 60
+/b2928122005pot.txt pot 559 60
+qtd_palavras_dif_lidas: 163
+/3030092006pot.txt pot 560 163
+qtd_palavras_dif_lidas: 165
+/3505092006pot.txt pot 561 165
+qtd_palavras_dif_lidas: 200
+/e3524082006pot.txt pot 562 200
+qtd_palavras_dif_lidas: 107
+/a3231122005pot.txt pot 563 107
+qtd_palavras_dif_lidas: 123
+/a3124102006pot.txt pot 564 123
+qtd_palavras_dif_lidas: 181
+/3303062006pot.txt pot 565 181
+qtd_palavras_dif_lidas: 281
+/3618102006pot.txt pot 566 281
+qtd_palavras_dif_lidas: 265
+/2006112006pot.txt pot 567 265
+qtd_palavras_dif_lidas: 119
+/b3208092006pot.txt pot 568 119
+qtd_palavras_dif_lidas: 157
+/3815092006pot.txt pot 569 157
+qtd_palavras_dif_lidas: 317
+/3719112005pot.txt pot 570 317
+qtd_palavras_dif_lidas: 262
+/c3631052006pot.txt pot 571 262
+qtd_palavras_dif_lidas: 442
+/3510092005pot.txt pot 572 442
+qtd_palavras_dif_lidas: 118
+/a3203082005pot.txt pot 573 118
+qtd_palavras_dif_lidas: 311
+/4313082005pot.txt pot 574 311
+qtd_palavras_dif_lidas: 177
+/1920032006pot.txt pot 575 177
+qtd_palavras_dif_lidas: 178
+/a4619112006pot.txt pot 576 178
+qtd_palavras_dif_lidas: 370
+/3609052006pot.txt pot 577 370
+qtd_palavras_dif_lidas: 150
+/a3502082006pot.txt pot 578 150
+qtd_palavras_dif_lidas: 400
+/3309092005pot.txt pot 579 400
+qtd_palavras_dif_lidas: 162
+/b3521122005pot.txt pot 580 162
+qtd_palavras_dif_lidas: 58
+/c3207032006pot.txt pot 581 58
+qtd_palavras_dif_lidas: 309
+/a3104052005pot.txt pot 582 309
+qtd_palavras_dif_lidas: 88
+/a3431102006pot.txt pot 583 88
+qtd_palavras_dif_lidas: 45
+/a1630052005pot.txt pot 584 45
+qtd_palavras_dif_lidas: 317
+/3421122005pot.txt pot 585 317
+qtd_palavras_dif_lidas: 464
+/3316112005pot.txt pot 586 464
+qtd_palavras_dif_lidas: 178
+/4029092006pot.txt pot 587 178
+qtd_palavras_dif_lidas: 239
+/3531052006pot.txt pot 588 239
+qtd_palavras_dif_lidas: 176
+/a3720122005pot.txt pot 589 176
+qtd_palavras_dif_lidas: 461
+/3309062006pot.txt pot 590 461
+qtd_palavras_dif_lidas: 79
+/d3423032006pot.txt pot 591 79
+qtd_palavras_dif_lidas: 289
+/b3324112005pot.txt pot 592 289
+qtd_palavras_dif_lidas: 425
+/a3501082006pot.txt pot 593 425
+qtd_palavras_dif_lidas: 315
+/3117012004pot.txt pot 594 315
+qtd_palavras_dif_lidas: 98
+/a3411052006pot.txt pot 595 98
+qtd_palavras_dif_lidas: 189
+/a3909092006pot.txt pot 596 189
+qtd_palavras_dif_lidas: 164
+/3614072006pot.txt pot 597 164
+qtd_palavras_dif_lidas: 147
+/a3403052006pot.txt pot 598 147
+qtd_palavras_dif_lidas: 74
+/c1923052005pot.txt pot 599 74
+qtd_palavras_dif_lidas: 20
+/2104022003eco.txt eco 600 20
+qtd_palavras_dif_lidas: 159
+/1519122005eco.txt eco 601 159
+qtd_palavras_dif_lidas: 166
+/a2801042006eco.txt eco 602 166
+qtd_palavras_dif_lidas: 381
+/2315062006eco.txt eco 603 381
+qtd_palavras_dif_lidas: 113
+/a2308092005eco.txt eco 604 113
+qtd_palavras_dif_lidas: 206
+/a2504112006eco.txt eco 605 206
+qtd_palavras_dif_lidas: 398
+/2631082006eco.txt eco 606 398
+qtd_palavras_dif_lidas: 151
+/a1312122005eco.txt eco 607 151
+qtd_palavras_dif_lidas: 23
+/2408022003eco.txt eco 608 23
+qtd_palavras_dif_lidas: 55
+/a3228072005eco.txt eco 609 55
+qtd_palavras_dif_lidas: 128
+/a2207042006eco.txt eco 610 128
+qtd_palavras_dif_lidas: 454
+/f3019042006eco.txt eco 611 454
+qtd_palavras_dif_lidas: 401
+/3110092005eco.txt eco 612 401
+qtd_palavras_dif_lidas: 74
+/a2813072006eco.txt eco 613 74
+qtd_palavras_dif_lidas: 364
+/2926112006eco.txt eco 614 364
+qtd_palavras_dif_lidas: 157
+/1426062006eco.txt eco 615 157
+qtd_palavras_dif_lidas: 104
+/c2208092005eco.txt eco 616 104
+qtd_palavras_dif_lidas: 249
+/2307092005eco.txt eco 617 249
+qtd_palavras_dif_lidas: 208
+/2417022006eco.txt eco 618 208
+qtd_palavras_dif_lidas: 339
+/c2602062006eco.txt eco 619 339
+qtd_palavras_dif_lidas: 227
+/a1920062006eco.txt eco 620 227
+qtd_palavras_dif_lidas: 239
+/2511112006eco.txt eco 621 239
+qtd_palavras_dif_lidas: 164
+/a2802062006eco.txt eco 622 164
+qtd_palavras_dif_lidas: 403
+/2401072005eco.txt eco 623 403
+qtd_palavras_dif_lidas: 89
+/a2720102006eco.txt eco 624 89
+qtd_palavras_dif_lidas: 106
+/c1214082006eco.txt eco 625 106
+qtd_palavras_dif_lidas: 206
+/2409062006eco.txt eco 626 206
+qtd_palavras_dif_lidas: 1132
+/3216052006eco.txt eco 627 1132
+qtd_palavras_dif_lidas: 189
+/a2518012004eco.txt eco 628 189
+qtd_palavras_dif_lidas: 128
+/a3109082006eco.txt eco 629 128
+qtd_palavras_dif_lidas: 208
+/b2725082005eco.txt eco 630 208
+qtd_palavras_dif_lidas: 99
+/c2517052006eco.txt eco 631 99
+qtd_palavras_dif_lidas: 148
+/a2819052006eco.txt eco 632 148
+qtd_palavras_dif_lidas: 197
+/a3516092006eco.txt eco 633 197
+qtd_palavras_dif_lidas: 94
+/b3009082006eco.txt eco 634 94
+qtd_palavras_dif_lidas: 147
+/2524082006eco.txt eco 635 147
+qtd_palavras_dif_lidas: 309
+/a2403012004eco.txt eco 636 309
+qtd_palavras_dif_lidas: 156
+/2701092006eco.txt eco 637 156
+qtd_palavras_dif_lidas: 192
+/2627062006eco.txt eco 638 192
+qtd_palavras_dif_lidas: 139
+/b3330112006eco.txt eco 639 139
+qtd_palavras_dif_lidas: 270
+/b2907062005eco.txt eco 640 270
+qtd_palavras_dif_lidas: 350
+/2525072005eco.txt eco 641 350
+qtd_palavras_dif_lidas: 145
+/a2129062006eco.txt eco 642 145
+qtd_palavras_dif_lidas: 350
+/a2814082005eco.txt eco 643 350
+qtd_palavras_dif_lidas: 127
+/a2409082006eco.txt eco 644 127
+qtd_palavras_dif_lidas: 8
+/a2127012004eco.txt eco 645 8
+qtd_palavras_dif_lidas: 3
+/d2409012004eco.txt eco 646 3
+qtd_palavras_dif_lidas: 167
+/a2824082006eco.txt eco 647 167
+qtd_palavras_dif_lidas: 148
+/2923112005eco.txt eco 648 148
+qtd_palavras_dif_lidas: 109
+/2806082005eco.txt eco 649 109
+qtd_palavras_dif_lidas: 84
+/b2205072005eco.txt eco 650 84
+qtd_palavras_dif_lidas: 229
+/3410062006eco.txt eco 651 229
+qtd_palavras_dif_lidas: 51
+/a2421122005eco.txt eco 652 51
+qtd_palavras_dif_lidas: 187
+/a4724112005eco.txt eco 653 187
+qtd_palavras_dif_lidas: 173
+/3516092006eco.txt eco 654 173
+qtd_palavras_dif_lidas: 162
+/a2506052006eco.txt eco 655 162
+qtd_palavras_dif_lidas: 165
+/a1601052006eco.txt eco 656 165
+qtd_palavras_dif_lidas: 153
+/2526102006eco.txt eco 657 153
+qtd_palavras_dif_lidas: 375
+/2804052005eco.txt eco 658 375
+qtd_palavras_dif_lidas: 374
+/3209082006eco.txt eco 659 374
+qtd_palavras_dif_lidas: 109
+/b2529092006eco.txt eco 660 109
+qtd_palavras_dif_lidas: 6
+/d1804012004eco.txt eco 661 6
+qtd_palavras_dif_lidas: 168
+/1327112006eco.txt eco 662 168
+qtd_palavras_dif_lidas: 370
+/2412052005eco.txt eco 663 370
+qtd_palavras_dif_lidas: 379
+/1505122005eco.txt eco 664 379
+qtd_palavras_dif_lidas: 392
+/2230082006eco.txt eco 665 392
+qtd_palavras_dif_lidas: 18
+/2523012004eco.txt eco 666 18
+qtd_palavras_dif_lidas: 204
+/2524022006eco.txt eco 667 204
+qtd_palavras_dif_lidas: 132
+/a2208082006eco.txt eco 668 132
+qtd_palavras_dif_lidas: 264
+/2427102005eco.txt eco 669 264
+qtd_palavras_dif_lidas: 360
+/2206052005eco.txt eco 670 360
+qtd_palavras_dif_lidas: 179
+/a3608102006eco.txt eco 671 179
+qtd_palavras_dif_lidas: 63
+/2922112006eco.txt eco 672 63
+qtd_palavras_dif_lidas: 163
+/b2602032006eco.txt eco 673 163
+qtd_palavras_dif_lidas: 82
+/c2225082006eco.txt eco 674 82
+qtd_palavras_dif_lidas: 115
+/2727072006eco.txt eco 675 115
+qtd_palavras_dif_lidas: 26
+/a2320012004eco.txt eco 676 26
+qtd_palavras_dif_lidas: 118
+/c2613082006eco.txt eco 677 118
+qtd_palavras_dif_lidas: 270
+/a2606102006eco.txt eco 678 270
+qtd_palavras_dif_lidas: 21
+/b2309012004eco.txt eco 679 21
+qtd_palavras_dif_lidas: 191
+/a2604122005eco.txt eco 680 191
+qtd_palavras_dif_lidas: 7
+/b2129012004eco.txt eco 681 7
+qtd_palavras_dif_lidas: 765
+/2014062006eco.txt eco 682 765
+qtd_palavras_dif_lidas: 122
+/a1326092005eco.txt eco 683 122
+qtd_palavras_dif_lidas: 428
+/a3321052006eco.txt eco 684 428
+qtd_palavras_dif_lidas: 275
+/3230042006eco.txt eco 685 275
+qtd_palavras_dif_lidas: 176
+/a2729082006eco.txt eco 686 176
+qtd_palavras_dif_lidas: 414
+/c2827062006eco.txt eco 687 414
+qtd_palavras_dif_lidas: 420
+/a3219112006eco.txt eco 688 420
+qtd_palavras_dif_lidas: 573
+/2912112006eco.txt eco 689 573
+qtd_palavras_dif_lidas: 89
+/a2317102006eco.txt eco 690 89
+qtd_palavras_dif_lidas: 428
+/2205052006eco.txt eco 691 428
+qtd_palavras_dif_lidas: 211
+/2120042006eco.txt eco 692 211
+qtd_palavras_dif_lidas: 237
+/2205042006eco.txt eco 693 237
+qtd_palavras_dif_lidas: 197
+/2907052005eco.txt eco 694 197
+qtd_palavras_dif_lidas: 453
+/a3101112006eco.txt eco 695 453
+qtd_palavras_dif_lidas: 283
+/2315092006eco.txt eco 696 283
+qtd_palavras_dif_lidas: 25
+/2029012004eco.txt eco 697 25
+qtd_palavras_dif_lidas: 286
+/3603102006eco.txt eco 698 286
+qtd_palavras_dif_lidas: 159
+/a2521102006eco.txt eco 699 159
+qtd_palavras_dif_lidas: 189
+/a3327102006eco.txt eco 700 189
+qtd_palavras_dif_lidas: 21
+/3308022003eco.txt eco 701 21
+qtd_palavras_dif_lidas: 5
+/a2616012004eco.txt eco 702 5
+qtd_palavras_dif_lidas: 94
+/a2324012006eco.txt eco 703 94
+qtd_palavras_dif_lidas: 530
+/2501102006eco.txt eco 704 530
+qtd_palavras_dif_lidas: 180
+/3022102006eco.txt eco 705 180
+qtd_palavras_dif_lidas: 5
+/c2029012004eco.txt eco 706 5
+qtd_palavras_dif_lidas: 226
+/2214092005eco.txt eco 707 226
+qtd_palavras_dif_lidas: 285
+/2913052005eco.txt eco 708 285
+qtd_palavras_dif_lidas: 296
+/2801072006eco.txt eco 709 296
+qtd_palavras_dif_lidas: 112
+/b2616092005eco.txt eco 710 112
+qtd_palavras_dif_lidas: 267
+/a2829072006eco.txt eco 711 267
+qtd_palavras_dif_lidas: 150
+/1322052006eco.txt eco 712 150
+qtd_palavras_dif_lidas: 161
+/a2517022006eco.txt eco 713 161
+qtd_palavras_dif_lidas: 149
+/2201032006eco.txt eco 714 149
+qtd_palavras_dif_lidas: 189
+/2324112006eco.txt eco 715 189
+qtd_palavras_dif_lidas: 272
+/2518052006eco.txt eco 716 272
+qtd_palavras_dif_lidas: 152
+/b2830092006eco.txt eco 717 152
+qtd_palavras_dif_lidas: 338
+/1127112006eco.txt eco 718 338
+qtd_palavras_dif_lidas: 258
+/2223062005eco.txt eco 719 258
+qtd_palavras_dif_lidas: 150
+/a2501072005eco.txt eco 720 150
+qtd_palavras_dif_lidas: 161
+/2707072006eco.txt eco 721 161
+qtd_palavras_dif_lidas: 205
+/2313122005eco.txt eco 722 205
+qtd_palavras_dif_lidas: 342
+/a2727062006eco.txt eco 723 342
+qtd_palavras_dif_lidas: 377
+/2528052005eco.txt eco 724 377
+qtd_palavras_dif_lidas: 152
+/b3123092006eco.txt eco 725 152
+qtd_palavras_dif_lidas: 150
+/2909092006eco.txt eco 726 150
+qtd_palavras_dif_lidas: 245
+/c2327062006eco.txt eco 727 245
+qtd_palavras_dif_lidas: 93
+/2728042006eco.txt eco 728 93
+qtd_palavras_dif_lidas: 271
+/2217032006eco.txt eco 729 271
+qtd_palavras_dif_lidas: 328
+/2128062006eco.txt eco 730 328
+qtd_palavras_dif_lidas: 553
+/2629122005eco.txt eco 731 553
+qtd_palavras_dif_lidas: 403
+/1514112005eco.txt eco 732 403
+qtd_palavras_dif_lidas: 243
+/b2503012004eco.txt eco 733 243
+qtd_palavras_dif_lidas: 130
+/c2815092005eco.txt eco 734 130
+qtd_palavras_dif_lidas: 607
+/3327102006eco.txt eco 735 607
+qtd_palavras_dif_lidas: 217
+/2413092005eco.txt eco 736 217
+qtd_palavras_dif_lidas: 170
+/b2215022006eco.txt eco 737 170
+qtd_palavras_dif_lidas: 83
+/c2718112006eco.txt eco 738 83
+qtd_palavras_dif_lidas: 101
+/a2306082006eco.txt eco 739 101
+qtd_palavras_dif_lidas: 68
+/a1418092006eco.txt eco 740 68
+qtd_palavras_dif_lidas: 147
+/a1118092006eco.txt eco 741 147
+qtd_palavras_dif_lidas: 33
+/a1802012004eco.txt eco 742 33
+qtd_palavras_dif_lidas: 223
+/2509032006eco.txt eco 743 223
+qtd_palavras_dif_lidas: 136
+/a2202122005eco.txt eco 744 136
+qtd_palavras_dif_lidas: 159
+/1506032006eco.txt eco 745 159
+qtd_palavras_dif_lidas: 391
+/a2227052005eco.txt eco 746 391
+qtd_palavras_dif_lidas: 405
+/a2613062006eco.txt eco 747 405
+qtd_palavras_dif_lidas: 250
+/2828072005eco.txt eco 748 250
+qtd_palavras_dif_lidas: 662
+/3326092006eco.txt eco 749 662
+qtd_palavras_dif_lidas: 266
+/a2804082006eco.txt eco 750 266
+qtd_palavras_dif_lidas: 170
+/3127082006eco.txt eco 751 170
+qtd_palavras_dif_lidas: 222
+/d2529072006eco.txt eco 752 222
+qtd_palavras_dif_lidas: 6
+/a2014012004eco.txt eco 753 6
+qtd_palavras_dif_lidas: 186
+/2316092006eco.txt eco 754 186
+qtd_palavras_dif_lidas: 197
+/3112022006eco.txt eco 755 197
+qtd_palavras_dif_lidas: 160
+/b2918052006eco.txt eco 756 160
+qtd_palavras_dif_lidas: 20
+/a2302022003eco.txt eco 757 20
+qtd_palavras_dif_lidas: 242
+/1209052005eco.txt eco 758 242
+qtd_palavras_dif_lidas: 201
+/3012052006eco.txt eco 759 201
+qtd_palavras_dif_lidas: 252
+/a3228092006eco.txt eco 760 252
+qtd_palavras_dif_lidas: 344
+/a2808022006eco.txt eco 761 344
+qtd_palavras_dif_lidas: 298
+/14082005eco.txt eco 762 298
+qtd_palavras_dif_lidas: 383
+/2622082006eco.txt eco 763 383
+qtd_palavras_dif_lidas: 302
+/c2914052006eco.txt eco 764 302
+qtd_palavras_dif_lidas: 199
+/2015062006eco.txt eco 765 199
+qtd_palavras_dif_lidas: 206
+/3212032006eco.txt eco 766 206
+qtd_palavras_dif_lidas: 23
+/2308022003eco.txt eco 767 23
+qtd_palavras_dif_lidas: 160
+/2818102006eco.txt eco 768 160
+qtd_palavras_dif_lidas: 456
+/1920092005eco.txt eco 769 456
+qtd_palavras_dif_lidas: 317
+/2427042005eco.txt eco 770 317
+qtd_palavras_dif_lidas: 298
+/2829012006eco.txt eco 771 298
+qtd_palavras_dif_lidas: 186
+/2328052005eco.txt eco 772 186
+qtd_palavras_dif_lidas: 155
+/2113062006eco.txt eco 773 155
+qtd_palavras_dif_lidas: 524
+/3004122005eco.txt eco 774 524
+qtd_palavras_dif_lidas: 288
+/2625122005eco.txt eco 775 288
+qtd_palavras_dif_lidas: 179
+/2403022006eco.txt eco 776 179
+qtd_palavras_dif_lidas: 610
+/3016112006eco.txt eco 777 610
+qtd_palavras_dif_lidas: 449
+/2825102006eco.txt eco 778 449
+qtd_palavras_dif_lidas: 79
+/b2424042005eco.txt eco 779 79
+qtd_palavras_dif_lidas: 111
+/b2013052005eco.txt eco 780 111
+qtd_palavras_dif_lidas: 300
+/a2609062006eco.txt eco 781 300
+qtd_palavras_dif_lidas: 64
+/a2726042005eco.txt eco 782 64
+qtd_palavras_dif_lidas: 321
+/2320062006eco.txt eco 783 321
+qtd_palavras_dif_lidas: 120
+/2616092005eco.txt eco 784 120
+qtd_palavras_dif_lidas: 315
+/3412082006eco.txt eco 785 315
+qtd_palavras_dif_lidas: 165
+/2606072005eco.txt eco 786 165
+qtd_palavras_dif_lidas: 169
+/a3317112006eco.txt eco 787 169
+qtd_palavras_dif_lidas: 302
+/a3217112006eco.txt eco 788 302
+qtd_palavras_dif_lidas: 103
+/a2526042006eco.txt eco 789 103
+qtd_palavras_dif_lidas: 227
+/a2727042005eco.txt eco 790 227
+qtd_palavras_dif_lidas: 189
+/a3517092005eco.txt eco 791 189
+qtd_palavras_dif_lidas: 151
+/3212102006eco.txt eco 792 151
+qtd_palavras_dif_lidas: 365
+/1706022006eco.txt eco 793 365
+qtd_palavras_dif_lidas: 149
+/3011052006eco.txt eco 794 149
+qtd_palavras_dif_lidas: 105
+/a2318052006eco.txt eco 795 105
+qtd_palavras_dif_lidas: 59
+/b2004042006eco.txt eco 796 59
+qtd_palavras_dif_lidas: 415
+/3407102006eco.txt eco 797 415
+qtd_palavras_dif_lidas: 354
+/2130032006eco.txt eco 798 354
+qtd_palavras_dif_lidas: 251
+/a2515022006eco.txt eco 799 251
+qtd_palavras_dif_lidas: 233
+/4602042006ept.txt ept 800 233
+qtd_palavras_dif_lidas: 21
+/4201022004ept.txt ept 801 21
+qtd_palavras_dif_lidas: 115
+/a2713112006ept.txt ept 802 115
+qtd_palavras_dif_lidas: 5
+/a3427012004ept.txt ept 803 5
+qtd_palavras_dif_lidas: 5
+/b2203022003ept.txt ept 804 5
+qtd_palavras_dif_lidas: 6
+/a3409012004ept.txt ept 805 6
+qtd_palavras_dif_lidas: 57
+/a4330122005ept.txt ept 806 57
+qtd_palavras_dif_lidas: 119
+/a4912082006ept.txt ept 807 119
+qtd_palavras_dif_lidas: 148
+/b2613022006ept.txt ept 808 148
+qtd_palavras_dif_lidas: 297
+/3012062006ept.txt ept 809 297
+qtd_palavras_dif_lidas: 236
+/4019052005ept.txt ept 810 236
+qtd_palavras_dif_lidas: 158
+/4329052005ept.txt ept 811 158
+qtd_palavras_dif_lidas: 22
+/a3930012004ept.txt ept 812 22
+qtd_palavras_dif_lidas: 346
+/3219092005ept.txt ept 813 346
+qtd_palavras_dif_lidas: 446
+/3319062006ept.txt ept 814 446
+qtd_palavras_dif_lidas: 181
+/4216022006ept.txt ept 815 181
+qtd_palavras_dif_lidas: 8
+/b4214012004ept.txt ept 816 8
+qtd_palavras_dif_lidas: 268
+/4109122005ept.txt ept 817 268
+qtd_palavras_dif_lidas: 73
+/a4117112006ept.txt ept 818 73
+qtd_palavras_dif_lidas: 266
+/b2508052006ept.txt ept 819 266
+qtd_palavras_dif_lidas: 214
+/4408032006ept.txt ept 820 214
+qtd_palavras_dif_lidas: 219
+/4828052006ept.txt ept 821 219
+qtd_palavras_dif_lidas: 469
+/2312092005ept.txt ept 822 469
+qtd_palavras_dif_lidas: 147
+/a4116022006ept.txt ept 823 147
+qtd_palavras_dif_lidas: 160
+/3923032006ept.txt ept 824 160
+qtd_palavras_dif_lidas: 229
+/4711022006ept.txt ept 825 229
+qtd_palavras_dif_lidas: 409
+/4414112006ept.txt ept 826 409
+qtd_palavras_dif_lidas: 120
+/a2213022006ept.txt ept 827 120
+qtd_palavras_dif_lidas: 180
+/4002022006ept.txt ept 828 180
+qtd_palavras_dif_lidas: 129
+/c4614062006ept.txt ept 829 129
+qtd_palavras_dif_lidas: 185
+/4916092006ept.txt ept 830 185
+qtd_palavras_dif_lidas: 308
+/4325082005ept.txt ept 831 308
+qtd_palavras_dif_lidas: 95
+/a4328062006ept.txt ept 832 95
+qtd_palavras_dif_lidas: 209
+/b5125112006ept.txt ept 833 209
+qtd_palavras_dif_lidas: 427
+/2626062006ept.txt ept 834 427
+qtd_palavras_dif_lidas: 199
+/b3604042006ept.txt ept 835 199
+qtd_palavras_dif_lidas: 188
+/a4708112006ept.txt ept 836 188
+qtd_palavras_dif_lidas: 198
+/a4820092006ept.txt ept 837 198
+qtd_palavras_dif_lidas: 27
+/3904012004ept.txt ept 838 27
+qtd_palavras_dif_lidas: 187
+/4515032006ept.txt ept 839 187
+qtd_palavras_dif_lidas: 242
+/4007092005ept.txt ept 840 242
+qtd_palavras_dif_lidas: 135
+/a4204102006ept.txt ept 841 135
+qtd_palavras_dif_lidas: 156
+/c4631082006ept.txt ept 842 156
+qtd_palavras_dif_lidas: 223
+/4121112006ept.txt ept 843 223
+qtd_palavras_dif_lidas: 136
+/b4501122005ept.txt ept 844 136
+qtd_palavras_dif_lidas: 125
+/5905112006ept.txt ept 845 125
+qtd_palavras_dif_lidas: 266
+/3120022006ept.txt ept 846 266
+qtd_palavras_dif_lidas: 159
+/b4510092005ept.txt ept 847 159
+qtd_palavras_dif_lidas: 211
+/2306032006ept.txt ept 848 211
+qtd_palavras_dif_lidas: 156
+/a4311112006ept.txt ept 849 156
+qtd_palavras_dif_lidas: 134
+/d2726062006ept.txt ept 850 134
+qtd_palavras_dif_lidas: 94
+/e4024052006ept.txt ept 851 94
+qtd_palavras_dif_lidas: 45
+/a4626052006ept.txt ept 852 45
+qtd_palavras_dif_lidas: 6
+/c3306022003ept.txt ept 853 6
+qtd_palavras_dif_lidas: 8
+/b4225022004ept.txt ept 854 8
+qtd_palavras_dif_lidas: 7
+/b3917012004ept.txt ept 855 7
+qtd_palavras_dif_lidas: 212
+/2409052005ept.txt ept 856 212
+qtd_palavras_dif_lidas: 23
+/3730012004ept.txt ept 857 23
+qtd_palavras_dif_lidas: 198
+/2628112005ept.txt ept 858 198
+qtd_palavras_dif_lidas: 126
+/b3902022006ept.txt ept 859 126
+qtd_palavras_dif_lidas: 210
+/a2720062005ept.txt ept 860 210
+qtd_palavras_dif_lidas: 130
+/c4229082006ept.txt ept 861 130
+qtd_palavras_dif_lidas: 7
+/d3405022003ept.txt ept 862 7
+qtd_palavras_dif_lidas: 173
+/4209092006ept.txt ept 863 173
+qtd_palavras_dif_lidas: 158
+/3808062005ept.txt ept 864 158
+qtd_palavras_dif_lidas: 6
+/b4125022004ept.txt ept 865 6
+qtd_palavras_dif_lidas: 87
+/a4719032006ept.txt ept 866 87
+qtd_palavras_dif_lidas: 230
+/4606092006ept.txt ept 867 230
+qtd_palavras_dif_lidas: 101
+/a5405082006ept.txt ept 868 101
+qtd_palavras_dif_lidas: 233
+/4006102006ept.txt ept 869 233
+qtd_palavras_dif_lidas: 92
+/b4528032006ept.txt ept 870 92
+qtd_palavras_dif_lidas: 111
+/a2815052006ept.txt ept 871 111
+qtd_palavras_dif_lidas: 202
+/b4618112006ept.txt ept 872 202
+qtd_palavras_dif_lidas: 403
+/3117072006ept.txt ept 873 403
+qtd_palavras_dif_lidas: 447
+/3419062006ept.txt ept 874 447
+qtd_palavras_dif_lidas: 6
+/c2412012004ept.txt ept 875 6
+qtd_palavras_dif_lidas: 451
+/2027062005ept.txt ept 876 451
+qtd_palavras_dif_lidas: 118
+/c4701122005ept.txt ept 877 118
+qtd_palavras_dif_lidas: 253
+/a4901072006ept.txt ept 878 253
+qtd_palavras_dif_lidas: 5
+/a3210012004ept.txt ept 879 5
+qtd_palavras_dif_lidas: 241
+/4321022006ept.txt ept 880 241
+qtd_palavras_dif_lidas: 147
+/b4617112006ept.txt ept 881 147
+qtd_palavras_dif_lidas: 335
+/4410112005ept.txt ept 882 335
+qtd_palavras_dif_lidas: 157
+/5028042006ept.txt ept 883 157
+qtd_palavras_dif_lidas: 94
+/b4127102005ept.txt ept 884 94
+qtd_palavras_dif_lidas: 136
+/b2528112005ept.txt ept 885 136
+qtd_palavras_dif_lidas: 95
+/b4114062006ept.txt ept 886 95
+qtd_palavras_dif_lidas: 184
+/b4719032006ept.txt ept 887 184
+qtd_palavras_dif_lidas: 293
+/2901052006ept.txt ept 888 293
+qtd_palavras_dif_lidas: 63
+/a3929112005ept.txt ept 889 63
+qtd_palavras_dif_lidas: 172
+/a4819032006ept.txt ept 890 172
+qtd_palavras_dif_lidas: 123
+/b2304072005ept.txt ept 891 123
+qtd_palavras_dif_lidas: 221
+/4524112005ept.txt ept 892 221
+qtd_palavras_dif_lidas: 69
+/b5002042006ept.txt ept 893 69
+qtd_palavras_dif_lidas: 201
+/b4623112006ept.txt ept 894 201
+qtd_palavras_dif_lidas: 69
+/a4821092006ept.txt ept 895 69
+qtd_palavras_dif_lidas: 261
+/3019062006ept.txt ept 896 261
+qtd_palavras_dif_lidas: 105
+/a4318082006ept.txt ept 897 105
+qtd_palavras_dif_lidas: 262
+/a3131072006ept.txt ept 898 262
+qtd_palavras_dif_lidas: 6
+/a3723012004ept.txt ept 899 6
+qtd_palavras_dif_lidas: 6
+/d3922012004ept.txt ept 900 6
+qtd_palavras_dif_lidas: 166
+/3604042006ept.txt ept 901 166
+qtd_palavras_dif_lidas: 471
+/2419122005ept.txt ept 902 471
+qtd_palavras_dif_lidas: 5
+/c3504012004ept.txt ept 903 5
+qtd_palavras_dif_lidas: 324
+/4116052006ept.txt ept 904 324
+qtd_palavras_dif_lidas: 221
+/4809062005ept.txt ept 905 221
+qtd_palavras_dif_lidas: 123
+/b4129042005ept.txt ept 906 123
+qtd_palavras_dif_lidas: 381
+/a5211062006ept.txt ept 907 381
+qtd_palavras_dif_lidas: 400
+/2528082006ept.txt ept 908 400
+qtd_palavras_dif_lidas: 184
+/a4118052005ept.txt ept 909 184
+qtd_palavras_dif_lidas: 308
+/b4303112006ept.txt ept 910 308
+qtd_palavras_dif_lidas: 100
+/b2212092005ept.txt ept 911 100
+qtd_palavras_dif_lidas: 152
+/4716072006ept.txt ept 912 152
+qtd_palavras_dif_lidas: 287
+/5626112006ept.txt ept 913 287
+qtd_palavras_dif_lidas: 80
+/a3822062005ept.txt ept 914 80
+qtd_palavras_dif_lidas: 216
+/4229082006ept.txt ept 915 216
+qtd_palavras_dif_lidas: 205
+/3509092005ept.txt ept 916 205
+qtd_palavras_dif_lidas: 131
+/c4606082005ept.txt ept 917 131
+qtd_palavras_dif_lidas: 413
+/4516062006ept.txt ept 918 413
+qtd_palavras_dif_lidas: 364
+/4527062006ept.txt ept 919 364
+qtd_palavras_dif_lidas: 190
+/a4710062005ept.txt ept 920 190
+qtd_palavras_dif_lidas: 285
+/3212062006ept.txt ept 921 285
+qtd_palavras_dif_lidas: 117
+/a2827062005ept.txt ept 922 117
+qtd_palavras_dif_lidas: 103
+/a4427042006ept.txt ept 923 103
+qtd_palavras_dif_lidas: 172
+/a4730112006ept.txt ept 924 172
+qtd_palavras_dif_lidas: 6
+/a3504022003ept.txt ept 925 6
+qtd_palavras_dif_lidas: 218
+/2606112006ept.txt ept 926 218
+qtd_palavras_dif_lidas: 252
+/c2626062006ept.txt ept 927 252
+qtd_palavras_dif_lidas: 161
+/a3811052005ept.txt ept 928 161
+qtd_palavras_dif_lidas: 261
+/4411072006ept.txt ept 929 261
+qtd_palavras_dif_lidas: 265
+/b3130052005ept.txt ept 930 265
+qtd_palavras_dif_lidas: 86
+/c2701052006ept.txt ept 931 86
+qtd_palavras_dif_lidas: 282
+/5119032006ept.txt ept 932 282
+qtd_palavras_dif_lidas: 102
+/d4107062005ept.txt ept 933 102
+qtd_palavras_dif_lidas: 162
+/2727112006ept.txt ept 934 162
+qtd_palavras_dif_lidas: 123
+/a4929092006ept.txt ept 935 123
+qtd_palavras_dif_lidas: 47
+/b2624042006ept.txt ept 936 47
+qtd_palavras_dif_lidas: 126
+/d4606042006ept.txt ept 937 126
+qtd_palavras_dif_lidas: 92
+/a5015102006ept.txt ept 938 92
+qtd_palavras_dif_lidas: 81
+/c4009112006ept.txt ept 939 81
+qtd_palavras_dif_lidas: 220
+/4423032006ept.txt ept 940 220
+qtd_palavras_dif_lidas: 121
+/3831122005ept.txt ept 941 121
+qtd_palavras_dif_lidas: 132
+/b3827042005ept.txt ept 942 132
+qtd_palavras_dif_lidas: 200
+/a4325052006ept.txt ept 943 200
+qtd_palavras_dif_lidas: 208
+/b4203082005ept.txt ept 944 208
+qtd_palavras_dif_lidas: 6
+/c3922012004ept.txt ept 945 6
+qtd_palavras_dif_lidas: 220
+/4213082006ept.txt ept 946 220
+qtd_palavras_dif_lidas: 382
+/5310062006ept.txt ept 947 382
+qtd_palavras_dif_lidas: 112
+/4702072006ept.txt ept 948 112
+qtd_palavras_dif_lidas: 220
+/4322112005ept.txt ept 949 220
+qtd_palavras_dif_lidas: 79
+/c4330052006ept.txt ept 950 79
+qtd_palavras_dif_lidas: 116
+/2822052006ept.txt ept 951 116
+qtd_palavras_dif_lidas: 143
+/a4411112006ept.txt ept 952 143
+qtd_palavras_dif_lidas: 286
+/2523102006ept.txt ept 953 286
+qtd_palavras_dif_lidas: 102
+/d2528112005ept.txt ept 954 102
+qtd_palavras_dif_lidas: 5
+/a2326012004ept.txt ept 955 5
+qtd_palavras_dif_lidas: 89
+/e5028042006ept.txt ept 956 89
+qtd_palavras_dif_lidas: 33
+/b4018052006ept.txt ept 957 33
+qtd_palavras_dif_lidas: 406
+/4416092005ept.txt ept 958 406
+qtd_palavras_dif_lidas: 5
+/b3508012004ept.txt ept 959 5
+qtd_palavras_dif_lidas: 212
+/4830072006ept.txt ept 960 212
+qtd_palavras_dif_lidas: 295
+/a4520062006ept.txt ept 961 295
+qtd_palavras_dif_lidas: 100
+/a4611112006ept.txt ept 962 100
+qtd_palavras_dif_lidas: 460
+/4203052005ept.txt ept 963 460
+qtd_palavras_dif_lidas: 183
+/c4404082006ept.txt ept 964 183
+qtd_palavras_dif_lidas: 140
+/a4423112006ept.txt ept 965 140
+qtd_palavras_dif_lidas: 250
+/4029032006ept.txt ept 966 250
+qtd_palavras_dif_lidas: 152
+/a2520112006ept.txt ept 967 152
+qtd_palavras_dif_lidas: 263
+/a2422052006ept.txt ept 968 263
+qtd_palavras_dif_lidas: 167
+/b4207062006ept.txt ept 969 167
+qtd_palavras_dif_lidas: 273
+/4224012006ept.txt ept 970 273
+qtd_palavras_dif_lidas: 325
+/5630042005ept.txt ept 971 325
+qtd_palavras_dif_lidas: 106
+/b2409052005ept.txt ept 972 106
+qtd_palavras_dif_lidas: 7
+/e3420012004ept.txt ept 973 7
+qtd_palavras_dif_lidas: 392
+/4401112006ept.txt ept 974 392
+qtd_palavras_dif_lidas: 175
+/5223072006ept.txt ept 975 175
+qtd_palavras_dif_lidas: 138
+/a5107052006ept.txt ept 976 138
+qtd_palavras_dif_lidas: 3
+/a2603022003ept.txt ept 977 3
+qtd_palavras_dif_lidas: 249
+/4804112006ept.txt ept 978 249
+qtd_palavras_dif_lidas: 349
+/4819092006ept.txt ept 979 349
+qtd_palavras_dif_lidas: 6
+/b3421012004ept.txt ept 980 6
+qtd_palavras_dif_lidas: 162
+/a4206102006ept.txt ept 981 162
+qtd_palavras_dif_lidas: 136
+/a4521092006ept.txt ept 982 136
+qtd_palavras_dif_lidas: 308
+/3206032006ept.txt ept 983 308
+qtd_palavras_dif_lidas: 271
+/4830032006ept.txt ept 984 271
+qtd_palavras_dif_lidas: 190
+/4308032006ept.txt ept 985 190
+qtd_palavras_dif_lidas: 186
+/2415052006ept.txt ept 986 186
+qtd_palavras_dif_lidas: 40
+/b2427032006ept.txt ept 987 40
+qtd_palavras_dif_lidas: 158
+/a4207042006ept.txt ept 988 158
+qtd_palavras_dif_lidas: 314
+/3115052006ept.txt ept 989 314
+qtd_palavras_dif_lidas: 413
+/2906032006ept.txt ept 990 413
+qtd_palavras_dif_lidas: 191
+/5030042006ept.txt ept 991 191
+qtd_palavras_dif_lidas: 21
+/4118012004ept.txt ept 992 21
+qtd_palavras_dif_lidas: 303
+/4324112006ept.txt ept 993 303
+qtd_palavras_dif_lidas: 21
+/2202022004ept.txt ept 994 21
+qtd_palavras_dif_lidas: 132
+/a4022032006ept.txt ept 995 132
+qtd_palavras_dif_lidas: 211
+/4225112005ept.txt ept 996 211
+qtd_palavras_dif_lidas: 102
+/b3426062006ept.txt ept 997 102
+qtd_palavras_dif_lidas: 78
+/d3922032006ept.txt ept 998 78
+qtd_palavras_dif_lidas: 280
+/5902072006ept.txt ept 999 280
 bem vindo ao buscador
 
 Escolha uma opcao:

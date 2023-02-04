@@ -119,10 +119,8 @@ void Hash_escreve_bin(tHashPalavras *hash, FILE *file)
         }
     }
 }
-tHashPalavras *Hash_le_bin(char *nomeBin)
+tHashPalavras *Hash_le_bin(FILE * arqIndices)
 {
-    FILE *arqIndices = fopen(nomeBin, "rb");
-
     int qtd;
     int idcMax;
     tHashPalavras *hash = calloc(1,sizeof(tHashPalavras));
@@ -133,10 +131,9 @@ tHashPalavras *Hash_le_bin(char *nomeBin)
         tPalavra *palavra = Palavra_le_binario(arqIndices);
         Hash_recria(hash, palavra);
     }
-
-    fclose(arqIndices);
     return hash;
 }
+
 
 void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
 {
