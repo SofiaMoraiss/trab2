@@ -59,9 +59,7 @@ char *Palavra_get_nome(tPalavra *palavra)
 
 double Palavra_get_tf_idf(tPalavra *palavra, int doc)
 {
-
     return palavra->tf_idf[doc];
-    return 10;
 }
 
 double *Palavra_get_vetTFIDF(tPalavra *p) { return p->tf_idf; }
@@ -119,7 +117,7 @@ void Palavra_imprime(tPalavra *p)
     printf("INDICES :");
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
-        
+        //printf("%lf",p->tf_idf[i]);
         printf("%d, ", p->vetDocumentos[i]);
         //printf("--------");
         //printf("%d\n", p->qtd_ocorrencias[i]);
@@ -134,13 +132,17 @@ tPalavra *Palavra_le_binario(FILE *arquivo)
     fread(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
     fread(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
     p->vetDocumentos=calloc(p->qtd_documentos_q_aparece,sizeof(int));
-    //p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
-    p->qtd_ocorrencias=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    p->qtd_ocorrencias=calloc(p->qtd_documentos_q_aparece,sizeof(int));
     int tam;
     fread(&tam,sizeof(int),1,arquivo);
     fread(p->nome, sizeof(char),tam, arquivo);
     fread(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    //fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    //printf("%d\n",p->qtd_documentos_q_aparece);
+    // for(int i=0;i<p->qtd_documentos_q_aparece;i++){
+    //     printf("O Q TA LENDO:%lf\n\n",p->tf_idf[i]);
+    // }
     fread(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 
     return p;
@@ -157,7 +159,7 @@ void Palavra_escreve_binario(tPalavra *p, FILE *arquivo)
     fwrite(&tam,sizeof(int),1,arquivo);
     fwrite(p->nome, sizeof(char), tam, arquivo);
     fwrite(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    //fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo); // resolver função de criar tf_idf
+    fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo); // resolver função de criar tf_idf
     fwrite(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 }
 int Palavra_get_num_bytes()
@@ -171,9 +173,10 @@ int Palavra_get_idc_doc(tPalavra *p,int idc)
 }
 
 void Palavra_imprime_idfs(tPalavra * p){
+    printf("--%d--\n\n",p->qtd_documentos_q_aparece);
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
-        printf("TF-IDF[%d]= %lf    QTD_OC[%d]= %d\n", i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
+        printf("APARECE NO DOC:%d TF-IDF[%d]= %lf  QTD_OC[%d]= %d\n",p->vetDocumentos[i], i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
     }
 }
 
