@@ -15,11 +15,14 @@ void Palavra_adiciona_ocorrencia(tPalavra *, int);
 void Palavra_imprime(tPalavra *);
 int Palavra_compara(const void *, const void *);
 int Palavra_get_num_bytes();
+//recebe palavra e o indice no p->vetDoc e retorna o indice do doc
+void Palavra_imprime_idfs(tPalavra * );
+int Palavra_get_idc_doc(tPalavra *, int );
 tPalavra *Palavra_constroi_todos_TFIDFs(tPalavra *, int);
 double Palavra_calcula_1tf_idf(int, int, int);
-double *Palavra_get_vetTFIDF(tPalavra *p);
+double *Palavra_get_vetTFIDF(tPalavra *);
 tPalavra * Palavra_costrutor();
-void Palavra_escreve_binario(tPalavra * p,FILE * arquivo);
-tPalavra * Palavra_le_binario(FILE  * arquivo);
-int Palavra_get_tam(tPalavra *palavra);
+void Palavra_escreve_binario(tPalavra * , FILE * );
+tPalavra * Palavra_le_binario(FILE  * );
+int Palavra_get_tam(tPalavra *);
 #endif

@@ -23,7 +23,6 @@ struct documento {
   int qtd_palavras_dif_lidas;
   int qtd_palavras_total;
   int qtd_palavras_dif_alocadas;
-  //tPalavra ** vetPalavras;
 
   struct palavra * palavras;
 };
@@ -65,11 +64,8 @@ tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
   if (lidas>=alocadas){
     alocadas*=2;
     d->palavras=realloc(d->palavras, alocadas*sizeof(dPalavra));
-    /*for (int i=lidas; i<alocadas; i++){
-      d->palavras[i].qtd_ocorrencias_palavras=0;
-      d->palavras[i].tf_idf=0;
-    }*/
   }
+  //printf("DOC '%s': LIDAS %d E ALOCADAS %d\n", d->nome, lidas, alocadas);
 
   d->qtd_palavras_total++;
   d->qtd_palavras_dif_alocadas=alocadas;
@@ -83,15 +79,59 @@ tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
 
 void Documento_imprime_palavras(tDocumento *d){
 
-  printf("qtd_palavras_dif_lidas: %d\n", d->qtd_palavras_dif_lidas);
+  //printf("qtd_palavras_dif_lidas: %d\n", d->qtd_palavras_dif_lidas);
   for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
-    printf("PALAVRA '%s': %d vezes TF-IDF: %lf\n", d->palavras[i].palavra, d->palavras[i].qtd_ocorrencias_palavras, d->palavras[i].tf_idf);
+    //printf("PALAVRA '%s': %d vezes TF-IDF: %lf\n", d->palavras[i].palavra, d->palavras[i].qtd_ocorrencias_palavras, d->palavras[i].tf_idf);
+  }
+}
+
+void Documento_soma_tfidf(Docf * vet_soma_busca,int idcDoc,double tf_idf){
+  vet_soma_busca[idcDoc].tfidfBsucas+=tf_idf;
+  //vet_soma_busca[idcDoc]->tfidfBsucas+=tf_idf;
+}
+
+void Documento_imprime_docf(Docf * vet_soma_busca,int qtdDocs){
+  for(int i=qtdDocs-1;i>qtdDocs-10;i--){
+    printf("tf_idf: %lf\n",vet_soma_busca[i].tfidfBsucas);
+    printf("indice do documento: %d\n",vet_soma_busca[i].idcDoc);
   }
 }
 
 void Documento_destroi(tDocumento * d) {
   free(d->palavras);
   free(d);
+}
+
+void   Documento_destroi_idc(tDocumento ** vetDocumentos,int qtdDocsLidos){
+  for(int i=0;i<qtdDocsLidos;i++){
+    Documento_destroi(vetDocumentos[i]);
+  }
+  free(vetDocumentos);
+}
+
+tDocumento * Documento_le_bin(FILE * file){
+  tDocumento * documento=calloc(1,sizeof(tDocumento));
+  int tam;
+  fread(&tam,sizeof(int),1,file);
+  printf("%d---",tam);
+
+  fread(documento->nome,sizeof(char),tam,file);
+  fread(documento->classe,sizeof(char),4,file);
+  fread(&documento->indiceNaLista,sizeof(int),1,file);
+  fread(&documento->qtd_palavras_dif_lidas,sizeof(int),1,file);
+  fread(&documento->qtd_palavras_total,sizeof(int),1,file);
+  //fread(documento->palavras,sizeof(dPalavra),documento->qtd_palavras_dif_lidas,file);
+  return documento;
+}
+
+tDocumento ** Documento_le_indice(FILE * file,int * qtd){
+      fread(qtd,sizeof(int),1,file);
+      tDocumento ** vetDocumentos=calloc(*(qtd),sizeof(tDocumento*));     
+      for(int i=0;i<*(qtd);i++){
+        vetDocumentos[i]=Documento_le_bin(file);
+      }
+      return vetDocumentos;
+      
 }
 
 char *Documento_get_nome(tDocumento* d){ return d->nome; }
@@ -118,7 +158,14 @@ int Documento_Tem_palavra_documento(tDocumento * documento,char * p){
     return 0;
 }
 
-tDocumento * Documento_atribui_tf_idf(tDocumento* d, int idc, int tfidf){
-  d->palavras[idc].tf_idf=tfidf;
-  return d;
+void Documento_atribui_tf_idf(tDocumento* d, char* palavra, double tfidf){
+  int i=0;
+  for (; i<d->qtd_palavras_dif_lidas; i++){
+    if (!strcmp(palavra, d->palavras[i].palavra)){
+      d->palavras[i].tf_idf=tfidf;
+      break;
+    }
+  }
+  //printf("Documento '%d', palavra: %s , tf-idf: %lf  \n", d->indiceNaLista, d->palavras[i].palavra, d->palavras[i].tf_idf);
+
 }

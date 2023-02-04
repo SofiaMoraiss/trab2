@@ -12,7 +12,7 @@ struct palavra
     int qtd_documentos_q_aparece;
     int n_do_ultimo_doc_q_aparece;
 
-    int *vetDocumentos;
+    int *vetDocumentos; // indices dos documentos q aparece
     int *qtd_ocorrencias; // frequencia de uma palavra em cada documento
     double *tf_idf;
 };
@@ -30,7 +30,7 @@ tPalavra *Palavra_constroi(char *nome)
     tPalavra *d = calloc(1, sizeof(tPalavra));
     strcpy(d->nome, nome);
     d->qtd_ocorrencias = calloc(100, sizeof(int));
-    d->tf_idf = calloc(100, sizeof(int));
+    d->tf_idf = calloc(100, sizeof(double));
     d->vetDocumentos = calloc(100, sizeof(int));
 
     d->qtd_documentos_alocados = 100;
@@ -55,13 +55,7 @@ char *Palavra_get_nome(tPalavra *palavra)
 double Palavra_get_tf_idf(tPalavra *palavra, int doc)
 {
 
-    for (int i = 0; i < palavra->qtd_documentos_q_aparece; i++)
-    {
-        if (palavra->vetDocumentos[i] == doc)
-        {
-            return palavra->tf_idf[doc];
-        }
-    }
+    return palavra->tf_idf[doc];
     return 10;
 }
 
@@ -91,6 +85,13 @@ void Palavra_adiciona_ocorrencia(tPalavra *p, int doc)
         p->vetDocumentos = realloc(p->vetDocumentos, p->qtd_documentos_alocados * sizeof(int));
         p->qtd_ocorrencias = realloc(p->qtd_ocorrencias, p->qtd_documentos_alocados * sizeof(int));
         p->tf_idf = realloc(p->tf_idf, p->qtd_documentos_alocados * sizeof(double));
+        for (int i = p->qtd_documentos_q_aparece; i < p->qtd_documentos_alocados; i++)
+        {
+            p->qtd_ocorrencias[i] = 0;            
+            p->tf_idf[i] = 0.0;            
+            p->vetDocumentos[i] = 0;            
+
+        }
     }
     int idc = p->qtd_documentos_q_aparece;
     p->vetDocumentos[idc] = doc;
@@ -105,22 +106,18 @@ void Palavra_adiciona_ocorrencia(tPalavra *p, int doc)
 void Palavra_imprime(tPalavra *p)
 {
     printf("%s\n", p->nome);
-    printf("%d\n", p->qtd_documentos_q_aparece);
+    printf("INDICES :");
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
-        printf("%d\n", p->vetDocumentos[i]);
-        printf("--------");
+        
+        printf("%d, ", p->vetDocumentos[i]);
+        //printf("--------");
         //printf("%d\n", p->qtd_ocorrencias[i]);
+        
     }
+    printf("\n");
 }
-tPalavra *Palavra_construtor()
-{
-    tPalavra *d = calloc(1, sizeof(tPalavra));
-    d->qtd_ocorrencias = calloc(100, sizeof(int));
-    d->tf_idf = calloc(100, sizeof(int));
-    d->vetDocumentos = calloc(100, sizeof(int));
-    return d;
-}
+
 tPalavra *Palavra_le_binario(FILE *arquivo)
 {
      tPalavra *p = calloc(1, sizeof(tPalavra));
@@ -162,15 +159,27 @@ int Palavra_get_num_bytes()
     return sizeof(tPalavra);
 }
 
+int Palavra_get_idc_doc(tPalavra *p,int idc)
+{
+    return p->vetDocumentos[idc];
+}
+
+void Palavra_imprime_idfs(tPalavra * p){
+    for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
+    {
+        printf("TF-IDF[%d]= %lf    QTD_OC[%d]= %d\n", i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
+    }
+}
+
 tPalavra *Palavra_constroi_todos_TFIDFs(tPalavra *p, int qtdTotalDocs)
 {
-    printf("\n\nPALAVRA: ");
-    Palavra_imprime(p);
-    printf("QTD DOCS Q APARECE: %d\n", p->qtd_documentos_q_aparece);
+    //printf("\n\nPALAVRA: ");
+    //Palavra_imprime(p);
+    //printf("QTD DOCS Q APARECE: %d\n", p->qtd_documentos_q_aparece);
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
         p->tf_idf[i] = Palavra_calcula_1tf_idf(p->qtd_ocorrencias[i], qtdTotalDocs, p->qtd_documentos_q_aparece);
-        printf("TF-IDF[%d]= %lf    QTD_OC[%d]= %d\n", i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
+        //printf("TF-IDF[%d]= %lf    QTD_OC[%d]= %d\n", i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
     }
     return p;
 }
@@ -178,11 +187,11 @@ tPalavra *Palavra_constroi_todos_TFIDFs(tPalavra *p, int qtdTotalDocs)
 double Palavra_calcula_1tf_idf(int tf, int nTotaldeDocs, int qtdDocsAparece)
 {
 
-    int df = qtdDocsAparece;
-    int n = nTotaldeDocs;
+    float df = qtdDocsAparece;
+    float n = nTotaldeDocs;
     double TF_IDF = 0;
 
-    double idf = log((1 + n) / (1 + df));
+    double idf = log((1.0 + n) / (1.0 + df))+1;
 
     TF_IDF = tf * idf;
 

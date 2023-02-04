@@ -13,17 +13,12 @@ struct listas
   int qtd_palavras_lidas;
   int qtd_docs_alocados;
   tHashPalavras *hash;
-  tDocsAux *vetDocsAux;
-  tPalavrasAux *vetPalavrasAux;
+  tNoAux *vetDocsAux;
+  tNoAux *vetPalavrasAux;
 };
 
-struct docsAux {
+struct noAux {
   int idc;
-  int qtd_palavras;
-};
-
-struct palavrasAux {
-  int Idc;
   int qtd_palavras;
 };
 
@@ -134,32 +129,37 @@ tHashPalavras *Listas_get_hash(tListas *lista)
   return lista->hash;
 }
 
-void Listas_busca_noticia(tListas * lista, char * frase){
-  char * aux;
-  tHashPalavras * hash=Listas_get_hash(lista);
-  aux =strtok(frase," ");
-  int indice,i=0;
-  int indiceDoc=0;
-  
-
-  //ao sair desse laço temos o valor os valores tfidf para aquela busca em todos os documentos
-  while(i<lista->qtd_docs_lidos){
-    int soma_Tf_idf_digitadas=0;
-    //Ao sair desse laço temos o valor de um tf idf para aquela busca em um documento
-    while(aux){
-      if(Documento_Tem_palavra_documento(lista->vetDocumentos[i],aux)){
-        tPalavra *palavra=Hash_get_palavra(Hash_get_no_palavra(hash,indice));
-          soma_Tf_idf_digitadas+=Palavra_get_tf_idf(palavra,indiceDoc);
+void Listas_busca_noticia(tHashPalavras * hash,int qtd){
+  Docf *vet_soma_busca=calloc(qtd,Documento_get_numBytes());
+  printf("quanto de documento %d\n",qtd);
+  int idcDoc;
+  double tf_idf;
+  char frase[50];
+  char c;
+  do{
+      scanf("%s%c",frase,&c);
+      printf("%c\n",c);
+      printf("%s\n",frase);
+      tPalavra * palavra=Hash_procura_palavra(frase,hash);
+      if(!palavra){
+        printf("nao tem palavra!\n");
+        return;
       }
-      aux=strtok(NULL," ");
-    }
-    //imprimir os indices ordenados conformes os 10 primeiros valores
-    //ImprimeBusca();
-    indiceDoc++;
-  }
-  //qsort(vet_tf_idf,lista->qtd_docs_lidos,sizeof(double),comparaDouble);
-  //ImprimeBusca(vet_tf_idf);
+      Palavra_imprime(palavra);
+
+      for(int i=0;i<Palavra_get_qtd_docs_q_aparece(palavra);i++){
+        idcDoc=Palavra_get_idc_doc(palavra,i);
+        tf_idf=0.0;
+        //tf_idf=Palavra_get_tf_idf(palavra,idcDoc);
+        Documento_soma_tfidf(vet_soma_busca,idcDoc,tf_idf);
+      }
+  }while(c!='\n');
+    //qsort(vet_soma_busca,qtd,Docf_get_numBytes(),Documento_compara);
+    Documento_imprime_docf(vet_soma_busca,qtd);
+    free(vet_soma_busca);
 }
+
+//lalal
 tListas *Listas_calcula_tf_idfs(tListas *l)
 {
 
@@ -173,57 +173,52 @@ tListas *Listas_calcula_tf_idfs(tListas *l)
       {
         tPalavra *p = Hash_get_palavra(temp);
         p = Palavra_constroi_todos_TFIDFs(p, l->qtd_docs_lidos);
-        temp = Hash_atribui_prox_no(temp);
-      }
-    }
-  }
+        //printf("opa\n");
+        //Palavra_imprime_idfs(p);
 
-  // ESSA SEGUNDA PARTE DA FUNÇÃO ATRIBUI OS VALORES CALCULADOS DE TD-IDF PRA CADA PALAVRA DE CADA DOCUMENTO
-  char palTemp[50];
-  int idcTemp;
-  double tfidf;
-  for (int i = 0; i < l->qtd_docs_lidos; i++)
-  {
-    printf("\n\n----------DOC %d -----------------\n\n", i);
-    for (int j = 0; j < Documento_get_qtd_palavras(l->vetDocumentos[i]); j++)
-    {
-      strcpy(palTemp, Documento_get_nome_palavra(l->vetDocumentos[i], j));
-      idcTemp = Hash_cria_indice(palTemp);
-
-      tListaPalavra *temp = Hash_get_no_palavra(hash, idcTemp);
-      while (temp != NULL)
-      {
-        tPalavra *Palavra = Hash_get_palavra(temp);
-        char nomePal[50];
-        strcpy(nomePal, Palavra_get_nome(Palavra));
-
-        if (strcmp(nomePal, palTemp) == 0)
-        {
-          tfidf = Palavra_get_tf_idf(Palavra, Documento_get_indice(l->vetDocumentos[i]));
-          printf("%s TF: %lf\n", nomePal, tfidf);
-          l->vetDocumentos[i] = Documento_atribui_tf_idf(l->vetDocumentos[i], j, tfidf);
-          // Documento_imprime_palavras(l->vetDocumentos[i]);
+        int idcDoc;
+        double idf;
+        for (int i=0; i<Palavra_get_qtd_docs_q_aparece(p); i++){
+          idcDoc=Palavra_get_idc_doc(p, i);
+          idf=Palavra_get_tf_idf(p, i);
+          Documento_atribui_tf_idf(l->vetDocumentos[idcDoc],Palavra_get_nome(p), idf);
         }
+
         temp = Hash_atribui_prox_no(temp);
       }
     }
   }
+
+// PRA CHECAR OS TF-IDFS
+ /* for(int j=0; j<l->qtd_docs_lidos; j++){
+
+    Documento_imprime_palavras(l->vetDocumentos[j]);
+  }*/
 
   return l;
 }
 
-void Listas_imprime_relatorio_palavra(char *nome, tListas *l)
+/*void Listas_imprime_relatorio_palavra(char *nome, tListas *l)
 {
 
   tPalavra *p = Hash_procura_palavra(nome, l->hash);
+
   printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
   printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
-}
+
+  l->vetPalavrasAux=calloc(Palavra_get_qtd_docs_q_aparece(p), sizeof(tNoAux));
+    for (int i = 0; i < l->qtd_docs_lidos; i++)
+    {
+        l->vetDocsAux[i].qtd_palavras=Documento_get_qtd_palavras_total(l->vetDocumentos[i]);
+        l->vetDocsAux[i].idc=Documento_get_indice(l->vetDocumentos[i]);
+    }
+    qsort(l->vetDocsAux, l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
+}*/
 
 int ordena(const void *docA, const void *docB)
 {
-  tDocsAux A=*(tDocsAux*)docA;
-  tDocsAux B=*(tDocsAux*)docB;
+  tNoAux A=*(tNoAux*)docA;
+  tNoAux B=*(tNoAux*)docB;
 
     return (B.qtd_palavras - A.qtd_palavras);
 
@@ -231,7 +226,7 @@ int ordena(const void *docA, const void *docB)
 
 void Listas_imprime_relatorio_documentos(tListas *l)
 {
-  l->vetDocsAux=calloc(l->qtd_docs_lidos, sizeof(tDocsAux));
+  l->vetDocsAux=calloc(l->qtd_docs_lidos, sizeof(tNoAux));
     for (int i = 0; i < l->qtd_docs_lidos; i++)
     {
         l->vetDocsAux[i].qtd_palavras=Documento_get_qtd_palavras_total(l->vetDocumentos[i]);

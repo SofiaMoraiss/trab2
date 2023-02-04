@@ -7,8 +7,8 @@
 #include "tPalavra.h"
 
 typedef struct listas tListas;
-typedef struct docsAux tDocsAux;
-typedef struct palavrasAux tPalavrasAux;
+typedef struct noAux tNoAux;
+
 
 tListas *Listas_adiciona_doc(tListas *, tDocumento *);
 tListas *Listas_constroi();
@@ -23,5 +23,5 @@ void Listas_imprime_vet_palavras(tListas *);
 void Listas_ordena_vetor(tListas *);
 void Listas_gera_binario(tListas *, char *);
 tListas *Listas_calcula_tf_idfs(tListas * );
-void Listas_busca_noticia(tListas * , char * );
+void Listas_busca_noticia(tHashPalavras * ,int );
 void Listas_imprime_relatorio_documentos(tListas *);

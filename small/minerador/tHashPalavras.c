@@ -119,28 +119,19 @@ void Hash_escreve_bin(tHashPalavras *hash, FILE *file)
         }
     }
 }
-tHashPalavras *Hash_le_bin(char *nomeBin)
+tHashPalavras *Hash_le_bin(FILE * arqIndices)
 {
-    FILE *arqIndices = fopen(nomeBin, "rb");
-
     int qtd;
     int idcMax;
-    tHashPalavras *hash = Hash_cria();
+    tHashPalavras *hash = calloc(1,sizeof(tHashPalavras));
     fread(&hash->qtdPalavrasLidas, sizeof(int), 1, arqIndices);
     fread(&hash->indiceMaximo, sizeof(int), 1, arqIndices);
-    // for (int i = 0; i < hash->qtdPalavrasLidas; i++)
-    // {
-    //     hash->hashmap_lista[i]=NULL;
-    // };
-    for (int i = 0; i < hash->qtdPalavrasLidas; i++)
-    {
+    hash->hashmap_lista=calloc(hash->indiceMaximo,sizeof(tListaPalavra*));
+    for(int i=0; i<hash->qtdPalavrasLidas;i++){
         tPalavra *palavra = Palavra_le_binario(arqIndices);
-        //Hash_cria_indice(Palavra_get_nome(palavra));
-        //Hash_recria(hash, palavra);
-        Palavra_imprime(palavra);
-    };
-
-    fclose(arqIndices);
+        Hash_recria(hash, palavra);
+    }
+    return hash;
 }
 
 void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
