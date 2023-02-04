@@ -13,9 +13,9 @@ programa: indice.c buscador.c libminerador.a
 clean:
 	rm -f main libminerador minerador.a minerador/*.o *.o
 val1:
-	valgrind --leak-check=full ./indice tiny/train.txt indice.bin > output.txt
+	valgrind --leak-check=full ./indice tiny/train.txt indice.bin > output.txt1
 val2:
-	valgrind --leak-check=full ./buscador indice.bin > output.txt
+	valgrind --leak-check=full ./buscador indice.bin > output.txt2
 run1:
 	./indice tiny/train.txt indice.bin > output.txt
 run2:

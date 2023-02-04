@@ -8,7 +8,7 @@
 int main(int argc, char * argv[]){
     FILE * arqIndices=fopen(argv[1],"rb");
     tHashPalavras * hash=Hash_le_bin(argv[1]);
-    //Hash_imprime(hash,0);
+    Hash_imprime(hash,0);
     //Listas_imprime_vet_palavras(lista);
     //LeIndices(arqIndices,lista);
     int escolha;

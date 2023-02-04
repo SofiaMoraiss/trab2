@@ -125,30 +125,22 @@ tHashPalavras *Hash_le_bin(char *nomeBin)
 
     int qtd;
     int idcMax;
-    tHashPalavras *hash = Hash_cria();
+    tHashPalavras *hash = calloc(1,sizeof(tHashPalavras));
     fread(&hash->qtdPalavrasLidas, sizeof(int), 1, arqIndices);
     fread(&hash->indiceMaximo, sizeof(int), 1, arqIndices);
-    // for (int i = 0; i < hash->qtdPalavrasLidas; i++)
-    // {
-    //     hash->hashmap_lista[i]=NULL;
-    // };
-    for (int i = 0; i < hash->qtdPalavrasLidas; i++)
-    {
+    hash->hashmap_lista=calloc(hash->indiceMaximo,sizeof(tListaPalavra*));
+    for(int i=0; i<hash->qtdPalavrasLidas;i++){
         tPalavra *palavra = Palavra_le_binario(arqIndices);
-        //Hash_cria_indice(Palavra_get_nome(palavra));
-        //Hash_recria(hash, palavra);
-        Palavra_imprime(palavra);
-    };
+        Hash_recria(hash, palavra);
+    }
 
     fclose(arqIndices);
+    return hash;
 }
 
 void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
 {
-    Palavra_imprime(pal);
     int indice = Hash_cria_indice(Palavra_get_nome(pal));
-
-    // printf("'%s': indice %d\n", palavra, indice);
     if (hashPalavras->hashmap_lista[indice] == NULL)
     {
         hashPalavras->hashmap_lista[indice] = calloc(1, sizeof(tListaPalavra));
@@ -242,7 +234,7 @@ void Hash_imprime(tHashPalavras *hashPalavras, int documento)
             tListaPalavra *temp = hashPalavras->hashmap_lista[i];
             while (temp != NULL)
             {
-                // printf("%s (%d)\n", get_nome(temp->palavra), get_ocorrencia(temp->palavra, documento));
+                printf("%s (%d)\n", Palavra_get_nome(temp->palavra), Palavra_get_ocorrencia(temp->palavra, documento));
                 temp = temp->next;
             }
         }

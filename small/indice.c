@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
    // l = Listas_calcula_tf_idfs(l);
 
     Listas_gera_binario(l, argv[2]);
-
+    Hash_imprime(Listas_get_hash(l),0);
     Listas_imprime_relatorio_documentos(l);
 
     Listas_destroi(l);
