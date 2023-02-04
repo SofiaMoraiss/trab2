@@ -13,7 +13,7 @@ struct palavra
     int qtd_documentos_q_aparece;
     int n_do_ultimo_doc_q_aparece;
 
-    int *vetDocumentos;
+    int *vetDocumentos; // indices dos documentos q aparece
     int *qtd_ocorrencias; // frequencia de uma palavra em cada documento
     double *tf_idf;
 };
@@ -35,7 +35,7 @@ tPalavra *Palavra_constroi(char *nome)
     tPalavra *d = calloc(1, sizeof(tPalavra));
     strcpy(d->nome, nome);
     d->qtd_ocorrencias = calloc(100, sizeof(int));
-    d->tf_idf = calloc(100, sizeof(int));
+    d->tf_idf = calloc(100, sizeof(double));
     d->vetDocumentos = calloc(100, sizeof(int));
 
     d->qtd_documentos_alocados = 100;
@@ -119,7 +119,7 @@ void Palavra_imprime(tPalavra *p)
     printf("INDICES :");
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
-        
+        //printf("%lf",p->tf_idf[i]);
         printf("%d, ", p->vetDocumentos[i]);
         //printf("--------");
         //printf("%d\n", p->qtd_ocorrencias[i]);
@@ -128,27 +128,23 @@ void Palavra_imprime(tPalavra *p)
     printf("\n");
 }
 
-tPalavra *Palavra_construtor()
-{
-    tPalavra *d = calloc(1, sizeof(tPalavra));
-    d->qtd_ocorrencias = calloc(100, sizeof(int));
-    d->tf_idf = calloc(100, sizeof(int));
-    d->vetDocumentos = calloc(100, sizeof(int));
-    return d;
-}
 tPalavra *Palavra_le_binario(FILE *arquivo)
 {
      tPalavra *p = calloc(1, sizeof(tPalavra));
     fread(&p->n_do_ultimo_doc_q_aparece, sizeof(int), 1, arquivo);
     fread(&p->qtd_documentos_q_aparece, sizeof(int), 1, arquivo);
     p->vetDocumentos=calloc(p->qtd_documentos_q_aparece,sizeof(int));
-    //p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
-    p->qtd_ocorrencias=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    p->tf_idf=calloc(p->qtd_documentos_q_aparece,sizeof(double));
+    p->qtd_ocorrencias=calloc(p->qtd_documentos_q_aparece,sizeof(int));
     int tam;
     fread(&tam,sizeof(int),1,arquivo);
     fread(p->nome, sizeof(char),tam, arquivo);
     fread(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    //fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
+    //printf("%d\n",p->qtd_documentos_q_aparece);
+    // for(int i=0;i<p->qtd_documentos_q_aparece;i++){
+    //     printf("O Q TA LENDO:%lf\n\n",p->tf_idf[i]);
+    // }
     fread(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 
     return p;
@@ -165,7 +161,7 @@ void Palavra_escreve_binario(tPalavra *p, FILE *arquivo)
     fwrite(&tam,sizeof(int),1,arquivo);
     fwrite(p->nome, sizeof(char), tam, arquivo);
     fwrite(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
-    //fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo); // resolver função de criar tf_idf
+    fwrite(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo); // resolver função de criar tf_idf
     fwrite(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 }
 int Palavra_get_num_bytes()
@@ -179,9 +175,10 @@ int Palavra_get_idc_doc(tPalavra *p,int idc)
 }
 
 void Palavra_imprime_idfs(tPalavra * p){
+    printf("--%d--\n\n",p->qtd_documentos_q_aparece);
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
-        printf("TF-IDF[%d]= %lf    QTD_OC[%d]= %d\n", i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
+        printf("APARECE NO DOC:%d TF-IDF[%d]= %lf  QTD_OC[%d]= %d\n",p->vetDocumentos[i], i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
     }
 }
 
@@ -203,7 +200,7 @@ double Palavra_calcula_1tf_idf(int tf, int nTotaldeDocs, int qtdDocsAparece)
 
     float df = qtdDocsAparece;
     float n = nTotaldeDocs;
-    double TF_IDF = 0;
+    double TF_IDF = 0.0;
 
     double idf = log((1.0 + n) / (1.0 + df))+1;
 
