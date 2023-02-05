@@ -31,5 +31,5 @@ int Documento_compara(const void *,const void*);
 void Documento_imprime_docf(Docf **vet_soma_busca,int qtdDocs,tDocumento ** vetDoc);
 void Documento_imprime(tDocumento *doc);
 void Docf_inicializa(Docf **vet_soma_busca,int qtd);
-
+void Documento_atribui_idc(Docf * doc, int idc);
 #endif

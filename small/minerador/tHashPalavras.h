@@ -18,7 +18,7 @@ tPalavra *Hash_procura_palavra(char *, tHashPalavras *);
 void Hash_destroi(tHashPalavras *);
 int Hash_obtem_numBytes();
 int Hash_obtem_qtdPalavras(tHashPalavras * hash);
-void Hash_recria(tHashPalavras *hashPalavras,tPalavra * pal);
+tHashPalavras* Hash_recria(tHashPalavras *hashPalavras,tPalavra * pal);
 void Hash_atribui_idcMax(tHashPalavras *hash,int idcMax);
 void Listas_le_binario(char *nomeBin,tHashPalavras * hash);
 tHashPalavras * Hash_le_bin(FILE * arqIndices);

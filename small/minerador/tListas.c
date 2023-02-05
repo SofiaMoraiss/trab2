@@ -154,10 +154,12 @@ void Listas_busca_noticia(tHashPalavras *hash, int qtd, tDocumento **vetDocument
     if (!palavra)
     {
       printf("nao tem palavra:%s\n", frase);
+      
       if (c == '\n')
       {
         break;
       }
+      continue;
     }
     qtdPalavraDgt++;
     // Palavra_imprime(palavra);
@@ -165,10 +167,11 @@ void Listas_busca_noticia(tHashPalavras *hash, int qtd, tDocumento **vetDocument
     for (int i = 0; i < Palavra_get_qtd_docs_q_aparece(palavra); i++)
     {
       idcDoc = Palavra_get_idc_doc(palavra, i);
-      
+      Documento_atribui_idc(vet_soma_busca[idcDoc],idcDoc);
       // printf("aparece no documento:(%d)",idcDoc);
       tf_idf = Palavra_get_tf_idf(palavra, i);
       int result=Palavra_get_ocorrencia(palavra,idcDoc);
+      printf("a palavra %s aparece no documento %s com indice-%d- aparece %d vezes\n\n",frase,Documento_get_nome(vetDocumento[idcDoc]),idcDoc, result);
       Documento_soma_tfidf(vet_soma_busca, idcDoc, tf_idf);
       //printf("[[[%lf ]]]\n");
     }
@@ -184,7 +187,6 @@ void Listas_busca_noticia(tHashPalavras *hash, int qtd, tDocumento **vetDocument
   }
 }
 
-// lalal
 tListas *Listas_calcula_tf_idfs(tListas *l)
 {
 

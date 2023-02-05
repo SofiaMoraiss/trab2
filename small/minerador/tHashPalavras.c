@@ -118,6 +118,20 @@ void Hash_escreve_bin(tHashPalavras *hash, FILE *file)
             }
         }
     }
+    // for(int i=0;i<hash->indiceMaximo;i++){
+    //  if (hash->hashmap_lista[i] != NULL)
+    //     {
+    //         tListaPalavra *temp = hash->hashmap_lista[i];
+    //         tListaPalavra *temp_next = NULL;
+    //         while (temp != NULL)
+    //         {
+    //             temp_next = temp->next;
+    //             Palavra_imprime(temp->palavra);
+                
+    //             temp = temp_next;
+    //         }
+    //     }
+    // }
 }
 tHashPalavras *Hash_le_bin(FILE * arqIndices)
 {
@@ -129,13 +143,27 @@ tHashPalavras *Hash_le_bin(FILE * arqIndices)
     hash->hashmap_lista=calloc(hash->indiceMaximo,sizeof(tListaPalavra*));
     for(int i=0; i<hash->qtdPalavrasLidas;i++){
         tPalavra *palavra = Palavra_le_binario(arqIndices);
-        Hash_recria(hash, palavra);
+        hash=Hash_recria(hash, palavra);
     }
+      //for(int i=0;i<hash->indiceMaximo;i++)
+    //  if (hash->hashmap_lista[i] != NULL)
+    //     {
+    //         tListaPalavra *temp = hash->hashmap_lista[i];
+    //         tListaPalavra *temp_next = NULL;
+    //         while (temp != NULL)
+    //         {
+    //             Palavra_imprime(temp->palavra);
+    //             temp = temp->next;
+    //         }
+    //     }
+    // }
+   
+    
     return hash;
 }
 
 
-void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
+tHashPalavras* Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
 {
     int indice = Hash_cria_indice(Palavra_get_nome(pal));
     if (hashPalavras->hashmap_lista[indice] == NULL)
@@ -166,6 +194,7 @@ void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
             lista->palavra = pal;
         }
     }
+    return hashPalavras;
 }
 void Hash_adiciona_palavra(tHashPalavras *hashPalavras, char *palavra, int documento)
 {

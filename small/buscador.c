@@ -33,8 +33,8 @@ int main(int argc, char * argv[]){
             break;
         }
 
-    }while(escolha);
-    Hash_destroi(hash);
+     }while(escolha);
+     Hash_destroi(hash);
     Documento_destroi_idc(vetDocumentos,*qtdDocsLidos);
     free(qtdDocsLidos);
     fclose(arqIndices);

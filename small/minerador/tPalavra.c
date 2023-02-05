@@ -117,10 +117,10 @@ void Palavra_imprime(tPalavra *p)
     printf("INDICES :");
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
-        //printf("%lf",p->tf_idf[i]);
-        printf("%d, ", p->vetDocumentos[i]);
+        printf("OCORRENCIAS :%d\n", p->qtd_ocorrencias[i]);
+        printf("TF_IDF : %lf\n",p->tf_idf[i]);
+        printf("NO DOCUMENTO:%d\n\n", p->vetDocumentos[i]);
         //printf("--------");
-        //printf("%d\n", p->qtd_ocorrencias[i]);
         
     }
     printf("\n");

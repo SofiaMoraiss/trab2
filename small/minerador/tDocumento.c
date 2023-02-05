@@ -62,13 +62,10 @@ void Documento_imprime_docf(Docf ** vet_soma_busca,int qtdDocs, tDocumento ** ve
       break;
     }
     int idc=vet_soma_busca[i]->idcDoc;
-    printf("Documento %d: %s | TF-IDF[%lf] | Indice:\n",qtdDocs-i,Documento_get_nome(vetDocs[idc]),vet_soma_busca[i]->tf_idf);
+    printf("Documento %d: %s | TF-IDF[%lf] | Indice:%d\n",qtdDocs-i,Documento_get_nome(vetDocs[idc]),vet_soma_busca[i]->tf_idf,idc);
     //Documento_imprime_palavras(vetDocs[idc]);
     //printf("indice do documento: %d\n",vet_soma_busca[i].idcDoc);
   }
-}
-void Documento_imprime(tDocumento *doc){
-
 }
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
 int Documento_compara(const void * d1, const void * d2){
@@ -82,11 +79,13 @@ int Documento_compara(const void * d1, const void * d2){
   return 0;
 }
 void Documento_soma_tfidf(Docf ** vet_soma_busca,int idcDoc,double tf_idf){
-  printf("valor antes da soma:%lf\n",tf_idf);
-  (vet_soma_busca[idcDoc]->tf_idf)+=tf_idf;
-  printf("valor depois da soma:%lf\n",vet_soma_busca[idcDoc]->tf_idf);
+  //printf("valor antes da soma:%lf\n",tf_idf);
+  vet_soma_busca[idcDoc]->tf_idf=tf_idf+vet_soma_busca[idcDoc]->tf_idf;
+  //printf("valor depois da soma:%lf\n",vet_soma_busca[idcDoc]->tf_idf);
 }
-
+void Documento_atribui_idc(Docf * doc, int idc){
+  doc->idcDoc=idc;
+}
 tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
 
   int lidas=d->qtd_palavras_dif_lidas, alocadas=d->qtd_palavras_dif_alocadas, i=0;
@@ -117,7 +116,7 @@ tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
 
 void Documento_imprime_palavras(tDocumento *d){
   printf("qtd_palavras_dif_lidas: %d\n", d->qtd_palavras_dif_lidas);
-  printf("Aparace no Documento: train%s %s com indice:%d qt:%d\n\n",d->nome,d->classe,d->indiceNaLista,d->qtd_palavras_dif_lidas);
+  printf("Aparece no Documento: train%s %s com indice:%d qt:%d\n\n",d->nome,d->classe,d->indiceNaLista,d->qtd_palavras_dif_lidas);
   for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
     printf("PALAVRA '%s': %d vezes TF-IDF: %lf\n", d->palavras[i]->palavra, d->palavras[i]->qtd_ocorrencias_palavras, d->palavras[i]->tf_idf);
   }
