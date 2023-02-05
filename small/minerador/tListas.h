@@ -8,6 +8,7 @@
 
 typedef struct listas tListas;
 typedef struct noAux tNoAux;
+typedef struct no2Aux tNo2Aux;
 
 tListas *Listas_adiciona_doc(tListas *, tDocumento *);
 tListas *Listas_constroi();
@@ -23,6 +24,7 @@ tListas *Listas_atribui_vetor_palavras(tListas *, tHashPalavras *);
 void Listas_imprime_vet_palavras(tHashPalavras *);
 void Listas_gera_binario(tListas *, char *);
 tListas *Listas_calcula_tf_idfs(tListas * );
-void Listas_busca_noticia(tHashPalavras * , int, tDocumento ** );
+void Listas_classifica_noticia(tHashPalavras * ,int , tDocumento ** , int);
+void Listas_busca_noticia(tHashPalavras * , int , tDocumento **  );
 void Listas_imprime_relatorio_documentos(tHashPalavras *,tDocumento ** , int);
 void Listas_imprime_saida(tListas * l);

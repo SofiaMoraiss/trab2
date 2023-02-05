@@ -13,15 +13,19 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    tHashPalavras *hash = Hash_le_bin(arqIndices);
-    int *qtdDocsLidos = calloc(1, sizeof(int));
-    tDocumento **vetDocumentos = Documento_le_indice(arqIndices, qtdDocsLidos);
+    tHashPalavras * hash=Hash_le_bin(arqIndices);
+    int *qtdDocsLidos=calloc(1,sizeof(int));
+    tDocumento ** vetDocumentos=Documento_le_indice(arqIndices,qtdDocsLidos);
+
+    int k=atoi(argv[2]);
+    printf("k: %d\n", k);
+    
     int escolha;
     char frase[100];
-    printf("Bem Vindo ao Minerador de notícias!\n\n");
+    printf("\n\nBem Vindo ao Minerador de notícias!\n");
     do
     {
-        printf("Escolha uma opcao:\n\n1- BUSCA\n2- CLASSIFICA\n3- RELATORIO DE PALAVRAS\n4- RELATORIO DE DOCUMENTOS\n0- SAIR\n\n");
+        printf("\n\nEscolha uma opcao:\n\n1- BUSCA\n2- CLASSIFICA\n3- RELATORIO DE PALAVRAS\n4- RELATORIO DE DOCUMENTOS\n0- SAIR\n\n");
         scanf("%d", &escolha);
         scanf("%*c");
 
@@ -30,16 +34,17 @@ int main(int argc, char *argv[])
         case BUSCA:
             Listas_busca_noticia(hash, *qtdDocsLidos, vetDocumentos);
             break;
+        case CLAS:
+            Listas_classifica_noticia(hash, *qtdDocsLidos, vetDocumentos, k);
+            break;
         case RELDOC:
             Listas_imprime_relatorio_documentos(hash, vetDocumentos, *qtdDocsLidos);
             break;
         case RELPAL:
             Listas_imprime_relatorio_palavra(hash);
             break;
-        case CLAS:
+        default:
             escolha = 0;
-            break;
-        default: 
             break;
         }
 

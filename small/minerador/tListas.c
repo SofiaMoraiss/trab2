@@ -20,6 +20,12 @@ struct listas
 struct noAux
 {
   int idc;
+  double valor;
+};
+
+struct no2Aux
+{
+  int idc;
   int valor;
 };
 
@@ -56,7 +62,7 @@ void Listas_gera_binario(tListas *l, char *nomeBin)
   FILE *arqIndices = fopen(nomeBin, "wb");
   if (!arqIndices)
   {
-    printf("Erro! não foi possivel encontrar o arquivo %s", nomeBin);
+    printf("Erro! não foi possivel encontrar o arquivo %s\n", nomeBin);
     return;
   }
   Hash_escreve_bin(l->hash, arqIndices);
@@ -99,7 +105,7 @@ tListas *Listas_ler_train(char *caminhoDocumentos, FILE *arqNomeDoc)
     FILE *arqConteudoDoc = fopen(path, "r");
     if (!arqConteudoDoc)
     {
-      printf("Erro! não foi possivel encontrar o arquivo");
+      printf("Erro! não foi possivel encontrar o arquivo\n");
       break;
     }
     doc = Documento_constroi(leitura, classe, l->qtd_docs_lidos);
@@ -167,7 +173,6 @@ void Listas_busca_noticia(tHashPalavras *hash, int qtd, tDocumento **vetDocument
   if (qtdPalavraDgt != 0)
   {
     qsort(vet_soma_busca, qtd, sizeof(Docf *), Documento_compara);
-    Documento_imprime_docf(vet_soma_busca, qtd, vetDocumento);
     for (int i = 0; i < qtd; i++)
     {
       free(vet_soma_busca[i]);
@@ -188,56 +193,77 @@ tDocumento *Listas_atribui_idfs_doc_clas(tHashPalavras *hash, tDocumento *d, int
     df = Palavra_get_qtd_docs_q_aparece(p);
     idf = Palavra_calcula_1tf_idf(tf, qtd, df);
     Documento_atribui_tf_idf(d, vetP[j], idf);
-    printf("PALAVRA: %s   IDF: %lf\n", Documento_get_nome_palavra(d, j), idf);
   }
   return d;
 }
 
-int ordena(const void *docA, const void *docB)
-{
-  tNoAux A = *(tNoAux *)docA;
-  tNoAux B = *(tNoAux *)docB;
+int Listas_compara_no_aux(const void *docA, const void *docB)
+  {
+    tNoAux A = *(tNoAux *)docA;
+    tNoAux B = *(tNoAux *)docB;
 
-  return (B.valor - A.valor);
+    return (B.valor - A.valor);
 }
 
-void Listas_classifica_noticia(tHashPalavras *hash, int qtd, tDocumento **vetDocumento)
-{
-  int i = 0, qtdAloc = 100;
-  char **vetP = calloc(qtdAloc, sizeof(char *));
+void Listas_classifica_noticia(tHashPalavras * hash,int qtd, tDocumento ** vetDocumento, int k){
+int i=0, qtdAloc=100, palavraExiste=0;
+  char **vetP=calloc(qtdAloc, sizeof(char*));
   char palavra[50], c;
-  tDocumento *d = Documento_constroi("clas", "ind", qtd);
-  do
-  {
-    scanf("%s%c", palavra, &c);
-    d = Documento_adiciona_palavra(d, palavra);
-    if (i >= qtdAloc)
-    {
-      qtdAloc *= 2;
-      vetP = realloc(vetP, qtdAloc * sizeof(char *));
-    }
-    vetP[i] = calloc(50, sizeof(char));
-    strcpy(vetP[i], palavra);
-    Documento_adiciona_palavra(d, palavra);
-    i++;
+  tDocumento *d=Documento_constroi("clas", "ind", qtd);
+  do{
+      scanf("%s%c",palavra,&c);
+      if (Hash_procura_palavra(palavra, hash)!=NULL){
+        palavraExiste=1;
+      }
+      else {
+        continue;
+      }
+      d = Documento_adiciona_palavra(d, palavra);
+      if (i>=qtdAloc){
+        qtdAloc*=2; vetP=realloc(vetP, qtdAloc*sizeof(char*));
+      }
+      vetP[i]=calloc(50, sizeof(char));
+      strcpy(vetP[i], palavra);
+      Documento_adiciona_palavra(d, palavra);
+      i++; 
 
   } while (c != '\n');
 
-  Listas_atribui_idfs_doc_clas(hash, d, qtd, vetP);
-
-  tNoAux *vetAux = calloc(qtd, sizeof(tNoAux));
-  for (int j = 0; j < qtd; j++)
-  {
-    vetAux[i].valor = Documento_calcula_cosseno(d, vetDocumento[j]);
-    vetAux[i].idc = Documento_get_indice(vetDocumento[j]);
+  if (!palavraExiste){
+    printf("<< PALAVRA(S) QUE NAO EXISTE(M) NO CORPUS >>\n");
+    for (int j=0; j<i; j++){
+      free(vetP[j]);
+    }
+    free(vetP);
+    Documento_destroi(d);
+    return;
   }
-  qsort(vetAux, qtd, sizeof(tNoAux), ordena);
 
-  for (int j = 0; j < i; j++)
-  {
+  Listas_atribui_idfs_doc_clas(hash, d, qtd,vetP);
+
+  tNoAux *vetAux=calloc(qtd, sizeof(tNoAux));
+  int j = 0;
+    for (; j < qtd; j++)
+    {
+        vetAux[i].valor=Documento_calcula_cosseno(d, vetDocumento[j]);
+        vetAux[i].idc=Documento_get_indice(vetDocumento[j]);
+    }
+    qsort(vetAux, qtd, sizeof(tNoAux), Listas_compara_no_aux);
+
+    printf("\n\n%d DOCUMENTOS MAIS PRÓXIMOS: \n", k);
+    int idc, qtd_palavras;
+    for (j=0; j<k; j++){
+      idc=vetAux[j].idc;
+      qtd_palavras=vetAux[j].valor;
+      printf("%d: Documento '%s' --->", j, Documento_get_nome(vetDocumento[idc]));
+      printf(" Classe: %s\n", Documento_get_classe(vetDocumento[idc])) ;
+    }
+
+  for (int j=0; j<i; j++){
     free(vetP[j]);
   }
   free(vetP);
+  free(vetAux);
   Documento_destroi(d);
 }
 
@@ -282,17 +308,11 @@ void Listas_imprime_relatorio_palavra(tHashPalavras *hash)
   printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
   printf("Exibindo quantidade de documentos em que a palavra '%s' aparece:\n%d\n",Palavra_get_nome(p), Palavra_get_qtd_docs_q_aparece(p));
 }
-  int Listas_compara_no_aux(const void *docA, const void *docB)
-  {
-    tNoAux A = *(tNoAux *)docA;
-    tNoAux B = *(tNoAux *)docB;
+  
 
-    return (B.valor - A.valor);
-}
-
-  void Listas_imprime_relatorio_documentos(tHashPalavras * l, tDocumento **vetDocumentos, int qtd)
+  void Listas_imprime_relatorio_documentos(tHashPalavras * hash, tDocumento **vetDocumentos, int qtd)
   {
-    tNoAux *vetDocsAux = calloc(qtd, sizeof(tNoAux));
+    tNo2Aux *vetDocsAux = calloc(qtd, sizeof(tNoAux));
     for (int i = 0; i < qtd; i++)
     {
       vetDocsAux[i].valor = Documento_get_qtd_palavras_total(vetDocumentos[i]);
@@ -311,14 +331,15 @@ void Listas_imprime_relatorio_palavra(tHashPalavras *hash)
     }
     int j = 1;
     printf("\n\n10 DOCUMENTOS MAIS CURTOS: \n");
-    for (int i = qtd - 1; i > qtd - 10; i--)
+    for (int i = qtd - 1; i > qtd - 11; i--)
     {
-      j++;
-      printf("%d: Documento '%s' ---> %d palavras", i + 1, Documento_get_nome(vetDocumentos[idc]), vetDocsAux[i].valor);
+      printf("%d: Documento '%s' ---> %d palavras", j, Documento_get_nome(vetDocumentos[idc]), vetDocsAux[i].valor);
       printf("     / Classe: %s\n", Documento_get_classe(vetDocumentos[idc]));
+      j++;
     }
     free(vetDocsAux);
   }
+
   void Listas_imprime_saida(tListas * l)
   {
     printf("QUANTIDADE DE DOCUMENTOS: %d\n\n", l->qtd_docs_lidos);
