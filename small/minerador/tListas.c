@@ -149,6 +149,7 @@ void Listas_busca_noticia(tHashPalavras *hash, int qtd, tDocumento **vetDocument
     {
       if (c == '\n')
       {
+        printf("A palavra %s não está registrada.\n\n",frase);
         break;
       }
       continue;
@@ -279,8 +280,7 @@ void Listas_imprime_relatorio_palavra(tHashPalavras *hash)
   tPalavra *p = Hash_procura_palavra(nome, hash);
 
   printf("\n\nPALAVRA '%s':\n\n", Palavra_get_nome(p));
-  printf("Qtd de docs q aparece: %d\n", Palavra_get_qtd_docs_q_aparece(p));
-
+  printf("Exibindo quantidade de documentos em que a palavra '%s' aparece:\n%d\n",Palavra_get_nome(p), Palavra_get_qtd_docs_q_aparece(p));
 }
   int Listas_compara_no_aux(const void *docA, const void *docB)
   {

@@ -18,9 +18,9 @@ int main(int argc, char *argv[])
     tDocumento **vetDocumentos = Documento_le_indice(arqIndices, qtdDocsLidos);
     int escolha;
     char frase[100];
+    printf("Bem Vindo ao Minerador de notícias!\n\n");
     do
     {
-        printf("Bem Vindo ao Minerador de notícias!\n\n");
         printf("Escolha uma opcao:\n\n1- BUSCA\n2- CLASSIFICA\n3- RELATORIO DE PALAVRAS\n4- RELATORIO DE DOCUMENTOS\n0- SAIR\n\n");
         scanf("%d", &escolha);
         scanf("%*c");
@@ -35,8 +35,9 @@ int main(int argc, char *argv[])
             break;
         case RELPAL:
             Listas_imprime_relatorio_palavra(hash);
+            break;
         case CLAS:
-            escolha=0;
+            escolha = 0;
             break;
         default:
             printf("Funcionalidades não implementadas :(\n");
