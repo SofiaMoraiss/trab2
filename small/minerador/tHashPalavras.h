@@ -7,6 +7,7 @@ typedef struct hashPalavras tHashPalavras;
 typedef struct listaPalavra tListaPalavra;
 tHashPalavras *Hash_cria();
 int Hash_cria_indice(char *);
+//adiciona palavra no hash
 void Hash_adiciona_palavra(tHashPalavras *, char *, int);
 void Hash_imprime(tHashPalavras *, int);
 tPalavra *Hash_get_palavra(tListaPalavra *);
@@ -17,11 +18,12 @@ int Hash_get_idc_max(tHashPalavras *);
 tPalavra *Hash_procura_palavra(char *, tHashPalavras *);
 void Hash_destroi(tHashPalavras *);
 int Hash_obtem_numBytes();
-int Hash_obtem_qtdPalavras(tHashPalavras * hash);
-tHashPalavras* Hash_recria(tHashPalavras *hashPalavras,tPalavra * pal);
-void Hash_atribui_idcMax(tHashPalavras *hash,int idcMax);
-void Listas_le_binario(char *nomeBin,tHashPalavras * hash);
-tHashPalavras * Hash_le_bin(FILE * arqIndices);
-void Hash_escreve_bin(tHashPalavras *hash, FILE *file);
+int Hash_obtem_qtdPalavras(tHashPalavras * );
+tHashPalavras* Hash_recria(tHashPalavras *,tPalavra * );
+void Hash_atribui_idcMax(tHashPalavras *,int );
+void Listas_le_binario(char *,tHashPalavras * );
+tHashPalavras * Hash_le_bin(FILE * );
+void Hash_escreve_bin(tHashPalavras *hash, FILE *);
+int Hash_get_qtdPalavras(tHashPalavras *);
 
 #endif

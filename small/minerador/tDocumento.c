@@ -31,11 +31,6 @@ struct documento {
 tDocumento *Documento_constroi(char *nome, char *classe, int indice) {
   tDocumento *d = calloc(1, sizeof(tDocumento));
   d->palavras = calloc(100, sizeof(dPalavra*));
-  
-  /*for (int i=0; i<100; i++){
-    d->palavras[i].qtd_ocorrencias_palavras=0;
-    d->palavras[i].tf_idf=0;
-  }*/
 
   strcpy(d->classe, classe);
   strcpy(d->nome, nome);
@@ -62,9 +57,7 @@ void Documento_imprime_docf(Docf ** vet_soma_busca,int qtdDocs, tDocumento ** ve
       break;
     }
     int idc=vet_soma_busca[i]->idcDoc;
-    printf("Documento %d: %s | TF-IDF[%lf] | Indice:%d\n",qtdDocs-i,Documento_get_nome(vetDocs[idc]),vet_soma_busca[i]->tf_idf,idc);
-    //Documento_imprime_palavras(vetDocs[idc]);
-    //printf("indice do documento: %d\n",vet_soma_busca[i].idcDoc);
+    printf("Documento %d: %s | Indice:%d\n",qtdDocs-i,Documento_get_nome(vetDocs[idc]),idc);
   }
 }
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
@@ -79,9 +72,7 @@ int Documento_compara(const void * d1, const void * d2){
   return 0;
 }
 void Documento_soma_tfidf(Docf ** vet_soma_busca,int idcDoc,double tf_idf){
-  //printf("valor antes da soma:%lf\n",tf_idf);
   vet_soma_busca[idcDoc]->tf_idf=tf_idf+vet_soma_busca[idcDoc]->tf_idf;
-  //printf("valor depois da soma:%lf\n",vet_soma_busca[idcDoc]->tf_idf);
 }
 void Documento_atribui_idc(Docf * doc, int idc){
   doc->idcDoc=idc;
@@ -101,8 +92,6 @@ tDocumento *Documento_adiciona_palavra(tDocumento *d, char *nomeP) {
     alocadas*=2;
     d->palavras=realloc(d->palavras, alocadas*sizeof(dPalavra*));
   }
-  //printf("DOC '%s': LIDAS %d E ALOCADAS %d\n", d->nome, lidas, alocadas);
-
   d->qtd_palavras_total++;
   d->qtd_palavras_dif_alocadas=alocadas;
   d->qtd_palavras_dif_lidas++;
@@ -214,7 +203,6 @@ tDocumento* Documento_atribui_tf_idf(tDocumento* d, char* palavra, double tfidf)
       break;
     }
   }
-  printf("Documento '%d', palavra: %s , tf-idf: %lf  \n", d->indiceNaLista, d->palavras[i]->palavra, d->palavras[i]->tf_idf);
   return d;
 }
 
@@ -229,14 +217,11 @@ return 0;
 }
 
 int Documento_get_indice_palavra(tDocumento*d, char*p){
-  printf("1\n");
   for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
     if (!strcmp(p, d->palavras[i]->palavra)){
-      printf("2\n");
           return i;
     }
   }
-  printf("3\n");
   return -1;
 }
 
@@ -257,11 +242,9 @@ double Documento_calcula_cosseno(tDocumento*d1, tDocumento *d2){
 
   for (int i=0; i<d1->qtd_palavras_dif_lidas; i++){
       strcpy(palavra, Documento_get_nome_palavra(d1, i));
-      printf("palavra: %s\n", palavra);
       numerador+=Documento_calcula_mult_numerador(d1, d2, palavra);
   }
 
-  printf("NUMERADOR: %lf\n", numerador);
   return cos;
 
 }

@@ -141,10 +141,6 @@ tPalavra *Palavra_le_binario(FILE *arquivo)
     fread(p->nome, sizeof(char),tam, arquivo);
     fread(p->qtd_ocorrencias, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
     fread(p->tf_idf, sizeof(double), p->qtd_documentos_q_aparece, arquivo);
-    //printf("%d\n",p->qtd_documentos_q_aparece);
-    // for(int i=0;i<p->qtd_documentos_q_aparece;i++){
-    //     printf("O Q TA LENDO:%lf\n\n",p->tf_idf[i]);
-    // }
     fread(p->vetDocumentos, sizeof(int), p->qtd_documentos_q_aparece, arquivo);
 
     return p;
@@ -184,13 +180,10 @@ void Palavra_imprime_idfs(tPalavra * p){
 
 tPalavra *Palavra_constroi_todos_TFIDFs(tPalavra *p, int qtdTotalDocs)
 {
-    //printf("\n\nPALAVRA: ");
-    //Palavra_imprime(p);
-    //printf("QTD DOCS Q APARECE: %d\n", p->qtd_documentos_q_aparece);
+   
     for (int i = 0; i < p->qtd_documentos_q_aparece; i++)
     {
         p->tf_idf[i] = Palavra_calcula_1tf_idf(p->qtd_ocorrencias[i], qtdTotalDocs, p->qtd_documentos_q_aparece);
-        //printf("TF-IDF[%d]= %lf    QTD_OC[%d]= %d\n", i, p->tf_idf[i], i, p->qtd_ocorrencias[i]);
     }
     return p;
 }
