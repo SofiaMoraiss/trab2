@@ -12,12 +12,6 @@ int main(int argc, char *argv[])
     char temp[125];
     FILE *arqNomeDoc = fopen(argv[1], "r");
     sscanf(argv[1], "%[^.].txt", temp);
-    if (!arqNomeDoc)
-    {
-        printf("ARQUIVO NAO ENCONTRADO");
-        exit(1);
-    }
-
     if (arqNomeDoc == NULL)
     {
         printf("ERRO: Arquivo %s nao encontrado!\n", argv[1]);
@@ -25,11 +19,9 @@ int main(int argc, char *argv[])
     }
 
     l = Listas_ler_train(temp, arqNomeDoc);
-
-   l = Listas_calcula_tf_idfs(l);
-
+    l = Listas_calcula_tf_idfs(l);
     Listas_gera_binario(l, argv[2]);
-    Listas_imprime_relatorio_documentos(l);
+    Listas_imprime_saida(l);
 
     Listas_destroi(l);
     fclose(arqNomeDoc);

@@ -85,7 +85,6 @@ void Hash_destroi(tHashPalavras *h)
             while (temp != NULL)
             {
                 temp_next = temp->next;
-                // ImprimePalavra(temp->palavra);
                 Palavra_destroi(temp->palavra);
                 free(temp);
                 temp = temp_next;
@@ -95,7 +94,7 @@ void Hash_destroi(tHashPalavras *h)
     free(h->hashmap_lista);
     free(h);
 }
-int Hash_obtem_qtdPalavras(tHashPalavras *hash)
+int Hash_get_qtdPalavras(tHashPalavras *hash)
 {
     return hash->qtdPalavrasLidas;
 }
@@ -118,6 +117,7 @@ void Hash_escreve_bin(tHashPalavras *hash, FILE *file)
             }
         }
     }
+   
 }
 tHashPalavras *Hash_le_bin(FILE * arqIndices)
 {
@@ -129,13 +129,14 @@ tHashPalavras *Hash_le_bin(FILE * arqIndices)
     hash->hashmap_lista=calloc(hash->indiceMaximo,sizeof(tListaPalavra*));
     for(int i=0; i<hash->qtdPalavrasLidas;i++){
         tPalavra *palavra = Palavra_le_binario(arqIndices);
-        Hash_recria(hash, palavra);
+        hash=Hash_recria(hash, palavra);
     }
+
     return hash;
 }
 
 
-void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
+tHashPalavras* Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
 {
     int indice = Hash_cria_indice(Palavra_get_nome(pal));
     if (hashPalavras->hashmap_lista[indice] == NULL)
@@ -166,11 +167,11 @@ void Hash_recria(tHashPalavras *hashPalavras, tPalavra *pal)
             lista->palavra = pal;
         }
     }
+    return hashPalavras;
 }
 void Hash_adiciona_palavra(tHashPalavras *hashPalavras, char *palavra, int documento)
 {
     int indice = Hash_cria_indice(palavra);
-    // printf("'%s': indice %d\n", palavra, indice);
     if (indice > hashPalavras->indiceMaximo)
     {
         int i = hashPalavras->indiceMaximo;
@@ -216,16 +217,13 @@ void Hash_adiciona_palavra(tHashPalavras *hashPalavras, char *palavra, int docum
 
 void Hash_imprime(tHashPalavras *hashPalavras, int documento)
 {
-    // printf("doc: %d\n", documento);
     if (hashPalavras == NULL)
     {
         return;
     }
-    // printf(" indice max: %d\n", hashPalavras->indiceMaximo);
 
     for (int i = 0; i < hashPalavras->indiceMaximo; i++)
     {
-        // printf("3\n");
         if (hashPalavras->hashmap_lista[i] != NULL)
         {
             tListaPalavra *temp = hashPalavras->hashmap_lista[i];
