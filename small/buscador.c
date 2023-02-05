@@ -39,9 +39,7 @@ int main(int argc, char *argv[])
         case CLAS:
             escolha = 0;
             break;
-        default:
-            printf("Funcionalidades não implementadas :(\n");
-            escolha = 0;
+        default: 
             break;
         }
 

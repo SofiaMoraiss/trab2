@@ -149,7 +149,7 @@ void Listas_busca_noticia(tHashPalavras *hash, int qtd, tDocumento **vetDocument
     {
       if (c == '\n')
       {
-        printf("A palavra %s não está registrada.\n\n",frase);
+      printf("A palavra %s não está registrada.\n\n",frase);
         break;
       }
       continue;

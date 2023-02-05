@@ -57,7 +57,7 @@ void Documento_imprime_docf(Docf ** vet_soma_busca,int qtdDocs, tDocumento ** ve
       break;
     }
     int idc=vet_soma_busca[i]->idcDoc;
-    printf("Documento %d: %s | Indice:%d\n",qtdDocs-i,Documento_get_nome(vetDocs[idc]),idc);
+    printf("Documento %d: train/%s | Indice:%d | Classe: %s\n",qtdDocs-i,Documento_get_nome(vetDocs[idc]),idc,Documento_get_classe(vetDocs[idc]));
   }
 }
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
