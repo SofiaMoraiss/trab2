@@ -11,6 +11,8 @@ char *Palavra_get_nome(tPalavra *);
 double Palavra_get_tf_idf(tPalavra *, int);
 int Palavra_get_ocorrencia(tPalavra *, int);
 int Palavra_get_qtd_docs_q_aparece(tPalavra *);
+int Palavra_get_idc_doc(tPalavra *,int );
+void Palavra_imprime_idfs(tPalavra * );
 void Palavra_adiciona_ocorrencia(tPalavra *, int);
 void Palavra_imprime(tPalavra *);
 int Palavra_compara(const void *, const void *);

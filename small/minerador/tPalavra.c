@@ -59,7 +59,9 @@ char *Palavra_get_nome(tPalavra *palavra)
 
 double Palavra_get_tf_idf(tPalavra *palavra, int doc)
 {
+
     return palavra->tf_idf[doc];
+    return 10;
 }
 
 double *Palavra_get_vetTFIDF(tPalavra *p) { return p->tf_idf; }
@@ -198,11 +200,17 @@ double Palavra_calcula_1tf_idf(int tf, int nTotaldeDocs, int qtdDocsAparece)
 
     float df = qtdDocsAparece;
     float n = nTotaldeDocs;
-    double TF_IDF = 0;
+    double TF_IDF = 0.0;
 
     double idf = log((1.0 + n) / (1.0 + df))+1;
 
     TF_IDF = tf * idf;
 
     return TF_IDF;
+}
+
+tPalavra *Palavra_atribui_tf_idf(tPalavra*p, int idcDocClas, double idf){
+    int ix=Palavra_get_idc_doc(p, idcDocClas);
+    p->tf_idf[ix]=idf;
+    return p;
 }

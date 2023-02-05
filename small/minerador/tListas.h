@@ -9,7 +9,6 @@
 typedef struct listas tListas;
 typedef struct noAux tNoAux;
 
-
 tListas *Listas_adiciona_doc(tListas *, tDocumento *);
 tListas *Listas_constroi();
 tListas *Listas_adiciona_palavra(tListas *, tPalavra *);

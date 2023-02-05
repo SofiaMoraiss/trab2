@@ -144,9 +144,6 @@ int Documento_get_qtd_palavras(tDocumento* d){ return d->qtd_palavras_dif_lidas;
 
 int Documento_get_qtd_palavras_total(tDocumento* d){ return d->qtd_palavras_total; }
 
-int Documento_get_numBytes(){
-  return sizeof(Docf);
-}
 
 void Documento_escreve_bin(tDocumento * documento,FILE * file){
   
@@ -209,14 +206,62 @@ int Documento_Tem_palavra_documento(tDocumento * documento,char * p){
     return 0;
 }
 
-tDocumento *Documento_atribui_tf_idf(tDocumento* d, char* palavra, double tfidf){
+tDocumento* Documento_atribui_tf_idf(tDocumento* d, char* palavra, double tfidf){
   int i=0;
   for (; i<d->qtd_palavras_dif_lidas; i++){
     if (!strcmp(palavra, d->palavras[i]->palavra)){
       d->palavras[i]->tf_idf=tfidf;
-      return d;
+      break;
     }
   }
-  //printf("Documento '%d', palavra: %s , tf-idf: %lf  \n", d->indiceNaLista, d->palavras[i].palavra, d->palavras[i].tf_idf);
+  printf("Documento '%d', palavra: %s , tf-idf: %lf  \n", d->indiceNaLista, d->palavras[i]->palavra, d->palavras[i]->tf_idf);
+  return d;
+}
+
+int Documento_get_ocorrencia_palavra(tDocumento *d, char * p){
+
+  for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
+    if (!strcmp(p, d->palavras[i]->palavra)){
+          return d->palavras[i]->qtd_ocorrencias_palavras;
+    }
+  }
+return 0;
+}
+
+int Documento_get_indice_palavra(tDocumento*d, char*p){
+  printf("1\n");
+  for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
+    if (!strcmp(p, d->palavras[i]->palavra)){
+      printf("2\n");
+          return i;
+    }
+  }
+  printf("3\n");
+  return -1;
+}
+
+double Documento_calcula_mult_numerador(tDocumento*d1, tDocumento*d2, char*p){
+  int i1=Documento_get_indice_palavra(d1, p), i2=Documento_get_indice_palavra(d2, p);
+
+  if (i2==-1){
+    return 0;
+  }
+  double idf1=d1->palavras[i1]->tf_idf, idf2=d2->palavras[i2]->tf_idf;
+
+  return idf1* idf2;
+}
+
+double Documento_calcula_cosseno(tDocumento*d1, tDocumento *d2){
+  double cos=0, numerador=0;
+  char palavra[50];
+
+  for (int i=0; i<d1->qtd_palavras_dif_lidas; i++){
+      strcpy(palavra, Documento_get_nome_palavra(d1, i));
+      printf("palavra: %s\n", palavra);
+      numerador+=Documento_calcula_mult_numerador(d1, d2, palavra);
+  }
+
+  printf("NUMERADOR: %lf\n", numerador);
+  return cos;
 
 }
