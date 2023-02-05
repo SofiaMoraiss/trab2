@@ -20,7 +20,7 @@ struct listas
 struct noAux
 {
   int idc;
-  int valor;
+  double valor;
 };
 
 tListas *Listas_adiciona_doc(tListas *l, tDocumento *doc)
@@ -209,13 +209,16 @@ int ordena(const void *docA, const void *docB)
 
 }
 
-void Listas_classifica_noticia(tHashPalavras * hash,int qtd, tDocumento ** vetDocumento){
-int i=0, qtdAloc=100;
+void Listas_classifica_noticia(tHashPalavras * hash,int qtd, tDocumento ** vetDocumento, int k){
+int i=0, qtdAloc=100, palavraExiste=0;
   char **vetP=calloc(qtdAloc, sizeof(char*));
   char palavra[50], c;
   tDocumento *d=Documento_constroi("clas", "ind", qtd);
   do{
       scanf("%s%c",palavra,&c);
+      if (Hash_procura_palavra(palavra, hash)!=NULL){
+        palavraExiste=1;
+      }
       d = Documento_adiciona_palavra(d, palavra);
       if (i>=qtdAloc){
         qtdAloc*=2; vetP=realloc(vetP, qtdAloc*sizeof(char*));
@@ -227,23 +230,35 @@ int i=0, qtdAloc=100;
 
   }while(c!='\n');
 
-  //printf("PALAVRAS: %s\n", Documento_get_nome_palavra(d, 0));
+  if (!palavraExiste){
+    printf("<< PALAVRA(S) QUE NAO EXISTE(M) NO CORPUS >>\n");
+  }
+
   Listas_atribui_idfs_doc_clas(hash, d, qtd,vetP);
 
   tNoAux *vetAux=calloc(qtd, sizeof(tNoAux));
-    for (int j = 0; j < qtd; j++)
+  int j = 0;
+    for (; j < qtd; j++)
     {
-      Documento_imprime_palavras(vetDocumento[j]);
-      printf("alo\n");
         vetAux[i].valor=Documento_calcula_cosseno(d, vetDocumento[j]);
         vetAux[i].idc=Documento_get_indice(vetDocumento[j]);
     }
     qsort(vetAux, qtd, sizeof(tNoAux), ordena);
 
+    printf("\n\n%d DOCUMENTOS MAIS PRÓXIMOS: \n", k);
+    int idc, qtd_palavras;
+    for (j=0; j<k; j++){
+      idc=vetAux[j].idc;
+      qtd_palavras=vetAux[j].valor;
+      printf("%d: Documento '%s' --->", i+1, Documento_get_nome(vetDocumento[idc]));
+      printf(" Classe: %s\n", Documento_get_classe(vetDocumento[idc])) ;
+    }
+
   for (int j=0; j<i; j++){
     free(vetP[j]);
   }
   free(vetP);
+  free(vetAux);
   Documento_destroi(d);
   
 }
@@ -262,8 +277,8 @@ tListas *Listas_calcula_tf_idfs(tListas *l)
       {
         tPalavra *p = Hash_get_palavra(temp);
         p = Palavra_constroi_todos_TFIDFs(p, l->qtd_docs_lidos);
-        // printf("opa\n");
-        // Palavra_imprime_idfs(p);
+        Palavra_imprime(p);
+        Palavra_imprime_idfs(p);
 
         int idcDoc;
         double idf;
@@ -280,10 +295,10 @@ tListas *Listas_calcula_tf_idfs(tListas *l)
   }
 
   // PRA CHECAR OS TF-IDFS
-  /* for(int j=0; j<l->qtd_docs_lidos; j++){
+  for(int j=0; j<l->qtd_docs_lidos; j++){
 
      Documento_imprime_palavras(l->vetDocumentos[j]);
-   }*/
+   }
 
   return l;
 }
@@ -316,20 +331,20 @@ void Listas_imprime_relatorio_documentos(tListas *l)
     qsort(l->vetDocsAux, l->qtd_docs_lidos, sizeof(tDocumento *), ordena);
 
     printf("\n10 DOCUMENTOS MAIS LONGOS: \n");
-    int idc, qtd_palavras;
+    int idc, qtd_palavras, valor;
     for (int i=0; i<10; i++){
       idc=l->vetDocsAux[i].idc;
       qtd_palavras=l->vetDocsAux[i].valor;
-      //Documento_imprime(l->vetDocumentos[i], i+1);
-      printf("%d: Documento '%s' ---> %d palavras", i+1, Documento_get_nome(l->vetDocumentos[idc]), l->vetDocsAux[i].valor);
+      valor=l->vetDocsAux[i].valor;
+      printf("%d: Documento '%s' ---> %d palavras", i+1, Documento_get_nome(l->vetDocumentos[idc]), valor);
       printf("     / Classe: %s\n", Documento_get_classe(l->vetDocumentos[idc])) ;
     }
     int j=1;
     printf("\n\n10 DOCUMENTOS MAIS CURTOS: \n");
     for (int i=l->qtd_docs_lidos-1; i>l->qtd_docs_lidos-10; i--){
       j++;
-      //Documento_imprime(l->vetDocumentos[i], j);
-      printf("%d: Documento '%s' ---> %d palavras", i+1, Documento_get_nome(l->vetDocumentos[idc]), l->vetDocsAux[i].valor);
+      valor=l->vetDocsAux[i].valor;
+      printf("%d: Documento '%s' ---> %d palavras", i+1, Documento_get_nome(l->vetDocumentos[idc]), valor);
       printf("     / Classe: %s\n", Documento_get_classe(l->vetDocumentos[idc])) ;
 
     }

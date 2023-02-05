@@ -1,6 +1,7 @@
 #include "tDocumento.h"
 #include "tPalavra.h"
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -68,6 +69,13 @@ void Documento_imprime_docf(Docf ** vet_soma_busca,int qtdDocs, tDocumento ** ve
   }
 }
 void Documento_imprime(tDocumento *doc){
+  printf("\nCARALHO: '%s'\n", doc->nome);
+  for (int i=0; i<doc->qtd_palavras_dif_lidas; i++){
+    if(doc->palavras[i]->tf_idf!=0){
+    printf("PALAVRA '%s'   TF IDF: %lf\n", doc->palavras[i]->palavra, doc->palavras[i]->tf_idf);
+    }
+  }
+  
 
 }
 int Documento_get_indice(tDocumento *d){ return d->indiceNaLista;}
@@ -252,8 +260,20 @@ double Documento_calcula_mult_numerador(tDocumento*d1, tDocumento*d2, char*p){
   return idf1* idf2;
 }
 
+double Documento_calcula_raiz_denominador(tDocumento*d, char* p){
+
+  double soma=0.0;
+
+  for (int i=0; i<d->qtd_palavras_dif_lidas; i++){
+      strcpy(p, Documento_get_nome_palavra(d, i));
+      soma+=(d->palavras[i]->tf_idf)*(d->palavras[i]->tf_idf);
+  }
+
+  return sqrt(soma);
+}
+
 double Documento_calcula_cosseno(tDocumento*d1, tDocumento *d2){
-  double cos=0, numerador=0;
+  double cos=0, numerador=0, denominador1=0, denominador2=0;
   char palavra[50];
 
   for (int i=0; i<d1->qtd_palavras_dif_lidas; i++){
@@ -262,7 +282,18 @@ double Documento_calcula_cosseno(tDocumento*d1, tDocumento *d2){
       numerador+=Documento_calcula_mult_numerador(d1, d2, palavra);
   }
 
-  printf("NUMERADOR: %lf\n", numerador);
+  for (int i=0; i<d1->qtd_palavras_dif_lidas; i++){
+      strcpy(palavra, Documento_get_nome_palavra(d1, i));
+      denominador1+=Documento_calcula_raiz_denominador(d1, palavra);
+  }
+
+  for (int i=0; i<d2->qtd_palavras_dif_lidas; i++){
+      strcpy(palavra, Documento_get_nome_palavra(d2, i));
+      denominador2+=Documento_calcula_raiz_denominador(d2, palavra);
+  }
+
+  cos = numerador/(denominador1*denominador2);
+  printf("cos: %lf\n", cos);
   return cos;
 
 }

@@ -13,10 +13,10 @@ programa: indice.c buscador.c libminerador.a
 clean:
 	@rm -f main libminerador minerador.a minerador/*.o *.o
 val1:
-	@valgrind --leak-check=full --track-origins=yes ./indice medium-large/train.txt indice.bin > output.txt1
+	@valgrind --leak-check=full --track-origins=yes ./indice medium-small/train.txt indice.bin > output.txt1
 val2:
-	@valgrind --leak-check=full ./buscador indice.bin
+	@valgrind --leak-check=full ./buscador indice.bin 5 >output2.txt
 run1:
-	@./indice tiny/train.txt indice.bin > output.txt1
+	@./indice medium-large/train.txt indice.bin > output1.txt
 run2:
-	@./buscador indice.bin > output.txt2
+	@./buscador indice.bin 5 > output.txt2

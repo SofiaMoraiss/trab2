@@ -13,7 +13,10 @@ int main(int argc, char * argv[]){
     tDocumento ** vetDocumentos=Documento_le_indice(arqIndices,qtdDocsLidos);
     // for(int i=0;i<*qtdDocsLidos;i++){
     //     Documento_imprime_palavras(vetDocumentos[i]);
-    // }
+    // 
+    int k=atoi(argv[2]);
+    printf("k: %d\n", k);
+    
     int escolha;
         char frase[100];
     do{
@@ -28,7 +31,18 @@ int main(int argc, char * argv[]){
         case BUSCA:
             Listas_busca_noticia(hash,*qtdDocsLidos,vetDocumentos);
             break;
+
+        case CLAS:
+            Listas_classifica_noticia(hash,*qtdDocsLidos,vetDocumentos, k);
+            break;
+
+        case RELPAL:
+            //Listas_imprime_relatorio_palavra();
+            break;
         
+        case RELDOC:
+            //Listas_imprime_relatorio_documentos(l);
+            break;
         default:
             break;
         }
